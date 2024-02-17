@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : LAB5
+* Cell             : FullAdder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt FullAdder Ai Bi Ci1 Cin Si
+*.PININFO Ai:I Bi:I Ci1:O Cin:I Si:O
+XI0 net13 net15 Ci1 OR
+XI2 net15 net14 Ai Bi HalfAdder
+XI1 net13 Si Cin net14 HalfAdder
+.ends FullAdder
+

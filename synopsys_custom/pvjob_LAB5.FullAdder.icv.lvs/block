@@ -1,0 +1,36 @@
+* XREF SPICE	Sun Mar 14 14:56:06 2021	FullAdder
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=FullAdder
+.subckt FullAdder Cin Si Ci1
+M_XI0/MM5 Ci1 XI0/net16 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM0 XI0/net16 net13 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM1 XI0/net16 net15 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/XI7/MM5 Si XI1/XI7/net2 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/XI7/MM1 net14 Cin XI1/XI7/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/XI7/MM0 Cin net14 XI1/XI7/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_ld_M7 net15 XI1/XI1/net24 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_ld_M8 XI1/XI1/net7 net14 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_ld_M9 XI1/XI1/net7 Cin XI1/XI1/net24 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI2/XI7/MM5 net14 XI2/XI7/net2 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI2/XI7/MM1 Bi Ai XI2/XI7/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI2/XI7/MM0 Ai Bi XI2/XI7/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_ld_M13 net13 XI2/XI1/net24 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI2/XI1/MM0 XI2/XI1/net7 Ai gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI2/XI1/MM1 XI2/XI1/net24 Bi XI2/XI1/net7 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM4 Ci1 XI0/net16 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI0/MM3 XI0/net23 net13 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI0/MM2 XI0/net16 net15 XI0/net23 vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/XI7/MM4 Si XI1/XI7/net2 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_ld_M20 XI1/XI7/net1 Cin XI1/XI7/net2 vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_ld_M21 XI1/XI7/net1 net14 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_ld_M22 net15 XI1/XI1/net24 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/XI1/MM2 XI1/XI1/net24 net14 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/XI1/MM3 XI1/XI1/net24 Cin vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI2/XI7/MM4 net14 XI2/XI7/net2 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI2/XI7/MM2 XI2/XI7/net1 Ai vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI2/XI7/MM3 XI2/XI7/net2 Bi XI2/XI7/net1 vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_ld_M28 net13 XI2/XI1/net24 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI2/XI1/MM3 XI2/XI1/net24 Ai vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI2/XI1/MM2 XI2/XI1/net24 Bi vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends FullAdder

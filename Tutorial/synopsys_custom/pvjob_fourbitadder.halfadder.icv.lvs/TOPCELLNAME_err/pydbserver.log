@@ -1,0 +1,82 @@
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 7995
+PYDB_Server Started on host linux11109.dc.engr.scu.edu, Sat 03/13/2021 15:47:25
+Client linux11109(9065):14 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client linux11109(9130):20 connected (2 total clients)
+Client linux11109(9142):21 connected (3 total clients)
+Client linux11109(9142):21 connection closed
+Client linux11109(9142):21 disconnected (2 clients remain)
+Client linux11109(9142):21 connected (3 total clients)
+Client linux11109(9130):20 connection closed
+Client linux11109(9130):20 disconnected (2 clients remain)
+Client linux11109(9130):20 connected (3 total clients)
+Client linux11109(9130):20 connection closed
+Client linux11109(9130):20 disconnected (2 clients remain)
+Client linux11109(9130):20 connected (3 total clients)
+Client linux11109(9142):21 connection closed
+Client linux11109(9142):21 disconnected (2 clients remain)
+Client linux11109(9142):21 connected (3 total clients)
+Begin error insertion: /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:740:text_net:text_short
+Error insertion complete: /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:740:text_net:text_short
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:740:text_net:text_open_merge
+Error insertion complete: /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:740:text_net:text_open_merge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+Client linux11109(9142):21 connection closed
+Client linux11109(9142):21 disconnected (2 clients remain)
+Client linux11109(9130):20 connection closed
+Client linux11109(9130):20 disconnected (1 client remains)
+ Total error insertion Time=0:00:08  User=0.01 Sys=0.01 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+  Total Commands: 2
+  Total Errors: 4
+  Avg Time/Cmd: Wall=0 User=0.01 Sys=0.01 Mem=0.001 GB MySQL Mem=0.000 GB
+Generating /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_fourbitadder.halfadder.icv.lvs/halfadder.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client linux11109(9065):14
+0 clients remain connected
+Client linux11109(9065):14 connection closed
+Overall server Time=0:00:16  User=0.02 Sys=0.02 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8963
+PYDB_Server Started on host linux11109, Sat 03/13/2021 15:47:46
+Client linux11109(9492):8 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+PYDB: pydb_server64 terminated with fatal error: Process Killed
+PYDB: pydb_server64 terminated with fatal error: Process Killed
+pydb_server64 fatal signal, force closing database
+Client linux11109(9492):8 connection closed
+Client linux11109(9492):8 disconnected (0 clients remain)
+pydb_server64 fatal signal, force closing database

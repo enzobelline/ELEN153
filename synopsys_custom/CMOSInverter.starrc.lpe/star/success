@@ -1,0 +1,17 @@
+Setup | *Setup        Elp=00:00:04 Cpu=00:00:01 Usr=1.4    Sys=0.0    Mem=614.5 
+Layers |* Layers        Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=614.6 
+Models |* Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+HN |* HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=638.6 
+XrefHN |* XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=369.0 
+Cells |* Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=614.6 
+Translate |* Translate     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+BulkLayerHandling |* BulkLayerHandling Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+NetlistSetup |* NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=357.7 
+GPD_XtractSetup |* GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+GPD_Instance_Setup |* GPD_Instance_Setup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=357.7 
+GPD_NameMap |* GPD_NameMap   Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=358.1 
+xTract |* xTract        Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=365.2 
+GPD_Instance |* GPD_Instance  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=357.7 
+xTractPP |* xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=258.1 
+ReportViolations |* ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=357.7 
+GPD_PostProcess |* GPD_PostProcess Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=357.7 

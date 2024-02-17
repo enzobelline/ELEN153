@@ -1,0 +1,25 @@
+[10:05:50.12] /r giWindowId 0
+[10:05:50.12] /r giWindowGeometry 600x300
+[10:05:50.13] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Jan 29 10:05:46 2021
+              /c Host: linux11103
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial
+              /c 
+[10:05:55.78] /r giShowFrameTabs true
+[10:05:55.78] /r giWindowId 1
+[10:05:55.78] /r giWindowGeometry 1040x800
+[10:06:56.38] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[10:06:56.39] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,0 +1,27 @@
+[14:53:03.52] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Jan  8 14:52:58 2021
+              /c Host: linux11111
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial
+              /c 
+[14:53:12.03] /r giShowFrameTabs true
+[14:53:12.03] /r giWindowId 1
+[14:53:12.03] /r giWindowGeometry 1040x800
+[14:56:17.39] /i exit
+[14:56:17.44] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[14:56:17.73] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+865+858
+[14:56:20.29] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[14:56:20.51] /o Shutdown time: Fri Jan  8 14:56:20 2021
+[14:56:20.51] /o Elapsed session real time: 3.3 minutes
+[14:56:20.51] /o Session terminated. Log is at /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/logs/ccompiler.cazzarel.2021_1_8_145258_8657.log

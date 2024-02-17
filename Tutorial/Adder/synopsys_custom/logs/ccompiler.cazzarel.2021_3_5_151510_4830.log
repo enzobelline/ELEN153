@@ -1,0 +1,131 @@
+[15:15:12.91] /r giWindowId 0
+[15:15:12.91] /r giWindowGeometry 600x300
+[15:15:12.93] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Mar  5 15:15:10 2021
+              /c Host: linux11108
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial/Adder
+              /c 
+[15:15:16.75] /r giShowFrameTabs true
+[15:15:16.75] /r giWindowId 1
+[15:15:16.75] /r giWindowGeometry 1040x800
+[15:15:21.30] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:15:21.31] /# 
+[15:15:21.47] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:15:21.47] /# 
+[15:15:21.61] /i dm::showLibraryManager
+[15:15:21.61] /r giWindowId 2
+[15:15:21.61] /r giWindowGeometry 660x600+50+75
+[15:15:21.65] /o oa:0x19cb8c90
+[15:15:23.03] /i gi::setCurrentIndex {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[15:15:23.04] /i gi::setItemSelection {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[15:15:24.02] /i gi::setCurrentIndex {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[15:15:24.06] /i gi::setItemSelection {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[15:15:25.51] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:15:25.53] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:15:26.94] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:15:27.00] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[15:15:27.01] /m Information: Lock file /DCNFS/users/student/cazzarel/Tutorial/Adder/fourbitadder/ripplecarrytestbench/schematic/sch.oa.cdslck: Unable to connect to OA Lock File Daemon(oaFSLockD) on host 'linux11103.dc.engr.scu.edu'. Check if oaFSLockD is running on the host. If the host is invalid, remove the .cdslck lock file. (oaDMFileSys)
+[15:15:27.02] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[15:15:27.04] /r giDialog gi::setActiveDialog [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[15:15:27.33] /r giDialog db::setAttr geometry -of [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]] -value 538x82+1000+601
+[15:15:30.38] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[15:15:31.63] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:15:31.73] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:15:32.72] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:15:32.79] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:15:33.21] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:15:33.27] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:15:33.62] /i gi::setCurrentIndex {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[15:15:33.66] /i gi::setItemSelection {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[15:15:34.66] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:15:34.69] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:15:48.46] /i gi::executeAction {dmOpenWrite} -in [gi::getWindows 2]
+[15:15:48.49] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[15:15:48.50] /m Information: Lock file /DCNFS/users/student/cazzarel/Tutorial/Adder/fourbitadder/ripplecarrytestbench/schematic/sch.oa.cdslck: Unable to connect to OA Lock File Daemon(oaFSLockD) on host 'linux11103.dc.engr.scu.edu'. Check if oaFSLockD is running on the host. If the host is invalid, remove the .cdslck lock file. (oaDMFileSys)
+[15:15:48.50] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[15:15:48.52] /r giDialog gi::setActiveDialog [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[15:15:48.83] /r giDialog db::setAttr geometry -of [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]] -value 538x82+1000+601
+[15:15:49.42] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[15:15:49.49] /r giWindowId 3
+[15:15:49.50] /r giWindowGeometry 2176x1226
+[15:15:51.59] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:51.59] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.94375 2.09375}
+[15:15:51.61] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:51.61] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.925 2.09375}
+[15:15:51.64] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:51.64] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.90625 2.09375}
+[15:15:52.15] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:52.15] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.9 2.09375}
+[15:15:52.17] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:52.17] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.90625 2.09375}
+[15:15:52.64] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:52.64] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.85 3.19375}
+[15:15:52.65] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:52.65] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.85 3.19375}
+[15:15:52.78] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:52.78] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.85 3.175}
+[15:15:52.87] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:52.87] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.84375 3.16875}
+[15:15:53.04] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:53.04] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.84375 3.16875}
+[15:15:53.11] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:53.11] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.84375 3.16875}
+[15:15:53.14] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:53.14] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.84375 3.16875}
+[15:15:53.16] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:53.16] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.84375 3.16875}
+[15:15:53.34] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:53.34] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.84375 3.16875}
+[15:15:53.35] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:53.35] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.84375 3.16875}
+[15:15:53.37] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:53.37] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.84375 3.16875}
+[15:15:53.39] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:53.39] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.84375 3.16875}
+[15:15:53.40] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:53.40] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.85 3.16875}
+[15:15:54.88] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[15:16:41.00] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:16:41.11] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:16:42.50] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:16:42.56] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:16:43.23] /i gi::setCurrentIndex {cells} -index {fourbitripplecarryadder} -in [gi::getWindows 2]
+[15:16:43.29] /i gi::setItemSelection {cells} -index {fourbitripplecarryadder} -in [gi::getWindows 2]
+[15:16:45.32] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+838+330
+[15:17:11.90] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:17:11.96] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:17:12.36] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:17:12.42] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[15:17:15.52] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:17:15.58] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[15:17:16.59] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:17:16.62] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:17:16.71] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:17:16.73] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[15:17:16.75] /m Information: Lock file /DCNFS/users/student/cazzarel/Tutorial/Adder/fourbitadder/fulladder/schematic/sch.oa.cdslck: Unable to connect to OA Lock File Daemon(oaFSLockD) on host 'linux11103.dc.engr.scu.edu'. Check if oaFSLockD is running on the host. If the host is invalid, remove the .cdslck lock file. (oaDMFileSys)
+[15:17:16.75] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[15:17:16.77] /r giDialog gi::setActiveDialog [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[15:17:17.04] /r giDialog db::setAttr geometry -of [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]] -value 463x82+1117+649
+[15:17:18.78] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[15:18:52.22] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+227+330
+[15:18:54.82] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+838+330
+[15:19:43.98] /i gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[15:19:45.49] /i exit
+[15:19:45.52] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[15:19:45.82] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+1139+587
+[15:19:47.60] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[15:19:48.28] /o Shutdown time: Fri Mar  5 15:19:48 2021
+[15:19:48.28] /o Elapsed session real time: 4.58 minutes
+[15:19:48.28] /o Session terminated. Log is at /DCNFS/users/student/cazzarel/Tutorial/Adder/synopsys_custom/logs/ccompiler.cazzarel.2021_3_5_151510_4830.log

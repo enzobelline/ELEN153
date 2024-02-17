@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep linux11108.dc.engr.scu.edu > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 31362 
+else 
+rsh linux11108.dc.engr.scu.edu kill 31362 
+ sleep 10 
+rsh linux11108.dc.engr.scu.edu kill -9 31362 
+fi

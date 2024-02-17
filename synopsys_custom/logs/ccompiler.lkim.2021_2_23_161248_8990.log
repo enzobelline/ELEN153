@@ -1,0 +1,120 @@
+[16:12:53.32] /r giWindowId 0
+[16:12:53.33] /r giWindowGeometry 600x300
+[16:12:53.34] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Feb 23 16:12:48 2021
+              /c Host: linux11105
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[16:13:02.77] /r giShowFrameTabs true
+[16:13:02.77] /r giWindowId 1
+[16:13:02.77] /r giWindowGeometry 1040x800
+[16:13:07.83] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORDCtbschematic} -in [gi::getWindows 1]
+[16:13:07.84] /# 
+[16:13:08.00] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORDCtbschematic} -in [gi::getWindows 1]
+[16:13:08.00] /# 
+[16:13:08.14] /i de::open LAB4/NOR_DCtb/schematic
+[16:13:08.23] /o 	############################################
+[16:13:08.23] /o 	        Synopsys Generic 90nm iPDK          
+[16:13:08.23] /o 	--------------------------------------------
+[16:13:08.23] /o 	Release Date .............. : 11-May-2016    
+[16:13:08.23] /o 	============================================
+[16:13:08.23] /o 	        Recommended Tool Versions           
+[16:13:08.23] /o 	--------------------------------------------
+[16:13:08.23] /o 	Custom Designer ........... : J-2014.12-2    
+[16:13:08.23] /o 	IC Validator .............. : K-2015.12   
+[16:13:08.23] /o 	StarRC..................... : K-2015.12  
+[16:13:08.23] /o 	--------------------------------------------
+[16:13:08.23] /o 	############################################
+[16:13:08.23] /o 
+[16:13:08.33] /o SAED PDK 90: Loaded callbacks
+[16:13:08.38] /o SAED PDK 90: Loaded display resources
+[16:13:08.43] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[16:13:08.58] /r giWindowId 2
+[16:13:08.58] /r giWindowGeometry 1910x909+5+78
+[16:13:08.58] /# db::setAttr maximized -of [gi::getFrames 1] -value true
+[16:13:08.88] /o oa:0x1af0e530
+[16:13:09.25] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value 290x179
+[16:13:09.25] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 2]] -value 290x753
+[16:13:09.25] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 2]] -value 1571x132
+[16:13:09.27] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[16:13:10.53] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[16:13:10.53] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {4.275 1.5625}
+[16:13:11.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[16:13:11.66] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {4.3 1.525}
+[16:13:11.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[16:13:11.68] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {4.30625 1.53125}
+[16:13:11.70] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 2]
+[16:13:11.70] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {4.3125 1.525}
+[16:13:12.38] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[16:13:12.38] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {2.38125 2.675}
+[16:13:12.42] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 2]
+[16:13:12.42] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {2.06875 3.13125}
+[16:13:13.47] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[16:13:19.95] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORtbschematic} -in [gi::getWindows 1]
+[16:13:19.95] /# 
+[16:13:20.10] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORtbschematic} -in [gi::getWindows 1]
+[16:13:20.10] /# 
+[16:13:20.25] /i de::open LAB4/NOR_tb/schematic
+[16:13:20.40] /r giWindowId 3
+[16:13:20.40] /r giWindowGeometry 1910x909+5+78
+[16:13:20.58] /o oa:0x21af6200
+[16:13:20.87] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1571x132
+[16:13:20.87] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 3]] -value 290x753
+[16:13:20.88] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x179
+[16:13:39.15] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 3]
+[16:13:39.15] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[16:13:39.15] /r giMenuAccess db::getNext [gi::getMenus seSchInstanceContextMenu]
+[16:13:40.18] /# gi::executeAction {seMoveActive} -in [gi::getWindows 3]
+[16:13:40.18] /i ise::move -object [de::getActiveFigure [gi::getWindows 3] -point {2.3375 2.14375} -index 0 -intent none]
+[16:13:41.17] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[16:13:41.17] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[16:13:41.45] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x753
+[16:13:42.15] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[16:13:42.15] /i de::addPoint {2.325 2.1375} -context [db::getNext [de::getContexts -window 3]]
+[16:13:42.57] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[16:13:42.58] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value false
+[16:13:42.86] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 3]] -value 290x779
+[16:13:43.33] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[16:13:43.33] /i de::addPoint {2.33125 2.1375} -context [db::getNext [de::getContexts -window 3]]
+[16:13:44.18] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[16:13:44.18] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[16:13:44.47] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 3]] -value 290x753
+[16:13:46.75] /i gi::setField {propertiesExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[16:13:47.95] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[16:13:47.95] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[16:13:48.66] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[16:13:48.66] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[16:13:48.66] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.33125 2.1125} -index 0 -intent none]
+[16:13:48.66] /o oa:0x21d90ae0
+[16:15:16.72] /i gi::setItemSelection {attributes} -index {master,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[16:15:16.96] /i gi::setCurrentIndex {attributes} -index {master,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[16:16:17.93] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[17:25:44.76] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[17:25:44.76] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[17:25:44.92] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[17:25[:1744:.2594:]44 /o .Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)94] /o 
+
+[17:25:44.96] /e Error: The application was unexpectedly terminated.
+[[1717::2525::4444..9696]] /e Error:  /e Error: The application was unexpectedly terminated.
+See the session log file for recovery details. (SHUT_DOWN-001)
+              /c See the session log file for recovery details. (SHUT_DOWN-001)
+[17:25:45.03] /m Information: Recovery copies have been created for the following cellViews:[17:25:45.03] /o signal number = 11
+              /c               /c 
+LAB4/NOR_tb/schematic
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Tue Feb 23 16:12:48 2021
+              /c Frame 0. OpenAccess_4::oaDatabase::postWrite() + 0x52
+              /c Frame 1. OpenAccess_4::oaDMDatabaseFile::write(OpenAccess_4::oaDMFileTbl*, unsigned int, OpenAccess_4::oaString const&, int) + 0x287
+              /c Frame 2. OpenAccess_4::oaDMDatabaseFile::write(OpenAccess_4::oaDMFileTbl*, unsigned int, OpenAccess_4::oaSaveRecoverType) + 0x61
+              /c Frame 3. OpenAccess_4::oaDMDatabaseFile::write(OpenAccess_4::oaSaveRecoverType) + 0x4a
+              /c Frame 4. OpenAccess_4::oaDesignData::save(OpenAccess_4::oaSaveRecoverType) + 0x58

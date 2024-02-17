@@ -1,0 +1,634 @@
+VENDOR: Synopsys Inc.
+PROGRAM: StarRC
+PROGRAM VERSION: Q-2019.12-SP1-1
+PROGRAM DATE: Feb 11 2020 19:02:59
+GPD VERSION: 2.10
+GPD DATE: Wed Mar  3 16:33:10 2021
+NETS: 5 (6)
+CELLS: 2 (9)
+PORTS: 4 (4)
+IDEAL NETS: 0 (0)
+IDEAL CELLS: 0 (0)
+IDEAL PORTS: 0 (0)
+UNCONNECTED PORTS: 0 (0)
+UNCONNECTED PINS: 0
+MIN GND CAP: 0
+GPD CONTENTS: DATAP,DATAF,STITCH_EXT,CONV_FILE
+NAME MAP COMPLETE: YES
+GPD DATA COMPLETE: YES
+HAS VIA PILLAR: NO
+RESISTANCE DETAIL YES
+RESISTANCE BOUNDING BOXNO
+INSTANCE SECTION: YES
+SCALE FACTOR: 1
+COORDINATES SCALED: NO
+RESISTOR PROPERTIES SCALED: NO
+DEVICE PROPERTIES SCALED: NO
+INSTANCE_PORT_LOCATION_CLOSER_TO_DRIVER: NO
+
+NUM_CORNERS: 1
+NUM_CAP_CORNERS: 1
+CORNER 1
+  NAME: 
+  PROCESS: /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd
+  TEMPERATURE: 25
+  CAP_INDEX: 0
+
+
+COUPLING_ABS_THRESHOLD: 3
+COUPLING_REL_THRESHOLD: 0.03
+FILTERING_OPERATION: AND
+
+CAPACITANCE UNIT: 1
+RESISTANCE UNIT: 1
+BUS BIT DELIMITER: []
+PIN DELIMITER: :
+HIERARCHY DELIMITER: |
+NET_SHORTING_CONDUCTANCE: 100
+OPEN_IP_SHORTING_CONDUCTANCE: 10
+NETLIST NODE SECTION: YES
+NETLIST_COMPRESSION: NO
+NETLIST PRECISION: 6
+NETLIST_INPUT_DRIVERS: NO
+NETLIST_NAME_MAP: YES
+NETLIST_INCREMENTAL: NO
+LUMPED_CAP_FORMATTING: NO
+NETLIST_NODENAME_NETNAME: NO
+TEMPERATURE_SENSITIVITY: NO
+NETLIST_INTEGRITY_CHECK: GPIO_VIOLATION_LOCAL_NODE_ID
+
+Layer 1
+  ID: 0
+  Layer name: SUBSTRATE
+
+Layer 2
+  ID: 1
+  Layer name: psub
+  ITF Layer name: SUBSTRATE
+
+Layer 3
+  ID: 2
+  Layer name: nwnr
+  ITF Layer name: SUBSTRATE
+
+Layer 4
+  ID: 3
+  Layer name: pwell
+  ITF Layer name: SUBSTRATE
+
+Layer 5
+  ID: 4
+  Layer name: nsd
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 6
+  ID: 5
+  Layer name: psd
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 7
+  ID: 6
+  Layer name: ptap
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 8
+  ID: 7
+  Layer name: ntap
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 9
+  ID: 8
+  Layer name: psdr
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 10
+  ID: 9
+  Layer name: nsdr
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 11
+  ID: 10
+  Layer name: nsdv
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 12
+  ID: 11
+  Layer name: psdv
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 13
+  ID: 12
+  Layer name: indterm
+  ITF Layer name: M5
+  Layer Wmin: 0.16
+
+Layer 14
+  ID: 13
+  Layer name: term1
+  ITF Layer name: M2
+  Layer Wmin: 0.16
+
+Layer 15
+  ID: 14
+  Layer name: term2
+  ITF Layer name: M3
+  Layer Wmin: 0.16
+
+Layer 16
+  ID: 15
+  Layer name: term3
+  ITF Layer name: M4
+  Layer Wmin: 0.16
+
+Layer 17
+  ID: 16
+  Layer name: term4
+  ITF Layer name: M5
+  Layer Wmin: 0.16
+
+Layer 18
+  ID: 17
+  Layer name: BJT_BASE_PNP
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 19
+  ID: 18
+  Layer name: BJT_COLL_PNP
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 20
+  ID: 19
+  Layer name: BJT_EMIT_PNP
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 21
+  ID: 20
+  Layer name: BJT_COLL_NPN
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 22
+  ID: 21
+  Layer name: BJT_EMIT_NPN
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 23
+  ID: 22
+  Layer name: BJT_BASE_NPN
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 24
+  ID: 23
+  Layer name: ngatepl
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 25
+  ID: 24
+  Layer name: pgatepl
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 26
+  ID: 25
+  Layer name: subtie_scon
+  ITF Layer name: SUBSTRATE
+
+Layer 27
+  ID: 26
+  Layer name: subtie
+  ITF Layer name: SUBSTRATE
+
+Layer 28
+  ID: 27
+  Layer name: pdores
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 29
+  ID: 28
+  Layer name: ndores
+  ITF Layer name: DIFF
+  Layer Wmin: 0.12
+
+Layer 30
+  ID: 29
+  Layer name: ngate_12
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 31
+  ID: 30
+  Layer name: pgate_12
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 32
+  ID: 31
+  Layer name: ngate_25
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 33
+  ID: 32
+  Layer name: pgate_25
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 34
+  ID: 33
+  Layer name: ngate_33
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 35
+  ID: 34
+  Layer name: pgate_33
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 36
+  ID: 35
+  Layer name: ngate_12_lvt
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 37
+  ID: 36
+  Layer name: pgate_12_lvt
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 38
+  ID: 37
+  Layer name: ngate_12_hvt
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 39
+  ID: 38
+  Layer name: pgate_12_hvt
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 40
+  ID: 39
+  Layer name: ponr
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 41
+  ID: 40
+  Layer name: ppores
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 42
+  ID: 41
+  Layer name: npores
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 43
+  ID: 42
+  Layer name: ppores_sblk
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 44
+  ID: 43
+  Layer name: npores_sblk
+  ITF Layer name: POLY
+  Layer Wmin: 0.1
+
+Layer 45
+  ID: 44
+  Layer name: m1
+  ITF Layer name: M1
+  Layer Wmin: 0.14
+
+Layer 46
+  ID: 45
+  Layer name: m1res
+  ITF Layer name: M1
+  Layer Wmin: 0.14
+
+Layer 47
+  ID: 46
+  Layer name: M2
+  ITF Layer name: M2
+  Layer Wmin: 0.16
+
+Layer 48
+  ID: 47
+  Layer name: m2res
+  ITF Layer name: M2
+  Layer Wmin: 0.16
+
+Layer 49
+  ID: 48
+  Layer name: M3
+  ITF Layer name: M3
+  Layer Wmin: 0.16
+
+Layer 50
+  ID: 49
+  Layer name: m3res
+  ITF Layer name: M3
+  Layer Wmin: 0.16
+
+Layer 51
+  ID: 50
+  Layer name: M4
+  ITF Layer name: M4
+  Layer Wmin: 0.16
+
+Layer 52
+  ID: 51
+  Layer name: m4res
+  ITF Layer name: M4
+  Layer Wmin: 0.16
+
+Layer 53
+  ID: 52
+  Layer name: M5
+  ITF Layer name: M5
+  Layer Wmin: 0.16
+
+Layer 54
+  ID: 53
+  Layer name: m5res
+  ITF Layer name: M5
+  Layer Wmin: 0.16
+
+Layer 55
+  ID: 54
+  Layer name: M6
+  ITF Layer name: M6
+  Layer Wmin: 0.16
+
+Layer 56
+  ID: 55
+  Layer name: m6res
+  ITF Layer name: M6
+  Layer Wmin: 0.16
+
+Layer 57
+  ID: 56
+  Layer name: M7
+  ITF Layer name: M7
+  Layer Wmin: 0.16
+
+Layer 58
+  ID: 57
+  Layer name: m7res
+  ITF Layer name: M7
+  Layer Wmin: 0.16
+
+Layer 59
+  ID: 58
+  Layer name: M8
+  ITF Layer name: M8
+  Layer Wmin: 0.16
+
+Layer 60
+  ID: 59
+  Layer name: m8res
+  ITF Layer name: M8
+  Layer Wmin: 0.16
+
+Layer 61
+  ID: 60
+  Layer name: M9
+  ITF Layer name: M9
+  Layer Wmin: 0.45
+
+Layer 62
+  ID: 61
+  Layer name: m9res
+  ITF Layer name: M9
+  Layer Wmin: 0.45
+
+Layer 63
+  ID: 62
+  Layer name: top_metex
+  ITF Layer name: M4
+  Layer Wmin: 0.16
+
+Layer 64
+  ID: 63
+  Layer name: sec_top_met
+  ITF Layer name: M4
+  Layer Wmin: 0.16
+
+Layer 65
+  ID: 64
+  Layer name: pwell_cont
+  ITF Layer name: SUBCONT
+  from ID: 3
+  to ID: 6
+  Table Via Grd Level Index: 0
+
+Layer 66
+  ID: 65
+  Layer name: nwell_cont
+  ITF Layer name: SUBCONT
+  from ID: 2
+  to ID: 7
+  Table Via Grd Level Index: 0
+
+Layer 67
+  ID: 66
+  Layer name: codiff
+  ITF Layer name: DIFFCONT
+  from ID: 91
+  to ID: 44
+  Table Via Grd Level Index: 1
+
+Layer 68
+  ID: 67
+  Layer name: copoly
+  ITF Layer name: POLYCONT
+  from ID: 93
+  to ID: 44
+  Table Via Grd Level Index: 2
+
+Layer 69
+  ID: 68
+  Layer name: top_via
+  ITF Layer name: VIA4
+  from ID: 63
+  to ID: 68
+  Table Via Grd Level Index: 6
+
+Layer 70
+  ID: 69
+  Layer name: via1
+  ITF Layer name: VIA1
+  from ID: 44
+  to ID: 46
+  Table Via Grd Level Index: 3
+
+Layer 71
+  ID: 70
+  Layer name: via2
+  ITF Layer name: VIA2
+  from ID: 46
+  to ID: 48
+  Table Via Grd Level Index: 4
+
+Layer 72
+  ID: 71
+  Layer name: via3
+  ITF Layer name: VIA3
+  from ID: 48
+  to ID: 50
+  Table Via Grd Level Index: 5
+
+Layer 73
+  ID: 72
+  Layer name: via4
+  ITF Layer name: VIA4
+  from ID: 50
+  to ID: 52
+  Table Via Grd Level Index: 6
+
+Layer 74
+  ID: 73
+  Layer name: via5
+  ITF Layer name: VIA5
+  from ID: 52
+  to ID: 54
+  Table Via Grd Level Index: 7
+
+Layer 75
+  ID: 74
+  Layer name: via6
+  ITF Layer name: VIA6
+  from ID: 54
+  to ID: 56
+  Table Via Grd Level Index: 8
+
+Layer 76
+  ID: 75
+  Layer name: via7
+  ITF Layer name: VIA7
+  from ID: 56
+  to ID: 58
+  Table Via Grd Level Index: 9
+
+Layer 77
+  ID: 76
+  Layer name: via8
+  ITF Layer name: VIA8
+  from ID: 58
+  to ID: 60
+  Table Via Grd Level Index: 10
+
+Layer 78
+  ID: 77
+  Layer name: BJT_BASE_cont_NPN
+  ITF Layer name: DIFFCONT
+  from ID: 22
+  to ID: 44
+  Table Via Grd Level Index: 1
+
+Layer 79
+  ID: 78
+  Layer name: BJT_BASE_cont_PNP
+  ITF Layer name: DIFFCONT
+  from ID: 17
+  to ID: 44
+  Table Via Grd Level Index: 1
+
+Layer 80
+  ID: 79
+  Layer name: BJT_COLL_cont_PNP
+  ITF Layer name: DIFFCONT
+  from ID: 18
+  to ID: 44
+  Table Via Grd Level Index: 1
+
+Layer 81
+  ID: 80
+  Layer name: BJT_EMIT_cont_PNP
+  ITF Layer name: DIFFCONT
+  from ID: 19
+  to ID: 44
+  Table Via Grd Level Index: 1
+
+Layer 82
+  ID: 81
+  Layer name: BJT_COLL_cont_NPN
+  ITF Layer name: DIFFCONT
+  from ID: 20
+  to ID: 44
+  Table Via Grd Level Index: 1
+
+Layer 83
+  ID: 82
+  Layer name: m1pin_marker
+  ITF Layer name: M1
+  Layer Wmin: 0.14
+
+Layer 84
+  ID: 83
+  Layer name: m2pin_marker
+  ITF Layer name: M2
+  Layer Wmin: 0.16
+
+Layer 85
+  ID: 84
+  Layer name: m3pin_marker
+  ITF Layer name: M3
+  Layer Wmin: 0.16
+
+Layer 86
+  ID: 85
+  Layer name: m4pin_marker
+  ITF Layer name: M4
+  Layer Wmin: 0.16
+
+Layer 87
+  ID: 86
+  Layer name: m5pin_marker
+  ITF Layer name: M5
+  Layer Wmin: 0.16
+
+Layer 88
+  ID: 87
+  Layer name: m6pin_marker
+  ITF Layer name: M6
+  Layer Wmin: 0.16
+
+Layer 89
+  ID: 88
+  Layer name: m7pin_marker
+  ITF Layer name: M7
+  Layer Wmin: 0.16
+
+Layer 90
+  ID: 89
+  Layer name: m8pin_marker
+  ITF Layer name: M8
+  Layer Wmin: 0.16
+
+Layer 91
+  ID: 90
+  Layer name: m9pin_marker
+  ITF Layer name: M9
+  Layer Wmin: 0.45
+

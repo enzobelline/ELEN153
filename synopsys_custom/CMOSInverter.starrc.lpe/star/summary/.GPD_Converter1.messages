@@ -1,0 +1,67 @@
+Parsing option_file: convert_gpd.tech (EX-304)
+Running Amd_64b    
+$LD_LIBRARY_PATH=/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib:/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib/std_oa/linux64/lib/opt:/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/lib:/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/lib/std_oa/Q-2019.12-SP1-1/lib/opt:/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib:/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib/std_oa/linux64/lib/opt:/DCNFS/applications/synopsys/2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib:/DCNFS/applications/synopsys/2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib/oa_qsco_2018.06_prod/amd64/lib/opt
+/DCNFS/applications/synopsys/2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib/oa_qsco_2018.06_prod/linux64/lib/opt:/usr/lib:.:.
+$TCL_LIBRARY=/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/etc/auxx/tcllib/lib/tcl8.6
+loading /opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/linux64_starrc/lib/liboaStar-O.so
+OA lib version: 22.50.064
+OaOpenLibDefListObserver::onPostOpenLibs:
+Got Lib Def: Logical Library Name = snpsDefTechLib
+Got Lib Def: Logical Library Name = basic
+Got Lib Def: Logical Library Name = snpsDeviceLib
+Got Lib Def: Logical Library Name = analogLib
+Got Lib Def: Logical Library Name = verilogaLib
+Got Lib Def: Logical Library Name = sheets
+Got Lib Def: Logical Library Name = sample
+Got Lib Def: Logical Library Name = parasitics
+Got Lib Def: Logical Library Name = SAED_PDK_90
+Got Lib Def: Logical Library Name = reference
+Got Lib Def: Logical Library Name = LAB1
+Got Lib Def: Logical Library Name = LAB2
+Got Lib Def: Logical Library Name = LAB3
+Got Lib Def: Logical Library Name = LAB4
+Got Lib Def: Logical Library Name = LAB5
+Got Lib Def: Logical Library Name = LAB6
+lib dmSystemName: oaDMFileSys
+lib path: /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB3
+Unable to set references on tech because conflicts would result.
+unitStr: micron  hnDbu: 1 techDbu: 1000 makersize: 100
+done init converter design ... init mappers
+OaParasiticViewWriter initMappers
+Internal error- signal number: 11
+
+Stack trace for crashing thread
+-------------------------------
+sst_print_stack_trace
+sys_errors
+_L_unlock_13
+Tcl_ListObjAppendElement
+_ZN5oaTcl9TclEngine4initEv
+_ZN5oaTcl16TclEngineFactory14createInstanceEPN8oaCommon5IBaseERKNS1_4GuidEPPv
+_ZN8oaCommon11oaPlugInMgr14createInstanceEPKcPNS_5IBaseERKNS_4GuidEPPv
+_ZN12OpenAccess_418oaScriptEngineLink3getERKNS_8oaStringE
+_ZN13oaPcellScript6PlugIn6onBindEPN12OpenAccess_48oaDesignEPNS1_10oaPcellDefE
+_ZN13oaPcellScript6PlugIn6onReadEPN12OpenAccess_48oaDesignERNS1_15oaMapFileWindowERjPNS1_10oaPcellDefE
+_ZN12OpenAccess_417oaSuperMasterData4readERKNS_18oaLongMapMemoryLocE
+_ZN12OpenAccess_412oaDesignData8readDataERKNS_9oaDiskTOCERKNS_18oaLongMapMemoryLocE
+_ZN12OpenAccess_410oaDatabase4readERii
+_ZN12OpenAccess_410oaDatabase4readERKNS_8oaStringE
+_ZN12OpenAccess_410oaDatabase4openERKNS_8oaStringE
+_ZN12OpenAccess_412oaDesignData4openERKNS_12oaScalarNameES3_S3_c
+_ZN12OpenAccess_48oaDesign4openERKNS_12oaScalarNameES3_S3_c
+_ZN8OaDevice11testIfPcellEv
+_ZN8OaDevice14finalizeDeviceEv
+_Z12devicesparsev
+_Z16yaccParseDevicesRK10Psi_StringP14OaDeviceMapper
+_ZN14OaDeviceMapperC1ERK10Psi_String
+_ZN21OaParasiticViewWriter11initMappersERK10Psi_StringS2_S2_PN12OpenAccess_46oaTechE
+_ZN21OaParasiticViewWriterC1ERK10Psi_StringS2_S2_S2_S2_S2_S2_PN4GPIO10PropertiesEf13Oa_WriterType
+createParasiticConverter
+_Z6gpd2oaP13XtrGlobalData
+main
+__libc_start_main
+_start
+A detailed stack trace has been captured in Synopsys_stack_trace_1968.txt.
+
+A snapshot of runtime data has been captured in /tmp//crte_000001968.txt
+

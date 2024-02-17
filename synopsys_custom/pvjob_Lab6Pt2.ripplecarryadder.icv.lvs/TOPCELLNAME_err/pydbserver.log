@@ -1,0 +1,71 @@
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.lvs/TOPCELLNAME_err/PYDB_ripplecarryadder
+Listening for connections on port 7130
+PYDB_Server Started on host linux11112.dc.engr.scu.edu, Mon 03/15/2021 00:39:41
+Client linux11112(14654):14 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client linux11112(14727):20 connected (2 total clients)
+Client linux11112(14728):21 connected (3 total clients)
+Client linux11112(14728):21 connection closed
+Client linux11112(14728):21 disconnected (2 clients remain)
+Client linux11112(14728):21 connected (3 total clients)
+Client linux11112(14727):20 connection closed
+Client linux11112(14727):20 disconnected (2 clients remain)
+Client linux11112(14727):20 connected (3 total clients)
+Client linux11112(14727):20 connection closed
+Client linux11112(14727):20 disconnected (2 clients remain)
+Client linux11112(14727):20 connected (3 total clients)
+Client linux11112(14728):21 connection closed
+Client linux11112(14728):21 disconnected (2 clients remain)
+Client linux11112(14728):21 connected (3 total clients)
+Client linux11112(14728):21 connection closed
+Client linux11112(14728):21 disconnected (2 clients remain)
+Client linux11112(14727):20 connection closed
+Client linux11112(14727):20 disconnected (1 client remains)
+Generating /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.lvs/ripplecarryadder.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client linux11112(14654):14
+0 clients remain connected
+Client linux11112(14654):14 connection closed
+Overall server Time=0:00:17  User=0.01 Sys=0.03 Mem=0.001 GB SQLite=0.005 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 7396
+PYDB_Server Started on host linux11112, Mon 03/15/2021 00:40:01
+Client linux11112(15089):8 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Shutdown requested by client linux11112(15089):8
+0 clients remain connected
+Client linux11112(15089):8 connection closed
+Overall server Time=0:10:21  User=0.02 Sys=0.00 Mem=0.000 GB SQLite=0.001 GB Unpooled=0.000 GB

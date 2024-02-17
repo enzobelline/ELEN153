@@ -1,0 +1,41 @@
+[16:36:09.21] /r giWindowId 0
+[16:36:09.21] /r giWindowGeometry 600x300
+[16:36:09.22] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 16:36:05 2021
+              /c Host: linux11102
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2
+              /c 
+[16:36:15.27] /r giShowFrameTabs true
+[16:36:15.27] /r giWindowId 1
+[16:36:15.27] /r giWindowGeometry 1040x800
+[16:36:20.32] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:36:20.33] /# 
+[16:36:20.46] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:36:20.46] /# 
+[16:36:20.63] /i dm::showLibraryManager
+[16:36:20.63] /r giWindowId 2
+[16:36:20.63] /r giWindowGeometry 660x600+50+76
+[16:36:20.68] /o oa:0x1abfbe00
+[16:36:26.76] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:36:26.76] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:36:27.79] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:36:27.79] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:37:15.42] /i exit
+[16:37:15.45] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:37:15.75] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[16:37:16.41] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:37:17.06] /o Shutdown time: Sun Jan 24 16:37:17 2021
+[16:37:17.06] /o Elapsed session real time: 1.13 minutes
+[16:37:17.06] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/synopsys_custom/logs/ccompiler.lkim.2021_1_24_163605_13546.log

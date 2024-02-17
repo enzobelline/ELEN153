@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+                <pref name="xtLVSICVOptions" value="-sf SPICE"/>
+                <pref name="xtLVSLayCell" value="ripplecarryadder"/>
+                <pref name="xtLVSLayInputNetlist" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.lvs/ripplecarryadder.net"/>
+                <pref name="xtLVSLayLCV" value="Lab6Pt2/ripplecarryadder/layout"/>
+                <pref name="xtLVSLayOasisFile" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.lvs/ripplecarryadder.custom_compiler.oas"/>
+                <pref name="xtLVSLayStreamFile" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.lvs/ripplecarryadder.custom_compiler.gds"/>
+                <pref name="xtLVSSchCell" value="ripplecarryadder"/>
+                <pref name="xtLVSSchInputNetlistFormat" value="CDL"/>
+                <pref name="xtLVSSchLCV" value="Lab6Pt2/ripplecarryadder/schematic"/>
+                <pref name="xtLVSSchOutputNetlist" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.lvs/ripplecarryadder.custom_compiler.sp"/>
+                <pref name="xtLVSTool" value="IC Validator"/>
+        </preferences>
+</file-format>

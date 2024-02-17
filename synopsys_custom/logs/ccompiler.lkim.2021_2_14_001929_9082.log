@@ -1,0 +1,131 @@
+[00:19:34.04] /r giWindowId 0
+[00:19:34.04] /r giWindowGeometry 600x300
+[00:19:34.06] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Feb 14 00:19:29 2021
+              /c Host: linux11104
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[00:19:43.78] /r giShowFrameTabs true
+[00:19:43.78] /r giWindowId 1
+[00:19:43.78] /r giWindowGeometry 1040x800
+[00:20:11.22] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORtbschematic} -in [gi::getWindows 1]
+[00:20:11.23] /# 
+[00:20:11.35] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORtbschematic} -in [gi::getWindows 1]
+[00:20:11.35] /# 
+[00:20:11.53] /i de::open LAB4/NOR_tb/schematic
+[00:20:11.61] /o 	############################################
+[00:20:11.61] /o 	        Synopsys Generic 90nm iPDK          
+[00:20:11.61] /o 	--------------------------------------------
+[00:20:11.61] /o 	Release Date .............. : 11-May-2016    
+[00:20:11.61] /o 	============================================
+[00:20:11.61] /o 	        Recommended Tool Versions           
+[00:20:11.61] /o 	--------------------------------------------
+[00:20:11.61] /o 	Custom Designer ........... : J-2014.12-2    
+[00:20:11.61] /o 	IC Validator .............. : K-2015.12   
+[00:20:11.61] /o 	StarRC..................... : K-2015.12  
+[00:20:11.61] /o 	--------------------------------------------
+[00:20:11.61] /o 	############################################
+[00:20:11.61] /o 
+[00:20:11.67] /o SAED PDK 90: Loaded callbacks
+[00:20:11.71] /o SAED PDK 90: Loaded display resources
+[00:20:11.74] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[00:20:11.88] /r giWindowId 2
+[00:20:11.88] /r giWindowGeometry 1910x909+5+78
+[00:20:11.88] /# db::setAttr maximized -of [gi::getFrames 1] -value true
+[00:20:12.16] /o oa:0x1a194420
+[00:20:12.55] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 2]] -value 290x179
+[00:20:12.56] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 2]] -value 290x753
+[00:20:12.56] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 2]] -value 1571x132
+[00:20:12.58] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[00:20:14.23] /# gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 2]
+[00:20:14.23] /i sa::showConsole -context [db::getNext [de::getContexts -window 2]]
+[00:20:27.64] /r giWindowId 3
+[00:20:27.65] /r giWindowGeometry 600x500
+[00:20:27.89] /m Information: Launching Background sae_shell Server Process "cd /DCNFS/users/student/lkim/Desktop/ELEN153L && sae_shell -log sae_shell_session0_job1 -libDefFile /DCNFS/users/student/lkim/Desktop/ELEN153L/lib.defs"
+[00:20:27.90] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[00:20:27.91] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 3]]
+[00:20:31.54] /# gi::executeAction {saLoadState} -in [gi::getWindows 3]
+[00:20:31.54] /i sa::showLoadState -parent 3
+[00:20:33.87] /i gi::setActiveDialog [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 3]]
+[00:20:34.24] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 3]] -value 603x696+752+294
+[00:20:39.69] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 3]]
+[00:20:40.83] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[00:20:40.83] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[00:20:41.32] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[00:20:41.32] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[00:20:41.50] /r giWindowId 4
+[00:20:41.51] /r giWindowGeometry 800x600
+[00:20:41.67] /m Information: "Starting incremental netlisting for design "LAB4/NOR_tb/schematic"..." (NETLISTING-010)
+[00:20:41.72] /o No Design Integrity rule violations found in "LAB4/NOR_tb/schematic"
+[00:20:42.25] /m Information: "Netlisting design "LAB4/NOR_tb/schematic" finished successfully." (NETLISTING-012)
+[00:20:42.28] /m Information: "Composing simulator input file for design "LAB4/NOR_tb/schematic"..."
+[00:20:42.67] /m Information: "Simulator input file composed successfully for design "LAB4/NOR_tb/schematic""
+[00:20:45.80] /m Information: "Starting HSPICE simulation for design: LAB4/NOR_tb/schematic"
+[00:20:47.56] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 20 seconds.
+[00:20:47.90] /m Information: "Simulation completed successfully for design: LAB4/NOR_tb/schematic "
+[00:20:50.37] /m Information: Launching Background sae_shell Server Process "cd /DCNFS/users/student/lkim/Desktop/ELEN153L && sae_shell -log sae_shell_session0_job2 -libDefFile /DCNFS/users/student/lkim/Desktop/ELEN153L/lib.defs"
+[00:20:50.38] /i gi::collapse {jobMonitorTable} -index {0.0.1,0} -in [gi::getWindows 4]
+[00:20:50.39] /m Information: "Evaluating and plotting outputs..."
+[00:20:50.46] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[00:20:51.28] /m Information: Launching Waveform Viewer "cd /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom &&  wv  -k -cdesigner -spxkey /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_Hz9UQe -unique_string 68bae5611c0fcd72c4243192c9af5bb95ff66eba3f07939d6ca0222f4f997b3963ef6c4ffbeeb109 -lic_type 2    > /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/viewer.log 2>&1"
+[00:20:51.28] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 4]
+[00:20:52.62] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[00:21:06.36] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job2' after 16 seconds.
+[00:25:07.88] /m Information: Waveform viewer exited normally.
+[00:25:08.90] /i gi::setActiveWindow 2
+[00:25:08.90] /i gi::setActiveWindow 2 -raise true
+[00:25:10.12] /i gi::setActiveWindow 3
+[00:25:10.12] /i gi::setActiveWindow 3 -raise true
+[00:25:10.72] /i gi::setActiveWindow 2
+[00:25:10.72] /i gi::setActiveWindow 2 -raise true
+[00:25:14.05] /i gi::setActiveWindow 1
+[00:25:14.05] /i gi::setActiveWindow 1 -raise true
+[00:25:16.27] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORschematic} -in [gi::getWindows 1]
+[00:25:16.27] /# 
+[00:25:16.40] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenLAB4NORschematic} -in [gi::getWindows 1]
+[00:25:16.40] /# 
+[00:25:16.57] /i de::open LAB4/NOR/schematic
+[00:25:16.71] /r giWindowId 5
+[00:25:16.73] /r giWindowGeometry 1910x909+5+78
+[00:25:16.92] /o oa:0x298fbd90
+[00:25:17.23] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 5]] -value 1571x132
+[00:25:17.23] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 5]] -value 290x753
+[00:25:17.24] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value 290x179
+[00:25:18.61] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 5]
+[00:25:18.61] /r deCanvasDragStart 5.21875 3.20625
+[00:25:18.94] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 5]
+[00:25:18.94] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 5]
+[00:25:18.95] /r deCanvasDragEnd 2.775 1.675
+[00:25:20.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[00:25:20.02] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.5 2.2375}
+[00:25:20.04] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[00:25:20.04] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.49375 2.24375}
+[00:25:20.13] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[00:25:20.13] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.49375 2.24375}
+[00:25:20.82] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[00:25:20.82] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {4.45625 2.2375}
+[00:25:58.76] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[00:26:15.14] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[00:26:15.43] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+801+415
+[00:26:16.25] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[00:26:16.32] /i exit
+[00:26:16.38] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 5]]
+[00:26:16.65] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 5]] -value 419x207+741+366
+[00:26:18.46] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 5]]
+[00:26:18.79] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 3]]
+[00:26:19.06] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 3]] -value 292x82+804+428
+[00:26:21.28] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[00:26:21.29] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,0 +1,33 @@
+<module name="vsl: Lab6Pt2 halfadder schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I1" dst="XI1"/>
+<mapping src="I0" dst="XI0"/>
+</forward>
+<reverse>
+<mapping src="XI1" dst="I1"/>
+<mapping src="XI0" dst="I0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="C S X Y"/>
+<mapping src="&lt;termOrder>" dst="C S X Y"/>
+</forward>
+<reverse>
+<mapping src="C S X Y" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="AND">
+<instance name="I1"/>
+</instance_header>
+<instance_header master="XOR">
+<instance name="I0"/>
+</instance_header>
+</master_instances>
+</module>

@@ -1,0 +1,10 @@
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Thu Mar  4 15:10:19 2021
+Frame 0. libc.so.6: gsignal + 0x37
+Frame 1. libc.so.6: abort + 0x148
+Frame 2. custom_compiler: Tcl_PanicVA + 0x106
+Frame 3. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler ::0xe605eeb + 0x8b
+Frame 4. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler ::0xe5dd3f7 + 0xe7
+Frame 5. custom_compiler: Tcl_DeleteCommandFromToken + 0x124
+Frame 6. 0xb4b6778 SNPSee_648b6c406260d36cc793209230a973fd54971d918d30a904912392c1de2be491d12b4949cc195886b18797b7940bdc8a + 0x48
+Frame 7. 0xb4b6d70 SNPSee_648b6c406260d36cc793209230a973fd82d0b947f0998c3c9182a617dbf173408c5eee9e149591854e84c121b1edafc3 + 0x30
+Frame 8. 0xb4c5616

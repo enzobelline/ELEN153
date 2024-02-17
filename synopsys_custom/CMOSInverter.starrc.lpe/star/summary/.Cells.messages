@@ -1,0 +1,11 @@
+run_in_same_process: start time = 1614817959
+INTERNAL Warning: '5' items are not found in POWER_NETS, updated them in tech_filecreate_xin_writer; sort_xin_in_memory YES cut_trap YES track_fill_detection NO
+  
+InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=614.6 
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+ImportCells   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=614.6 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=614.6 

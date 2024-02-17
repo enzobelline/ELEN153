@@ -1,0 +1,5 @@
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Jan 24 16:47:29 2021
+Frame 0. <>0x0x0 + 0x0
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Jan 24 16:47:29 2021
+Error: The application was unexpectedly terminated.
+See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,0 +1,67 @@
+{NETLIST fulladder
+{VERSION 2 0 0}
+
+{CELL fulladder
+    {PORT Ci1 Bi vdd! gnd! Si Ci Ai }
+    {INST M11=n12 {TYPE MOS} {COORD x=13.740 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N34=DRN N12=GATE gnd!=SRC gnd!=BULK }}
+    {INST M26=p12 {TYPE MOS} {COORD x=13.740 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N14=DRN N12=GATE vdd!=SRC vdd!=BULK }}
+    {INST M24=p12 {TYPE MOS} {COORD x=3.760 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N12=DRN N17=GATE vdd!=SRC vdd!=BULK }}
+    {INST M22=p12 {TYPE MOS} {COORD x=1.825 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N59=DRN Ai=GATE vdd!=SRC vdd!=BULK }}
+    {INST M14=n12 {TYPE MOS} {COORD x=9.310 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N13=DRN N12=GATE Ci=SRC gnd!=BULK }}
+    {INST M18=p12 {TYPE MOS} {COORD x=16.745 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N69=DRN N19=GATE N21=SRC vdd!=BULK }}
+    {INST M7=n12 {TYPE MOS} {COORD x=3.760 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N12=DRN N17=GATE gnd!=SRC gnd!=BULK }}
+    {INST M5=n12 {TYPE MOS} {COORD x=6.255 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N43=DRN Ai=GATE gnd!=SRC gnd!=BULK }}
+    {INST M29=p12 {TYPE MOS} {COORD x=9.310 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N48=DRN N12=GATE vdd!=SRC vdd!=BULK }}
+    {INST M17=p12 {TYPE MOS} {COORD x=17.475 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N69=DRN N20=GATE vdd!=SRC vdd!=BULK }}
+    {INST M15=n12 {TYPE MOS} {COORD x=10.065 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N13=DRN Ci=GATE N12=SRC gnd!=BULK }}
+    {INST M2=n12 {TYPE MOS} {COORD x=17.475 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N21=DRN N20=GATE gnd!=SRC gnd!=BULK }}
+    {INST M13=n12 {TYPE MOS} {COORD x=11.245 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN Si=DRN N13=GATE gnd!=SRC gnd!=BULK }}
+    {INST M28=p12 {TYPE MOS} {COORD x=11.245 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN Si=DRN N13=GATE vdd!=SRC vdd!=BULK }}
+    {INST M12=n12 {TYPE MOS} {COORD x=14.480 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N19=DRN N14=GATE gnd!=SRC gnd!=BULK }}
+    {INST M27=p12 {TYPE MOS} {COORD x=14.480 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N19=DRN N14=GATE vdd!=SRC vdd!=BULK }}
+    {INST M4=n12 {TYPE MOS} {COORD x=5.785 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N43=DRN Bi=GATE N18=SRC gnd!=BULK }}
+    {INST M23=p12 {TYPE MOS} {COORD x=2.580 y=2.700 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N59=DRN Bi=GATE N17=SRC vdd!=BULK }}
+    {INST M25=p12 {TYPE MOS} {COORD x=13.270 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N14=DRN Ci=GATE vdd!=SRC vdd!=BULK }}
+    {INST M30=p12 {TYPE MOS} {COORD x=10.065 y=2.700 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N48=DRN Ci=GATE N13=SRC vdd!=BULK }}
+    {INST M8=n12 {TYPE MOS} {COORD x=1.825 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N17=DRN Ai=GATE Bi=SRC gnd!=BULK }}
+    {INST M9=n12 {TYPE MOS} {COORD x=2.580 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N17=DRN Bi=GATE Ai=SRC gnd!=BULK }}
+    {INST M1=n12 {TYPE MOS} {COORD x=18.210 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN Ci1=DRN N21=GATE gnd!=SRC gnd!=BULK }}
+    {INST M16=p12 {TYPE MOS} {COORD x=18.210 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN Ci1=DRN N21=GATE vdd!=SRC vdd!=BULK }}
+    {INST M3=n12 {TYPE MOS} {COORD x=16.740 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N21=DRN N19=GATE gnd!=SRC gnd!=BULK }}
+    {INST M20=p12 {TYPE MOS} {COORD x=6.255 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N18=DRN Ai=GATE vdd!=SRC vdd!=BULK }}
+    {INST M6=n12 {TYPE MOS} {COORD x=6.995 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N20=DRN N18=GATE gnd!=SRC gnd!=BULK }}
+    {INST M21=p12 {TYPE MOS} {COORD x=6.995 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N20=DRN N18=GATE vdd!=SRC vdd!=BULK }}
+    {INST M10=n12 {TYPE MOS} {COORD x=13.270 y=0.915 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N34=DRN Ci=GATE N14=SRC gnd!=BULK }}
+    {INST M19=p12 {TYPE MOS} {COORD x=5.785 y=2.710 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N18=DRN Bi=GATE vdd!=SRC vdd!=BULK }}
+}
+}

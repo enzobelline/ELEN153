@@ -1,0 +1,45 @@
+[14:48:05.05] /r giWindowId 0
+[14:48:05.05] /r giWindowGeometry 600x300
+[14:48:05.07] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Jan 21 14:48:01 2021
+              /c Host: linux11113
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[14:48:10.77] /r giShowFrameTabs true
+[14:48:10.77] /r giWindowId 1
+[14:48:10.77] /r giWindowGeometry 1040x800
+[14:48:12.44] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:48:12.45] /# 
+[14:48:12.58] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:48:12.58] /# 
+[14:48:12.75] /i dm::showLibraryManager
+[14:48:12.75] /r giWindowId 2
+[14:48:12.76] /r giWindowGeometry 660x600+50+76
+[14:48:12.80] /o oa:0x1a74c220
+[14:48:14.85] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+824+90
+[14:48:20.97] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+477+222
+[14:48:29.35] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+825+141
+[14:48:29.85] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+830+148
+[14:48:36.38] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[14:50:56.31] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[14:50:57.95] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+461+240
+[14:50:58.62] /i exit
+[14:50:58.64] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:50:58.94] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+762+497
+[14:50:58.95] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+461+241
+[14:51:00.22] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:51:00.83] /o Shutdown time: Thu Jan 21 14:51:00 2021
+[14:51:00.83] /o Elapsed session real time: 2.93 minutes
+[14:51:00.83] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_1_21_144801_2286.log

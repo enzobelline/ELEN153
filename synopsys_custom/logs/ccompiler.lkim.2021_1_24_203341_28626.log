@@ -1,0 +1,72 @@
+[20:33:44.95] /r giWindowId 0
+[20:33:44.95] /r giWindowGeometry 600x300
+[20:33:44.97] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 20:33:41 2021
+              /c Host: linux11104
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[20:33:50.69] /r giShowFrameTabs true
+[20:33:50.69] /r giWindowId 1
+[20:33:50.69] /r giWindowGeometry 1040x800
+[20:33:52.28] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[20:33:52.29] /# 
+[20:33:52.43] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[20:33:52.43] /# 
+[20:33:52.59] /i dm::showLibraryManager
+[20:33:52.59] /r giWindowId 2
+[20:33:52.59] /r giWindowGeometry 660x600+50+76
+[20:33:52.62] /o oa:0x20efd490
+[20:33:56.23] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 2]
+[20:33:56.23] /i dm::showNewLibrary -parent 2
+[20:33:56.29] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[20:33:56.56] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 458x467+720+211
+[20:33:59.71] /i gi::setField {libName} -value {hello} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[20:33:59.71] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[20:33:59.73] /# dm::createLib hello -path {./hello} -dmSystem oaDMFileSys
+[20:34:00.13] /# db::attachTech [oa::LibFind [ oa::ScalarName [oa::CdbaNS] hello]] -refLib [oa::LibFind [ oa::ScalarName [oa::CdbaNS] SAED\_PDK\_90]]
+[20:34:00.16] /o 	############################################
+[20:34:00.16] /o 	        Synopsys Generic 90nm iPDK          
+[20:34:00.16] /o 	--------------------------------------------
+[20:34:00.16] /o 	Release Date .............. : 11-May-2016    
+[20:34:00.16] /o 	============================================
+[20:34:00.16] /o 	        Recommended Tool Versions           
+[20:34:00.16] /o 	--------------------------------------------
+[20:34:00.16] /o 	Custom Designer ........... : J-2014.12-2    
+[20:34:00.16] /o 	IC Validator .............. : K-2015.12   
+[20:34:00.16] /o 	StarRC..................... : K-2015.12  
+[20:34:00.16] /o 	--------------------------------------------
+[20:34:00.16] /o 	############################################
+[20:34:00.16] /o 
+[20:34:00.23] /o SAED PDK 90: Loaded callbacks
+[20:34:00.27] /o SAED PDK 90: Loaded display resources
+[20:34:03.63] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[20:34:03.63] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[20:34:11.64] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[20:34:11.64] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[20:34:13.39] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 2]
+[20:34:13.39] /i dm::showNewLibrary -parent 2
+[20:34:13.43] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[20:34:13.73] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 458x467+720+211
+[20:34:21.79] /i gi::closeWindows [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[20:34:21.79] /i gi::setField {libName} -value {hello} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[20:34:22.96] /i gi::setCurrentIndex {libs} -index {hello} -in [gi::getWindows 2]
+[20:34:22.97] /i gi::setItemSelection {libs} -index {hello} -in [gi::getWindows 2]
+[20:34:55.25] /i exit
+[20:34:55.27] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[20:34:55.56] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[20:34:56.18] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[20:34:56.83] /o Shutdown time: Sun Jan 24 20:34:56 2021
+[20:34:56.83] /o Elapsed session real time: 1.2 minutes
+[20:34:56.83] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_1_24_203341_28626.log

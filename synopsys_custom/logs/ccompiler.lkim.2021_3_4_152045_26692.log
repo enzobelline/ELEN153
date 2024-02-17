@@ -1,0 +1,1067 @@
+[15:20:47.77] /r giWindowId 0
+[15:20:47.77] /r giWindowGeometry 600x300
+[15:20:47.78] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Mar  4 15:20:45 2021
+              /c Host: linux11107
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[15:20:51.77] /r giShowFrameTabs true
+[15:20:51.77] /r giWindowId 1
+[15:20:51.77] /r giWindowGeometry 1040x800
+[15:20:56.37] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+817+54
+[15:20:58.59] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:20:58.59] /# 
+[15:20:58.77] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:20:58.77] /# 
+[15:20:58.90] /i dm::showLibraryManager
+[15:20:58.90] /r giWindowId 2
+[15:20:58.90] /r giWindowGeometry 1910x909+5+78
+[15:20:58.95] /o oa:0x1ca21340
+[15:21:02.65] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:21:02.67] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:21:03.75] /i gi::setCurrentIndex {cells} -index {NOR} -in [gi::getWindows 2]
+[15:21:03.84] /i gi::setItemSelection {cells} -index {NOR} -in [gi::getWindows 2]
+[15:21:05.14] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:21:05.16] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:21:07.27] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:21:07.29] /m Information: License 'Basic' checked out. (LICENSE-003)
+[15:21:07.35] /o 	############################################
+[15:21:07.35] /o 	        Synopsys Generic 90nm iPDK          
+[15:21:07.35] /o 	--------------------------------------------
+[15:21:07.35] /o 	Release Date .............. : 11-May-2016    
+[15:21:07.35] /o 	============================================
+[15:21:07.35] /o 	        Recommended Tool Versions           
+[15:21:07.35] /o 	--------------------------------------------
+[15:21:07.35] /o 	Custom Designer ........... : J-2014.12-2    
+[15:21:07.35] /o 	IC Validator .............. : K-2015.12   
+[15:21:07.35] /o 	StarRC..................... : K-2015.12  
+[15:21:07.35] /o 	--------------------------------------------
+[15:21:07.35] /o 	############################################
+[15:21:07.35] /o 
+[15:21:07.37] /o SAED PDK 90: Loaded callbacks
+[15:21:07.40] /o SAED PDK 90: Loaded display resources
+[15:21:07.46] /r giWindowId 3
+[15:21:07.46] /r giWindowGeometry 1632x869
+[15:21:10.25] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+210+54
+[15:21:10.64] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:21:10.95] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[15:21:11.03] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[15:21:47.15] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:21:47.15] /i xt::physicalVerification::executeRun lvs 3
+[15:21:47.54] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:21:47.66] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:21:47.79] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:21:47.95] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:21:48.55] /r giWindowId 4
+[15:21:48.56] /r giWindowGeometry 800x600
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.16] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.16] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.16] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:21:49.22] /e Error: The job 'icv_lvs_9' started on host 'localhost' with process id 27085 failed to start or complete successfully; the job's return code is 33.
+[15:21:51.61] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 4]]
+[15:21:54.08] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 4]]
+[15:21:54.74] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 4]]
+[15:23:55.53] /i gi::setActiveWindow 3
+[15:23:55.53] /i gi::setActiveWindow 3 -raise true
+[15:23:56.20] /i gi::setActiveWindow 2
+[15:23:56.20] /i gi::setActiveWindow 2 -raise true
+[15:23:57.73] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[15:23:57.76] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[15:23:58.57] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[15:23:58.72] /i gi::setItemSelection {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[15:23:59.57] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:23:59.59] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:24:01.59] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:24:01.67] /r giWindowId 5
+[15:24:01.68] /r giWindowGeometry 1632x869
+[15:24:10.96] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 5]
+[15:24:10.96] /i xt::showDRCSetup -job drc -window 5
+[15:24:12.11] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:12.78] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]] -value 566x453+877+348
+[15:24:21.11] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:22.46] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:24.08] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:24.65] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:26.24] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:28.85] /i gi::setActiveWindow 3
+[15:24:28.85] /i gi::setActiveWindow 3 -raise true
+[15:24:31.23] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 3]
+[15:24:31.23] /i xt::showDRCSetup -job drc -window 3
+[15:24:32.06] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:32.81] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]] -value 566x453+886+358
+[15:24:34.77] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]] -value 566x453+1171+353
+[15:24:35.08] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:35.72] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]] -value 566x453+384+312
+[15:24:37.78] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]] -value 566x453+593+349
+[15:24:40.71] /i gi::setActiveWindow 5
+[15:24:40.71] /i gi::setActiveWindow 5 -raise true
+[15:24:40.74] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:45.30] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:45.78] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:46.45] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:47.29] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:47.29] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:47.55] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:48.12] /i gi::setField {/tabGroup/customOptionsTab/layerMapFile/entryField} -value {/opt/synopsys-2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:48.12] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:49.43] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:49.50] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[15:24:50.35] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:50.43] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[15:24:51.26] /i gi::setActiveWindow 3
+[15:24:51.26] /i gi::setActiveWindow 3 -raise true
+[15:25:05.10] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:25:06.94] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[15:25:06.94] /i de::fit -window 3 -fitView true
+[15:25:11.59] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[15:25:11.59] /i xt::showLVSSetup -job lvs -window 3
+[15:25:12.65] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+877+344
+[15:25:13.55] /i gi::closeWindows [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:16.38] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:25:16.38] /i xt::physicalVerification::executeRun lvs 3
+[15:25:16.58] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:25:16.68] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:25:16.75] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:25:16.96] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[15:25:18.19] /e Error: The job 'icv_lvs_10' started on host 'localhost' with process id 28172 failed to start or complete successfully; the job's return code is 33.
+[15:25:18.81] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[15:25:18.81] /i xt::showLVSSetup -job lvs -window 3
+[15:25:19.86] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+877+344
+[15:25:20.71] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[15:25:24.91] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-sf\ SPICE\ -quiet=0} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:24.94] /i gi::pressButton {/tabGroup/mainTab/jobParametersGroup/jobClassOptions} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:25.11] /i gi::setActiveDialog [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]]
+[15:25:25.42] /i db::setAttr geometry -of [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]] -value 500x251+1116+468
+[15:25:28.60] /i gi::closeWindows [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]]
+[15:25:28.63] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:29.96] /i gi::setActiveWindow 5
+[15:25:29.96] /i gi::setActiveWindow 5 -raise true
+[15:25:31.73] /i gi::pressButton {/tabGroup/mainTab/jobParametersGroup/jobClassOptions} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:31.89] /i gi::setActiveDialog [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]]
+[15:25:32.17] /i db::setAttr geometry -of [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]] -value 500x251+1116+468
+[15:25:32.75] /i gi::closeWindows [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]]
+[15:25:32.78] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:36.83] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 5]
+[15:25:36.83] /i xt::showLVSSetup -job lvs -window 5
+[15:25:37.88] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:38.15] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 5]] -value 838x454+886+354
+[15:25:41.05] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+43+355
+[15:25:41.90] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 5]]
+[15:25:41.97] /i gi::pressButton {/tabGroup/mainTab/jobParametersGroup/jobClassOptions} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 5]]
+[15:25:42.13] /i gi::setActiveDialog [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 5]]
+[15:25:42.44] /i db::setAttr geometry -of [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 5]] -value 500x251+1125+478
+[15:25:43.75] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:43.84] /i gi::pressButton {/tabGroup/mainTab/jobParametersGroup/jobClassOptions} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:44.02] /i gi::setActiveDialog [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]]
+[15:25:44.32] /i db::setAttr geometry -of [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]] -value 500x251+1116+468
+[15:25:45.85] /i db::setAttr geometry -of [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]] -value 500x251+410+511
+[15:25:46.87] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 3]]
+[15:25:46.90] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:47.60] /i gi::setActiveDialog [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 5]]
+[15:25:47.68] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtJobManagementOptionsDialog} -parent [gi::getWindows 5]]
+[15:25:47.70] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 5]]
+[15:25:56.02] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:25:58.10] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-sf\ SPICE\ } -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:26:00.48] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-sf\ SPICE} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:26:02.79] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 5]]
+[15:26:02.83] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 5]]
+[15:26:04.62] /# xt::physicalVerification::executePve lvs 5 xtLVSExecutePve
+[15:26:04.71] /m Information: "Starting netlisting for design "LAB3/CMOSInverter/schematic"..." (NETLISTING-010)
+[15:26:04.80] /o No Design Integrity rule violations found in "LAB3/CMOSInverter/schematic"
+[15:26:04.95] /m Information: "Netlisting design "LAB3/CMOSInverter/schematic" finished successfully." (NETLISTING-012)
+[15:26:05.68] /r giWindowId 6
+[15:26:05.70] /r giWindowGeometry 800x600
+[15:26:07.92] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:26:08.54] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+751+346
+[15:26:26.97] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_11
+              /c --- ERROR SUMMARY -----------
+              /c Compare Error Summary
+              /c Refer to CMOSInverter.LVS_ERRORS.
+              /c LVS Compare Result: PASS
+              /c TOP equivalence point:
+              /c 		[CMOSInverter, CMOSInverter]
+              /c     1 Successful equivalence points
+              /c     0 Failed equivalence points
+              /c =============================
+              /c 
+[15:26:28.50] /j ::xt::icv::vue::_private::registerConnection linux11107.dc.engr.scu.edu:36495 tcp1 icvVue_1 
+[15:26:28.55] /j ::xt::icv::vue::_private::isJobReady 
+[15:26:28.55] /o false
+[15:26:29.55] /m Information: Connection established with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:26:29.56] /j ::xt::icv::vue::_private::isJobReady 
+[15:26:29.56] /o true
+[15:26:29.57] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 6]]
+[15:26:29.59] /j xt::icv::vue::startFilter LAY 
+[15:26:29.60] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs 
+[15:26:29.62] /j xt::icv::vue::startFilter SCH 
+[15:26:29.64] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs 
+[15:26:30.28] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs 
+[15:26:30.30] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[15:26:30.32] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs 
+[15:26:30.34] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[15:26:30.36] /j xt::icv::vue::openModule CMOSInverter 
+[15:26:30.43] /r giWindowId 7
+[15:26:30.45] /r giWindowGeometry 1632x869
+[15:26:30.81] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[15:26:30.83] /j xt::icv::vue::clearAllProbes CMOSInverter 
+[15:26:30.95] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 7]] -value 1571x132
+[15:26:30.95] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 7]] -value 290x753
+[15:26:30.96] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 7]] -value 290x179
+[15:26:31.06] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:26:35.97] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[15:26:35.98] /j xt::icv::vue::clearAllProbes CMOSInverter 
+[15:26:36.00] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[15:26:36.02] /j xt::icv::vue::clearAllProbes CMOSInverter 
+[15:26:36.65] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:26:37.16] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[15:26:37.98] /i gi::setActiveWindow 3
+[15:26:37.99] /i gi::setActiveWindow 3 -raise true
+[15:26:39.39] /i gi::setActiveWindow 6
+[15:26:39.39] /i gi::setActiveWindow 6 -raise true
+[15:26:40.11] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[15:26:40.62] /i gi::setActiveWindow 5
+[15:26:40.62] /i gi::setActiveWindow 5 -raise true
+[15:26:41.29] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[15:26:42.11] /i gi::setActiveWindow 2
+[15:26:42.11] /i gi::setActiveWindow 2 -raise true
+[15:26:42.63] /i gi::setActiveWindow 3
+[15:26:42.63] /i gi::setActiveWindow 3 -raise true
+[15:26:45.56] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[15:26:45.56] /m Information: Saving design 'LAB4 NOR layout'. (DESIGN_WINDOW-004)
+[15:26:48.86] /# gi::executeAction {xtLVSDebug} -in [gi::getWindows 3]
+[15:26:48.86] /i xt::physicalVerification::startDebugger lvs 3
+[15:26:49.88] /j ::xt::icv::vue::_private::registerConnection linux11107.dc.engr.scu.edu:53632 tcp3 icvVue_2 
+[15:26:49.94] /j ::xt::icv::vue::_private::isJobReady 
+[15:26:49.95] /o false
+[15:26:50.95] /j ::xt::icv::vue::_private::isJobReady 
+[15:26:50.95] /o false
+[15:26:51.95] /m Information: Connection established with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:26:51.95] /j ::xt::icv::vue::_private::isJobReady 
+[15:26:51.95] /o true
+[15:26:51.97] /j xt::icv::vue::startFilter LAY 
+[15:26:51.98] /# gi::executeAction {xtLVSExecutePve} -in [gi::getWindows 3]
+[15:26:51.98] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:26:52.12] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:26:52.20] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:26:52.40] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:26:52.83] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:26:52.86] /j xt::icv::vue::startFilter SCH 
+[15:26:52.87] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:26:53.15] /r giWindowId 8
+[15:26:53.16] /r giWindowGeometry 800x600
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.75] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:26:53.82] /e Error: The job 'icv_lvs_12' started on host 'localhost' with process id 29572 failed to start or complete successfully; the job's return code is 33.
+[15:26:55.94] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 8]]
+[15:27:04.77] /i gi::setActiveTab {tabs} -tabName {NOR.LVS_ERRORS} -in [gi::getWindows 8]
+[15:27:05.57] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:27:05.96] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 8]
+[15:27:06.40] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 8]
+[15:27:06.72] /i gi::setActiveTab {tabs} -tabName {NOR.lvs.custom_compiler.rc} -in [gi::getWindows 8]
+[15:27:07.33] /i gi::setActiveTab {tabs} -tabName {rules.lvs.9m_saed90_lvs.lvs.rs} -in [gi::getWindows 8]
+[15:28:15.64] /i gi::setActiveWindow 3
+[15:28:15.64] /i gi::setActiveWindow 3 -raise true
+[15:28:16.94] /i gi::setActiveWindow 8
+[15:28:16.94] /i gi::setActiveWindow 8 -raise true
+[15:28:22.27] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 8]
+[15:28:24.91] /i gi::setActiveWindow 3
+[15:28:24.91] /i gi::setActiveWindow 3 -raise true
+[15:28:29.31] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[15:28:29.31] /i xt::showLVSSetup -job lvs -window 3
+[15:28:30.37] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+751+346
+[15:28:32.66] /i gi::setActiveWindow 2
+[15:28:32.66] /i gi::setActiveWindow 2 -raise true
+[15:28:35.59] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:28:35.69] /r giWindowId 9
+[15:28:35.70] /r giWindowGeometry 1632x869
+[15:28:39.85] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 9]
+[15:28:39.85] /i xt::showLVSSetup -job lvs -window 9
+[15:28:40.98] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 9]] -value 838x454+886+354
+[15:28:42.65] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 9]] -value 838x454+125+356
+[15:28:42.93] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:28:43.65] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+927+340
+[15:28:45.61] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-sf\ SPICE\ -quiet=0} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:28:46.76] /w Warning: Nothing is bound to the 'BackSpace' in the current active set. (WINDOW-015)
+[15:28:46.83] /w Warning: Nothing is bound to the 'BackSpace' in the current active set. (WINDOW-015)
+[15:28:52.11] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-sf\ SPICE} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:28:53.09] /i gi::pressButton {/apply} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:28:54.75] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:28:54.84] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:28:54.90] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:28:55.11] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:28:55.57] /i gi::setActiveWindow 9
+[15:28:55.57] /i gi::setActiveWindow 9 -raise true
+[15:28:56.19] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:28:57.82] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:28:57.89] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:28:57.94] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:28:58.09] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:28:58.31] /w Warning: Launched Job is duplicate of icv_lvs_13
+[15:28:58.34] /i gi::setActiveWindow 8
+[15:28:58.34] /i gi::setActiveWindow 8 -raise true
+[15:28:59.90] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 9]]
+[15:28:59.99] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 9]]
+[15:29:04.15] /i gi::setActiveWindow 9
+[15:29:04.15] /i gi::setActiveWindow 9 -raise true
+[15:29:06.96] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[15:29:14.37] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_13
+              /c --- ERROR SUMMARY -----------
+              /c Compare Error Summary
+              /c Refer to NOR.LVS_ERRORS.
+              /c LVS Compare Result: FAIL
+              /c TOP equivalence point:
+              /c 		[NOR, NOR]
+              /c     0 Successful equivalence points
+              /c   * 1 Failed equivalence points
+              /c         1 First priority errors
+              /c         0 Second priority errors
+              /c =============================
+              /c 
+[15:29:15.34] /j ::xt::icv::vue::_private::registerConnection linux11107.dc.engr.scu.edu:38652 tcp5 icvVue_3 
+[15:29:15.40] /j ::xt::icv::vue::_private::isJobReady 
+[15:29:15.40] /o false
+[15:29:16.40] /j ::xt::icv::vue::_private::isJobReady 
+[15:29:16.40] /o false
+[15:29:16.40] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:29:16.45] /j xt::icv::vue::openModule NOR 
+[15:29:16.52] /r giWindowId 10
+[15:29:16.53] /r giWindowGeometry 1632x869
+[15:29:16.72] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:29:16.73] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:16.73] /j xt::icv::vue::setTopLayLCV LAB4/NOR/layout 
+[15:29:16.75] /j xt::icv::vue::openLCV LAB4/NOR/layout 
+[15:29:16.75] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:17.41] /m Information: Connection established with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:29:17.44] /j ::xt::icv::vue::_private::isJobReady 
+[15:29:17.44] /o true
+[15:29:17.46] /j xt::icv::vue::startFilter LAY 
+[15:29:17.48] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:29:17.50] /j xt::icv::vue::startFilter SCH 
+[15:29:17.52] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:29:17.98] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:29:18.00] /j xt::icv::vue::setTopLayLCV LAB4/NOR/layout 
+[15:29:18.02] /j xt::icv::vue::openLCV LAB4/NOR/layout 
+[15:29:18.04] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:29:18.07] /j xt::icv::vue::openModule NOR 
+[15:29:18.26] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:18.28] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:22.80] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:22.82] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:22.84] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:22.86] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:22.88] /j xt::icv::vue::openLCVInstance LAB4/NOR/layout LAB4/NOR/layout 
+[15:29:22.90] /j xt::icv::vue::openModule NOR 
+[15:29:22.92] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:22.94] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:32.00] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:32.02] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:32.92] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:32.94] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:38.16] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:29:38.18] /j xt::icv::vue::clearAllProbes NOR 
+[15:29:52.54] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[15:29:52.86] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x636
+[15:29:52.87] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+211+54
+[15:29:54.78] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+5+54
+[15:29:57.05] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[15:29:57.64] /i db::setAttr geometry -of [gi::getFrames 1] -value 1239x933+5+54
+[15:29:59.06] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[15:29:59.06] /i de::fit -window 3 -fitView true
+[15:30:13.26] /i gi::setActiveWindow 2
+[15:30:13.26] /i gi::setActiveWindow 2 -raise true
+[15:30:15.32] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:30:15.35] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:30:16.60] /i gi::setCurrentIndex {cells} -index {NOR} -in [gi::getWindows 2]
+[15:30:16.70] /i gi::setItemSelection {cells} -index {NOR} -in [gi::getWindows 2]
+[15:30:17.42] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:30:17.44] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:30:17.56] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:30:17.59] /r giWindowId 11
+[15:30:17.62] /r giWindowGeometry 1632x869
+[15:30:18.13] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 11]] -value 900x132
+[15:30:18.13] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 11]] -value 290x753
+[15:30:18.15] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]] -value 290x179
+[15:30:20.08] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:30:20.08] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {6.7625 3.49375}
+[15:30:20.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:30:20.19] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {6.78125 3.49375}
+[15:30:20.96] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:20.96] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:20.96] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {6.875 3.6125} -index 0 -intent none]
+[15:30:20.96] /o oa:0x22b19250
+[15:30:22.40] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:22.40] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:22.40] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {6.7125 3.60625} -index 0 -intent none]
+[15:30:22.40] /o oa:0x22a68ec0
+[15:30:24.86] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 11]
+[15:30:24.86] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]] -value true
+[15:30:25.15] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]] -value 290x753
+[15:30:25.84] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:25.84] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:28.73] /i gi::setField {attributes} -value {Vout} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:28.73] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:30.46] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:30:30.46] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {6.53125 3.7}
+[15:30:30.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:30:30.50] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {6.5 3.6875}
+[15:30:30.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:30:30.52] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {6.45625 3.6875}
+[15:30:31.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:30:31.02] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {3.66875 -0.09375}
+[15:30:31.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:30:31.06] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {3.73125 -0.04375}
+[15:30:32.00] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:32.00] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:32.00] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {4.8 0.975} -index 0 -intent none]
+[15:30:32.00] /o oa:0x22d5a5e0
+[15:30:33.11] /i gi::setItemSelection {attributes} -index {effectiveText,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:33.11] /i gi::setCurrentIndex {attributes} -index {effectiveText,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:36.63] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:36.63] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:36.63] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {4.7 1.0375} -index 0 -intent none]
+[15:30:36.63] /o oa:0x228a4930
+[15:30:37.01] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 11]
+[15:30:37.01] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]] -value false
+[15:30:37.33] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 11]] -value 290x779
+[15:30:39.50] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:39.50] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:39.50] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {4.83125 1} -index 0 -intent none]
+[15:30:39.50] /o oa:0x20a54d30
+[15:30:40.14] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:40.14] /i de::cycleActiveFigure [gi::getWindows 11] -direction next
+[15:30:40.14] /o oa:0x224b96d0
+[15:30:40.58] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:40.58] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:40.58] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 11]]]}]
+[15:30:40.99] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:40.99] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 11]]]}]
+[15:30:41.54] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:41.54] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:41.54] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {4.825 1.0125} -index 0 -intent none]
+[15:30:41.54] /o oa:0x20a14d40
+[15:30:42.15] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:42.15] /i de::cycleActiveFigure [gi::getWindows 11] -direction next
+[15:30:42.15] /o oa:0x21e3db50
+[15:30:42.31] /# gi::executeAction {deDescend} -in [gi::getWindows 11]
+[15:30:42.31] /i ide::descend 11 -inPlace false -readOnly auto
+[15:30:42.39] /r giDialog gi::setActiveDialog [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 11]]
+[15:30:42.65] /r giDialog db::setAttr geometry -of [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 11]] -value 393x82+418+428
+[15:30:47.19] /r giDialog gi::closeWindows [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 11]]
+[15:30:47.93] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:47.93] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:47.93] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {4.68125 0.98125} -index 0 -intent none]
+[15:30:47.93] /o oa:0x22a0da50
+[15:30:48.40] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 11]
+[15:30:48.40] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]] -value true
+[15:30:48.72] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 11]] -value 290x753
+[15:30:49.26] /i gi::setItemSelection {attributes} -index {master,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:49.40] /i gi::setCurrentIndex {attributes} -index {master,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:30:54.45] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 11]
+[15:30:55.50] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:30:55.50] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:30:55.50] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 11]]]}]
+[15:30:59.56] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 11]
+[15:30:59.56] /i ise::check
+[15:30:59.61] /m Information: 
+              /c Cross view checking for LAB4/NOR/symbol with LAB4/NOR/schematic
+              /c 	[error] Missing Terminal
+              /c 		Terminal Vout found in schematic is missing in symbol
+              /c 	[error] Extra Terminal
+              /c 		Extra terminal Z found in symbol not found in schematic (DE_EDIT-007)
+[15:30:59.62] /m Information: 
+[15:30:59.62] /o Checking "LAB4/NOR/schematic"
+[15:30:59.62] /o 2 Error(s),0 Warning(s),0 Message(s) found   in "LAB4/NOR/schematic"
+[15:30:59.62] /m Information: Checking process is completed: marking the design violations
+[15:30:59.63] /m Information: Marking of designs is completed
+[15:30:59.68] /r giDialog gi::setActiveDialog [gi::getDialogs {seSchCheckSaveDesign} -parent [gi::getWindows 11]]
+[15:30:59.95] /r giDialog db::setAttr geometry -of [gi::getDialogs {seSchCheckSaveDesign} -parent [gi::getWindows 11]] -value 259x82+485+428
+[15:31:02.25] /r giDialog gi::pressButton {save} -in [gi::getDialogs {seSchCheckSaveDesign} -parent [gi::getWindows 11]]
+[15:31:15.16] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:31:15.17] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {5.31875 0.39375}
+[15:31:16.59] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:31:16.59] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {0.95625 2.20625}
+[15:31:17.29] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:31:17.29] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {7.84375 3.1375}
+[15:31:17.44] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:31:17.44] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {7.76875 3.28125}
+[15:31:18.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:31:18.06] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {7.04375 3.16875}
+[15:31:18.10] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:31:18.10] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {7.0375 3.16875}
+[15:31:18.40] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:31:18.40] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {6.95 3.23125}
+[15:31:18.47] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:31:18.47] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {6.95 3.23125}
+[15:31:19.25] /# gi::executeAction {deSelectActive} -in [gi::getWindows 11]
+[15:31:19.25] /i de::deselectAll [db::getNext [de::getContexts -window 11]]
+[15:31:19.25] /i de::select [de::getActiveFigure [gi::getWindows 11] -point {6.69375 3.625} -index 0 -intent none]
+[15:31:19.25] /o oa:0x222fc900
+[15:31:20.48] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:31:20.48] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:31:22.53] /i gi::setField {attributes} -value {Z} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:31:22.53] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 11]]
+[15:31:24.47] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 11]
+[15:31:24.47] /i ise::check
+[15:31:24.52] /m Information: 
+              /c Cross view checking for LAB4/NOR/symbol with LAB4/NOR/schematic
+              /c No violations found. (DE_EDIT-007)
+[15:31:24.53] /m Information: 
+[15:31:24.53] /o Checking "LAB4/NOR/schematic"
+[15:31:24.53] /o No rule violations found in "LAB4/NOR/schematic"
+[15:31:24.53] /m Information: Checking process is completed: marking the design violations
+[15:31:24.63] /m Information: Marking of designs is completed
+[15:31:29.00] /i gi::setActiveWindow 3
+[15:31:29.00] /i gi::setActiveWindow 3 -raise true
+[15:31:29.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:31:29.72] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.441 13.661}
+[15:31:30.16] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:31:30.16] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.2 6.89}
+[15:31:30.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:31:30.19] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.2 6.89}
+[15:31:31.40] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:31:31.40] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:31:31.40] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.344 5.903} -index 0 -intent none]
+[15:31:31.40] /o oa:0x22d12830
+[15:31:32.16] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:31:32.16] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[15:31:32.16] /o oa:0x22dd38b0
+[15:31:32.16] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:31:32.16] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.344 5.903} -index 1 -intent none]
+[15:31:32.16] /o oa:0x22dd3d00
+[15:31:33.43] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[15:31:33.43] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[15:31:33.75] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x719
+[15:31:33.75] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x719
+[15:31:34.80] /i gi::setItemSelection {attributes} -index {text,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:34.80] /i gi::setCurrentIndex {attributes} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:36.19] /i gi::setField {attributes} -value {gnd!} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:36.65] /i gi::executeAction {dePropertyEditorApplyChanges} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:37.61] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:31:37.61] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.978 7.613}
+[15:31:38.56] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:31:38.56] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {5.141 8.106}
+[15:31:38.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:31:38.60] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {5.141 8.115}
+[15:31:39.19] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:31:39.19] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:31:39.19] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {5.064 8.255} -index 0 -intent none]
+[15:31:39.19] /o oa:0x231c89c0
+[15:31:39.80] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:31:39.80] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[15:31:39.80] /o oa:0x23deba30
+[15:31:39.80] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:31:39.80] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {5.064 8.255} -index 1 -intent none]
+[15:31:39.80] /o oa:0x23ec8870
+[15:31:41.04] /i gi::setItemSelection {attributes} -index {text,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:41.04] /i gi::setCurrentIndex {attributes} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:42.59] /i gi::setField {attributes} -value {Z} -index {text,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:42.59] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:44.67] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:31:44.69] /j xt::icv::vue::clearAllProbes NOR 
+[15:31:47.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:31:47.66] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.41 8.442}
+[15:31:49.71] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[15:31:49.72] /m Information: Saving design 'LAB4 NOR layout'. (DESIGN_WINDOW-004)
+[15:31:52.41] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:31:52.41] /i xt::physicalVerification::executeRun lvs 3
+[15:31:52.64] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:31:52.73] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:31:52.77] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:31:52.94] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:31:53.62] /i gi::setActiveWindow 8
+[15:31:53.62] /i gi::setActiveWindow 8 -raise true
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:53.65] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:31:54.08] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[15:31:54.95] /i gi::setActiveWindow 10
+[15:31:54.95] /i gi::setActiveWindow 10 -raise true
+[15:31:56.11] /i gi::executeAction giCloseWindow -in [gi::getWindows 10]
+[15:31:58.85] /r giWindowId 12
+[15:31:58.86] /r giWindowGeometry 800x600
+[15:31:58.92] /e Error: The job 'icv_lvs_14' started on host 'localhost' with process id 31777 failed to start or complete successfully; the job's return code is 33.
+[15:32:02.96] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:02.97] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:02.99] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:03.01] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:03.03] /j xt::icv::vue::openLCVInstance LAB4/NOR/layout LAB4/NOR/layout 
+[15:32:03.05] /j xt::icv::vue::openModule NOR 
+[15:32:03.07] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:03.09] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:03.76] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:32:08.19] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:08.21] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:10.25] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:10.27] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:10.29] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:10.31] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:10.33] /j xt::icv::vue::openLCVInstance LAB4/NOR/layout LAB4/NOR/layout 
+[15:32:10.35] /j xt::icv::vue::openModule NOR 
+[15:32:10.37] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:10.39] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:10.93] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:10.95] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:11.73] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:11.75] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:15.86] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:15.87] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:15.89] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:15.91] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:15.93] /j xt::icv::vue::openModule NOR 
+[15:32:15.95] /j xt::icv::vue::openLCVInstance LAB4/NOR/layout LAB4/NOR/layout 
+[15:32:15.97] /j xt::icv::vue::clearAllProbes NOR 
+[15:32:15.99] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:16.65] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:32:17.08] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:32:17.38] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[15:32:17.78] /i gi::setActiveWindow 3
+[15:32:17.78] /i gi::setActiveWindow 3 -raise true
+[15:32:18.83] /i gi::executeAction giCloseWindow -in [gi::getWindows 12]
+[15:32:19.95] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:32:19.95] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.036 10.118}
+[15:32:19.99] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:32:19.99] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.985 9.931}
+[15:32:20.72] /i gi::setActiveWindow 2
+[15:32:20.72] /i gi::setActiveWindow 2 -raise true
+[15:32:21.50] /i gi::setActiveWindow 11
+[15:32:21.50] /i gi::setActiveWindow 11 -raise true
+[15:32:22.42] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:32:22.42] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {5.95 3.46875}
+[15:32:23.76] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 11]
+[15:32:23.76] /i ise::check
+[15:32:23.81] /m Information: 
+              /c Cross view checking for LAB4/NOR/symbol with LAB4/NOR/schematic
+              /c No violations found. (DE_EDIT-007)
+[15:32:23.82] /m Information: 
+[15:32:23.82] /o Checking "LAB4/NOR/schematic"
+[15:32:23.82] /o No rule violations found in "LAB4/NOR/schematic"
+[15:32:23.82] /m Information: Checking process is completed: marking the design violations
+[15:32:23.92] /m Information: Marking of designs is completed
+[15:32:26.28] /i gi::setActiveWindow 3
+[15:32:26.28] /i gi::setActiveWindow 3 -raise true
+[15:32:30.73] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:32:30.73] /i xt::physicalVerification::executeRun lvs 3
+[15:32:30.93] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:32:31.01] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:32:31.05] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:32:31.22] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:32:31.94] /r giWindowId 13
+[15:32:31.96] /r giWindowGeometry 800x600
+[15:32:33.76] /i gi::setActiveWindow 3
+[15:32:33.76] /i gi::setActiveWindow 3 -raise true
+[15:32:34.61] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[15:32:34.61] /m Information: Saving design 'LAB4 NOR layout'. (DESIGN_WINDOW-004)
+[15:32:36.19] /i gi::setActiveWindow 13
+[15:32:36.19] /i gi::setActiveWindow 13 -raise true
+[15:32:50.07] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_15
+              /c --- ERROR SUMMARY -----------
+              /c Compare Error Summary
+              /c Refer to NOR.LVS_ERRORS.
+              /c LVS Compare Result: PASS
+              /c TOP equivalence point:
+              /c 		[NOR, NOR]
+              /c     1 Successful equivalence points
+              /c     0 Failed equivalence points
+              /c =============================
+              /c 
+[15:32:51.09] /j ::xt::icv::vue::_private::registerConnection linux11107.dc.engr.scu.edu:53904 tcp7 icvVue_4 
+[15:32:51.13] /j ::xt::icv::vue::_private::isJobReady 
+[15:32:51.13] /o false
+[15:32:52.13] /j ::xt::icv::vue::_private::isJobReady 
+[15:32:52.13] /o false
+[15:32:53.13] /m Information: Connection established with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:32:53.13] /j ::xt::icv::vue::_private::isJobReady 
+[15:32:53.13] /o true
+[15:32:53.15] /j xt::icv::vue::startFilter LAY 
+[15:32:53.17] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:32:53.19] /j xt::icv::vue::startFilter SCH 
+[15:32:53.21] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:32:53.87] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:32:53.89] /j xt::icv::vue::setTopLayLCV LAB4/NOR/layout 
+[15:32:53.91] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.lvs 
+[15:32:53.93] /j xt::icv::vue::openLCV LAB4/NOR/layout 
+[15:32:53.95] /j xt::icv::vue::openModule NOR 
+[15:32:54.14] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:32:54.16] /j xt::icv::vue::clearAllProbes NOR 
+[15:33:29.20] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:33:29.22] /j xt::icv::vue::clearAllProbes NOR 
+[15:33:34.31] /j xt::icv::vue::clearAllProbes NOR 
+[15:33:34.32] /j xt::icv::vue::clearAllHighlights LAB4/NOR/layout 
+[15:33:34.95] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11107.dc.engr.scu.edu'.
+[15:33:35.84] /i gi::setActiveWindow 3
+[15:33:35.84] /i gi::setActiveWindow 3 -raise true
+[15:33:36.94] /i gi::setActiveWindow 13
+[15:33:36.94] /i gi::setActiveWindow 13 -raise true
+[15:33:37.71] /i gi::setActiveTab {tabs} -tabName {NOR.LVS_ERRORS} -in [gi::getWindows 13]
+[15:33:52.14] /i gi::setActiveWindow 11
+[15:33:52.14] /i gi::setActiveWindow 11 -raise true
+[15:33:53.30] /i gi::setActiveWindow 3
+[15:33:53.30] /i gi::setActiveWindow 3 -raise true
+[15:33:54.68] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[15:33:54.68] /i de::fit -window 3 -fitView true
+[15:34:03.46] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[15:34:03.46] /i xt::physicalVerification::executeRun drc 3
+[15:34:03.91] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[15:34:04.34] /r giWindowId 14
+[15:34:04.35] /r giWindowGeometry 800x600
+[15:34:15.56] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_7
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[15:36:10.29] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 14]
+[15:36:16.81] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 14]
+[15:36:17.71] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 14]
+[15:36:22.29] /i gi::setActiveWindow 13
+[15:36:22.29] /i gi::setActiveWindow 13 -raise true
+[15:36:24.37] /i gi::setActiveWindow 14
+[15:36:24.37] /i gi::setActiveWindow 14 -raise true
+[15:36:25.11] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 14]
+[15:36:26.77] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 14]
+[15:43:34.22] /i gi::setActiveWindow 11
+[15:43:34.22] /i gi::setActiveWindow 11 -raise true
+[15:43:34.79] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:43:34.79] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:43:34.80] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:43:34.80] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:43:34.82] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:43:34.82] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:43:34.85] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:43:34.85] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:43:35.78] /# gi::executeAction {seSchematicObjectFilterToggle} -in [gi::getWindows 11]
+[15:43:35.78] /i db::setAttr shown -of [gi::getAssistants seSchematicObjectFilter -from [gi::getWindows 11]] -value true
+[15:43:36.07] /i db::setAttr dockSize -of [gi::getAssistants seSchematicObjectFilter -from [gi::getWindows 11]] -value 290x753
+[15:43:36.50] /# gi::executeAction {deDeselectActive} -in [gi::getWindows 11]
+[15:43:36.74] /# gi::executeAction {seSchematicObjectFilterToggle} -in [gi::getWindows 11]
+[15:43:36.74] /i db::setAttr shown -of [gi::getAssistants seSchematicObjectFilter -from [gi::getWindows 11]] -value false
+[15:43:37.52] /# gi::executeAction {seSchematicObjectFilterToggle} -in [gi::getWindows 11]
+[15:43:37.52] /i db::setAttr shown -of [gi::getAssistants seSchematicObjectFilter -from [gi::getWindows 11]] -value true
+[15:43:38.65] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:43:38.65] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:43:38.67] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:43:38.67] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:43:39.03] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 11]
+[15:43:39.03] /i de::pan -window [gi::getWindows 11] -direction E -multiplier 0.5
+[15:43:39.05] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 11]
+[15:43:39.05] /i de::pan -window [gi::getWindows 11] -direction E -multiplier 0.5
+[15:43:39.10] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 11]
+[15:43:39.10] /i de::pan -window [gi::getWindows 11] -direction E -multiplier 0.5
+[15:43:39.57] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 11]
+[15:43:39.57] /i de::pan -window [gi::getWindows 11] -direction E -multiplier 0.5
+[15:43:39.61] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 11]
+[15:43:39.61] /i de::pan -window [gi::getWindows 11] -direction E -multiplier 0.5
+[15:43:40.23] /# gi::executeAction {deFitEdit} -in [gi::getWindows 11]
+[15:43:40.23] /i de::fit -window 11 -fitEdit true
+[15:43:51.75] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[15:43:52.05] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 11]] -value 900x132
+[15:43:52.05] /i db::setAttr geometry -of [gi::getFrames 1] -value 1239x933+5+54
+[15:43:53.01] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:43:53.34] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 11]] -value 1571x132
+[15:43:53.34] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[15:43:56.08] /i gi::addAssistant [gi::getAssistants giConsole -from [gi::getWindows 11]] -to [gi::getWindows 11]  -floating true
+[15:43:56.45] /i db::setAttr geometry -of [gi::getAssistants giConsole -from [gi::getWindows 11]] -value 955x132+39+844
+[15:43:57.69] /i gi::addAssistant [gi::getAssistants giConsole -from [gi::getWindows 11]] -to [gi::getWindows 11] -dock bottom -tabbed false
+[15:43:59.86] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 11]] -value 1571x89
+[15:44:01.06] /# gi::executeAction {deFitEdit} -in [gi::getWindows 11]
+[15:44:01.06] /i de::fit -window 11 -fitEdit true
+[15:44:02.71] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 11]
+[15:44:02.71] /i de::pan -window [gi::getWindows 11] -direction W -multiplier 0.5
+[15:44:05.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 11]
+[15:44:05.06] /i de::zoom -window [gi::getWindows 11] -factor 2.0 -center {0.99375 2.85}
+[15:44:06.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 11]
+[15:44:06.26] /i de::zoom -window [gi::getWindows 11] -factor 0.5 -center {-2.06875 2.05}
+[15:45:43.54] /# gi::executeAction {deFitEdit} -in [gi::getWindows 11]
+[15:45:43.54] /i de::fit -window 11 -fitEdit true
+[15:45:48.92] /# gi::executeAction {deCanvasShiftCursorLeft10} -in [gi::getWindows 11]
+[15:45:48.92] /i de::shiftCursor [gi::getWindows 11] -point {-2.9875 3.0375} -left 10
+[15:50:00.19] /i gi::setActiveWindow 3
+[15:50:00.19] /i gi::setActiveWindow 3 -raise true
+[15:50:00.96] /i gi::setActiveWindow 14
+[15:50:00.97] /i gi::setActiveWindow 14 -raise true
+[15:50:04.94] /i gi::setActiveWindow 3
+[15:50:04.94] /i gi::setActiveWindow 3 -raise true
+[15:50:05.57] /i gi::setActiveWindow 14
+[15:50:05.57] /i gi::setActiveWindow 14 -raise true
+[15:50:07.67] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 14]
+[15:50:08.74] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 14]
+[15:50:21.70] /i gi::setActiveWindow 3
+[15:50:21.70] /i gi::setActiveWindow 3 -raise true
+[15:50:28.30] /i gi::setActiveWindow 13
+[15:50:28.30] /i gi::setActiveWindow 13 -raise true
+[15:50:31.70] /i gi::setActiveWindow 14
+[15:50:31.70] /i gi::setActiveWindow 14 -raise true
+[15:50:32.67] /i gi::setActiveWindow 3
+[15:50:32.67] /i gi::setActiveWindow 3 -raise true
+[15:50:33.32] /i gi::setActiveWindow 11
+[15:50:33.32] /i gi::setActiveWindow 11 -raise true
+[15:50:35.97] /i gi::setActiveWindow 2
+[15:50:35.97] /i gi::setActiveWindow 2 -raise true
+[15:50:39.16] /i gi::setCurrentIndex {libs} -index {LAB6} -in [gi::getWindows 2]
+[15:50:39.19] /i gi::setItemSelection {libs} -index {LAB6} -in [gi::getWindows 2]
+[15:50:39.78] /i gi::setCurrentIndex {libs} -index {LAB5} -in [gi::getWindows 2]
+[15:50:39.79] /i gi::setItemSelection {libs} -index {LAB5} -in [gi::getWindows 2]
+[15:50:41.13] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:50:41.18] /i gi::setItemSelection {cells} -index {NOR} -in [gi::getWindows 2]
+[15:50:41.20] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:50:41.22] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:50:41.91] /i gi::setCurrentIndex {libs} -index {LAB5} -in [gi::getWindows 2]
+[15:50:41.93] /i gi::setItemSelection {libs} -index {LAB5} -in [gi::getWindows 2]
+[15:50:42.42] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:50:42.46] /i gi::setItemSelection {cells} -index {NOR} -in [gi::getWindows 2]
+[15:50:42.48] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:50:42.50] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:50:43.58] /i gi::setActiveWindow 11
+[15:50:43.58] /i gi::setActiveWindow 11 -raise true
+[15:50:46.31] /i gi::setActiveWindow 3
+[15:50:46.31] /i gi::setActiveWindow 3 -raise true
+[15:50:54.04] /i gi::setActiveWindow 14
+[15:50:54.04] /i gi::setActiveWindow 14 -raise true
+[15:50:55.67] /i gi::setActiveWindow 13
+[15:50:55.67] /i gi::setActiveWindow 13 -raise true
+[15:50:57.76] /i gi::setActiveWindow 14
+[15:50:57.76] /i gi::setActiveWindow 14 -raise true
+[15:50:58.45] /i gi::setActiveWindow 3
+[15:50:58.45] /i gi::setActiveWindow 3 -raise true
+[15:50:58.96] /i gi::setActiveWindow 11
+[15:50:58.96] /i gi::setActiveWindow 11 -raise true
+[15:51:03.05] /i gi::setActiveWindow 2
+[15:51:03.05] /i gi::setActiveWindow 2 -raise true
+[15:51:04.32] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[15:51:04.35] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[15:51:05.52] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[15:51:05.68] /i gi::setItemSelection {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[15:51:07.00] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:51:07.03] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:51:08.04] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:51:08.07] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:51:08.93] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:51:08.95] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:51:10.42] /i gi::setCurrentIndex {views} -index {layout\.config} -in [gi::getWindows 2]
+[15:51:10.46] /i gi::setItemSelection {views} -index {layout\.config} -in [gi::getWindows 2]
+[15:51:12.00] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:51:12.03] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:51:12.15] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:51:12.22] /r giWindowId 15
+[15:51:12.25] /r giWindowGeometry 1632x869
+[15:51:34.24] /i gi::setActiveWindow 2
+[15:51:34.24] /i gi::setActiveWindow 2 -raise true
+[15:51:35.62] /i gi::setActiveWindow 15
+[15:51:35.62] /i gi::setActiveWindow 15 -raise true
+[15:51:36.69] /i gi::setActiveWindow 2
+[15:51:36.69] /i gi::setActiveWindow 2 -raise true
+[15:51:39.96] /i gi::setActiveWindow 15
+[15:51:39.96] /i gi::setActiveWindow 15 -raise true
+[15:51:41.28] /i gi::setActiveWindow 2
+[15:51:41.28] /i gi::setActiveWindow 2 -raise true
+[15:51:43.05] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:51:43.07] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:51:43.16] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:51:43.20] /r giWindowId 16
+[15:51:43.23] /r giWindowGeometry 1632x869
+[15:51:43.73] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 16]] -value 1571x132
+[15:51:43.73] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 16]] -value 290x753
+[15:51:43.74] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 16]] -value 290x179
+[16:14:15.70] /i gi::setActiveWindow 2
+[16:14:15.70] /i gi::setActiveWindow 2 -raise true
+[16:14:57.37] /i gi::sortItems {views} -column {Views} -order {descending} -in [gi::getWindows 2]
+[16:14:58.36] /i gi::sortItems {views} -column {Views} -order {ascending} -in [gi::getWindows 2]
+[16:14:59.74] /i gi::setCurrentIndex {libs} -index {LAB6} -in [gi::getWindows 2]
+[16:14:59.77] /i gi::setItemSelection {libs} -index {LAB6} -in [gi::getWindows 2]
+[16:15:02.35] /# gi::executeAction {dmShowNewCell} -in [gi::getWindows 2]
+[16:15:02.35] /i dm::showNewCell -parent 2
+[16:15:02.40] /i gi::setActiveDialog [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[16:15:02.66] /i db::setAttr geometry -of [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]] -value 448x227+726+356
+[16:15:05.28] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[16:15:07.19] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:15:07.19] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:15:07.50] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:15:07.50] /r giMenuAccess db::getAttr menu -of [db::getNext [gi::getActions dmEditCopyCascade -from [db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]]]]
+[16:15:09.00] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[16:15:09.00] /i dm::showNewCellView -parent 2
+[16:15:09.05] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[16:15:09.35] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+656+327
+[16:15:25.65] /i gi::setField {cellName} -value {HALFADDER} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[16:15:29.92] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[16:15:29.92] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:15:34.31] /i gi::setField {editor} -value {Schematic\ Editor} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[16:15:35.61] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[16:15:35.62] /# db::getAttr viewType -of [dm::findCellView schematic -cell [dm::findCell HALFADDER -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB6]]]]
+[16:15:35.62] /# dm::createCellView schematic -cell [dm::findCell HALFADDER -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB6]]] -viewType schematic
+[16:15:35.64] /# de::open [dm::findCellView schematic -cell [dm::findCell HALFADDER -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB6]]]] -application seSchematic
+[16:15:35.75] /r giWindowId 17
+[16:15:35.79] /r giWindowGeometry 1632x869
+[16:15:36.35] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 17]] -value 1571x132
+[16:15:36.35] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 17]] -value 290x753
+[16:15:36.35] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 17]] -value 290x179
+[16:15:37.92] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 17]
+[16:18:08.71] /# gi::executeAction {deSelectActive} -in [gi::getWindows 17]
+[16:18:08.71] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 17]]]}]
+[16:18:43.90] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 17]
+[16:18:43.91] /i gi::executeAction {menuPreShow} -in [gi::getWindows 17]
+[16:18:43.91] /r giMenuAccess db::getNext [gi::getMenus seSchCanvasContextMenu]
+[16:18:48.68] /# gi::executeAction {deSelectActive} -in [gi::getWindows 17]
+[16:18:48.68] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 17]]]}]
+[16:18:49.26] /# gi::executeAction {seCreateInst} -in [gi::getWindows 17]
+[16:18:49.26] /i ise::createInst
+[16:18:49.28] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:18:49.28] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:18:49.31] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:18:49.63] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]] -value 359x337+1+56
+[16:18:53.04] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:18:53.04] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:18:53.04] /i gi::setField {instMasterLib} -value {analogLib} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:18:53.35] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]] -value 359x337+1+56
+[16:19:07.96] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:19:16.65] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 17]
+[16:19:16.66] /i gi::executeAction {menuPreShow} -in [gi::getWindows 17]
+[16:19:16.66] /r giMenuAccess db::getNext [gi::getMenus seSchCanvasContextMenu]
+[16:21:51.72] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[16:22:05.62] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[16:22:05.62] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[16:22:07.00] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 17]
+[16:22:07.01] /i gi::executeAction {menuPreShow} -in [gi::getWindows 17]
+[16:22:07.01] /r giMenuAccess db::getNext [gi::getMenus seSchCanvasContextMenu]
+[16:22:08.47] /# gi::executeAction {seCreateInst} -in [gi::getWindows 17]
+[16:22:08.47] /i ise::createInst
+[16:22:08.55] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:22:08.55] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:22:08.59] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]]
+[16:22:08.93] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 17]] -value 359x337+1+56
+[16:22:13.25] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 17]
+[16:22:13.25] /i de::abortCommand -context [db::getNext [de::getContexts -window 17]]
+[16:22:13.79] /i gi::setActiveWindow 2
+[16:22:13.79] /i gi::setActiveWindow 2 -raise true
+[16:22:18.00] /# gi::executeAction {dmShowAddLibrary} -in [gi::getWindows 2]
+[16:22:18.00] /i dm::showAddLibrary -parent 2
+[16:22:18.00] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[16:22:18.09] /i gi::setActiveDialog [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:22:18.36] /i db::setAttr geometry -of [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]] -value 445x297+728+321
+[16:22:19.50] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:22:25.61] /r giFileDialog reject .
+[16:22:39.40] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[16:24:35.56] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[16:24:35.56] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[16:24:36.84] /i gi::pressButton {cancel} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:24:39.35] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[16:24:39.46] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[16:24:39.92] /i gi::setCurrentIndex {libs} -index {LAB1} -in [gi::getWindows 2]
+[16:24:39.94] /i gi::setItemSelection {libs} -index {LAB1} -in [gi::getWindows 2]
+[16:24:40.46] /i gi::setCurrentIndex {libs} -index {LAB6} -in [gi::getWindows 2]
+[16:24:40.47] /i gi::setItemSelection {libs} -index {LAB6} -in [gi::getWindows 2]
+[16:24:41.38] /i gi::setCurrentIndex {cells} -index {HALFADDER} -in [gi::getWindows 2]
+[16:24:41.42] /i gi::setItemSelection {cells} -index {HALFADDER} -in [gi::getWindows 2]
+[16:24:41.55] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[16:24:41.55] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[16:24:41.56] /r giWindowId 18
+[16:24:41.62] /r giWindowGeometry 1632x869
+[16:24:42.15] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 18]] -value 1571x132
+[16:24:42.15] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 18]] -value 290x753
+[16:24:42.16] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 18]] -value 290x179
+[16:24:43.27] /i gi::setActiveWindow 17
+[16:24:43.27] /i gi::setActiveWindow 17 -raise true
+[16:24:44.16] /i gi::executeAction giCloseWindow -in [gi::getWindows 17]
+[16:24:45.06] /i gi::executeAction giCloseWindow -in [gi::getWindows 16]
+[16:24:45.27] /i gi::setActiveWindow 15
+[16:24:45.27] /i gi::setActiveWindow 15 -raise true
+[16:24:46.23] /i gi::executeAction giCloseWindow -in [gi::getWindows 15]
+[16:24:46.84] /i gi::setActiveWindow 3
+[16:24:46.84] /i gi::setActiveWindow 3 -raise true
+[16:24:47.38] /i gi::executeAction giCloseWindow -in [gi::getWindows 11]
+[16:24:48.31] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[16:24:49.01] /i gi::executeAction giCloseWindow -in [gi::getWindows 14]
+[16:24:49.74] /i gi::executeAction giCloseWindow -in [gi::getWindows 13]
+[16:24:50.66] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 18]
+[16:24:50.66] /i gi::executeAction {menuPreShow} -in [gi::getWindows 18]
+[16:24:50.66] /r giMenuAccess db::getNext [gi::getMenus seSchCanvasContextMenu]
+[16:24:52.24] /# gi::executeAction {seCreateInst} -in [gi::getWindows 18]
+[16:24:52.24] /i ise::createInst
+[16:24:52.31] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 18]]
+[16:24:52.31] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 18]]
+[16:24:52.34] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 18]]
+[16:24:52.65] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 18]] -value 359x337+1+56
+[16:25:00.80] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[16:25:01.07] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+810+425
+[16:25:01.77] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[16:25:01.79] /i exit
+[16:25:01.82] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 18]]
+[16:25:02.11] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 18]] -value 419x207+750+376
+[16:25:04.67] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 18]]
+[16:25:05.07] /# gi::executeAction {deAddPoint} -in [gi::getWindows 18]
+[16:25:05.07] /i de::addPoint {2.325 1.94375} -context [db::getNext [de::getContexts -window 18]]
+[16:25:05.79] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 18]]
+[16:25:05.87] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 18]]
+[16:25:06.66] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 18]
+[16:25:06.66] /i ise::check
+[16:25:06.71] /m Information: 
+[16:25:06.71] /o Checking "LAB6/HALFADDER/schematic"
+[16:25:06.71] /o No rule violations found in "LAB6/HALFADDER/schematic"
+[16:25:06.71] /m Information: Checking process is completed: marking the design violations
+[16:25:06.79] /m Information: Marking of designs is completed
+[16:25:09.36] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 18]] -value 900x132
+[16:25:09.36] /i db::setAttr geometry -of [gi::getFrames 1] -value 1239x933+5+54
+[16:25:09.91] /o Error: Application terminated: XLib fatal IO error (XIOHandler)
+              /c  (APPLICATION_GUI-001)[16:25:09.92] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[16:25:09.92] /o Stack Dump:
+              /c  VERSION P-2019.06-SP1-7[16:25:09.94] /e Error: The application was unexpectedly terminated.
+              /c               /c  CONFIG See the session log file for recovery details.5329942 (SHUT_DOWN-001)
+              /c  DATE Thu Mar  4 15:20:45 2021
+[16:25:09.97] /o signal number = Frame 11
+0              /c . 

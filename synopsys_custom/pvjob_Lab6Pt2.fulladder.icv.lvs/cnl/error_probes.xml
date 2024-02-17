@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler, build#  on 2/14/2021 6:10:55 PM -->
+<synopsys_file name="synopsysProbeFile" version="1.0">
+        <probe>
+                <context version="1">
+                        <top_cell_view>
+                                <lib>Lab6Pt2</lib>
+                                <cell>fulladder</cell>
+                                <view>schematic</view>
+                        </top_cell_view>
+                        <view_search_list>auCdl schematic symbol</view_search_list>
+                        <view_stop_list>auCdl</view_stop_list>
+                </context>
+                <type>Cellview</type>
+                <tool>CDL netlister</tool>
+                <object></object>
+                <packet>highlight1</packet>
+                <description>SRC/ERC check needed</description>
+                <longDescription>Design Lab6Pt2/fulladder/schematic has been changed since the last successful SRC/ERC check</longDescription>
+                <purpose>error</purpose>
+        </probe>
+</synopsys_file>

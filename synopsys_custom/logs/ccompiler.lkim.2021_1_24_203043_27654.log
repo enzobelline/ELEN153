@@ -1,0 +1,37 @@
+[20:30:47.40] /r giWindowId 0
+[20:30:47.40] /r giWindowGeometry 600x300
+[20:30:47.42] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 20:30:43 2021
+              /c Host: linux11104
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[20:30:53.78] /r giShowFrameTabs true
+[20:30:53.78] /r giWindowId 1
+[20:30:53.78] /r giWindowGeometry 1040x800
+[20:30:55.15] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[20:30:55.16] /# 
+[20:30:55.30] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[20:30:55.30] /# 
+[20:30:55.46] /i dm::showLibraryManager
+[20:30:55.46] /r giWindowId 2
+[20:30:55.47] /r giWindowGeometry 660x600+50+76
+[20:30:55.51] /o oa:0x2103b390
+[20:30:57.44] /i exit
+[20:30:57.47] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[20:30:57.76] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[20:30:58.58] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[20:30:59.24] /o Shutdown time: Sun Jan 24 20:30:59 2021
+[20:30:59.24] /o Elapsed session real time: 0.2 minutes
+[20:30:59.24] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_1_24_203043_27654.log

@@ -1,0 +1,184 @@
+[14:05:47.45] /r giWindowId 0
+[14:05:47.45] /r giWindowGeometry 600x300
+[14:05:47.47] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Feb 18 14:05:43 2021
+              /c Host: linux11101
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[14:05:56.27] /r giShowFrameTabs true
+[14:05:56.27] /r giWindowId 1
+[14:05:56.27] /r giWindowGeometry 1040x800
+[14:07:32.05] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:07:32.07] /# 
+[14:07:32.19] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:07:32.19] /# 
+[14:07:32.37] /i dm::showLibraryManager
+[14:07:32.37] /r giWindowId 2
+[14:07:32.37] /r giWindowGeometry 660x600+50+76
+[14:07:32.42] /o oa:0x21cfcc70
+[14:29:06.54] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:29:06.56] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:29:07.42] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[14:29:07.44] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[14:29:19.65] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:29:19.66] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:29:20.25] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[14:29:20.26] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[14:29:21.68] /i gi::setCurrentIndex {cells} -index {RC_Network} -in [gi::getWindows 2]
+[14:29:21.77] /i gi::setItemSelection {cells} -index {RC_Network} -in [gi::getWindows 2]
+[14:29:22.36] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:29:22.45] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:29:22.84] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[14:29:22.98] /i gi::setItemSelection {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[14:29:24.94] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:29:24.96] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:29:35.28] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[14:29:35.28] /i dm::showNewCellView -parent 2
+[14:29:35.35] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:29:35.63] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+655+302
+[14:29:44.20] /i gi::setCurrentIndex {libs} -index {LAB1} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:29:44.28] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:29:49.20] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 2]
+[14:29:49.20] /i dm::showNewLibrary -parent 2
+[14:29:49.27] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:29:49.55] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 458x467+720+211
+[14:29:56.68] /i gi::setField {libName} -value {LAB5} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:29:56.68] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:29:56.70] /# dm::createLib LAB5 -path {./LAB5} -dmSystem oaDMFileSys
+[14:29:57.12] /# db::attachTech [oa::LibFind [ oa::ScalarName [oa::CdbaNS] LAB5]] -refLib [oa::LibFind [ oa::ScalarName [oa::CdbaNS] SAED\_PDK\_90]]
+[14:29:57.15] /o 	############################################
+[14:29:57.15] /o 	        Synopsys Generic 90nm iPDK          
+[14:29:57.15] /o 	--------------------------------------------
+[14:29:57.15] /o 	Release Date .............. : 11-May-2016    
+[14:29:57.15] /o 	============================================
+[14:29:57.15] /o 	        Recommended Tool Versions           
+[14:29:57.15] /o 	--------------------------------------------
+[14:29:57.15] /o 	Custom Designer ........... : J-2014.12-2    
+[14:29:57.15] /o 	IC Validator .............. : K-2015.12   
+[14:29:57.15] /o 	StarRC..................... : K-2015.12  
+[14:29:57.15] /o 	--------------------------------------------
+[14:29:57.15] /o 	############################################
+[14:29:57.15] /o 
+[14:29:57.22] /o SAED PDK 90: Loaded callbacks
+[14:29:57.26] /o SAED PDK 90: Loaded display resources
+[14:29:58.62] /i gi::setCurrentIndex {libs} -index {LAB5} -in [gi::getWindows 2]
+[14:29:58.63] /i gi::setItemSelection {libs} -index {LAB5} -in [gi::getWindows 2]
+[14:30:00.75] /# gi::executeAction {dmShowNewCell} -in [gi::getWindows 2]
+[14:30:00.75] /i dm::showNewCell -parent 2
+[14:30:00.79] /i gi::setActiveDialog [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:30:01.06] /i db::setAttr geometry -of [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]] -value 448x227+725+331
+[14:30:03.77] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:30:16.07] /# gi::executeAction {dmShowNewCell} -in [gi::getWindows 2]
+[14:30:16.07] /i dm::showNewCell -parent 2
+[14:30:16.11] /i gi::setActiveDialog [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:30:16.38] /i db::setAttr geometry -of [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]] -value 448x227+725+331
+[14:30:34.74] /i gi::setField {cellName} -value {NOR4} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:30:36.15] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:30:36.15] /# dm::createCell NOR4 -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB5]]
+[14:30:36.15] /# gi::setItemSelection {cells} -index {NOR4} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:30:36.16] /i gi::setCurrentIndex {cells} -index {NOR4} -in [gi::getWindows 2]
+[14:30:37.33] /i gi::setItemSelection {cells} -index {NOR4} -in [gi::getWindows 2]
+[14:30:39.98] /i gi::executeAction {dmDelete} -in [gi::getWindows 2]
+[14:30:40.00] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[14:30:40.27] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 354x92+773+423
+[14:30:41.18] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[14:30:42.89] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:30:42.89] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[14:30:43.20] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:30:43.20] /r giMenuAccess db::getAttr menu -of [db::getNext [gi::getActions dmEditCopyCascade -from [db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]]]]
+[14:30:56.91] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:30:56.92] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[14:31:03.51] /i gi::setCurrentIndex {cells} -index {NOR} -in [gi::getWindows 2]
+[14:31:03.58] /i gi::setItemSelection {cells} -index {NOR} -in [gi::getWindows 2]
+[14:31:08.32] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:31:08.32] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[14:31:08.32] /i dm::showNewCellView -parent 2
+[14:31:08.38] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:31:08.65] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+655+302
+[14:31:11.84] /i gi::setField {cellViewName} -value {layout} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:31:14.78] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:31:14.79] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell NOR -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB4]]]]
+[14:31:14.79] /# dm::createCellView layout -cell [dm::findCell NOR -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB4]]] -viewType maskLayout
+[14:31:14.81] /# de::open [dm::findCellView layout -cell [dm::findCell NOR -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] LAB4]]]] -application leLayout
+[14:31:14.85] /m Information: License 'Basic' checked out. (LICENSE-003)
+[14:31:14.99] /r giWindowId 3
+[14:31:15.00] /r giWindowGeometry 1632x869
+[14:31:18.00] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[14:31:18.33] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[14:31:18.35] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[14:31:20.37] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:31:20.37] /i de::fit -window 3 -fitView true
+[14:34:26.62] /i db::setPrefValue leDRDTool -value DRD
+[14:34:26.63] /o oa:0x1e05bed0
+[14:34:30.64] /w Warning: Setting leSmartDRDMode will not take effect until the 'Advanced' license is available. (DRD-005)
+[14:34:30.64] /i gi::setField {drdMode} -value {Visual} -in [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]]
+[14:35:02.81] /# gi::executeAction {deShowGeneralOptions} -in [gi::getWindows 3]
+[14:35:02.81] /i de::showGeneralOptions
+[14:35:03.15] /i db::setAttr geometry -of [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]] -value 888x567+506+186
+[14:35:04.14] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout.Display} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:04.14] /# gi::setItemSelection {generalOptionsSelector} -index {Layout.Display} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:12.13] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout.Cursor} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:12.13] /# gi::setItemSelection {generalOptionsSelector} -index {Layout.Cursor} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:17.07] /# gi::setField {dynamicDisplay} -value {true} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:39.46] /# gi::setField {canvasDXDY} -value {true} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:43.50] /# gi::pressButton {apply} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:43.51] /# 
+[14:35:43.51] /i db::setPrefValue leMeasurement -value true
+[14:35:43.51] /i db::setPrefValue leDDCanvasDXDY -value true
+[14:35:44.11] /# gi::pressButton {ok} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:35:44.11] /# 
+[14:35:49.63] /# gi::executeAction {leShowDesignOptions} -in [gi::getWindows 3]
+[14:35:49.63] /i le::showDesignOptions
+[14:35:49.65] /i gi::setActiveTab {tabWidget} -tabName {grids} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:35:49.65] /i gi::setActiveTab {tabWidget} -tabName {general} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:35:49.68] /i gi::setActiveDialog [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:35:50.04] /i db::setAttr geometry -of [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]] -value 655x777+633+119
+[14:35:52.32] /i gi::setActiveTab {tabWidget} -tabName {grids} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:35:58.46] /i gi::setField {gravity} -value {true} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:36:01.53] /i gi::setField {alignAssist} -value {Implicit} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:36:14.04] /i gi::pressButton {ok} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:39:59.71] /i gi::setActiveWindow 2
+[14:39:59.71] /i gi::setActiveWindow 2 -raise true
+[14:40:11.64] /# gi::executeAction {dbShowTechnologyManager} -in [gi::getWindows 2]
+[14:40:11.64] /i db::showManageTechnology
+[14:40:11.64] /r giWindowId 4
+[14:40:11.65] /r giWindowGeometry 350x400
+[14:40:12.06] /w Warning: Conflicting definitions for ConstraintDef minEnclosure were read. These constraints will not be available.
+[14:40:12.06] /w Warning: Conflicting definitions for ConstraintDef endOfLineEnclosure were read. These constraints will not be available.
+[14:40:12.06] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[14:40:12.10] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {{LAB1}} -in [gi::getWindows 4]
+[14:40:12.10] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {} -in [gi::getWindows 4]
+[14:40:12.10] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {{LAB4}} -in [gi::getWindows 4]
+[14:40:17.35] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[14:40:18.12] /i gi::setActiveWindow 3
+[14:40:18.12] /i gi::setActiveWindow 3 -raise true
+[14:40:25.43] /i gi::executeAction {lxSDL} -in [gi::getWindows 3]
+[14:40:25.63] /i gi::setActiveDialog [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[14:40:25.95] /i db::setAttr geometry -of [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]] -value 349x355+786+259
+[14:43:08.53] /i gi::setField {configLCVView} -value {layout.config} -in [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[14:46:12.50] /i gi::pressButton {cancel} -in [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[15:15:20.19] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[15:15:20.19] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+              /c 
+[15:15:20.21] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details.[15:15:20.22] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)
+              /c  (SHUT_DOWN-001)
+[15:15:20.24] /o Process killed
+              /c Information: The process was terminated by "Illegal instruction" signal.
+              /c signal number = 4
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Thu Feb 18 14:05:43 2021
+              /c Frame 0. <>0x0x21f0c528 + 0x0
+[15:15:20.45] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,0 +1,134 @@
+[16:47:33.69] /r giWindowId 0
+[16:47:33.69] /r giWindowGeometry 600x300
+[16:47:33.70] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 16:47:29 2021
+              /c Host: linux11102
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[16:47:39.77] /r giShowFrameTabs true
+[16:47:39.77] /r giWindowId 1
+[16:47:39.77] /r giWindowGeometry 1040x800
+[16:47:48.52] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:47:48.52] /# 
+[16:47:48.63] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:47:48.63] /# 
+[16:47:48.83] /i dm::showLibraryManager
+[16:47:48.83] /r giWindowId 2
+[16:47:48.83] /r giWindowGeometry 996x909+5+78
+[16:47:48.87] /o oa:0x20dc5cb0
+[16:47:49.91] /i gi::setCurrentIndex {libs} -index {LAB2} -in [gi::getWindows 2]
+[16:47:49.92] /i gi::setItemSelection {libs} -index {LAB2} -in [gi::getWindows 2]
+[16:47:51.36] /i gi::setCurrentIndex {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[16:47:51.38] /i gi::setItemSelection {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[16:47:51.72] /i gi::setCurrentIndex {cells} -index {CMOSInverterDC_tb} -in [gi::getWindows 2]
+[16:47:51.81] /i gi::setItemSelection {cells} -index {CMOSInverterDC_tb} -in [gi::getWindows 2]
+[16:47:52.21] /i gi::setCurrentIndex {cells} -index {CMOSInverter_tb} -in [gi::getWindows 2]
+[16:47:52.29] /i gi::setItemSelection {cells} -index {CMOSInverter_tb} -in [gi::getWindows 2]
+[16:47:52.53] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[16:47:52.53] /i gi::setItemSelection {cells} -index {{CMOSInverter} - {CMOSInverter_tb}} -in [gi::getWindows 2]
+[16:48:01.02] /i gi::setCurrentIndex {cells} -index {CMOSInverterDC_tb} -in [gi::getWindows 2]
+[16:48:01.19] /i gi::setItemSelection {cells} -index {CMOSInverterDC_tb} -in [gi::getWindows 2]
+[16:48:02.43] /i gi::setCurrentIndex {cells} -index {CMOSInverter_tb} -in [gi::getWindows 2]
+[16:48:02.50] /i gi::setItemSelection {cells} -index {CMOSInverter_tb} -in [gi::getWindows 2]
+[16:48:04.56] /i gi::setCurrentIndex {cells} -index {CMOSInverterDC_tb} -in [gi::getWindows 2]
+[16:48:04.61] /i gi::setItemSelection {cells} -index {CMOSInverterDC_tb} -in [gi::getWindows 2]
+[16:48:06.42] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[16:48:06.44] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[16:48:08.55] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[16:48:08.60] /o 	############################################
+[16:48:08.60] /o 	        Synopsys Generic 90nm iPDK          
+[16:48:08.60] /o 	--------------------------------------------
+[16:48:08.60] /o 	Release Date .............. : 11-May-2016    
+[16:48:08.60] /o 	============================================
+[16:48:08.60] /o 	        Recommended Tool Versions           
+[16:48:08.60] /o 	--------------------------------------------
+[16:48:08.60] /o 	Custom Designer ........... : J-2014.12-2    
+[16:48:08.60] /o 	IC Validator .............. : K-2015.12   
+[16:48:08.60] /o 	StarRC..................... : K-2015.12  
+[16:48:08.60] /o 	--------------------------------------------
+[16:48:08.60] /o 	############################################
+[16:48:08.60] /o 
+[16:48:08.66] /o SAED PDK 90: Loaded callbacks
+[16:48:08.70] /o SAED PDK 90: Loaded display resources
+[16:48:08.72] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[16:48:08.83] /r giWindowId 3
+[16:48:08.84] /r giWindowGeometry 1632x869
+[16:48:09.24] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[16:48:09.24] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[16:48:11.53] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 3]
+[16:48:11.53] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[16:48:11.53] /r giMenuAccess db::getNext [gi::getMenus seSchInstanceContextMenu]
+[16:48:13.25] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[16:48:13.25] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[16:48:13.25] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.9375 2.08125} -index 0 -intent none]
+[16:48:13.26] /o oa:0x216df320
+[16:48:13.92] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[16:48:13.92] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[16:48:14.24] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 701x211
+[16:48:18.65] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[16:48:19.86] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[16:48:19.86] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[16:48:19.86] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.2625 2.10625} -index 0 -intent none]
+[16:48:19.86] /o oa:0x21b79560
+[16:48:20.53] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[16:48:20.53] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value false
+[16:48:20.85] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 997x211
+[16:48:22.63] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[16:48:22.63] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[16:48:22.63] /o oa:0x21ab6130
+[16:48:22.83] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[16:48:22.84] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[16:48:23.15] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 701x211
+[16:48:26.94] /i gi::setActiveWindow 2
+[16:48:26.94] /i gi::setActiveWindow 2 -raise true
+[16:48:28.01] /i gi::setCurrentIndex {cells} -index {CMOSInverter_tb} -in [gi::getWindows 2]
+[16:48:28.13] /i gi::setItemSelection {cells} -index {CMOSInverter_tb} -in [gi::getWindows 2]
+[16:48:29.74] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[16:48:29.77] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[16:48:29.87] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[16:48:29.95] /r giWindowId 4
+[16:48:29.96] /r giWindowGeometry 1632x869
+[16:48:31.58] /# gi::executeAction {deSelectActive} -in [gi::getWindows 4]
+[16:48:31.58] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[16:48:31.58] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {1.01875 2.16875} -index 0 -intent none]
+[16:48:31.58] /o oa:0x224e84b0
+[16:48:31.79] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 4]
+[16:48:31.79] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value true
+[16:48:32.08] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 4]] -value 701x211
+[16:48:38.01] /# gi::executeAction {deSelectActive} -in [gi::getWindows 4]
+[16:48:38.01] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[16:48:38.01] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {0.25 2.1125} -index 0 -intent none]
+[16:48:38.01] /o oa:0x21ecbfb0
+[16:48:38.37] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 4]
+[16:48:40.49] /# gi::executeAction {deSelectActive} -in [gi::getWindows 4]
+[16:48:40.49] /i de::deselectAll [db::getNext [de::getContexts -window 4]]
+[16:48:40.49] /i de::select [de::getActiveFigure [gi::getWindows 4] -point {1.01875 2.1375} -index 0 -intent none]
+[16:48:40.49] /o oa:0x227d5820
+[17:05:14.49] /i gi::setActiveWindow 2
+[17:05:14.49] /i gi::setActiveWindow 2 -raise true
+[17:05:15.05] /i gi::setActiveWindow 3
+[17:05:15.05] /i gi::setActiveWindow 3 -raise true
+[19:16:37.50] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[19:16:37.50] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+              /c 
+[19:16:37.52] /e Error: The application was unexpectedly terminated.
+[19[:1916::1637:.37.5252]] /e Error:  /e Error: The application was unexpectedly terminated.
+See the session log file for recovery details. (SHUT_DOWN-001)
+See the session log file for recovery details.              /c  (SHUT_DOWN-001)
+[19:16:37.53] /o signal number = 11
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Jan 24 16:47:29 2021
+              /c Frame 0. <>0x0x0 + 0x0
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Jan 24 16:47:29 2021
+[19:16:37.73] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="-sf SPICE" name="xtLVSICVOptions"/>
+                <pref value="halfadder" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Lab67.halfadder.icv.lvs/halfadder.net" name="xtLVSLayInputNetlist"/>
+                <pref value="Lab67/halfadder/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Lab67.halfadder.icv.lvs/halfadder.custom_compiler.oas" name="xtLVSLayOasisFile"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Lab67.halfadder.icv.lvs/halfadder.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="halfadder" name="xtLVSSchCell"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Lab67.halfadder.icv.lvs/halfadder.custom_compiler.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="Lab67/halfadder/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Lab67.halfadder.icv.lvs/halfadder.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

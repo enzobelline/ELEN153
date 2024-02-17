@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : Lab67
+* Cell             : ripplecarryadder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt ripplecarryadder A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3
+*.PININFO A0:I A1:I A2:I A3:I B0:I B1:I B2:I B3:I Cin:I Cout:O S0:O S1:O S2:O
+*.PININFO S3:O
+XI5 A1 B1 net99 net100 S1 fulladder
+XI4 A0 B0 Cin net99 S0 fulladder
+XI6 A2 B2 net100 net98 S2 fulladder
+XI7 A3 B3 net98 Cout S3 fulladder
+.ends ripplecarryadder
+

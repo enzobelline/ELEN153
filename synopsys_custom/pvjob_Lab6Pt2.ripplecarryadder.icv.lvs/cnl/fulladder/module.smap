@@ -1,0 +1,36 @@
+<module name="vsl: Lab6Pt2 fulladder schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="OR" dst="XOR"/>
+<mapping src="HA1" dst="XHA1"/>
+<mapping src="HA2" dst="XHA2"/>
+</forward>
+<reverse>
+<mapping src="XOR" dst="OR"/>
+<mapping src="XHA1" dst="HA1"/>
+<mapping src="XHA2" dst="HA2"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="Ai Bi Ci Ci1 Si"/>
+<mapping src="&lt;termOrder>" dst="Ai Bi Ci Ci1 Si"/>
+</forward>
+<reverse>
+<mapping src="Ai Bi Ci Ci1 Si" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="OR">
+<instance name="OR"/>
+</instance_header>
+<instance_header master="halfadder">
+<instance name="HA1"/>
+<instance name="HA2"/>
+</instance_header>
+</master_instances>
+</module>

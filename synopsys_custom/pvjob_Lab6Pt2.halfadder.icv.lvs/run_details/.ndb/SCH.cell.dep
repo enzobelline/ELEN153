@@ -1,0 +1,3 @@
+AND { }
+XOR { }
+halfadder { AND XOR }

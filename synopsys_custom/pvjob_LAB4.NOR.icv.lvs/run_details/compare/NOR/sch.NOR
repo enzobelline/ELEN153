@@ -1,0 +1,23 @@
+{NETLIST NOR
+{VERSION 2 0 0}
+
+{CELL NOR
+    {PORT A vdd! gnd! B C D Z }
+    {INST MM17=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN Z=DRN D=GATE net13=SRC vdd!=BULK }}
+    {INST MM0=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN net5=DRN A=GATE vdd!=SRC vdd!=BULK }}
+    {INST MM16=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN net13=DRN C=GATE net9=SRC vdd!=BULK }}
+    {INST MM15=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN net9=DRN B=GATE net5=SRC vdd!=BULK }}
+    {INST MM5=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN Z=DRN A=GATE gnd!=SRC gnd!=BULK }}
+    {INST MM14=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN Z=DRN D=GATE gnd!=SRC gnd!=BULK }}
+    {INST MM12=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN Z=DRN B=GATE gnd!=SRC gnd!=BULK }}
+    {INST MM13=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN Z=DRN C=GATE gnd!=SRC gnd!=BULK }}
+}
+}

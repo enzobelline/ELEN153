@@ -1,0 +1,738 @@
+00400000-1329d000 r-xp 00000000 00:34 60553934                           /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/cdesigner
+1349d000-14125000 r-xp 12e9d000 00:34 60553934                           /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/cdesigner
+14125000-142df000 rwxp 13b25000 00:34 60553934                           /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/cdesigner
+142df000-182f4000 rwxp 00000000 00:00 0 
+1940c000-2120f000 rwxp 00000000 00:00 0                                  [heap]
+7f0ac0000000-7f0ac0021000 rwxp 00000000 00:00 0 
+7f0ac0021000-7f0ac4000000 ---p 00000000 00:00 0 
+7f0ac8000000-7f0ac8021000 rwxp 00000000 00:00 0 
+7f0ac8021000-7f0acc000000 ---p 00000000 00:00 0 
+7f0acd568000-7f0acd60d000 r-xp 00000000 08:02 201640131                  /usr/share/fonts/dejavu/DejaVuSans-Bold.ttf
+7f0acd60d000-7f0acd6bd000 r-xp 00000000 08:02 201640135                  /usr/share/fonts/dejavu/DejaVuSans.ttf
+7f0acd6bd000-7f0acd8e3000 r-xp 00000000 00:34 60554225                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tclpy/PY2.6.2/tclpy.so
+7f0acd8e3000-7f0acdae3000 ---p 00226000 00:34 60554225                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tclpy/PY2.6.2/tclpy.so
+7f0acdae3000-7f0acdaf3000 rwxp 00226000 00:34 60554225                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tclpy/PY2.6.2/tclpy.so
+7f0acdaf3000-7f0acdaf4000 rwxp 00000000 00:00 0 
+7f0acdaf4000-7f0acdf60000 r-xp 00000000 00:34 1134018923                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/auxx_tcl.rcc
+7f0acdf60000-7f0acdf61000 ---p 00000000 00:00 0 
+7f0acdf61000-7f0ace761000 rwxp 00000000 00:00 0 
+7f0ace761000-7f0ace762000 ---p 00000000 00:00 0 
+7f0ace762000-7f0acef62000 rwxp 00000000 00:00 0 
+7f0acef62000-7f0acef72000 r-xp 00000000 08:02 68491052                   /usr/lib64/libavahi-client.so.3.2.9
+7f0acef72000-7f0acf171000 ---p 00010000 08:02 68491052                   /usr/lib64/libavahi-client.so.3.2.9
+7f0acf171000-7f0acf172000 r-xp 0000f000 08:02 68491052                   /usr/lib64/libavahi-client.so.3.2.9
+7f0acf172000-7f0acf173000 rwxp 00010000 08:02 68491052                   /usr/lib64/libavahi-client.so.3.2.9
+7f0acf173000-7f0acf1d6000 r-xp 00000000 08:02 68311370                   /usr/lib64/libcups.so.2
+7f0acf1d6000-7f0acf3d6000 ---p 00063000 08:02 68311370                   /usr/lib64/libcups.so.2
+7f0acf3d6000-7f0acf3da000 r-xp 00063000 08:02 68311370                   /usr/lib64/libcups.so.2
+7f0acf3da000-7f0acf3db000 rwxp 00067000 08:02 68311370                   /usr/lib64/libcups.so.2
+7f0acf3db000-7f0acf3dc000 rwxp 00000000 00:00 0 
+7f0acf3dc000-7f0acf3e2000 r-xp 00000000 08:02 67269933                   /usr/lib64/libnss_dns-2.17.so
+7f0acf3e2000-7f0acf5e1000 ---p 00006000 08:02 67269933                   /usr/lib64/libnss_dns-2.17.so
+7f0acf5e1000-7f0acf5e2000 r-xp 00005000 08:02 67269933                   /usr/lib64/libnss_dns-2.17.so
+7f0acf5e2000-7f0acf5e3000 rwxp 00006000 08:02 67269933                   /usr/lib64/libnss_dns-2.17.so
+7f0acf5e3000-7f0acf5fc000 r-xp 00000000 00:34 60554219                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tcl-dp/lib/libdp42.so
+7f0acf5fc000-7f0acf7fc000 ---p 00019000 00:34 60554219                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tcl-dp/lib/libdp42.so
+7f0acf7fc000-7f0acf7fd000 r-xp 00019000 00:34 60554219                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tcl-dp/lib/libdp42.so
+7f0acf7fd000-7f0acf7fe000 rwxp 0001a000 00:34 60554219                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/tcl-dp/lib/libdp42.so
+7f0acf7fe000-7f0acf7ff000 rwxp 00000000 00:00 0 
+7f0acf7ff000-7f0acf800000 ---p 00000000 00:00 0 
+7f0acf800000-7f0ad0000000 rwxp 00000000 00:00 0 
+7f0ad0000000-7f0ad0021000 rwxp 00000000 00:00 0 
+7f0ad0021000-7f0ad4000000 ---p 00000000 00:00 0 
+7f0ad4019000-7f0ad4053000 r-xp 00000000 00:34 55398629                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/DejaVuLGCSansMono.ttf
+7f0ad4053000-7f0ad405f000 r-xp 00000000 08:02 68491054                   /usr/lib64/libavahi-common.so.3.5.3
+7f0ad405f000-7f0ad425e000 ---p 0000c000 08:02 68491054                   /usr/lib64/libavahi-common.so.3.5.3
+7f0ad425e000-7f0ad425f000 r-xp 0000b000 08:02 68491054                   /usr/lib64/libavahi-common.so.3.5.3
+7f0ad425f000-7f0ad4260000 rwxp 0000c000 08:02 68491054                   /usr/lib64/libavahi-common.so.3.5.3
+7f0ad4260000-7f0ad4263000 r-xs 00000000 08:02 539310                     /usr/lib/fontconfig/cache/3f84a765-032b-42be-9656-5d34f5a7ad3f-le64.cache-7
+7f0ad4263000-7f0ad4265000 r-xs 00000000 08:02 539309                     /usr/lib/fontconfig/cache/d470c158-124d-4695-946b-340debcc838e-le64.cache-7
+7f0ad4265000-7f0ad4267000 r-xs 00000000 08:02 539308                     /usr/lib/fontconfig/cache/7d58a500-01f4-427a-8bf9-5cc6d989b259-le64.cache-7
+7f0ad4267000-7f0ad427f000 r-xs 00000000 08:02 539307                     /usr/lib/fontconfig/cache/da1457e6-17ee-4b48-af11-290c6ce40dae-le64.cache-7
+7f0ad427f000-7f0ad428a000 r-xs 00000000 08:02 539306                     /usr/lib/fontconfig/cache/0f746356-57b7-43a3-bd3f-0e2faecec975-le64.cache-7
+7f0ad428a000-7f0ad428c000 r-xs 00000000 08:02 539305                     /usr/lib/fontconfig/cache/55691e69-6f53-4c4b-be7d-f05afe6e6d8e-le64.cache-7
+7f0ad428c000-7f0ad428f000 r-xs 00000000 08:02 1901515                    /usr/lib/fontconfig/cache/18b7c10c-91b8-4fe5-8385-b75559473c3d-le64.cache-7
+7f0ad428f000-7f0ad4290000 r-xs 00000000 08:02 539303                     /usr/lib/fontconfig/cache/38346cc4-d8dd-4e97-acca-3edd1abe4e9f-le64.cache-7
+7f0ad4290000-7f0ad4291000 r-xs 00000000 08:02 539302                     /usr/lib/fontconfig/cache/ff16367f-dc81-4a60-bb1d-7982eda1ada8-le64.cache-7
+7f0ad4291000-7f0ad42b0000 r-xs 00000000 08:02 539293                     /usr/lib/fontconfig/cache/d149d290-f621-410f-b38d-048725c7fed8-le64.cache-7
+7f0ad42b0000-7f0ad42b1000 ---p 00000000 00:00 0 
+7f0ad42b1000-7f0ad4ab1000 rwxp 00000000 00:00 0 
+7f0ad4ab1000-7f0ad4b0e000 r-xp 00000000 00:34 1134245839                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqwebp.so
+7f0ad4b0e000-7f0ad4d0d000 ---p 0005d000 00:34 1134245839                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqwebp.so
+7f0ad4d0d000-7f0ad4d10000 rwxp 0005c000 00:34 1134245839                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqwebp.so
+7f0ad4d10000-7f0ad4d15000 r-xp 00000000 00:34 1134245840                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0ad4d15000-7f0ad4f14000 ---p 00005000 00:34 1134245840                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0ad4f14000-7f0ad4f15000 rwxp 00004000 00:34 1134245840                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqwbmp.so
+7f0ad4f15000-7f0ad4f78000 r-xp 00000000 08:02 71221555                   /usr/lib64/libtiff.so.3.9.4
+7f0ad4f78000-7f0ad5177000 ---p 00063000 08:02 71221555                   /usr/lib64/libtiff.so.3.9.4
+7f0ad5177000-7f0ad5179000 r-xp 00062000 08:02 71221555                   /usr/lib64/libtiff.so.3.9.4
+7f0ad5179000-7f0ad517a000 rwxp 00064000 08:02 71221555                   /usr/lib64/libtiff.so.3.9.4
+7f0ad517a000-7f0ad5181000 r-xp 00000000 00:34 1134245846                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqtiff.so
+7f0ad5181000-7f0ad5381000 ---p 00007000 00:34 1134245846                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqtiff.so
+7f0ad5381000-7f0ad5382000 rwxp 00007000 00:34 1134245846                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqtiff.so
+7f0ad5382000-7f0ad5387000 r-xp 00000000 00:34 1134245841                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqtga.so
+7f0ad5387000-7f0ad5586000 ---p 00005000 00:34 1134245841                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqtga.so
+7f0ad5586000-7f0ad5587000 rwxp 00004000 00:34 1134245841                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqtga.so
+7f0ad5587000-7f0ad558c000 r-xp 00000000 00:34 1134245837                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqsvg.so
+7f0ad558c000-7f0ad578c000 ---p 00005000 00:34 1134245837                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqsvg.so
+7f0ad578c000-7f0ad578d000 rwxp 00005000 00:34 1134245837                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqsvg.so
+7f0ad578d000-7f0ad57fa000 r-xp 00000000 08:02 67271279                   /usr/lib64/libmng.so.1.0.0
+7f0ad57fa000-7f0ad59fa000 ---p 0006d000 08:02 67271279                   /usr/lib64/libmng.so.1.0.0
+7f0ad59fa000-7f0ad59fd000 r-xp 0006d000 08:02 67271279                   /usr/lib64/libmng.so.1.0.0
+7f0ad59fd000-7f0ad59ff000 rwxp 00070000 08:02 67271279                   /usr/lib64/libmng.so.1.0.0
+7f0ad59ff000-7f0ad5a05000 r-xp 00000000 00:34 1134245844                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqmng.so
+7f0ad5a05000-7f0ad5c04000 ---p 00006000 00:34 1134245844                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqmng.so
+7f0ad5c04000-7f0ad5c05000 rwxp 00005000 00:34 1134245844                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqmng.so
+7f0ad5c05000-7f0ad5c45000 r-xp 00000000 00:34 1134245843                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0ad5c45000-7f0ad5e45000 ---p 00040000 00:34 1134245843                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0ad5e45000-7f0ad5e46000 rwxp 00040000 00:34 1134245843                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqjpeg.so
+7f0ad5e46000-7f0ad5e89000 r-xp 00000000 08:02 67270075                   /usr/lib64/libjpeg.so.62.1.0
+7f0ad5e89000-7f0ad6089000 ---p 00043000 08:02 67270075                   /usr/lib64/libjpeg.so.62.1.0
+7f0ad6089000-7f0ad608a000 r-xp 00043000 08:02 67270075                   /usr/lib64/libjpeg.so.62.1.0
+7f0ad608a000-7f0ad608b000 rwxp 00044000 08:02 67270075                   /usr/lib64/libjpeg.so.62.1.0
+7f0ad608b000-7f0ad609b000 rwxp 00000000 00:00 0 
+7f0ad609b000-7f0ad60ea000 r-xp 00000000 08:02 67270541                   /usr/lib64/libjasper.so.1.0.0
+7f0ad60ea000-7f0ad62e9000 ---p 0004f000 08:02 67270541                   /usr/lib64/libjasper.so.1.0.0
+7f0ad62e9000-7f0ad62ea000 r-xp 0004e000 08:02 67270541                   /usr/lib64/libjasper.so.1.0.0
+7f0ad62ea000-7f0ad62ee000 rwxp 0004f000 08:02 67270541                   /usr/lib64/libjasper.so.1.0.0
+7f0ad62ee000-7f0ad62f5000 rwxp 00000000 00:00 0 
+7f0ad62f5000-7f0ad62fd000 r-xp 00000000 00:34 1134245845                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqjp2.so
+7f0ad62fd000-7f0ad64fc000 ---p 00008000 00:34 1134245845                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqjp2.so
+7f0ad64fc000-7f0ad64fd000 rwxp 00007000 00:34 1134245845                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqjp2.so
+7f0ad64fd000-7f0ad6504000 r-xp 00000000 00:34 1134245838                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqico.so
+7f0ad6504000-7f0ad6703000 ---p 00007000 00:34 1134245838                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqico.so
+7f0ad6703000-7f0ad6704000 rwxp 00006000 00:34 1134245838                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqico.so
+7f0ad6704000-7f0ad670d000 r-xp 00000000 00:34 1134245847                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqicns.so
+7f0ad670d000-7f0ad690c000 ---p 00009000 00:34 1134245847                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqicns.so
+7f0ad690c000-7f0ad690d000 rwxp 00008000 00:34 1134245847                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqicns.so
+7f0ad690d000-7f0ad6913000 r-xp 00000000 00:34 1134245842                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqgif.so
+7f0ad6913000-7f0ad6b13000 ---p 00006000 00:34 1134245842                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqgif.so
+7f0ad6b13000-7f0ad6b14000 rwxp 00006000 00:34 1134245842                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqgif.so
+7f0ad6b14000-7f0ad6b1f000 r-xp 00000000 00:34 1134245836                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqdds.so
+7f0ad6b1f000-7f0ad6d1e000 ---p 0000b000 00:34 1134245836                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqdds.so
+7f0ad6d1e000-7f0ad6d1f000 rwxp 0000a000 00:34 1134245836                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/imageformats/libqdds.so
+7f0ad6d1f000-7f0ad6d20000 ---p 00000000 00:00 0 
+7f0ad6d20000-7f0ad7520000 rwxp 00000000 00:00 0 
+7f0ad7520000-7f0ad755c000 r-xp 00000000 08:02 68008640                   /usr/lib64/libblkid.so.1.1.0
+7f0ad755c000-7f0ad775b000 ---p 0003c000 08:02 68008640                   /usr/lib64/libblkid.so.1.1.0
+7f0ad775b000-7f0ad775e000 r-xp 0003b000 08:02 68008640                   /usr/lib64/libblkid.so.1.1.0
+7f0ad775e000-7f0ad775f000 rwxp 0003e000 08:02 68008640                   /usr/lib64/libblkid.so.1.1.0
+7f0ad775f000-7f0ad7760000 rwxp 00000000 00:00 0 
+7f0ad7760000-7f0ad77a0000 r-xp 00000000 08:02 68008865                   /usr/lib64/libmount.so.1.1.0
+7f0ad77a0000-7f0ad79a0000 ---p 00040000 08:02 68008865                   /usr/lib64/libmount.so.1.1.0
+7f0ad79a0000-7f0ad79a1000 r-xp 00040000 08:02 68008865                   /usr/lib64/libmount.so.1.1.0
+7f0ad79a1000-7f0ad79a2000 rwxp 00041000 08:02 68008865                   /usr/lib64/libmount.so.1.1.0
+7f0ad79a2000-7f0ad79a3000 rwxp 00000000 00:00 0 
+7f0ad79a3000-7f0ad79a6000 r-xp 00000000 08:02 67219211                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7f0ad79a6000-7f0ad7ba5000 ---p 00003000 08:02 67219211                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7f0ad7ba5000-7f0ad7ba6000 r-xp 00002000 08:02 67219211                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7f0ad7ba6000-7f0ad7ba7000 rwxp 00003000 08:02 67219211                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7f0ad7ba7000-7f0ad7bae000 r-xp 00000000 08:02 67270386                   /usr/lib64/libffi.so.6.0.1
+7f0ad7bae000-7f0ad7dad000 ---p 00007000 08:02 67270386                   /usr/lib64/libffi.so.6.0.1
+7f0ad7dad000-7f0ad7dae000 r-xp 00006000 08:02 67270386                   /usr/lib64/libffi.so.6.0.1
+7f0ad7dae000-7f0ad7daf000 rwxp 00007000 08:02 67270386                   /usr/lib64/libffi.so.6.0.1
+7f0ad7daf000-7f0ad7dfe000 r-xp 00000000 08:02 67219213                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7f0ad7dfe000-7f0ad7ffe000 ---p 0004f000 08:02 67219213                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7f0ad7ffe000-7f0ad7fff000 r-xp 0004f000 08:02 67219213                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7f0ad7fff000-7f0ad8000000 rwxp 00050000 08:02 67219213                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7f0ad8000000-7f0ad8021000 rwxp 00000000 00:00 0 
+7f0ad8021000-7f0adc000000 ---p 00000000 00:00 0 
+7f0adc000000-7f0adc001000 r-xs 00000000 08:02 539301                     /usr/lib/fontconfig/cache/4e8b30fd-c53e-4ae0-9ab2-8d7d27de989b-le64.cache-7
+7f0adc001000-7f0adc002000 r-xs 00000000 08:02 539300                     /usr/lib/fontconfig/cache/9f49c63e-b65a-49f2-90c0-b8cd08814a7d-le64.cache-7
+7f0adc002000-7f0adc005000 r-xs 00000000 08:02 539299                     /usr/lib/fontconfig/cache/7873dc5f-c1ac-4bc4-9054-3260d7750fc4-le64.cache-7
+7f0adc005000-7f0adc006000 r-xs 00000000 08:02 539298                     /usr/lib/fontconfig/cache/6f08d741-b5d7-49a1-8836-0ed172465441-le64.cache-7
+7f0adc006000-7f0adc00a000 r-xs 00000000 08:02 539297                     /usr/lib/fontconfig/cache/55588d1b-d9cd-4aa3-8d32-c79c622ec889-le64.cache-7
+7f0adc00a000-7f0adc00b000 r-xs 00000000 08:02 539296                     /usr/lib/fontconfig/cache/7fa02807-1026-46d2-8882-7588c35030b3-le64.cache-7
+7f0adc00b000-7f0adc00f000 r-xs 00000000 08:02 539295                     /usr/lib/fontconfig/cache/3c2eedd9-ba25-43db-a69b-b4003f2a616a-le64.cache-7
+7f0adc00f000-7f0adc012000 r-xs 00000000 08:02 539294                     /usr/lib/fontconfig/cache/89ff89c2-ba9d-4455-9a24-05967db6c809-le64.cache-7
+7f0adc012000-7f0adc013000 r-xs 00000000 08:02 539292                     /usr/lib/fontconfig/cache/ee86cc1e-ae6b-42a7-bd42-8ae1723c620e-le64.cache-7
+7f0adc013000-7f0adc017000 r-xs 00000000 08:02 539291                     /usr/lib/fontconfig/cache/545591af-7618-41ef-8bb7-fec101e7d4f8-le64.cache-7
+7f0adc017000-7f0adc018000 r-xs 00000000 08:02 539290                     /usr/lib/fontconfig/cache/a1511ac0-fa80-4fe4-b00e-b1959f98301d-le64.cache-7
+7f0adc018000-7f0adc019000 r-xs 00000000 08:02 539289                     /usr/lib/fontconfig/cache/ed1253b8-103a-4057-ac12-8867f067a6de-le64.cache-7
+7f0adc019000-7f0adc01a000 r-xs 00000000 08:02 539288                     /usr/lib/fontconfig/cache/9de89b7c-4e62-41b7-b8a9-5d4515c8d3ed-le64.cache-7
+7f0adc01a000-7f0adc01b000 r-xs 00000000 08:02 539287                     /usr/lib/fontconfig/cache/7f2d7603-810b-4e42-8685-c90af3c546bc-le64.cache-7
+7f0adc01b000-7f0adc01c000 r-xs 00000000 08:02 539286                     /usr/lib/fontconfig/cache/4977651e-dffc-482b-ad3f-b651c1483f32-le64.cache-7
+7f0adc01c000-7f0adc01d000 r-xs 00000000 08:02 539285                     /usr/lib/fontconfig/cache/ba87ed64-517e-406e-a4e1-eedd7924b77c-le64.cache-7
+7f0adc01d000-7f0adc01e000 r-xs 00000000 08:02 539284                     /usr/lib/fontconfig/cache/3516e3be-860d-40d5-8d2f-b3316908e425-le64.cache-7
+7f0adc01e000-7f0adc01f000 r-xs 00000000 08:02 539283                     /usr/lib/fontconfig/cache/f5656393-7c6f-4bf4-9e2a-8c44ee6330fc-le64.cache-7
+7f0adc01f000-7f0adc020000 r-xs 00000000 08:02 539282                     /usr/lib/fontconfig/cache/924fa3c3-0d87-4d42-a307-abfc849d9c88-le64.cache-7
+7f0adc020000-7f0adc021000 r-xs 00000000 08:02 539281                     /usr/lib/fontconfig/cache/c47cac14-e9a2-432e-9231-3b9eb58916b2-le64.cache-7
+7f0adc021000-7f0adc022000 r-xs 00000000 08:02 539280                     /usr/lib/fontconfig/cache/39111fce-2574-4341-b925-49a5b2569525-le64.cache-7
+7f0adc022000-7f0adc023000 r-xs 00000000 08:02 539279                     /usr/lib/fontconfig/cache/b9ca55f7-90fd-4a01-bf16-de783b15b47a-le64.cache-7
+7f0adc023000-7f0adc024000 r-xs 00000000 08:02 539278                     /usr/lib/fontconfig/cache/c563d4b9-0d1b-448e-a0cd-1ad6e3d46f88-le64.cache-7
+7f0adc024000-7f0adc02b000 r-xs 00000000 08:02 539277                     /usr/lib/fontconfig/cache/77b8f32d-a2a7-45e2-a7ac-24d09beb5e0d-le64.cache-7
+7f0adc02b000-7f0adc02d000 r-xs 00000000 08:02 539276                     /usr/lib/fontconfig/cache/faaf4cb3-7d16-4ecb-8f79-02bd43de9c02-le64.cache-7
+7f0adc02d000-7f0adc02e000 r-xs 00000000 08:02 539275                     /usr/lib/fontconfig/cache/d73860d7-6112-4e86-a638-b79b1185460c-le64.cache-7
+7f0adc02e000-7f0adc030000 r-xs 00000000 08:02 539274                     /usr/lib/fontconfig/cache/92984f6a-df28-4958-b2be-9129f6795e4a-le64.cache-7
+7f0adc030000-7f0adc032000 r-xs 00000000 08:02 539273                     /usr/lib/fontconfig/cache/e3121552-d551-4a05-8bc7-e980ecb5ecc2-le64.cache-7
+7f0adc032000-7f0adc034000 r-xs 00000000 08:02 539272                     /usr/lib/fontconfig/cache/9376d4d3-9199-4655-819b-63b8ef7b9f99-le64.cache-7
+7f0adc034000-7f0adc03c000 r-xs 00000000 08:02 539271                     /usr/lib/fontconfig/cache/86204d2c-4441-4e99-a6ce-bf63e461ea94-le64.cache-7
+7f0adc03c000-7f0adc047000 r-xs 00000000 08:02 539270                     /usr/lib/fontconfig/cache/558d178d-4a90-4262-bb93-509216f1aa74-le64.cache-7
+7f0adc047000-7f0adc04f000 r-xs 00000000 08:02 539269                     /usr/lib/fontconfig/cache/d1b872c6-452f-4582-ab4c-cdb799499d87-le64.cache-7
+7f0adc04f000-7f0adc051000 r-xs 00000000 08:02 539268                     /usr/lib/fontconfig/cache/de8f1f3e-0d2e-440d-910c-4e3909a434cf-le64.cache-7
+7f0adc051000-7f0adc054000 r-xs 00000000 08:02 935615                     /usr/lib/fontconfig/cache/fbf53b0e-303b-4077-9a86-34b04d6c1e02-le64.cache-7
+7f0adc054000-7f0adc059000 r-xs 00000000 08:02 539311                     /usr/lib/fontconfig/cache/7e526446-501c-4cb3-a6a7-ab77c86be309-le64.cache-7
+7f0adc05d000-7f0adc0ca000 r-xp 00000000 00:34 55398621                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/DejaVuLGCSans.ttf
+7f0adc0ca000-7f0adc260000 r-xp 00000000 08:02 67219207                   /usr/lib64/libgio-2.0.so.0.5600.1
+7f0adc260000-7f0adc460000 ---p 00196000 08:02 67219207                   /usr/lib64/libgio-2.0.so.0.5600.1
+7f0adc460000-7f0adc465000 r-xp 00196000 08:02 67219207                   /usr/lib64/libgio-2.0.so.0.5600.1
+7f0adc465000-7f0adc468000 rwxp 0019b000 08:02 67219207                   /usr/lib64/libgio-2.0.so.0.5600.1
+7f0adc468000-7f0adc46a000 rwxp 00000000 00:00 0 
+7f0adc46a000-7f0adc490000 r-xp 00000000 08:02 68490952                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7f0adc490000-7f0adc690000 ---p 00026000 08:02 68490952                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7f0adc690000-7f0adc691000 r-xp 00026000 08:02 68490952                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7f0adc691000-7f0adc692000 rwxp 00027000 08:02 68490952                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7f0adc692000-7f0adc6a6000 r-xp 00000000 08:02 67979404                   /usr/lib64/libudev.so.1.6.2
+7f0adc6a6000-7f0adc8a6000 ---p 00014000 08:02 67979404                   /usr/lib64/libudev.so.1.6.2
+7f0adc8a6000-7f0adc8a7000 r-xp 00014000 08:02 67979404                   /usr/lib64/libudev.so.1.6.2
+7f0adc8a7000-7f0adc8a8000 rwxp 00015000 08:02 67979404                   /usr/lib64/libudev.so.1.6.2
+7f0adc8d6000-7f0adca36000 r-xp 00000000 00:34 60553960                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/librq_plugin.so
+7f0adca36000-7f0adcc35000 ---p 00160000 00:34 60553960                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/librq_plugin.so
+7f0adcc35000-7f0adcc3c000 r-xp 0015f000 00:34 60553960                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/librq_plugin.so
+7f0adcc3c000-7f0adcc3f000 rwxp 00166000 00:34 60553960                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/librq_plugin.so
+7f0adcc3f000-7f0adcc42000 rwxp 00000000 00:00 0 
+7f0adcc42000-7f0adcccd000 r-xp 00000000 00:34 60553969                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/libpcell_caching.so
+7f0adcccd000-7f0adcecc000 ---p 0008b000 00:34 60553969                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/libpcell_caching.so
+7f0adcecc000-7f0adced0000 r-xp 0008a000 00:34 60553969                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/libpcell_caching.so
+7f0adced0000-7f0adced2000 rwxp 0008e000 00:34 60553969                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/libpcell_caching.so
+7f0adced2000-7f0adcee4000 r-xp 00000000 00:34 55398615                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/COUR.ttf
+7f0adcee4000-7f0adcef3000 r-xp 00000000 00:34 55398624                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/INFOL___.TTF
+7f0adcef3000-7f0adcf0f000 r-xp 00000000 00:34 55398623                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/INFOT_Synopsys.ttf
+7f0adcf0f000-7f0adcf27000 r-xp 00000000 00:34 55398618                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/AM196___.TTF
+7f0adcf27000-7f0adcf59000 r-xp 00000000 00:34 55398626                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/TNR_WG__.ttf
+7f0adcf59000-7f0adcf65000 r-xp 00000000 00:34 55398632                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/td______.pfb
+7f0adcf65000-7f0adcf9f000 r-xp 00000000 00:34 1134109986                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7f0adcf9f000-7f0add19f000 ---p 0003a000 00:34 1134109986                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7f0add19f000-7f0add1a0000 r-xp 0003a000 00:34 1134109986                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7f0add1a0000-7f0add1a1000 rwxp 0003b000 00:34 1134109986                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7f0add1a1000-7f0add1a2000 rwxp 00000000 00:00 0 
+7f0add1a2000-7f0add600000 r-xp 00000000 00:34 55398735                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/images/images.rcc
+7f0add600000-7f0add613000 r-xp 00000000 00:34 1134110002                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7f0add613000-7f0add812000 ---p 00013000 00:34 1134110002                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7f0add812000-7f0add813000 r-xp 00012000 00:34 1134110002                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7f0add813000-7f0add814000 rwxp 00013000 00:34 1134110002                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7f0add814000-7f0add9a0000 rwxp 00000000 00:00 0 
+7f0add9a0000-7f0add9a9000 r-xp 00000000 00:34 1134109996                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7f0add9a9000-7f0addba9000 ---p 00009000 00:34 1134109996                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7f0addba9000-7f0addbaa000 r-xp 00009000 00:34 1134109996                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7f0addbaa000-7f0addbab000 rwxp 0000a000 00:34 1134109996                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7f0addbab000-7f0addbed000 r-xp 00000000 00:34 60554195                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7f0addbed000-7f0addded000 ---p 00042000 00:34 60554195                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7f0addded000-7f0adddef000 rwxp 00042000 00:34 60554195                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7f0adddef000-7f0adddf0000 ---p 00000000 00:00 0 
+7f0adddf0000-7f0ade5f0000 rwxp 00000000 00:00 0 
+7f0ade5f0000-7f0ade5ff000 r-xp 00000000 08:02 67270142                   /usr/lib64/libbz2.so.1.0.6
+7f0ade5ff000-7f0ade7fe000 ---p 0000f000 08:02 67270142                   /usr/lib64/libbz2.so.1.0.6
+7f0ade7fe000-7f0ade7ff000 r-xp 0000e000 08:02 67270142                   /usr/lib64/libbz2.so.1.0.6
+7f0ade7ff000-7f0ade800000 rwxp 0000f000 08:02 67270142                   /usr/lib64/libbz2.so.1.0.6
+7f0ade800000-7f0ade817000 r-xp 00000000 08:02 67270084                   /usr/lib64/libelf-0.176.so
+7f0ade817000-7f0adea16000 ---p 00017000 08:02 67270084                   /usr/lib64/libelf-0.176.so
+7f0adea16000-7f0adea17000 r-xp 00016000 08:02 67270084                   /usr/lib64/libelf-0.176.so
+7f0adea17000-7f0adea18000 rwxp 00017000 08:02 67270084                   /usr/lib64/libelf-0.176.so
+7f0adea18000-7f0adea1c000 r-xp 00000000 08:02 67270376                   /usr/lib64/libattr.so.1.1.0
+7f0adea1c000-7f0adec1b000 ---p 00004000 08:02 67270376                   /usr/lib64/libattr.so.1.1.0
+7f0adec1b000-7f0adec1c000 r-xp 00003000 08:02 67270376                   /usr/lib64/libattr.so.1.1.0
+7f0adec1c000-7f0adec1d000 rwxp 00004000 08:02 67270376                   /usr/lib64/libattr.so.1.1.0
+7f0adec1d000-7f0adec6b000 r-xp 00000000 08:02 68468019                   /usr/lib64/libdw-0.176.so
+7f0adec6b000-7f0adee6b000 ---p 0004e000 08:02 68468019                   /usr/lib64/libdw-0.176.so
+7f0adee6b000-7f0adee6d000 r-xp 0004e000 08:02 68468019                   /usr/lib64/libdw-0.176.so
+7f0adee6d000-7f0adee6e000 rwxp 00050000 08:02 68468019                   /usr/lib64/libdw-0.176.so
+7f0adee6e000-7f0adee72000 r-xp 00000000 08:02 67270196                   /usr/lib64/libgpg-error.so.0.10.0
+7f0adee72000-7f0adf071000 ---p 00004000 08:02 67270196                   /usr/lib64/libgpg-error.so.0.10.0
+7f0adf071000-7f0adf072000 r-xp 00003000 08:02 67270196                   /usr/lib64/libgpg-error.so.0.10.0
+7f0adf072000-7f0adf073000 rwxp 00004000 08:02 67270196                   /usr/lib64/libgpg-error.so.0.10.0
+7f0adf073000-7f0adf0f0000 r-xp 00000000 08:02 67270209                   /usr/lib64/libgcrypt.so.11.8.2
+7f0adf0f0000-7f0adf2ef000 ---p 0007d000 08:02 67270209                   /usr/lib64/libgcrypt.so.11.8.2
+7f0adf2ef000-7f0adf2f0000 r-xp 0007c000 08:02 67270209                   /usr/lib64/libgcrypt.so.11.8.2
+7f0adf2f0000-7f0adf2f3000 rwxp 0007d000 08:02 67270209                   /usr/lib64/libgcrypt.so.11.8.2
+7f0adf2f3000-7f0adf2f4000 rwxp 00000000 00:00 0 
+7f0adf2f4000-7f0adf302000 r-xp 00000000 08:02 67272388                   /usr/lib64/liblz4.so.1.8.3
+7f0adf302000-7f0adf501000 ---p 0000e000 08:02 67272388                   /usr/lib64/liblz4.so.1.8.3
+7f0adf501000-7f0adf502000 r-xp 0000d000 08:02 67272388                   /usr/lib64/liblz4.so.1.8.3
+7f0adf502000-7f0adf503000 rwxp 0000e000 08:02 67272388                   /usr/lib64/liblz4.so.1.8.3
+7f0adf503000-7f0adf528000 r-xp 00000000 08:02 67270148                   /usr/lib64/liblzma.so.5.2.2
+7f0adf528000-7f0adf727000 ---p 00025000 08:02 67270148                   /usr/lib64/liblzma.so.5.2.2
+7f0adf727000-7f0adf728000 r-xp 00024000 08:02 67270148                   /usr/lib64/liblzma.so.5.2.2
+7f0adf728000-7f0adf729000 rwxp 00025000 08:02 67270148                   /usr/lib64/liblzma.so.5.2.2
+7f0adf729000-7f0adf72d000 r-xp 00000000 08:02 67270378                   /usr/lib64/libcap.so.2.22
+7f0adf72d000-7f0adf92c000 ---p 00004000 08:02 67270378                   /usr/lib64/libcap.so.2.22
+7f0adf92c000-7f0adf92d000 r-xp 00003000 08:02 67270378                   /usr/lib64/libcap.so.2.22
+7f0adf92d000-7f0adf92e000 rwxp 00004000 08:02 67270378                   /usr/lib64/libcap.so.2.22
+7f0adf92e000-7f0adf95d000 r-xp 00000000 08:02 67979348                   /usr/lib64/libsystemd.so.0.6.0
+7f0adf95d000-7f0adfb5d000 ---p 0002f000 08:02 67979348                   /usr/lib64/libsystemd.so.0.6.0
+7f0adfb5d000-7f0adfb5e000 r-xp 0002f000 08:02 67979348                   /usr/lib64/libsystemd.so.0.6.0
+7f0adfb5e000-7f0adfb5f000 rwxp 00030000 08:02 67979348                   /usr/lib64/libsystemd.so.0.6.0
+7f0adfb5f000-7f0adfbe3000 r-xp 00000000 00:34 60553780                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5DBus.so.5.6.2
+7f0adfbe3000-7f0adfde2000 ---p 00084000 00:34 60553780                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5DBus.so.5.6.2
+7f0adfde2000-7f0adfde5000 rwxp 00083000 00:34 60553780                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5DBus.so.5.6.2
+7f0adfde5000-7f0adfdff000 r-xp 00000000 00:34 60553725                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xkb.so.1.0.0
+7f0adfdff000-7f0adffff000 ---p 0001a000 00:34 60553725                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xkb.so.1.0.0
+7f0adffff000-7f0ae0000000 rwxp 0001a000 00:34 60553725                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xkb.so.1.0.0
+7f0ae0000000-7f0ae0021000 rwxp 00000000 00:00 0 
+7f0ae0021000-7f0ae4000000 ---p 00000000 00:00 0 
+7f0ae4001000-7f0ae400c000 r-xp 00000000 00:34 55398628                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/fonts/lc______.ttf
+7f0ae4017000-7f0ae407a000 rwxp 00000000 00:00 0 
+7f0ae407a000-7f0ae407c000 r-xp 00000000 00:34 60553713                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xinerama.so.0.0.0
+7f0ae407c000-7f0ae427b000 ---p 00002000 00:34 60553713                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xinerama.so.0.0.0
+7f0ae427b000-7f0ae427c000 rwxp 00001000 00:34 60553713                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xinerama.so.0.0.0
+7f0ae427c000-7f0ae427e000 r-xp 00000000 00:34 60553720                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-keysyms.so.1.0.0
+7f0ae427e000-7f0ae447d000 ---p 00002000 00:34 60553720                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-keysyms.so.1.0.0
+7f0ae447d000-7f0ae447e000 rwxp 00001000 00:34 60553720                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-keysyms.so.1.0.0
+7f0ae447e000-7f0ae4480000 r-xp 00000000 00:34 60553750                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-shape.so.0.0.0
+7f0ae4480000-7f0ae4680000 ---p 00002000 00:34 60553750                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-shape.so.0.0.0
+7f0ae4680000-7f0ae4681000 rwxp 00002000 00:34 60553750                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-shape.so.0.0.0
+7f0ae4681000-7f0ae4685000 r-xp 00000000 00:34 60553756                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-icccm.so.4.0.0
+7f0ae4685000-7f0ae4884000 ---p 00004000 00:34 60553756                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-icccm.so.4.0.0
+7f0ae4884000-7f0ae4885000 rwxp 00003000 00:34 60553756                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-icccm.so.4.0.0
+7f0ae4885000-7f0ae48d3000 r-xp 00000000 08:02 70089358                   /usr/lib64/libdbus-1.so.3.14.14
+7f0ae48d3000-7f0ae4ad2000 ---p 0004e000 08:02 70089358                   /usr/lib64/libdbus-1.so.3.14.14
+7f0ae4ad2000-7f0ae4ad3000 r-xp 0004d000 08:02 70089358                   /usr/lib64/libdbus-1.so.3.14.14
+7f0ae4ad3000-7f0ae4ad4000 rwxp 0004e000 08:02 70089358                   /usr/lib64/libdbus-1.so.3.14.14
+7f0ae4ad4000-7f0ae4ad5000 rwxp 00000000 00:00 0 
+7f0ae4ad5000-7f0ae4ad8000 r-xp 00000000 00:34 60553715                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-render-util.so.0.0.0
+7f0ae4ad8000-7f0ae4cd7000 ---p 00003000 00:34 60553715                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-render-util.so.0.0.0
+7f0ae4cd7000-7f0ae4cd8000 rwxp 00002000 00:34 60553715                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-render-util.so.0.0.0
+7f0ae4cd8000-7f0ae4cd9000 r-xp 00000000 00:34 60553557                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libX11-xcb.so.1.0.0
+7f0ae4cd9000-7f0ae4ed8000 ---p 00001000 00:34 60553557                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libX11-xcb.so.1.0.0
+7f0ae4ed8000-7f0ae4ed9000 rwxp 00000000 00:34 60553557                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libX11-xcb.so.1.0.0
+7f0ae4ed9000-7f0ae4ff1000 r-xp 00000000 00:34 60553714                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0ae4ff1000-7f0ae51f0000 ---p 00118000 00:34 60553714                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0ae51f0000-7f0ae51f9000 rwxp 00117000 00:34 60553714                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5XcbQpa.so.5.6.2
+7f0ae51f9000-7f0ae51fb000 r-xp 00000000 00:34 60554200                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/platforms/libqxcb.so
+7f0ae51fb000-7f0ae53fb000 ---p 00002000 00:34 60554200                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/platforms/libqxcb.so
+7f0ae53fb000-7f0ae53fc000 rwxp 00002000 00:34 60554200                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/qt/plugins/platforms/libqxcb.so
+7f0ae53fc000-7f0aeb93f000 r-xp 00000000 08:02 69255723                   /usr/lib/locale/locale-archive
+7f0aeb93f000-7f0aeb940000 ---p 00000000 00:00 0 
+7f0aeb940000-7f0aecb41000 rwxp 00000000 00:00 0 
+7f0aecb41000-7f0aecb43000 r-xp 00000000 00:34 1134245830                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0aecb43000-7f0aecd42000 ---p 00002000 00:34 1134245830                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0aecd42000-7f0aecd43000 r-xp 00001000 00:34 1134245830                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0aecd43000-7f0aecd44000 rwxp 00002000 00:34 1134245830                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libsdp_python.so
+7f0aecd44000-7f0aed558000 rwxs 00000000 00:04 12779564                   /SYSVdf7eba5f (deleted)
+7f0aed558000-7f0aed564000 r-xp 00000000 08:02 67269935                   /usr/lib64/libnss_files-2.17.so
+7f0aed564000-7f0aed763000 ---p 0000c000 08:02 67269935                   /usr/lib64/libnss_files-2.17.so
+7f0aed763000-7f0aed764000 r-xp 0000b000 08:02 67269935                   /usr/lib64/libnss_files-2.17.so
+7f0aed764000-7f0aed765000 rwxp 0000c000 08:02 67269935                   /usr/lib64/libnss_files-2.17.so
+7f0aed765000-7f0aed76b000 rwxp 00000000 00:00 0 
+7f0aed76b000-7f0aedfd6000 r-xs 00000000 08:02 68931619                   /var/lib/sss/mc/passwd
+7f0aedfd6000-7f0aedfde000 r-xp 00000000 08:02 68427887                   /usr/lib64/libnss_sss.so.2
+7f0aedfde000-7f0aee1dd000 ---p 00008000 08:02 68427887                   /usr/lib64/libnss_sss.so.2
+7f0aee1dd000-7f0aee1de000 r-xp 00007000 08:02 68427887                   /usr/lib64/libnss_sss.so.2
+7f0aee1de000-7f0aee1df000 rwxp 00008000 08:02 68427887                   /usr/lib64/libnss_sss.so.2
+7f0aee1df000-7f0aee1f6000 r-xp 00000000 08:02 67269927                   /usr/lib64/libnsl-2.17.so
+7f0aee1f6000-7f0aee3f5000 ---p 00017000 08:02 67269927                   /usr/lib64/libnsl-2.17.so
+7f0aee3f5000-7f0aee3f6000 r-xp 00016000 08:02 67269927                   /usr/lib64/libnsl-2.17.so
+7f0aee3f6000-7f0aee3f7000 rwxp 00017000 08:02 67269927                   /usr/lib64/libnsl-2.17.so
+7f0aee3f7000-7f0aee3f9000 rwxp 00000000 00:00 0 
+7f0aee3f9000-7f0aee402000 r-xp 00000000 08:02 67269929                   /usr/lib64/libnss_compat-2.17.so
+7f0aee402000-7f0aee601000 ---p 00009000 08:02 67269929                   /usr/lib64/libnss_compat-2.17.so
+7f0aee601000-7f0aee602000 r-xp 00008000 08:02 67269929                   /usr/lib64/libnss_compat-2.17.so
+7f0aee602000-7f0aee603000 rwxp 00009000 08:02 67269929                   /usr/lib64/libnss_compat-2.17.so
+7f0aee603000-7f0aee627000 r-xp 00000000 08:02 67270060                   /usr/lib64/libselinux.so.1
+7f0aee627000-7f0aee826000 ---p 00024000 08:02 67270060                   /usr/lib64/libselinux.so.1
+7f0aee826000-7f0aee827000 r-xp 00023000 08:02 67270060                   /usr/lib64/libselinux.so.1
+7f0aee827000-7f0aee828000 rwxp 00024000 08:02 67270060                   /usr/lib64/libselinux.so.1
+7f0aee828000-7f0aee82a000 rwxp 00000000 00:00 0 
+7f0aee82a000-7f0aee840000 r-xp 00000000 08:02 67269945                   /usr/lib64/libresolv-2.17.so
+7f0aee840000-7f0aeea40000 ---p 00016000 08:02 67269945                   /usr/lib64/libresolv-2.17.so
+7f0aeea40000-7f0aeea41000 r-xp 00016000 08:02 67269945                   /usr/lib64/libresolv-2.17.so
+7f0aeea41000-7f0aeea42000 rwxp 00017000 08:02 67269945                   /usr/lib64/libresolv-2.17.so
+7f0aeea42000-7f0aeea44000 rwxp 00000000 00:00 0 
+7f0aeea44000-7f0aeea47000 r-xp 00000000 08:02 67270354                   /usr/lib64/libkeyutils.so.1.5
+7f0aeea47000-7f0aeec46000 ---p 00003000 08:02 67270354                   /usr/lib64/libkeyutils.so.1.5
+7f0aeec46000-7f0aeec47000 r-xp 00002000 08:02 67270354                   /usr/lib64/libkeyutils.so.1.5
+7f0aeec47000-7f0aeec48000 rwxp 00003000 08:02 67270354                   /usr/lib64/libkeyutils.so.1.5
+7f0aeec48000-7f0aeec56000 r-xp 00000000 08:02 67979349                   /usr/lib64/libkrb5support.so.0.1
+7f0aeec56000-7f0aeee56000 ---p 0000e000 08:02 67979349                   /usr/lib64/libkrb5support.so.0.1
+7f0aeee56000-7f0aeee57000 r-xp 0000e000 08:02 67979349                   /usr/lib64/libkrb5support.so.0.1
+7f0aeee57000-7f0aeee58000 rwxp 0000f000 08:02 67979349                   /usr/lib64/libkrb5support.so.0.1
+7f0aeee58000-7f0aeee89000 r-xp 00000000 08:02 67979341                   /usr/lib64/libk5crypto.so.3.1
+7f0aeee89000-7f0aef088000 ---p 00031000 08:02 67979341                   /usr/lib64/libk5crypto.so.3.1
+7f0aef088000-7f0aef08a000 r-xp 00030000 08:02 67979341                   /usr/lib64/libk5crypto.so.3.1
+7f0aef08a000-7f0aef08b000 rwxp 00032000 08:02 67979341                   /usr/lib64/libk5crypto.so.3.1
+7f0aef08b000-7f0aef08e000 r-xp 00000000 08:02 67270064                   /usr/lib64/libcom_err.so.2.1
+7f0aef08e000-7f0aef28d000 ---p 00003000 08:02 67270064                   /usr/lib64/libcom_err.so.2.1
+7f0aef28d000-7f0aef28e000 r-xp 00002000 08:02 67270064                   /usr/lib64/libcom_err.so.2.1
+7f0aef28e000-7f0aef28f000 rwxp 00003000 08:02 67270064                   /usr/lib64/libcom_err.so.2.1
+7f0aef28f000-7f0aef368000 r-xp 00000000 08:02 67979347                   /usr/lib64/libkrb5.so.3.3
+7f0aef368000-7f0aef567000 ---p 000d9000 08:02 67979347                   /usr/lib64/libkrb5.so.3.3
+7f0aef567000-7f0aef575000 r-xp 000d8000 08:02 67979347                   /usr/lib64/libkrb5.so.3.3
+7f0aef575000-7f0aef578000 rwxp 000e6000 08:02 67979347                   /usr/lib64/libkrb5.so.3.3
+7f0aef578000-7f0aef5c2000 r-xp 00000000 08:02 67979338                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0aef5c2000-7f0aef7c2000 ---p 0004a000 08:02 67979338                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0aef7c2000-7f0aef7c3000 r-xp 0004a000 08:02 67979338                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0aef7c3000-7f0aef7c5000 rwxp 0004b000 08:02 67979338                   /usr/lib64/libgssapi_krb5.so.2.2
+7f0aef7c5000-7f0aef7c7000 r-xp 00000000 08:02 67269951                   /usr/lib64/libutil-2.17.so
+7f0aef7c7000-7f0aef9c6000 ---p 00002000 08:02 67269951                   /usr/lib64/libutil-2.17.so
+7f0aef9c6000-7f0aef9c7000 r-xp 00001000 08:02 67269951                   /usr/lib64/libutil-2.17.so
+7f0aef9c7000-7f0aef9c8000 rwxp 00002000 08:02 67269951                   /usr/lib64/libutil-2.17.so
+7f0aef9c8000-7f0aef9ee000 r-xp 00000000 00:34 55426951                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/lib/libexpat.so.1
+7f0aef9ee000-7f0aefbed000 ---p 00026000 00:34 55426951                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/lib/libexpat.so.1
+7f0aefbed000-7f0aefbf0000 rwxp 00025000 00:34 55426951                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/lib/libexpat.so.1
+7f0aefbf0000-7f0aefbf5000 r-xp 00000000 08:02 67270431                   /usr/lib64/libXdmcp.so.6.0.0
+7f0aefbf5000-7f0aefdf4000 ---p 00005000 08:02 67270431                   /usr/lib64/libXdmcp.so.6.0.0
+7f0aefdf4000-7f0aefdf5000 r-xp 00004000 08:02 67270431                   /usr/lib64/libXdmcp.so.6.0.0
+7f0aefdf5000-7f0aefdf6000 rwxp 00005000 08:02 67270431                   /usr/lib64/libXdmcp.so.6.0.0
+7f0aefdf6000-7f0aefdf8000 r-xp 00000000 08:02 67270090                   /usr/lib64/libXau.so.6.0.0
+7f0aefdf8000-7f0aefff8000 ---p 00002000 08:02 67270090                   /usr/lib64/libXau.so.6.0.0
+7f0aefff8000-7f0aefff9000 r-xp 00002000 08:02 67270090                   /usr/lib64/libXau.so.6.0.0
+7f0aefff9000-7f0aefffa000 rwxp 00003000 08:02 67270090                   /usr/lib64/libXau.so.6.0.0
+7f0aefffa000-7f0aeffff000 r-xp 00000000 08:02 67270269                   /usr/lib64/libXfixes.so.3.1.0
+7f0aeffff000-7f0af01fe000 ---p 00005000 08:02 67270269                   /usr/lib64/libXfixes.so.3.1.0
+7f0af01fe000-7f0af01ff000 r-xp 00004000 08:02 67270269                   /usr/lib64/libXfixes.so.3.1.0
+7f0af01ff000-7f0af0200000 rwxp 00005000 08:02 67270269                   /usr/lib64/libXfixes.so.3.1.0
+7f0af0200000-7f0af0204000 r-xp 00000000 08:02 67270085                   /usr/lib64/libuuid.so.1.3.0
+7f0af0204000-7f0af0403000 ---p 00004000 08:02 67270085                   /usr/lib64/libuuid.so.1.3.0
+7f0af0403000-7f0af0404000 r-xp 00003000 08:02 67270085                   /usr/lib64/libuuid.so.1.3.0
+7f0af0404000-7f0af0405000 rwxp 00004000 08:02 67270085                   /usr/lib64/libuuid.so.1.3.0
+7f0af0405000-7f0af0465000 r-xp 00000000 08:02 67270011                   /usr/lib64/libpcre.so.1.2.0
+7f0af0465000-7f0af0665000 ---p 00060000 08:02 67270011                   /usr/lib64/libpcre.so.1.2.0
+7f0af0665000-7f0af0666000 r-xp 00060000 08:02 67270011                   /usr/lib64/libpcre.so.1.2.0
+7f0af0666000-7f0af0667000 rwxp 00061000 08:02 67270011                   /usr/lib64/libpcre.so.1.2.0
+7f0af0667000-7f0af0820000 r-xp 00000000 00:34 60553700                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libcrypto.so.1.0.1e
+7f0af0820000-7f0af0a1f000 ---p 001b9000 00:34 60553700                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libcrypto.so.1.0.1e
+7f0af0a1f000-7f0af0a3a000 r-xp 001b8000 00:34 60553700                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libcrypto.so.1.0.1e
+7f0af0a3a000-7f0af0a46000 rwxp 001d3000 00:34 60553700                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libcrypto.so.1.0.1e
+7f0af0a46000-7f0af0a4a000 rwxp 00000000 00:00 0 
+7f0af0a4a000-7f0af0aac000 r-xp 00000000 00:34 60553559                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libssl.so.1.0.1e
+7f0af0aac000-7f0af0cab000 ---p 00062000 00:34 60553559                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libssl.so.1.0.1e
+7f0af0cab000-7f0af0caf000 r-xp 00061000 00:34 60553559                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libssl.so.1.0.1e
+7f0af0caf000-7f0af0cb6000 rwxp 00065000 00:34 60553559                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libssl.so.1.0.1e
+7f0af0cb6000-7f0af0cb8000 r-xp 00000000 08:02 67269849                   /usr/lib64/libfreebl3.so
+7f0af0cb8000-7f0af0eb7000 ---p 00002000 08:02 67269849                   /usr/lib64/libfreebl3.so
+7f0af0eb7000-7f0af0eb8000 r-xp 00001000 08:02 67269849                   /usr/lib64/libfreebl3.so
+7f0af0eb8000-7f0af0eb9000 rwxp 00002000 08:02 67269849                   /usr/lib64/libfreebl3.so
+7f0af0eb9000-7f0af0ede000 r-xp 00000000 08:02 67269991                   /usr/lib64/libtinfo.so.5.9
+7f0af0ede000-7f0af10de000 ---p 00025000 08:02 67269991                   /usr/lib64/libtinfo.so.5.9
+7f0af10de000-7f0af10e2000 r-xp 00025000 08:02 67269991                   /usr/lib64/libtinfo.so.5.9
+7f0af10e2000-7f0af10e3000 rwxp 00029000 08:02 67269991                   /usr/lib64/libtinfo.so.5.9
+7f0af10e3000-7f0af1274000 r-xp 00000000 00:34 55433650                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/Python/2.6.2/lib/libpython2.6.so.1.0
+7f0af1274000-7f0af1474000 ---p 00191000 00:34 55433650                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/Python/2.6.2/lib/libpython2.6.so.1.0
+7f0af1474000-7f0af14af000 rwxp 00191000 00:34 55433650                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/Python/2.6.2/lib/libpython2.6.so.1.0
+7f0af14af000-7f0af14bd000 rwxp 00000000 00:00 0 
+7f0af14bd000-7f0af1681000 r-xp 00000000 08:02 67269917                   /usr/lib64/libc-2.17.so
+7f0af1681000-7f0af1880000 ---p 001c4000 08:02 67269917                   /usr/lib64/libc-2.17.so
+7f0af1880000-7f0af1884000 r-xp 001c3000 08:02 67269917                   /usr/lib64/libc-2.17.so
+7f0af1884000-7f0af1886000 rwxp 001c7000 08:02 67269917                   /usr/lib64/libc-2.17.so
+7f0af1886000-7f0af188b000 rwxp 00000000 00:00 0 
+7f0af188b000-7f0af18a0000 r-xp 00000000 00:34 60553565                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgcc_s.so.1
+7f0af18a0000-7f0af1aa0000 ---p 00015000 00:34 60553565                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgcc_s.so.1
+7f0af1aa0000-7f0af1aa1000 rwxp 00015000 00:34 60553565                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgcc_s.so.1
+7f0af1aa1000-7f0af1acd000 r-xp 00000000 00:34 60553734                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgomp.so.1.0.0
+7f0af1acd000-7f0af1ccd000 ---p 0002c000 00:34 60553734                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgomp.so.1.0.0
+7f0af1ccd000-7f0af1cce000 rwxp 0002c000 00:34 60553734                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgomp.so.1.0.0
+7f0af1cce000-7f0af1ce5000 r-xp 00000000 08:02 67269943                   /usr/lib64/libpthread-2.17.so
+7f0af1ce5000-7f0af1ee4000 ---p 00017000 08:02 67269943                   /usr/lib64/libpthread-2.17.so
+7f0af1ee4000-7f0af1ee5000 r-xp 00016000 08:02 67269943                   /usr/lib64/libpthread-2.17.so
+7f0af1ee5000-7f0af1ee6000 rwxp 00017000 08:02 67269943                   /usr/lib64/libpthread-2.17.so
+7f0af1ee6000-7f0af1eea000 rwxp 00000000 00:00 0 
+7f0af1eea000-7f0af1eec000 r-xp 00000000 08:02 67269923                   /usr/lib64/libdl-2.17.so
+7f0af1eec000-7f0af20ec000 ---p 00002000 08:02 67269923                   /usr/lib64/libdl-2.17.so
+7f0af20ec000-7f0af20ed000 r-xp 00002000 08:02 67269923                   /usr/lib64/libdl-2.17.so
+7f0af20ed000-7f0af20ee000 rwxp 00003000 08:02 67269923                   /usr/lib64/libdl-2.17.so
+7f0af20ee000-7f0af20f5000 r-xp 00000000 08:02 67269947                   /usr/lib64/librt-2.17.so
+7f0af20f5000-7f0af22f4000 ---p 00007000 08:02 67269947                   /usr/lib64/librt-2.17.so
+7f0af22f4000-7f0af22f5000 r-xp 00006000 08:02 67269947                   /usr/lib64/librt-2.17.so
+7f0af22f5000-7f0af22f6000 rwxp 00007000 08:02 67269947                   /usr/lib64/librt-2.17.so
+7f0af22f6000-7f0af22fb000 r-xp 00000000 00:34 60553753                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libtbcload-O.so
+7f0af22fb000-7f0af24fa000 ---p 00005000 00:34 60553753                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libtbcload-O.so
+7f0af24fa000-7f0af24fb000 r-xp 00004000 00:34 60553753                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libtbcload-O.so
+7f0af24fb000-7f0af24fc000 rwxp 00005000 00:34 60553753                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libtbcload-O.so
+7f0af24fc000-7f0af24fe000 r-xp 00000000 08:02 67271095                   /usr/lib64/libXss.so.1.0.0
+7f0af24fe000-7f0af26fe000 ---p 00002000 08:02 67271095                   /usr/lib64/libXss.so.1.0.0
+7f0af26fe000-7f0af26ff000 r-xp 00002000 08:02 67271095                   /usr/lib64/libXss.so.1.0.0
+7f0af26ff000-7f0af2700000 rwxp 00003000 08:02 67271095                   /usr/lib64/libXss.so.1.0.0
+7f0af2700000-7f0af2715000 r-xp 00000000 08:02 68008572                   /usr/lib64/libXft.so.2.3.2
+7f0af2715000-7f0af2914000 ---p 00015000 08:02 68008572                   /usr/lib64/libXft.so.2.3.2
+7f0af2914000-7f0af2915000 r-xp 00014000 08:02 68008572                   /usr/lib64/libXft.so.2.3.2
+7f0af2915000-7f0af2916000 rwxp 00015000 08:02 68008572                   /usr/lib64/libXft.so.2.3.2
+7f0af2916000-7f0af2a4d000 r-xp 00000000 00:34 60553717                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libX11.so.6.3.0
+7f0af2a4d000-7f0af2c4d000 ---p 00137000 00:34 60553717                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libX11.so.6.3.0
+7f0af2c4d000-7f0af2c53000 rwxp 00137000 00:34 60553717                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libX11.so.6.3.0
+7f0af2c53000-7f0af2c64000 r-xp 00000000 08:02 67270267                   /usr/lib64/libXext.so.6.4.0
+7f0af2c64000-7f0af2e63000 ---p 00011000 08:02 67270267                   /usr/lib64/libXext.so.6.4.0
+7f0af2e63000-7f0af2e64000 r-xp 00010000 08:02 67270267                   /usr/lib64/libXext.so.6.4.0
+7f0af2e64000-7f0af2e65000 rwxp 00011000 08:02 67270267                   /usr/lib64/libXext.so.6.4.0
+7f0af2e65000-7f0af2ea5000 r-xp 00000000 08:02 67979379                   /usr/lib64/libfontconfig.so.1.11.1
+7f0af2ea5000-7f0af30a4000 ---p 00040000 08:02 67979379                   /usr/lib64/libfontconfig.so.1.11.1
+7f0af30a4000-7f0af30a6000 r-xp 0003f000 08:02 67979379                   /usr/lib64/libfontconfig.so.1.11.1
+7f0af30a6000-7f0af30a7000 rwxp 00041000 08:02 67979379                   /usr/lib64/libfontconfig.so.1.11.1
+7f0af30a7000-7f0af30ab000 r-xp 00000000 00:34 60553562                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-util.so.1.0.0
+7f0af30ab000-7f0af32ab000 ---p 00004000 00:34 60553562                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-util.so.1.0.0
+7f0af32ab000-7f0af32ac000 rwxp 00004000 00:34 60553562                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-util.so.1.0.0
+7f0af32ac000-7f0af32ae000 r-xp 00000000 00:34 60553788                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-shm.so.0.0.0
+7f0af32ae000-7f0af34ad000 ---p 00002000 00:34 60553788                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-shm.so.0.0.0
+7f0af34ad000-7f0af34ae000 rwxp 00001000 00:34 60553788                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-shm.so.0.0.0
+7f0af34ae000-7f0af34b2000 r-xp 00000000 00:34 60553808                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-image.so.0.0.0
+7f0af34b2000-7f0af36b1000 ---p 00004000 00:34 60553808                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-image.so.0.0.0
+7f0af36b1000-7f0af36b2000 rwxp 00003000 00:34 60553808                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-image.so.0.0.0
+7f0af36b2000-7f0af36b8000 r-xp 00000000 00:34 60553764                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xfixes.so.0.0.0
+7f0af36b8000-7f0af38b8000 ---p 00006000 00:34 60553764                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xfixes.so.0.0.0
+7f0af38b8000-7f0af38b9000 rwxp 00006000 00:34 60553764                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-xfixes.so.0.0.0
+7f0af38b9000-7f0af38be000 r-xp 00000000 00:34 60553790                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-sync.so.1.0.0
+7f0af38be000-7f0af3abe000 ---p 00005000 00:34 60553790                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-sync.so.1.0.0
+7f0af3abe000-7f0af3abf000 rwxp 00005000 00:34 60553790                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-sync.so.1.0.0
+7f0af3abf000-7f0af3aca000 r-xp 00000000 00:34 60553772                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-render.so.0.0.0
+7f0af3aca000-7f0af3cca000 ---p 0000b000 00:34 60553772                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-render.so.0.0.0
+7f0af3cca000-7f0af3ccb000 rwxp 0000b000 00:34 60553772                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-render.so.0.0.0
+7f0af3ccb000-7f0af3cd9000 r-xp 00000000 00:34 60553763                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-randr.so.0.1.0
+7f0af3cd9000-7f0af3ed9000 ---p 0000e000 00:34 60553763                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-randr.so.0.1.0
+7f0af3ed9000-7f0af3eda000 rwxp 0000e000 00:34 60553763                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb-randr.so.0.1.0
+7f0af3eda000-7f0af3efe000 r-xp 00000000 00:34 60553708                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb.so.1.1.0
+7f0af3efe000-7f0af40fe000 ---p 00024000 00:34 60553708                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb.so.1.1.0
+7f0af40fe000-7f0af40ff000 rwxp 00024000 00:34 60553708                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libxcb.so.1.1.0
+7f0af40ff000-7f0af417b000 r-xp 00000000 00:34 60553761                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libfreetype.so.6.3.20
+7f0af417b000-7f0af437a000 ---p 0007c000 00:34 60553761                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libfreetype.so.6.3.20
+7f0af437a000-7f0af4380000 rwxp 0007b000 00:34 60553761                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libfreetype.so.6.3.20
+7f0af4380000-7f0af4382000 r-xp 00000000 08:02 67270369                   /usr/lib64/libXinerama.so.1.0.0
+7f0af4382000-7f0af4581000 ---p 00002000 08:02 67270369                   /usr/lib64/libXinerama.so.1.0.0
+7f0af4581000-7f0af4582000 r-xp 00001000 08:02 67270369                   /usr/lib64/libXinerama.so.1.0.0
+7f0af4582000-7f0af4583000 rwxp 00002000 08:02 67270369                   /usr/lib64/libXinerama.so.1.0.0
+7f0af4583000-7f0af458c000 r-xp 00000000 08:02 67270367                   /usr/lib64/libXcursor.so.1.0.2
+7f0af458c000-7f0af478c000 ---p 00009000 08:02 67270367                   /usr/lib64/libXcursor.so.1.0.2
+7f0af478c000-7f0af478d000 r-xp 00009000 08:02 67270367                   /usr/lib64/libXcursor.so.1.0.2
+7f0af478d000-7f0af478e000 rwxp 0000a000 08:02 67270367                   /usr/lib64/libXcursor.so.1.0.2
+7f0af478e000-7f0af4798000 r-xp 00000000 08:02 67270281                   /usr/lib64/libXrandr.so.2.2.0
+7f0af4798000-7f0af4997000 ---p 0000a000 08:02 67270281                   /usr/lib64/libXrandr.so.2.2.0
+7f0af4997000-7f0af4998000 r-xp 00009000 08:02 67270281                   /usr/lib64/libXrandr.so.2.2.0
+7f0af4998000-7f0af4999000 rwxp 0000a000 08:02 67270281                   /usr/lib64/libXrandr.so.2.2.0
+7f0af4999000-7f0af49a2000 r-xp 00000000 08:02 67270277                   /usr/lib64/libXrender.so.1.3.0
+7f0af49a2000-7f0af4ba2000 ---p 00009000 08:02 67270277                   /usr/lib64/libXrender.so.1.3.0
+7f0af4ba2000-7f0af4ba3000 r-xp 00009000 08:02 67270277                   /usr/lib64/libXrender.so.1.3.0
+7f0af4ba3000-7f0af4ba4000 rwxp 0000a000 08:02 67270277                   /usr/lib64/libXrender.so.1.3.0
+7f0af4ba4000-7f0af4bb3000 r-xp 00000000 08:02 67270279                   /usr/lib64/libXi.so.6.1.0
+7f0af4bb3000-7f0af4db2000 ---p 0000f000 08:02 67270279                   /usr/lib64/libXi.so.6.1.0
+7f0af4db2000-7f0af4db3000 r-xp 0000e000 08:02 67270279                   /usr/lib64/libXi.so.6.1.0
+7f0af4db3000-7f0af4db4000 rwxp 0000f000 08:02 67270279                   /usr/lib64/libXi.so.6.1.0
+7f0af4db4000-7f0af4dcb000 r-xp 00000000 08:02 67270069                   /usr/lib64/libICE.so.6.3.0
+7f0af4dcb000-7f0af4fca000 ---p 00017000 08:02 67270069                   /usr/lib64/libICE.so.6.3.0
+7f0af4fca000-7f0af4fcb000 r-xp 00016000 08:02 67270069                   /usr/lib64/libICE.so.6.3.0
+7f0af4fcb000-7f0af4fcc000 rwxp 00017000 08:02 67270069                   /usr/lib64/libICE.so.6.3.0
+7f0af4fcc000-7f0af4fd0000 rwxp 00000000 00:00 0 
+7f0af4fd0000-7f0af4fd7000 r-xp 00000000 08:02 67270088                   /usr/lib64/libSM.so.6.0.1
+7f0af4fd7000-7f0af51d6000 ---p 00007000 08:02 67270088                   /usr/lib64/libSM.so.6.0.1
+7f0af51d6000-7f0af51d7000 r-xp 00006000 08:02 67270088                   /usr/lib64/libSM.so.6.0.1
+7f0af51d7000-7f0af51d8000 rwxp 00007000 08:02 67270088                   /usr/lib64/libSM.so.6.0.1
+7f0af51d8000-7f0af5216000 r-xp 00000000 00:34 60553701                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0af5216000-7f0af5415000 ---p 0003e000 00:34 60553701                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0af5415000-7f0af5419000 rwxp 0003d000 00:34 60553701                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7f0af5419000-7f0af712e000 r-xp 00000000 00:34 60553809                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5WebKit.so.5.5.1
+7f0af712e000-7f0af732d000 ---p 01d15000 00:34 60553809                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5WebKit.so.5.5.1
+7f0af732d000-7f0af74a7000 rwxp 01d14000 00:34 60553809                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5WebKit.so.5.5.1
+7f0af74a7000-7f0af74d3000 rwxp 00000000 00:00 0 
+7f0af74d3000-7f0af7523000 r-xp 00000000 00:34 60553748                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Svg.so.5.6.2
+7f0af7523000-7f0af7723000 ---p 00050000 00:34 60553748                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Svg.so.5.6.2
+7f0af7723000-7f0af7726000 rwxp 00050000 00:34 60553748                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Svg.so.5.6.2
+7f0af7726000-7f0af7756000 r-xp 00000000 00:34 60553709                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Test.so.5.6.2
+7f0af7756000-7f0af7955000 ---p 00030000 00:34 60553709                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Test.so.5.6.2
+7f0af7955000-7f0af7958000 rwxp 0002f000 00:34 60553709                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Test.so.5.6.2
+7f0af7958000-7f0af795c000 rwxp 00000000 00:00 0 
+7f0af795c000-7f0af79c6000 r-xp 00000000 00:34 60553721                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0af79c6000-7f0af7bc5000 ---p 0006a000 00:34 60553721                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0af7bc5000-7f0af7bca000 rwxp 00069000 00:34 60553721                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5PrintSupport.so.5.6.2
+7f0af7bca000-7f0af7c07000 r-xp 00000000 00:34 60553739                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Positioning.so.5.6.2
+7f0af7c07000-7f0af7e07000 ---p 0003d000 00:34 60553739                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Positioning.so.5.6.2
+7f0af7e07000-7f0af7e09000 rwxp 0003d000 00:34 60553739                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Positioning.so.5.6.2
+7f0af7e09000-7f0af7e42000 r-xp 00000000 00:34 60553773                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Sensors.so.5.6.2
+7f0af7e42000-7f0af8041000 ---p 00039000 00:34 60553773                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Sensors.so.5.6.2
+7f0af8041000-7f0af8045000 rwxp 00038000 00:34 60553773                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Sensors.so.5.6.2
+7f0af8045000-7f0af8048000 r-xp 00000000 00:34 60553799                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0af8048000-7f0af8247000 ---p 00003000 00:34 60553799                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0af8247000-7f0af8248000 rwxp 00002000 00:34 60553799                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5X11Extras.so.5.6.2
+7f0af8248000-7f0af880c000 r-xp 00000000 00:34 60553724                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Widgets.so.5.6.2
+7f0af880c000-7f0af8a0b000 ---p 005c4000 00:34 60553724                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Widgets.so.5.6.2
+7f0af8a0b000-7f0af8a37000 rwxp 005c3000 00:34 60553724                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Widgets.so.5.6.2
+7f0af8a37000-7f0af8f05000 r-xp 00000000 00:34 60553563                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Gui.so.5.6.2
+7f0af8f05000-7f0af9105000 ---p 004ce000 00:34 60553563                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Gui.so.5.6.2
+7f0af9105000-7f0af9118000 rwxp 004ce000 00:34 60553563                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Gui.so.5.6.2
+7f0af9118000-7f0af911d000 rwxp 00000000 00:00 0 
+7f0af911d000-7f0af91da000 r-xp 00000000 00:34 60553792                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsqlite3.so
+7f0af91da000-7f0af93d9000 ---p 000bd000 00:34 60553792                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsqlite3.so
+7f0af93d9000-7f0af93dd000 rwxp 000bc000 00:34 60553792                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsqlite3.so
+7f0af93dd000-7f0af93de000 rwxp 00000000 00:00 0 
+7f0af93de000-7f0af94f2000 r-xp 00000000 08:02 67219209                   /usr/lib64/libglib-2.0.so.0.5600.1
+7f0af94f2000-7f0af96f1000 ---p 00114000 08:02 67219209                   /usr/lib64/libglib-2.0.so.0.5600.1
+7f0af96f1000-7f0af96f2000 r-xp 00113000 08:02 67219209                   /usr/lib64/libglib-2.0.so.0.5600.1
+7f0af96f2000-7f0af96f3000 rwxp 00114000 08:02 67219209                   /usr/lib64/libglib-2.0.so.0.5600.1
+7f0af96f3000-7f0af96f4000 rwxp 00000000 00:00 0 
+7f0af96f4000-7f0af96f5000 r-xp 00000000 08:02 67219215                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7f0af96f5000-7f0af98f4000 ---p 00001000 08:02 67219215                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7f0af98f4000-7f0af98f5000 r-xp 00000000 08:02 67219215                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7f0af98f5000-7f0af98f6000 rwxp 00001000 08:02 67219215                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7f0af98f6000-7f0afb120000 r-xp 00000000 00:34 60553566                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicudata.so.54.1
+7f0afb120000-7f0afb31f000 ---p 0182a000 00:34 60553566                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicudata.so.54.1
+7f0afb31f000-7f0afb320000 rwxp 01829000 00:34 60553566                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicudata.so.54.1
+7f0afb320000-7f0afb4c4000 r-xp 00000000 00:34 60553712                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicuuc.so.54.1
+7f0afb4c4000-7f0afb6c4000 ---p 001a4000 00:34 60553712                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicuuc.so.54.1
+7f0afb6c4000-7f0afb6d5000 rwxp 001a4000 00:34 60553712                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicuuc.so.54.1
+7f0afb6d5000-7f0afb6da000 rwxp 00000000 00:00 0 
+7f0afb6da000-7f0afb94c000 r-xp 00000000 00:34 60553806                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicui18n.so.54.1
+7f0afb94c000-7f0afbb4c000 ---p 00272000 00:34 60553806                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicui18n.so.54.1
+7f0afbb4c000-7f0afbb5d000 rwxp 00272000 00:34 60553806                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libicui18n.so.54.1
+7f0afbb5d000-7f0afbb5e000 rwxp 00000000 00:00 0 
+7f0afbb5e000-7f0afbbaa000 r-xp 00000000 00:34 60553779                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Sql.so.5.6.2
+7f0afbbaa000-7f0afbda9000 ---p 0004c000 00:34 60553779                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Sql.so.5.6.2
+7f0afbda9000-7f0afbdac000 rwxp 0004b000 00:34 60553779                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Sql.so.5.6.2
+7f0afbdac000-7f0afbf0a000 r-xp 00000000 00:34 60553811                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Network.so.5.6.2
+7f0afbf0a000-7f0afc10a000 ---p 0015e000 00:34 60553811                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Network.so.5.6.2
+7f0afc10a000-7f0afc112000 rwxp 0015e000 00:34 60553811                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Network.so.5.6.2
+7f0afc112000-7f0afc4b2000 r-xp 00000000 00:34 60553706                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0afc4b2000-7f0afc6b1000 ---p 003a0000 00:34 60553706                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0afc6b1000-7f0afc6e8000 rwxp 0039f000 00:34 60553706                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7f0afc6e8000-7f0afc720000 r-xp 00000000 00:34 60553805                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Xml.so.5.6.2
+7f0afc720000-7f0afc91f000 ---p 00038000 00:34 60553805                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Xml.so.5.6.2
+7f0afc91f000-7f0afc921000 rwxp 00037000 00:34 60553805                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Xml.so.5.6.2
+7f0afc921000-7f0afc929000 r-xp 00000000 08:02 67269921                   /usr/lib64/libcrypt-2.17.so
+7f0afc929000-7f0afcb28000 ---p 00008000 08:02 67269921                   /usr/lib64/libcrypt-2.17.so
+7f0afcb28000-7f0afcb29000 r-xp 00007000 08:02 67269921                   /usr/lib64/libcrypt-2.17.so
+7f0afcb29000-7f0afcb2a000 rwxp 00008000 08:02 67269921                   /usr/lib64/libcrypt-2.17.so
+7f0afcb2a000-7f0afcb58000 rwxp 00000000 00:00 0 
+7f0afcb58000-7f0afcba3000 r-xp 00000000 00:34 1134109993                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7f0afcba3000-7f0afcda2000 ---p 0004b000 00:34 1134109993                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7f0afcda2000-7f0afcda4000 r-xp 0004a000 00:34 1134109993                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7f0afcda4000-7f0afcda5000 rwxp 0004c000 00:34 1134109993                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7f0afcda5000-7f0afcda9000 rwxp 00000000 00:00 0 
+7f0afcda9000-7f0afcdae000 r-xp 00000000 00:34 1134109981                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7f0afcdae000-7f0afcfad000 ---p 00005000 00:34 1134109981                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7f0afcfad000-7f0afcfae000 r-xp 00004000 00:34 1134109981                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7f0afcfae000-7f0afcfaf000 rwxp 00005000 00:34 1134109981                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7f0afcfaf000-7f0afcff6000 r-xp 00000000 00:34 1134109977                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7f0afcff6000-7f0afd1f6000 ---p 00047000 00:34 1134109977                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7f0afd1f6000-7f0afd1f8000 r-xp 00047000 00:34 1134109977                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7f0afd1f8000-7f0afd1f9000 rwxp 00049000 00:34 1134109977                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7f0afd1f9000-7f0afd1fa000 rwxp 00000000 00:00 0 
+7f0afd1fa000-7f0afd2a0000 r-xp 00000000 00:34 1134109990                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7f0afd2a0000-7f0afd4a0000 ---p 000a6000 00:34 1134109990                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7f0afd4a0000-7f0afd4a6000 r-xp 000a6000 00:34 1134109990                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7f0afd4a6000-7f0afd4a8000 rwxp 000ac000 00:34 1134109990                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7f0afd4a8000-7f0afd4de000 r-xp 00000000 00:34 1134109982                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7f0afd4de000-7f0afd6de000 ---p 00036000 00:34 1134109982                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7f0afd6de000-7f0afd6e0000 r-xp 00036000 00:34 1134109982                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7f0afd6e0000-7f0afd6e1000 rwxp 00038000 00:34 1134109982                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7f0afd6e1000-7f0afd6e3000 r-xp 00000000 00:34 1134109978                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7f0afd6e3000-7f0afd8e3000 ---p 00002000 00:34 1134109978                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7f0afd8e3000-7f0afd8e4000 r-xp 00002000 00:34 1134109978                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7f0afd8e4000-7f0afd8e5000 rwxp 00003000 00:34 1134109978                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7f0afd8e5000-7f0afdeeb000 r-xp 00000000 00:34 1134109995                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7f0afdeeb000-7f0afe0ea000 ---p 00606000 00:34 1134109995                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7f0afe0ea000-7f0afe0eb000 r-xp 00605000 00:34 1134109995                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7f0afe0eb000-7f0afe0ec000 rwxp 00606000 00:34 1134109995                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7f0afe0ec000-7f0afe1d6000 r-xp 00000000 00:34 1134109998                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7f0afe1d6000-7f0afe3d6000 ---p 000ea000 00:34 1134109998                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7f0afe3d6000-7f0afe3de000 r-xp 000ea000 00:34 1134109998                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7f0afe3de000-7f0afe3e0000 rwxp 000f2000 00:34 1134109998                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7f0afe3e0000-7f0afe3e2000 rwxp 00000000 00:00 0 
+7f0afe3e2000-7f0afe412000 r-xp 00000000 00:34 1134109985                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7f0afe412000-7f0afe611000 ---p 00030000 00:34 1134109985                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7f0afe611000-7f0afe612000 r-xp 0002f000 00:34 1134109985                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7f0afe612000-7f0afe613000 rwxp 00030000 00:34 1134109985                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7f0afe613000-7f0afe82f000 r-xp 00000000 00:34 1134109994                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7f0afe82f000-7f0afea2e000 ---p 0021c000 00:34 1134109994                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7f0afea2e000-7f0afea43000 r-xp 0021b000 00:34 1134109994                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7f0afea43000-7f0afea47000 rwxp 00230000 00:34 1134109994                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7f0afea47000-7f0afea49000 rwxp 00000000 00:00 0 
+7f0afea49000-7f0afedcc000 r-xp 00000000 00:34 1134109972                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7f0afedcc000-7f0afefcc000 ---p 00383000 00:34 1134109972                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7f0afefcc000-7f0afefe8000 r-xp 00383000 00:34 1134109972                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7f0afefe8000-7f0afefef000 rwxp 0039f000 00:34 1134109972                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7f0afefef000-7f0aff014000 rwxp 00000000 00:00 0 
+7f0aff014000-7f0aff843000 r-xp 00000000 00:34 1134109991                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7f0aff843000-7f0affa42000 ---p 0082f000 00:34 1134109991                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7f0affa42000-7f0affa8a000 r-xp 0082e000 00:34 1134109991                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7f0affa8a000-7f0affa97000 rwxp 00876000 00:34 1134109991                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7f0affa97000-7f0affa9d000 rwxp 00000000 00:00 0 
+7f0affa9d000-7f0affaa6000 r-xp 00000000 00:34 1134109973                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7f0affaa6000-7f0affca5000 ---p 00009000 00:34 1134109973                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7f0affca5000-7f0affca6000 r-xp 00008000 00:34 1134109973                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7f0affca6000-7f0affca7000 rwxp 00009000 00:34 1134109973                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7f0affca7000-7f0affcb7000 r-xp 00000000 00:34 1134110000                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7f0affcb7000-7f0affeb6000 ---p 00010000 00:34 1134110000                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7f0affeb6000-7f0affeb8000 r-xp 0000f000 00:34 1134110000                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7f0affeb8000-7f0affeb9000 rwxp 00011000 00:34 1134110000                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7f0affeb9000-7f0b000da000 r-xp 00000000 00:34 1134109970                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7f0b000da000-7f0b002da000 ---p 00221000 00:34 1134109970                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7f0b002da000-7f0b002f5000 r-xp 00221000 00:34 1134109970                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7f0b002f5000-7f0b002f7000 rwxp 0023c000 00:34 1134109970                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7f0b002f7000-7f0b00305000 r-xp 00000000 00:34 1134109992                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7f0b00305000-7f0b00505000 ---p 0000e000 00:34 1134109992                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7f0b00505000-7f0b00506000 r-xp 0000e000 00:34 1134109992                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7f0b00506000-7f0b00507000 rwxp 0000f000 00:34 1134109992                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7f0b00507000-7f0b00517000 r-xp 00000000 00:34 1134109988                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7f0b00517000-7f0b00717000 ---p 00010000 00:34 1134109988                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7f0b00717000-7f0b00718000 r-xp 00010000 00:34 1134109988                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7f0b00718000-7f0b00719000 rwxp 00011000 00:34 1134109988                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7f0b00719000-7f0b0147e000 r-xp 00000000 00:34 1134109975                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7f0b0147e000-7f0b0167d000 ---p 00d65000 00:34 1134109975                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7f0b0167d000-7f0b0168c000 r-xp 00d64000 00:34 1134109975                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7f0b0168c000-7f0b0169c000 rwxp 00d73000 00:34 1134109975                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7f0b0169c000-7f0b01719000 r-xp 00000000 00:34 60553746                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/liboasis-O.so
+7f0b01719000-7f0b01919000 ---p 0007d000 00:34 60553746                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/liboasis-O.so
+7f0b01919000-7f0b0191a000 r-xp 0007d000 00:34 60553746                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/liboasis-O.so
+7f0b0191a000-7f0b0191b000 rwxp 0007e000 00:34 60553746                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/liboasis-O.so
+7f0b0191b000-7f0b0191c000 rwxp 00000000 00:00 0 
+7f0b0191c000-7f0b01942000 r-xp 00000000 08:02 67269981                   /usr/lib64/libncurses.so.5.9
+7f0b01942000-7f0b01b41000 ---p 00026000 08:02 67269981                   /usr/lib64/libncurses.so.5.9
+7f0b01b41000-7f0b01b42000 r-xp 00025000 08:02 67269981                   /usr/lib64/libncurses.so.5.9
+7f0b01b42000-7f0b01b43000 rwxp 00026000 08:02 67269981                   /usr/lib64/libncurses.so.5.9
+7f0b01b43000-7f0b01c44000 r-xp 00000000 08:02 67269925                   /usr/lib64/libm-2.17.so
+7f0b01c44000-7f0b01e43000 ---p 00101000 08:02 67269925                   /usr/lib64/libm-2.17.so
+7f0b01e43000-7f0b01e44000 r-xp 00100000 08:02 67269925                   /usr/lib64/libm-2.17.so
+7f0b01e44000-7f0b01e45000 rwxp 00101000 08:02 67269925                   /usr/lib64/libm-2.17.so
+7f0b01e45000-7f0b01fba000 r-xp 00000000 00:34 60553782                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsym_datacore-O.so
+7f0b01fba000-7f0b021b9000 ---p 00175000 00:34 60553782                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsym_datacore-O.so
+7f0b021b9000-7f0b021c2000 r-xp 00174000 00:34 60553782                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsym_datacore-O.so
+7f0b021c2000-7f0b021c5000 rwxp 0017d000 00:34 60553782                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsym_datacore-O.so
+7f0b021c5000-7f0b021e8000 r-xp 00000000 00:34 60553812                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libmym_core-O.so
+7f0b021e8000-7f0b023e8000 ---p 00023000 00:34 60553812                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libmym_core-O.so
+7f0b023e8000-7f0b023ea000 r-xp 00023000 00:34 60553812                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libmym_core-O.so
+7f0b023ea000-7f0b023eb000 rwxp 00025000 00:34 60553812                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libmym_core-O.so
+7f0b023eb000-7f0b024cb000 r-xp 00000000 00:34 60553783                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgui_controls-O.so
+7f0b024cb000-7f0b026ca000 ---p 000e0000 00:34 60553783                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgui_controls-O.so
+7f0b026ca000-7f0b026d1000 r-xp 000df000 00:34 60553783                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgui_controls-O.so
+7f0b026d1000-7f0b026d3000 rwxp 000e6000 00:34 60553783                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libgui_controls-O.so
+7f0b026d3000-7f0b02b5e000 r-xp 00000000 00:34 60553743                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnpsst-O.so
+7f0b02b5e000-7f0b02d5e000 ---p 0048b000 00:34 60553743                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnpsst-O.so
+7f0b02d5e000-7f0b02d78000 r-xp 0048b000 00:34 60553743                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnpsst-O.so
+7f0b02d78000-7f0b02d81000 rwxp 004a5000 00:34 60553743                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnpsst-O.so
+7f0b02d81000-7f0b02f87000 r-xp 00000000 00:34 60553768                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnsys.so
+7f0b02f87000-7f0b03186000 ---p 00206000 00:34 60553768                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnsys.so
+7f0b03186000-7f0b0318f000 r-xp 00205000 00:34 60553768                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnsys.so
+7f0b0318f000-7f0b03193000 rwxp 0020e000 00:34 60553768                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnsys.so
+7f0b03193000-7f0b031a5000 rwxp 00000000 00:00 0 
+7f0b031a5000-7f0b0383e000 r-xp 00000000 00:34 60553741                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnffr.so
+7f0b0383e000-7f0b03a3e000 ---p 00699000 00:34 60553741                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnffr.so
+7f0b03a3e000-7f0b03a5c000 r-xp 00699000 00:34 60553741                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnffr.so
+7f0b03a5c000-7f0b03a66000 rwxp 006b7000 00:34 60553741                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libnffr.so
+7f0b03a66000-7f0b0450f000 rwxp 00000000 00:00 0 
+7f0b0450f000-7f0b04a2c000 r-xp 00000000 00:34 60553752                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Core.so.5.6.2
+7f0b04a2c000-7f0b04c2c000 ---p 0051d000 00:34 60553752                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Core.so.5.6.2
+7f0b04c2c000-7f0b04c39000 rwxp 0051d000 00:34 60553752                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libQt5Core.so.5.6.2
+7f0b04c39000-7f0b04c3d000 rwxp 00000000 00:00 0 
+7f0b04c3d000-7f0b04c57000 r-xp 00000000 00:34 60553797                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libz.so.1.2.11
+7f0b04c57000-7f0b04e57000 ---p 0001a000 00:34 60553797                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libz.so.1.2.11
+7f0b04e57000-7f0b04e58000 rwxp 0001a000 00:34 60553797                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libz.so.1.2.11
+7f0b04e58000-7f0b04f44000 r-xp 00000000 00:34 60553802                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnps_boost_1_65_1_regex-mt.so.1.65.1
+7f0b04f44000-7f0b05143000 ---p 000ec000 00:34 60553802                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnps_boost_1_65_1_regex-mt.so.1.65.1
+7f0b05143000-7f0b05147000 r-xp 000eb000 00:34 60553802                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnps_boost_1_65_1_regex-mt.so.1.65.1
+7f0b05147000-7f0b05149000 rwxp 000ef000 00:34 60553802                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libsnps_boost_1_65_1_regex-mt.so.1.65.1
+7f0b05149000-7f0b052ba000 r-xp 00000000 00:34 60553728                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libstdc++.so.6.0.22
+7f0b052ba000-7f0b054ba000 ---p 00171000 00:34 60553728                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libstdc++.so.6.0.22
+7f0b054ba000-7f0b054c4000 r-xp 00171000 00:34 60553728                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libstdc++.so.6.0.22
+7f0b054c4000-7f0b054c6000 rwxp 0017b000 00:34 60553728                   /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/lib/libstdc++.so.6.0.22
+7f0b054c6000-7f0b054ca000 rwxp 00000000 00:00 0 
+7f0b054ca000-7f0b054cf000 r-xp 00000000 00:34 1134245831                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libudd_python-O.so
+7f0b054cf000-7f0b056ce000 ---p 00005000 00:34 1134245831                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libudd_python-O.so
+7f0b056ce000-7f0b056cf000 r-xp 00004000 00:34 1134245831                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libudd_python-O.so
+7f0b056cf000-7f0b056d0000 rwxp 00005000 00:34 1134245831                 /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/lib/python-2.6/libudd_python-O.so
+7f0b056d0000-7f0b056f2000 r-xp 00000000 08:02 67269909                   /usr/lib64/ld-2.17.so
+7f0b056f2000-7f0b05734000 rwxp 00000000 00:00 0 
+7f0b05734000-7f0b05735000 ---p 00000000 00:00 0 
+7f0b05735000-7f0b058bd000 rwxp 00000000 00:00 0 
+7f0b058bf000-7f0b058c6000 r-xs 00000000 08:02 8545                       /usr/lib64/gconv/gconv-modules.cache
+7f0b058c6000-7f0b058f1000 rwxp 00000000 00:00 0 
+7f0b058f1000-7f0b058f2000 r-xp 00021000 08:02 67269909                   /usr/lib64/ld-2.17.so
+7f0b058f2000-7f0b058f3000 rwxp 00022000 08:02 67269909                   /usr/lib64/ld-2.17.so
+7f0b058f3000-7f0b058f4000 rwxp 00000000 00:00 0 
+7ffc29637000-7ffc2965a000 rwxp 00000000 00:00 0                          [stack]
+7ffc2974a000-7ffc2974c000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

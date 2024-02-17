@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref name="dmAddLibDir" value="/home/lkim/Desktop/ELEN153L/LAB2"/>
+                <pref name="dmICC2LibraryPath" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter"/>
+                <pref name="xtPDKProcess" value="SAED 90nm"/>
+                <pref name="xtPDKVariant" value="1P9M"/>
+        </preferences>
+</file-format>

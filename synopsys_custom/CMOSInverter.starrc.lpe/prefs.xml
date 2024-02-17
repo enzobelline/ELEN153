@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref name="xtLPELayLCV" value="LAB3/CMOSInverter/layout"/>
+                <pref name="xtLPEStarCornerFile" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/CMOSInverter.starrc.lpe/corners_file"/>
+                <pref name="xtLPEStarOAPortAnnotationView" value="//"/>
+                <pref name="xtLPEStarOAPropertyAnnotationView" value="//"/>
+                <pref name="xtLPEStarOutputRunset" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/CMOSInverter.starrc.lpe/saed90nm_1p9m_star_nominal.custom_compiler.cmd"/>
+                <pref name="xtLPETool" value="StarRC"/>
+                <pref name="xtStarCaseSensitive" value="false"/>
+                <pref name="xtStarICVRunsetReportFile" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/pex_runset_report"/>
+                <pref name="xtStarNetlistFile" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/CMOSInverter.starrc.lpe/CMOSInverter.SPF"/>
+                <pref name="xtStarNetlistInductance" value="true"/>
+                <pref name="xtStarOADeviceMappingFile" value="/DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/starrcxt/device_map"/>
+                <pref name="xtStarOAMarkerSize" value="0.1"/>
+                <pref name="xtStarReduction" value="NO"/>
+                <pref name="xtStarRemoveFloatingNets" value="false"/>
+                <pref name="xtStarSpiceSubcktFile" value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/CMOSInverter.custom_compiler.sp"/>
+                <pref name="xtStarTcadGrdFile" value="/DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd"/>
+                <pref name="xtStarXref" value="YES"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,54 @@
+[20:36:55.30] /r giWindowId 0
+[20:36:55.31] /r giWindowGeometry 600x300
+[20:36:55.32] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 20:36:51 2021
+              /c Host: linux11104
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[20:37:01.78] /r giShowFrameTabs true
+[20:37:01.78] /r giWindowId 1
+[20:37:01.78] /r giWindowGeometry 1040x800
+[20:38:45.93] /i exit
+[20:38:45.98] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[20:38:46.26] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 419x207+740+341
+[20:38:47.66] /r giDialog gi::setField {drDisplay} -value {true} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[20:38:49.34] /r giDialog gi::setField {drDisplay} -value {false} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[20:38:50.08] /r giDialog gi::pressButton {returnToHome} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[20:38:50.08] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[20:38:50.10] /r giWindowId 2
+[20:38:50.10] /r giWindowGeometry 1040x800
+[20:38:50.16] /r giWindowId 3
+[20:38:50.16] /r giWindowGeometry 1040x800
+[20:38:52.42] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 2]
+[20:38:52.42] /# 
+[20:38:52.54] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 2]
+[20:38:52.54] /# 
+[20:38:52.72] /i dm::openLibraryManager
+[20:38:52.72] /r giWindowId 4
+[20:38:52.72] /r giWindowGeometry 660x600+50+76
+[20:38:52.77] /o oa:0x20053d80
+[20:38:52.77] /i gi::closeWindows [gi::getWindows 2]
+[20:39:00.95] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 4]
+[20:39:00.95] /# dm::refreshLibs; dm::refreshLibraryManager
+[20:39:03.02] /i gi::sortItems {libs} -column {Libraries} -order {descending} -in [gi::getWindows 4]
+[20:39:03.51] /i gi::sortItems {libs} -column {Libraries} -order {ascending} -in [gi::getWindows 4]
+[20:39:05.04] /i exit
+[20:39:05.07] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[20:39:05.36] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]] -value 419x207+740+341
+[20:39:08.60] /r giDialog gi::setField {SaveRecentClips} -value {false} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[20:39:09.46] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[20:39:10.08] /o Shutdown time: Sun Jan 24 20:39:10 2021
+[20:39:10.08] /o Elapsed session real time: 2.25 minutes
+[20:39:10.08] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_1_24_203651_29592.log

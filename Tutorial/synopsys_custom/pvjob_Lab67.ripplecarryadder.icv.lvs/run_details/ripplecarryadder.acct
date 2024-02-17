@@ -1,0 +1,8 @@
+ripplecarryadder
+	Cell Level Device Counts
+		NMOS[n12] = 60
+		PMOS[p12] = 60
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = ripplecarryadder  *******
+		NMOS[n12] = 60
+		PMOS[p12] = 60

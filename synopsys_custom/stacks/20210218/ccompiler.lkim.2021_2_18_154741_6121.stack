@@ -1,0 +1,5 @@
+Stack Dump: VERSION [[1616::5656::1414..2020]] /e Error:  /e Error: The application was unexpectedly terminated.
+ONFIG See the session log file for recovery details. (SHUT_DOWN-001)
+    /c  DATE Thu Feb 18 15:47:41 2021
+Frame 0. libX11.so.6: _XEventsQueued + 0x7d
+Frame 1. libX11.so.6: XPending + 0x5d

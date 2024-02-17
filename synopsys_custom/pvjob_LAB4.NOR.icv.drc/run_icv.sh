@@ -1,0 +1,2 @@
+#!/bin/sh
+unset TCL_LIBRARY;  cd /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.drc; exec-oa22.50.064.icv icv -f openaccess -i LAB4 -c NOR -oa_view layout -oa_lib_defs /DCNFS/users/student/lkim/Desktop/ELEN153L/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -oa_dm5 -vue /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.drc/rules.drc.9m_saed90_icv.drc.rs > /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB4.NOR.icv.drc/stdout.drc.log 2>&1

@@ -1,0 +1,496 @@
+### Custom WaveView ADV log file, revision P-2019.06-SP2 (build Nov 30, ) ###
+### created at 16:00:32 on Fri Mar  5 2021 (Linux AMD64) ###
+### Host Name: linux11108   User ID: cazzarel   PID: 14829   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+#source {/opt/synopsys-2019/app/wv/P-2019.06-SP2/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 796 253
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 796 231
+wv_move_window {Custom WaveView} {} 2 53
+wv_select_window {Custom WaveView} 
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1865 1096
+wv_move_window {Custom WaveView} {} 437 25
+#sx_first_wv#
+#sx_current_wv _562f6a0_void_p#
+#sx_set_data_directory {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results}#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(a0)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a0b0_void_pp#
+#::CDSX::findIsSweepScalar _576a0b0_void_pp 1#
+#sx_signal_attribute _576a0b0_void_pp -xrange#
+#sx_first_wv#
+#sx_set_wv_userinfo _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_wv _562f6a0_void_p#
+#sx_first_wv#
+#sx_next_wv _562f6a0_void_p#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv _562f6a0_void_p#
+#sx_clear_wv#
+#sx_set_wv_title _562f6a0_void_p tran#
+#sx_wv_name _562f6a0_void_p tran#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_append_panel _562f6a0_void_p linear#
+#sx_current_wv _562f6a0_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(a0)}} {-color #FF0000 -label v(/A0)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(a1)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a140_void_pp#
+#::CDSX::findIsSweepScalar _576a140_void_pp 1#
+#sx_signal_attribute _576a140_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(a1)}} {-color #CC00FF -label v(/A1)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(a2)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a1d0_void_pp#
+#::CDSX::findIsSweepScalar _576a1d0_void_pp 1#
+#sx_signal_attribute _576a1d0_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(a2)}} {-color #00FF66 -label v(/A2)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(a3)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a260_void_pp#
+#::CDSX::findIsSweepScalar _576a260_void_pp 1#
+#sx_signal_attribute _576a260_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(a3)}} {-color #CCFF00 -label v(/A3)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(b0)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a2f0_void_pp#
+#::CDSX::findIsSweepScalar _576a2f0_void_pp 1#
+#sx_signal_attribute _576a2f0_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(b0)}} {-color #0066FF -label v(/B0)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(b1)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a380_void_pp#
+#::CDSX::findIsSweepScalar _576a380_void_pp 1#
+#sx_signal_attribute _576a380_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(b1)}} {-color #FF9900 -label v(/B1)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(b2)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a410_void_pp#
+#::CDSX::findIsSweepScalar _576a410_void_pp 1#
+#sx_signal_attribute _576a410_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(b2)}} {-color #FF0099 -label v(/B2)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(b3)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a4a0_void_pp#
+#::CDSX::findIsSweepScalar _576a4a0_void_pp 1#
+#sx_signal_attribute _576a4a0_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(b3)}} {-color #00FFFF -label v(/B3)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(s0)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a5c0_void_pp#
+#::CDSX::findIsSweepScalar _576a5c0_void_pp 1#
+#sx_signal_attribute _576a5c0_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(s0)}} {-color #33FF00 -label v(/S0)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(s1)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a650_void_pp#
+#::CDSX::findIsSweepScalar _576a650_void_pp 1#
+#sx_signal_attribute _576a650_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(s1)}} {-color #3300FF -label v(/S1)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(s2)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a6e0_void_pp#
+#::CDSX::findIsSweepScalar _576a6e0_void_pp 1#
+#sx_signal_attribute _576a6e0_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(s2)}} {-color #FF9999 -label v(/S2)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(s3)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a770_void_pp#
+#::CDSX::findIsSweepScalar _576a770_void_pp 1#
+#sx_signal_attribute _576a770_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(s3)}} {-color #EB99FF -label v(/S3)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(cout)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _576a530_void_pp#
+#::CDSX::findIsSweepScalar _576a530_void_pp 1#
+#sx_signal_attribute _576a530_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_get_x_full_range _578cb00_void_p#
+#sx_xaxis_attribute _578cb00_void_p -scale#
+#sx_get_last_panel _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_get_panel_type _578cb00_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _578cb00_void_p#
+#sx_set_wv_testbench _562f6a0_void_p #
+#sx_set_wv_userinfo _562f6a0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(cout)}} {-color #99FFC2 -label v(/Cout)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _578cb00_void_p#
+#sx_set_panel_x_type _578cb00_void_p "linear"#
+#sx_set_panel_y_type _578cb00_void_p "linear"#
+#sx_first_wv#
+#sx_first_panel _562f6a0_void_p#
+#sx_toggle_right_axis _578cb00_void_p I-Signal#
+#sx_next_panel _578cb00_void_p#
+#sx_next_wv _562f6a0_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_next_panel _578cb00_void_p#
+#sx_first_line _578cb00_void_p#
+#sx_first_panel _562f6a0_void_p#
+#sx_first_wv#
+#sx_wv_name _562f6a0_void_p#
+#sx_next_wv _562f6a0_void_p#
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Ungroup} 
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Vertical Cursor} 
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL3:1 5.03632e-08 1.01324
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 405 221
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL10:1 2.95884e-07 0.245768
+wv_move_wv_item WV1.PANEL10:1.CURSOR1 1419 737
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 0 25
+wv_resize_browser {Custom WaveView} {} {tran:1} 1264 1096
+wv_resize_window {Custom WaveView} 1268 1265
+wv_move_window {Custom WaveView} {} 437 25
+wv_resize_browser {Custom WaveView} {} {tran:1} 1865 1096
+wv_resize_window {Custom WaveView} 1869 1265
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL8:1 3.24697e-07 4.11765e-07
+wv_move_wv_item WV1.PANEL8:1.CURSOR1 1538 596
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL8:1.CURSORX1
+wv_drag_item_to WV1 1536 609
+wv_move_wv_item WV1.PANEL8:1.CURSOR1 1262 600
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL8:1.LEGEND
+wv_select_panel WV1.PANEL8:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL8:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Group} 
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL7:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Group} 
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL7:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Group By Name} 
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL8:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL8:1.LEGEND
+wv_drag_item_to WV1 48 595
+wv_drag_enter WV1
+wv_drag_to WV1 48 589
+wv_drag_to WV1 48 576
+wv_drag_to WV1 48 567
+wv_drop_on WV1
+wv_drag_item_to WV1 48 589
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_drag_item_to WV1 54 578
+wv_drag_enter WV1
+wv_drag_to WV1 54 573
+wv_drag_to WV1 54 541
+wv_drag_to WV1 54 533
+wv_drop_on WV1
+wv_drag_item_to WV1 54 573
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL6:1.LEGEND
+wv_drag_item_to WV1 57 557
+wv_drag_enter WV1
+wv_drag_to WV1 57 552
+wv_drag_to WV1 48 494
+wv_drag_to WV1 48 485
+wv_drop_on WV1
+wv_drag_item_to WV1 57 552
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL5:1.LEGEND
+wv_drag_item_to WV1 50 511
+wv_drag_enter WV1
+wv_drag_to WV1 50 505
+wv_drag_to WV1 51 440
+wv_drag_to WV1 51 431
+wv_drop_on WV1
+wv_drag_item_to WV1 50 506
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_drag_item_to WV1 37 457
+wv_drag_enter WV1
+wv_drag_to WV1 37 452
+wv_drag_to WV1 44 374
+wv_drag_to WV1 46 364
+wv_drop_on WV1
+wv_drag_item_to WV1 37 452
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL3:1.LEGEND
+wv_drag_item_to WV1 45 385
+wv_drag_enter WV1
+wv_drag_to WV1 46 378
+wv_drag_to WV1 54 292
+wv_drag_to WV1 54 282
+wv_drop_on WV1
+wv_drag_item_to WV1 46 378
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_drag_item_to WV1 53 304
+wv_drag_enter WV1
+wv_drag_to WV1 57 298
+wv_drag_to WV1 50 186
+wv_drag_to WV1 48 176
+wv_drop_on WV1
+wv_drag_item_to WV1 57 299
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL2:1 1.12591e-07 1.20024
+wv_select_panel WV1.PANEL2:1 1.12591e-07 1.20024 btnup
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL3:1 7.84504e-08 -0.00713863
+wv_select_panel WV1.PANEL3:1 7.84504e-08 -0.00713863 btnup
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL4:1 8.18402e-08 0.00746608
+wv_select_panel WV1.PANEL4:1 8.18402e-08 0.00746608 btnup
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL5:1.CURSOR1
+wv_move_wv_item WV1.PANEL5:1.CURSOR1 529 721
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL5:1 8.18402e-08 1.16218
+wv_drag_item_to WV1 536 713
+wv_select_panel WV1.PANEL5:1 8.20823e-08 1.16977 btnup
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL6:1 7.50605e-08 -0.0152437
+wv_select_panel WV1.PANEL6:1 7.50605e-08 -0.0152437 btnup
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL2:1 4.84262e-10 0.235435
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 199 337
+wv_move_window {Custom WaveView} {} 0 25
+wv_resize_browser {Custom WaveView} {} {tran:1} 1264 1096
+wv_resize_window {Custom WaveView} 1268 1265
+wv_move_window {Custom WaveView} {} 437 25
+wv_resize_browser {Custom WaveView} {} {tran:1} 1865 1096
+wv_resize_window {Custom WaveView} 1869 1265
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 1282 639
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/cazzarel/.cx_hostport/.cx_hostport_linux11108_14829'.

@@ -1,0 +1,88 @@
+[10:18:47.39] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Fri Jan 22 10:18:35 2021
+              /c Host: linux11105
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[10:18:47.53] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[10:18:47.53] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[10:18:47.54] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[10:18:47.54] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[10:18:47.75] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[10:18:47.76] /o 	############################################
+[10:18:47.76] /o 	        Synopsys Generic 90nm iPDK          
+[10:18:47.76] /o 	--------------------------------------------
+[10:18:47.76] /o 	Release Date .............. : 11-May-2016    
+[10:18:47.76] /o 	============================================
+[10:18:47.76] /o 	        Recommended Tool Versions           
+[10:18:47.76] /o 	--------------------------------------------
+[10:18:47.76] /o 	Custom Designer ........... : J-2014.12-2    
+[10:18:47.76] /o 	IC Validator .............. : K-2015.12   
+[10:18:47.76] /o 	StarRC..................... : K-2015.12  
+[10:18:47.76] /o 	--------------------------------------------
+[10:18:47.76] /o 	############################################
+[10:18:47.76] /o 
+[10:18:47.81] /o SAED PDK 90: Loaded callbacks
+[10:18:47.82] /o SAED PDK 90: Loaded display resources
+[10:18:47.85] /i ::sa::_backgroundSaeShell::signalProcessReady 1611339510
+[10:18:47.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 17
+[10:23:48.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:23:48.95] /i ::sa::_backgroundSaeShell::parentRunning
+[10:23:48.95] /o 1611339828
+[10:28:32.64] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:28:34.53] /m Information: Start incremental database creation...
+[10:28:34.67] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[10:28:35.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 3.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:28:35.88] /o false
+[10:28:56.17] /i ::wf::viewerExited
+[10:29:11.71] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:29:13.31] /m Information: Start incremental database creation...
+[10:29:14.82] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 3.1 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[10:29:14.82] /o false
+[10:34:15.90] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:34:16.05] /i ::sa::_backgroundSaeShell::parentRunning
+[10:34:16.05] /o 1611340456
+[10:34:19.75] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[10:39:16.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:39:16.95] /i ::sa::_backgroundSaeShell::parentRunning
+[10:39:16.95] /o 1611340756
+[10:44:17.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:44:17.95] /i ::sa::_backgroundSaeShell::parentRunning
+[10:44:17.95] /o 1611341057
+[10:49:18.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:49:19.15] /i ::sa::_backgroundSaeShell::parentRunning
+[10:49:19.15] /o 1611341359
+[10:54:19.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:54:20.05] /i ::sa::_backgroundSaeShell::parentRunning
+[10:54:20.05] /o 1611341660
+[10:59:21.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[10:59:21.15] /i ::sa::_backgroundSaeShell::parentRunning
+[10:59:21.15] /o 1611341961
+[11:04:22.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:04:22.05] /i ::sa::_backgroundSaeShell::parentRunning
+[11:04:22.05] /o 1611342262
+[11:09:23.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:09:23.05] /i ::sa::_backgroundSaeShell::parentRunning
+[11:09:23.05] /o 1611342563
+[11:11:22.07] /i ::wf::viewerExited
+[11:11:35.15] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[11:11:37.07] /m Information: Start incremental database creation...
+[11:11:37.16] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[11:11:38.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 3.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[11:11:38.62] /o false
+[11:16:39.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:16:39.25] /i ::sa::_backgroundSaeShell::parentRunning
+[11:16:39.25] /o 1611342999
+[11:16:42.75] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[11:16:52.47] /i ::wf::viewerExited
+[11:20:21.45] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[11:20:23.15] /m Information: Start incremental database creation...
+[11:20:23.23] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[11:20:24.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 3.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cazzarel/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[11:20:24.67] /o false
+[11:22:14.97] /i ::wf::viewerExited
+[11:22:25.00] /i ::sa::_backgroundSaeShell::exit
+[11:22:25.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

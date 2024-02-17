@@ -1,0 +1,5 @@
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Tue Feb 23 16:12:48 2021
+Frame 0. OpenAccess_4::oaDatabase::postWrite() + 0x52
+Frame 1. OpenAccess_4::oaDMDatabaseFile::write(OpenAccess_4::oaDMFileTbl*, unsigned int, OpenAccess_4::oaString const&, int) + 0x287
+Frame 2. OpenAccess_4::oaDMDatabaseFile::write(OpenAccess_4::oaDMFileTbl*, unsigned int, OpenAccess_4::oaSaveRecoverType) + 0x61
+Frame 3. OpenAccess_4::oaDMDatabaseFile::write(OpenAccess_4::oaSaveRecoverType) + 0x4a

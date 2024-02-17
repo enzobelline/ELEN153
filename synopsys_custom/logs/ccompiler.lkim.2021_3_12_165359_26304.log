@@ -1,0 +1,33 @@
+[16:54:02.57] /r giWindowId 0
+[16:54:02.57] /r giWindowGeometry 600x300
+[16:54:02.58] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Mar 12 16:53:59 2021
+              /c Host: linux11111
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[16:54:09.26] /r giShowFrameTabs true
+[16:54:09.26] /r giWindowId 1
+[16:54:09.26] /r giWindowGeometry 1040x800
+[17:27:07.40] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[17:27:07.41] /# 
+[17:27:07.51] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[17:27:07.51] /# 
+[17:27:07.71] /i dm::showLibraryManager
+[17:27:07.71] /r giWindowId 2
+[17:27:07.72] /r giWindowGeometry 660x600+50+76
+[17:27:07.76] /o oa:0x2011df50
+[18:01:56.61] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[18:01:56.62] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

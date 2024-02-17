@@ -1,0 +1,32 @@
+{netlist NOR.sch_out
+{version 2 1 0}
+{net_global vdd! gnd! VSS VDD VDD22 VDD12 VSS12 }
+{cell NOR
+{port A B C D Vout}
+{inst MM3=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin Vout=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM2=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin Vout=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin Vout=DRN C=GATE gnd!=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin Vout=DRN D=GATE gnd!=SRC gnd!=BULK}}
+{inst MM7=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=4.8}
+{pin net35=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM6=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=4.8}
+{pin net36=DRN B=GATE net35=SRC vdd!=BULK}}
+{inst MM5=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=4.8}
+{pin net37=DRN C=GATE net36=SRC vdd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=4.8}
+{pin Vout=DRN D=GATE net37=SRC vdd!=BULK}}
+}
+
+}

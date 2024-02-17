@@ -1,0 +1,226 @@
+Unset QT_XCB_NATIVE_PAINTING for VUE
+DEBUG: ConnectToServer: linux11112.dc.engr.scu.edu 36637
+DEBUG: connect back to custom compiler: 'linux11112.dc.engr.scu.edu:36637'
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L CDESIGNER::StartFilter LAY
+DEBUG: PushBackXprobeMessage{vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+}
+L set topLayLCV  ""
+L set curLayLCV  ""
+
+< LAYOUT: start_filter >
+L CDESIGNER::SendCommand setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L set topLayLCV "Lab6Pt2/ripplecarryadder/layout"
+L set curLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab6Pt2.ripplecarryadder.icv.drc"
+L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+DEBUG: PopFrontXprobeMessage{} : /vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+/ //
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand clearAllHighlights "$curLayLCV"
+L set curLayLCV "Lab6Pt2/ripplecarryadder/layout"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002353_000000.oas" "73e4e200bdc7cf18aa8f5582e67d226f"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 78.038375 6.849375 78.204625 6.905625]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.114"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002353_000001.oas" "af2100ae8ffed44eb5c7e27ecce5214c"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 78.041875 6.843375 78.173125 6.959625]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.114"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002354_000002.oas" "9e06600cd3f47ffc047b272353426c8a"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 78.010375 6.849375 78.176625 6.905625]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.114"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002354_000003.oas" "12f82b414aeef384e4dc8392a7b14e06"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 78.041875 6.795375 78.173125 6.911625]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.114"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002852_000004.oas" "73e4e200bdc7cf18aa8f5582e67d226f"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 78.038375 6.849375 78.204625 6.905625]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.114"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002918_000005.oas" "163bd1885061ad7d2f18e38d42e60bb5"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 1.1775 6.79925 1.2525 6.95675]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.1"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002918_000006.oas" "e17c69d89abaaf2d6f4e0c989d4f3679"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 1.115625 6.805 1.259375 6.905]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.1"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002919_000007.oas" "08f64b2ba6c3bda3e85995f891375457"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 1.1775 6.75325 1.2525 6.91075]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.1"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_KSvPsp/highlight_20210315002919_000008.oas" "c82a7f5489bfe90447ee97d2d4dfb33a"
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 1.170625 6.805 1.314375 6.905]
+
+< LAYOUT: drc_error >
+L CDESIGNER::SendCommand addErrorDescription $curLayLCV {"Distance: 0.1"}
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV

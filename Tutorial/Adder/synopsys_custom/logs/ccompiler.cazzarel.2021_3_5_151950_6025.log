@@ -1,0 +1,941 @@
+[15:19:52.97] /r giWindowId 0
+[15:19:52.97] /r giWindowGeometry 600x300
+[15:19:52.98] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Mar  5 15:19:50 2021
+              /c Host: linux11108
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial/Adder
+              /c 
+[15:19:56.75] /r giShowFrameTabs true
+[15:19:56.75] /r giWindowId 1
+[15:19:56.75] /r giWindowGeometry 1040x800
+[15:19:58.30] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:19:58.30] /# 
+[15:19:58.44] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:19:58.44] /# 
+[15:19:58.60] /i dm::showLibraryManager
+[15:19:58.60] /r giWindowId 2
+[15:19:58.61] /r giWindowGeometry 1040x800+838+354
+[15:19:58.64] /o oa:0x1c4d4f10
+[15:19:59.99] /i gi::setCurrentIndex {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[15:20:00.00] /i gi::setItemSelection {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[15:20:00.83] /i gi::setCurrentIndex {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[15:20:00.87] /i gi::setItemSelection {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[15:20:01.59] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:20:01.62] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[15:20:01.74] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:20:01.79] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[15:20:01.87] /r giWindowId 3
+[15:20:01.87] /r giWindowGeometry 2176x1226
+[15:20:04.13] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:20:04.53] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[15:20:05.96] /# gi::executeAction {deFitEdit} -in [gi::getWindows 3]
+[15:20:05.96] /i de::fit -window 3 -fitEdit true
+[15:20:06.89] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:06.89] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.7125 4.46875}
+[15:20:06.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:06.93] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.7 4.46875}
+[15:20:07.00] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:07.00] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.7 4.46875}
+[15:20:07.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:07.06] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.7 4.46875}
+[15:20:07.43] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:07.43] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.675 4.45625}
+[15:20:07.47] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:07.47] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.66875 4.45625}
+[15:20:08.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:08.10] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.34375 4.63125}
+[15:20:08.72] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:20:08.72] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:20:08.72] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.10625 4.875} -index 0 -intent none]
+[15:20:08.72] /o oa:0x21a578a0
+[15:20:09.90] /i gi::executeAction {sePropertyEditorToggle} -in [gi::getWindows 3]
+[15:20:09.90] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[15:20:13.44] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:13.44] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.8875 4.19375}
+[15:20:13.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:13.50] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.88125 4.19375}
+[15:20:13.96] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:13.96] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.6625 4.24375}
+[15:20:14.38] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:14.38] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.65 4.28125}
+[15:20:14.44] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:14.44] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.64375 4.28125}
+[15:20:14.80] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:14.80] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.5375 4.325}
+[15:20:15.31] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:15.31] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.06875 4.40625}
+[15:20:16.83] /# gi::executeAction {seDelete} -in [gi::getWindows 3]
+[15:20:16.83] /i ise::delete
+[15:20:17.55] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:20:17.55] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:20:17.55] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.525 4.9375} -index 0 -intent none]
+[15:20:17.55] /o oa:0x21c22130
+[15:20:18.04] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:20:18.04] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:20:18.04] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.04375 4.9125} -index 0 -intent none]
+[15:20:18.04] /o oa:0x20e0aee0
+[15:20:19.16] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:20:19.16] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:20:19.17] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[15:20:19.46] /# gi::executeAction {seDelete} -in [gi::getWindows 3]
+[15:20:19.46] /i ise::delete
+[15:20:20.52] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:20.52] /i de::addPoint {2.58125 4.8875} -context [db::getNext [de::getContexts -window 3]]
+[15:20:20.93] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:20.93] /i de::addPoint {2.98125 4.9} -context [db::getNext [de::getContexts -window 3]]
+[15:20:21.33] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:21.34] /i de::addPoint {3.39375 4.88125} -context [db::getNext [de::getContexts -window 3]]
+[15:20:21.78] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:21.78] /i de::addPoint {3.725 4.85625} -context [db::getNext [de::getContexts -window 3]]
+[15:20:22.18] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:22.18] /i de::addPoint {4.1375 4.86875} -context [db::getNext [de::getContexts -window 3]]
+[15:20:22.76] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:22.76] /i de::addPoint {4.61875 4.86875} -context [db::getNext [de::getContexts -window 3]]
+[15:20:23.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:23.21] /i de::addPoint {5.0875 4.85625} -context [db::getNext [de::getContexts -window 3]]
+[15:20:24.64] /# gi::executeAction {seCreateInst} -in [gi::getWindows 3]
+[15:20:24.64] /i ise::createInst
+[15:20:24.66] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:24.66] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:24.69] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:25.03] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x337+2+53
+[15:20:26.99] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:26.99] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:26.99] /i gi::setField {instMasterLib} -value {analogLib} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:27.30] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x337+2+53
+[15:20:35.15] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:35.16] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:35.16] /i gi::setField {instMasterCell} -value {vpat} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:35.44] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x581+2+53
+[15:20:38.25] /i gi::setField {instOrientation} -value {R180} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:40.39] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:40.39] /i de::addPoint {2.1 4.7} -context [db::getNext [de::getContexts -window 3]]
+[15:20:41.78] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:41.78] /i de::addPoint {2.50625 4.7125} -context [db::getNext [de::getContexts -window 3]]
+[15:20:43.79] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:43.79] /i de::addPoint {3.00625 4.69375} -context [db::getNext [de::getContexts -window 3]]
+[15:20:45.77] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:45.77] /i de::addPoint {3.38125 4.6875} -context [db::getNext [de::getContexts -window 3]]
+[15:20:46.94] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:46.94] /i de::addPoint {3.75 4.6875} -context [db::getNext [de::getContexts -window 3]]
+[15:20:48.23] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:48.23] /i de::addPoint {4.1375 4.7125} -context [db::getNext [de::getContexts -window 3]]
+[15:20:50.22] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:50.22] /i de::addPoint {4.6625 4.7} -context [db::getNext [de::getContexts -window 3]]
+[15:20:51.55] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:20:51.55] /i de::addPoint {5.13125 4.7} -context [db::getNext [de::getContexts -window 3]]
+[15:20:53.47] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:53.47] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.6 3.7125}
+[15:20:53.49] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:53.49] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.6875 3.75625}
+[15:20:53.55] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:53.56] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.69375 3.7625}
+[15:20:53.94] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:53.94] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.7125 3.8375}
+[15:20:53.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:53.97] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.7125 3.8375}
+[15:20:55.36] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:20:55.90] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:20:55.90] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.64375 3.75625}
+[15:20:56.50] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:56.50] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.21875 4.78125}
+[15:20:56.56] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:20:56.56] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.2125 4.80625}
+[15:20:57.48] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:20:57.48] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:20:57.48] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.15625 4.875} -index 0 -intent none]
+[15:20:57.48] /o oa:0x21cc49d0
+[15:20:58.17] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:20:58.17] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:20:58.17] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.125 4.88125} -index 0 -intent none]
+[15:20:58.17] /o oa:0x212927d0
+[15:21:02.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:21:02.69] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.35 4.40625}
+[15:21:24.01] /i gi::setItemSelection {parameters} -index {tr,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:24.01] /i gi::setCurrentIndex {parameters} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:31.86] /i gi::setField {parameters} -value {100 n} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:32.30] /i gi::setItemSelection {parameters} -index {tf,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:32.30] /i gi::setCurrentIndex {parameters} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:37.06] /i gi::setField {parameters} -value {100n} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:37.08] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:38.59] /i gi::setItemSelection {parameters} -index {tr,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:38.59] /i gi::setCurrentIndex {parameters} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:39.96] /i gi::setField {parameters} -value {100n} -index {tr,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:39.98] /i gi::setItemSelection {parameters} -index {tf,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:39.98] /i gi::setCurrentIndex {parameters} -index {tf,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:40.55] /i gi::setItemSelection {parameters} -index {tsample,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:40.55] /i gi::setCurrentIndex {parameters} -index {tsample,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:44.91] /i gi::setField {parameters} -value {200n} -index {tsample,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:44.94] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:49.96] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:49.97] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:53.30] /i gi::setField {parameters} -value {b11} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:21:53.67] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:21:53.67] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:21:53.71] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:21:53.96] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+1054+625
+[15:21:56.14] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:21:56.15] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[15:21:57.24] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:21:57.24] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:21:57.24] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.4625 4.89375} -index 0 -intent none]
+[15:21:57.24] /o oa:0x21d257a0
+[15:22:04.25] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:04.25] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:04.25] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.14375 4.875} -index 0 -intent none]
+[15:22:04.25] /o oa:0x219c6390
+[15:22:07.44] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:07.44] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:07.44] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.49375 4.8875} -index 0 -intent none]
+[15:22:07.44] /o oa:0x20caa460
+[15:22:08.36] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:08.36] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:08.36] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[15:22:08.69] /# gi::executeAction {seDelete} -in [gi::getWindows 3]
+[15:22:08.69] /i ise::delete
+[15:22:09.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:09.21] /i de::addPoint {2.5125 4.9} -context [db::getNext [de::getContexts -window 3]]
+[15:22:09.81] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:09.81] /i de::addPoint {2.99375 4.8875} -context [db::getNext [de::getContexts -window 3]]
+[15:22:10.59] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:10.59] /i de::addPoint {3.3875 4.90625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:11.13] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:11.13] /i de::addPoint {3.74375 4.9} -context [db::getNext [de::getContexts -window 3]]
+[15:22:11.71] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:11.71] /i de::addPoint {4.10625 4.875} -context [db::getNext [de::getContexts -window 3]]
+[15:22:12.30] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:12.30] /i de::addPoint {4.66875 4.8625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:13.07] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:13.07] /i de::addPoint {5.13125 4.85625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:15.10] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[15:22:15.10] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[15:22:16.35] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:16.35] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:16.35] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.1125 4.93125} -index 0 -intent none]
+[15:22:16.35] /o oa:0x21d7a520
+[15:22:17.66] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:17.67] /i ise::copy
+[15:22:18.33] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:18.33] /i de::addPoint {2.13125 4.9125} -context [db::getNext [de::getContexts -window 3]]
+[15:22:19.46] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:19.46] /i de::addPoint {2.5 4.9125} -context [db::getNext [de::getContexts -window 3]]
+[15:22:21.03] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:21.03] /i ise::copy
+[15:22:21.49] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:21.49] /i de::addPoint {2.5 4.875} -context [db::getNext [de::getContexts -window 3]]
+[15:22:22.76] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:22.76] /i de::addPoint {3 4.8625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:23.37] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:23.37] /i ise::copy
+[15:22:23.66] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:23.66] /i de::addPoint {3 4.8625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:24.39] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:24.39] /i de::addPoint {3.35625 4.875} -context [db::getNext [de::getContexts -window 3]]
+[15:22:24.92] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:24.92] /i ise::copy
+[15:22:25.25] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:25.25] /i de::addPoint {3.38125 4.8625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:26.15] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:26.15] /i de::addPoint {3.71875 4.85} -context [db::getNext [de::getContexts -window 3]]
+[15:22:26.58] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:26.58] /i ise::copy
+[15:22:26.88] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:26.88] /i de::addPoint {3.7375 4.825} -context [db::getNext [de::getContexts -window 3]]
+[15:22:27.80] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:27.80] /i de::addPoint {4.15 4.825} -context [db::getNext [de::getContexts -window 3]]
+[15:22:28.21] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:28.21] /i ise::copy
+[15:22:28.55] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:28.55] /i de::addPoint {4.13125 4.8375} -context [db::getNext [de::getContexts -window 3]]
+[15:22:29.65] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:29.65] /i de::addPoint {4.68125 4.7875} -context [db::getNext [de::getContexts -window 3]]
+[15:22:30.37] /# gi::executeAction {seCopy} -in [gi::getWindows 3]
+[15:22:30.37] /i ise::copy
+[15:22:31.03] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:31.03] /i de::addPoint {4.66875 4.85} -context [db::getNext [de::getContexts -window 3]]
+[15:22:32.57] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:22:32.57] /i de::addPoint {5.11875 4.8625} -context [db::getNext [de::getContexts -window 3]]
+[15:22:34.01] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:22:34.01] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.76875 4.7375}
+[15:22:37.16] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:37.16] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:37.16] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.48125 4.825} -index 0 -intent none]
+[15:22:37.16] /o oa:0x21978660
+[15:22:42.31] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:42.31] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:45.19] /i gi::setField {parameters} -value {b01} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:45.21] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:46.60] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:46.60] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:46.60] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.00625 4.86875} -index 0 -intent none]
+[15:22:46.60] /o oa:0x1f9bff40
+[15:22:47.90] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:47.90] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:52.21] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:52.21] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:52.21] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.4125 4.875} -index 0 -intent none]
+[15:22:52.21] /o oa:0x21278cf0
+[15:22:52.77] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:52.77] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:52.77] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.38125 4.875} -index 0 -intent none]
+[15:22:52.77] /o oa:0x1dc19290
+[15:22:56.41] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:56.41] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:58.70] /i gi::setField {parameters} -value {b01} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:22:59.62] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:22:59.62] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:22:59.65] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:22:59.93] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+1054+625
+[15:23:00.93] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:23:00.95] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[15:23:01.73] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:23:01.73] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:23:01.73] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.7125 4.8625} -index 0 -intent none]
+[15:23:01.74] /o oa:0x21daa1d0
+[15:23:11.10] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:11.10] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:13.74] /i gi::setField {parameters} -value {b01} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:14.33] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:23:14.33] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:23:14.33] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.1125 4.8625} -index 0 -intent none]
+[15:23:14.33] /o oa:0x21cd7de0
+[15:23:14.37] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:23:14.63] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+1054+625
+[15:23:15.63] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:23:19.12] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:19.12] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:22.69] /i gi::setField {parameters} -value {b00} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:22.71] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:23.77] /# gi::executeAction {deFitEdit} -in [gi::getWindows 3]
+[15:23:23.77] /i de::fit -window 3 -fitEdit true
+[15:23:24.73] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:23:24.73] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {4.50625 4.7625}
+[15:23:24.80] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:23:24.80] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {4.475 4.7875}
+[15:23:24.89] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:23:24.89] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {4.475 4.7875}
+[15:23:24.94] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:23:24.94] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {4.475 4.7875}
+[15:23:25.68] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:23:25.68] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:23:25.68] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.675 4.84375} -index 0 -intent none]
+[15:23:25.68] /o oa:0x21d06cc0
+[15:23:28.15] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:23:28.15] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.64375 4.61875}
+[15:23:28.20] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:23:28.20] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.64375 4.6125}
+[15:23:29.00] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:23:29.00] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:23:29.00] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {5.10625 4.85625} -index 0 -intent none]
+[15:23:29.00] /o oa:0x21d06cc0
+[15:23:31.40] /i gi::setItemSelection {parameters} -index {data,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:31.40] /i gi::setCurrentIndex {parameters} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:34.00] /i gi::setField {parameters} -value {b00} -index {data,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:34.02] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:23:37.99] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 3]
+[15:23:37.99] /i ise::check
+[15:23:38.04] /m Information: 
+[15:23:38.04] /o Checking "fourbitadder/ripplecarrytestbench/schematic"
+[15:23:38.04] /o No rule violations found in "fourbitadder/ripplecarrytestbench/schematic"
+[15:23:38.04] /m Information: Checking process is completed: marking the design violations
+[15:23:38.16] /m Information: Marking of designs is completed
+[15:23:51.31] /# gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 3]
+[15:23:51.31] /i sa::showConsole -context [db::getNext [de::getContexts -window 3]]
+[15:23:59.31] /r giWindowId 4
+[15:23:59.32] /r giWindowGeometry 600x500
+[15:23:59.52] /m Information: Launching Background sae_shell Server Process "cd /DCNFS/users/student/cazzarel/Tutorial/Adder && sae_shell -log sae_shell_session0_job1 -libDefFile /DCNFS/users/student/cazzarel/Tutorial/Adder/lib.defs"
+[15:24:08.73] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 9 seconds.
+[15:24:30.01] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:30.01] /r giMenuAccess db::getNext [gi::getMenus saToolsMenu -from [gi::getWindows 4]]
+[15:24:30.91] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:30.91] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[15:24:31.50] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:31.50] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[15:24:32.22] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:32.22] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 4]]
+[15:24:33.61] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:33.61] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 4]]
+[15:24:34.30] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:34.31] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 4]]
+[15:24:35.12] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:35.12] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 4]]
+[15:24:35.86] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:24:35.86] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 4]]
+[15:24:37.63] /# gi::executeAction {saEditModels} -in [gi::getWindows 4]
+[15:24:37.63] /i sa::showModelFiles -parent 4
+[15:24:37.69] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:37.94] /i db::setAttr geometry -of [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]] -value 760x500+1048+492
+[15:24:46.09] /i gi::setField {PathSelector} -value {$SAED90_PDK} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:49.98] /i gi::setField {PathSelector} -value {$SAED90_PDK/hspice} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:49.98] /i gi::setCurrentIndex {modelFilesTable} -index {0,1} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:52.51] /r giFileDialog accept ../../../../../applications/synopsys/2019/app/SAED/SAED_PDK90nm/hspice/SAED90nm.lib
+[15:24:52.51] /i gi::setField {modelFilesTable} -index {0,1} -value {/DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/hspice/SAED90nm.lib} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:52.52] /i gi::setField {modelFilesTable} -index {0,1} -value {SAED90nm.lib} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:53.10] /i gi::setCurrentIndex {modelFilesTable} -index {0,2} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:53.10] /i gi::setItemSelection {modelFilesTable} -index {0,2} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:53.81] /r giDialog gi::setActiveDialog [gi::getDialogs {saSelectSections} -parent [gi::getWindows 4]]
+[15:24:54.10] /r giDialog db::setAttr geometry -of [gi::getDialogs {saSelectSections} -parent [gi::getWindows 4]] -value 320x287+1266+571
+[15:24:56.85] /r giDialog gi::setField {namesListList} -index {20,0} -value {true} -in [gi::getDialogs {saSelectSections} -parent [gi::getWindows 4]]
+[15:24:58.00] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {saSelectSections} -parent [gi::getWindows 4]]
+[15:24:58.01] /i gi::setField {modelFilesTable} -index {0,2} -value {TT_12} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:58.01] /i gi::setField {modelFilesTable} -index {0,2} -value {TT_12} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:58.02] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:24:59.76] /i gi::pressButton {apply} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:25:00.29] /i gi::pressButton {ok} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:25:02.63] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 4]
+[15:25:02.63] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:25:06.69] /i sa::selectOutputs -outputIndex 0 -window [gi::getWindows 4]
+[15:25:10.15] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:25:10.15] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.3875 4.6875}
+[15:25:13.03] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:25:13.03] /i de::addPoint {2.10625 4.85625} -context [db::getNext [de::getContexts -window 3]]
+[15:25:13.33] /i de::commandOption acceptDelayedAddPoint
+[15:25:16.38] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 4]
+[15:25:16.38] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 4]
+[15:25:18.59] /i gi::setField {outputsTable} -index {0,1} -value {i(/V18/MINUS)} -in [gi::getWindows 4]
+[15:25:18.67] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:25:19.25] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 4]
+[15:25:21.88] /i gi::setField {outputsTable} -index {0,1} -value {} -in [gi::getWindows 4]
+[15:25:21.88] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 4]
+[15:25:21.88] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:25:22.78] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 4]
+[15:25:23.78] /i gi::setField {outputsTable} -index {0,1} -value {} -in [gi::getWindows 4]
+[15:25:23.78] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 4]
+[15:25:23.78] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:25:25.52] /i gi::setActiveWindow 3
+[15:25:25.52] /i gi::setActiveWindow 3 -raise true
+[15:25:27.64] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:25:27.64] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:25:27.64] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.11875 4.4} -index 0 -intent none]
+[15:25:27.64] /o oa:0x21cb5cc0
+[15:25:29.46] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 3]
+[15:25:29.47] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[15:25:29.47] /r giMenuAccess db::getNext [gi::getMenus seSchWireContextMenu]
+[15:25:38.19] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:38.19] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:43.80] /i gi::setField {attributes} -value {A0} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:43.90] /i gi::setField {attributes} -value {2} -index {nameVisibility,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:46.49] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:25:46.49] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:25:46.49] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.5 4.3875} -index 0 -intent none]
+[15:25:46.49] /o oa:0x21cb5cc0
+[15:25:46.53] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:25:46.81] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+1054+625
+[15:25:48.03] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:25:50.19] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:50.19] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:54.43] /i gi::setField {attributes} -value {A1} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:54.52] /i gi::setField {attributes} -value {2} -index {nameVisibility,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:55.73] /i gi::setItemSelection {attributes} -index {} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:55.73] /i gi::setCurrentIndex {attributes} -index {} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:25:57.82] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:25:57.82] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:25:57.82] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.9875 4.40625} -index 0 -intent none]
+[15:25:57.82] /o oa:0x21ef3100
+[15:25:57.86] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:25:58.13] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+1054+625
+[15:25:58.81] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[15:26:00.71] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:00.71] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:00.91] /i gi::setCurrentIndex {attributes} -index {name,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:01.66] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:06.43] /i gi::setField {attributes} -value {A2} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:06.43] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:09.69] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:26:09.69] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:26:09.69] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.39375 4.35625} -index 0 -intent none]
+[15:26:09.69] /o oa:0x2a655900
+[15:26:11.38] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:11.39] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:14.29] /i gi::setField {attributes} -value {A3} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:14.29] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:16.06] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:26:16.06] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:26:16.06] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.75 4.41875} -index 0 -intent none]
+[15:26:16.06] /o oa:0x2a93b8d0
+[15:26:17.47] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:17.47] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:17.69] /i gi::setCurrentIndex {attributes} -index {name,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:18.16] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:23.18] /i gi::setField {attributes} -value {B0} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:23.18] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:24.91] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:26:24.91] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:26:24.91] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.11875 4.39375} -index 0 -intent none]
+[15:26:24.91] /o oa:0x2a7636f0
+[15:26:26.68] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:26.68] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:30.58] /i gi::setField {attributes} -value {B1} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:30.58] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:32.81] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:26:32.81] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:26:32.81] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.6875 4.44375} -index 0 -intent none]
+[15:26:32.82] /o oa:0x2a58dcc0
+[15:26:34.24] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:34.24] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:38.75] /i gi::setField {attributes} -value {B2} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:38.75] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:40.60] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:26:40.60] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:26:40.60] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {5.13125 4.33125} -index 0 -intent none]
+[15:26:40.60] /o oa:0x2a925790
+[15:26:41.93] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:41.93] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:45.15] /i gi::setField {attributes} -value {B3} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:45.15] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:26:47.39] /i gi::setActiveWindow 4
+[15:26:47.39] /i gi::setActiveWindow 4 -raise true
+[15:26:48.85] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:26:51.21] /i sa::selectOutputs -outputIndex 0 -window [gi::getWindows 4]
+[15:26:53.42] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:26:53.42] /i de::addPoint {2.11875 4.48125} -context [db::getNext [de::getContexts -window 3]]
+[15:26:54.77] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:26:56.44] /i sa::selectOutputs -outputIndex 1 -window [gi::getWindows 4]
+[15:26:58.26] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:26:58.26] /i de::addPoint {2.5 4.45} -context [db::getNext [de::getContexts -window 3]]
+[15:26:59.27] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 4]
+[15:26:59.27] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:26:59.91] /i gi::setField {outputsTable} -index {2,1} -value {} -in [gi::getWindows 4]
+[15:26:59.92] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 4]
+[15:26:59.92] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:01.72] /i gi::setCurrentIndex {outputsTable} -index {2,1} -in [gi::getWindows 4]
+[15:27:01.72] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:03.40] /i sa::selectOutputs -outputIndex 2 -window [gi::getWindows 4]
+[15:27:05.20] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:27:05.20] /i de::addPoint {2.9875 4.5} -context [db::getNext [de::getContexts -window 3]]
+[15:27:06.34] /i gi::setCurrentIndex {outputsTable} -index {3,1} -in [gi::getWindows 4]
+[15:27:06.34] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:19.28] /i sa::selectOutputs -outputIndex 3 -window [gi::getWindows 4]
+[15:27:21.46] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:27:21.46] /i de::addPoint {3.38125 4.475} -context [db::getNext [de::getContexts -window 3]]
+[15:27:22.30] /i gi::setCurrentIndex {outputsTable} -index {4,1} -in [gi::getWindows 4]
+[15:27:22.30] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:23.96] /i sa::selectOutputs -outputIndex 4 -window [gi::getWindows 4]
+[15:27:27.02] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:27:27.02] /i de::addPoint {3.74375 4.53125} -context [db::getNext [de::getContexts -window 3]]
+[15:27:28.39] /i gi::setCurrentIndex {outputsTable} -index {5,1} -in [gi::getWindows 4]
+[15:27:28.39] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:29.85] /i sa::selectOutputs -outputIndex 5 -window [gi::getWindows 4]
+[15:27:32.27] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:27:32.27] /i de::addPoint {4.125 4.40625} -context [db::getNext [de::getContexts -window 3]]
+[15:27:33.18] /i gi::setCurrentIndex {outputsTable} -index {6,1} -in [gi::getWindows 4]
+[15:27:33.18] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:34.47] /i sa::selectOutputs -outputIndex 6 -window [gi::getWindows 4]
+[15:27:36.07] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:27:36.07] /i de::addPoint {4.6875 4.4875} -context [db::getNext [de::getContexts -window 3]]
+[15:27:37.08] /i gi::setCurrentIndex {outputsTable} -index {7,1} -in [gi::getWindows 4]
+[15:27:37.08] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:27:39.54] /i sa::selectOutputs -outputIndex 7 -window [gi::getWindows 4]
+[15:27:41.75] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:27:41.75] /i de::addPoint {5.13125 4.4125} -context [db::getNext [de::getContexts -window 3]]
+[15:27:45.84] /i gi::setActiveWindow 3
+[15:27:45.84] /i gi::setActiveWindow 3 -raise true
+[15:27:46.76] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:27:46.76] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.875 5.075}
+[15:27:46.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:27:46.87] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.86875 5.125}
+[15:27:47.39] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:27:47.39] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.4375 0.2875}
+[15:27:47.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:27:47.43] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.4375 0.2875}
+[15:27:47.48] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:27:47.48] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.4375 0.3}
+[15:27:48.79] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:27:48.79] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.13125 0.55625}
+[15:27:48.83] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:27:48.83] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {3.13125 0.5625}
+[15:27:49.35] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:27:49.35] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.15625 -0.01875}
+[15:27:59.99] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:27:59.99] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:27:59.99] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.125 0.7375} -index 0 -intent none]
+[15:27:59.99] /o oa:0x2a925790
+[15:28:01.89] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:01.89] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:02.25] /i gi::setCurrentIndex {attributes} -index {name,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:02.75] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:07.37] /i gi::setField {attributes} -value {S0} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:07.38] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:09.39] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:28:09.39] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:28:09.39] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.5 0.69375} -index 0 -intent none]
+[15:28:09.39] /o oa:0x2a57ae20
+[15:28:10.72] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:10.72] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:14.22] /i gi::setField {attributes} -value {S1} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:14.22] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:16.66] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:28:16.66] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:28:16.66] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.63125 0.875} -index 0 -intent none]
+[15:28:16.66] /o oa:0x2abecec0
+[15:28:18.72] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:18.72] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:22.41] /i gi::setField {attributes} -value {S2} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:22.41] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:25.60] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:28:25.60] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:28:25.60] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {3.75 0.9125} -index 0 -intent none]
+[15:28:25.60] /o oa:0x2a5cf360
+[15:28:27.57] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:27.58] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:31.21] /i gi::setField {attributes} -value {S3} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:31.21] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:32.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:28:32.50] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {6.9375 1.09375}
+[15:28:33.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:28:33.20] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.16875 2.325}
+[15:28:34.53] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:28:34.53] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:28:34.53] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.4625 2.3625} -index 0 -intent none]
+[15:28:34.53] /o oa:0x2abe5610
+[15:28:36.03] /i gi::setItemSelection {attributes} -index {name,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:36.04] /i gi::setCurrentIndex {attributes} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:39.07] /i gi::setField {attributes} -value {Cout} -index {name,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:39.07] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:28:42.81] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 3]
+[15:28:42.81] /i ise::check
+[15:28:42.85] /m Information: 
+[15:28:42.85] /o Checking "fourbitadder/ripplecarrytestbench/schematic"
+[15:28:42.86] /o No rule violations found in "fourbitadder/ripplecarrytestbench/schematic"
+[15:28:42.86] /m Information: Checking process is completed: marking the design violations
+[15:28:42.96] /m Information: Marking of designs is completed
+[15:28:43.60] /i gi::setActiveWindow 4
+[15:28:43.60] /i gi::setActiveWindow 4 -raise true
+[15:28:45.32] /i gi::setCurrentIndex {outputsTable} -index {8,1} -in [gi::getWindows 4]
+[15:28:45.32] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:28:46.83] /i sa::selectOutputs -outputIndex 8 -window [gi::getWindows 4]
+[15:28:51.34] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:28:51.34] /i de::addPoint {3.19375 0.7625} -context [db::getNext [de::getContexts -window 3]]
+[15:28:52.78] /i gi::setCurrentIndex {outputsTable} -index {9,1} -in [gi::getWindows 4]
+[15:28:52.78] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:28:54.55] /i sa::selectOutputs -outputIndex 9 -window [gi::getWindows 4]
+[15:28:56.24] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:28:56.24] /i de::addPoint {3.5125 0.84375} -context [db::getNext [de::getContexts -window 3]]
+[15:28:57.06] /i gi::setCurrentIndex {outputsTable} -index {10,1} -in [gi::getWindows 4]
+[15:28:57.06] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:28:58.55] /i sa::selectOutputs -outputIndex 10 -window [gi::getWindows 4]
+[15:29:00.74] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:29:00.74] /i de::addPoint {3.625 0.83125} -context [db::getNext [de::getContexts -window 3]]
+[15:29:01.91] /i gi::setCurrentIndex {outputsTable} -index {11,1} -in [gi::getWindows 4]
+[15:29:01.91] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:29:03.55] /i sa::selectOutputs -outputIndex 11 -window [gi::getWindows 4]
+[15:29:05.25] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:29:05.25] /i de::addPoint {3.75 0.88125} -context [db::getNext [de::getContexts -window 3]]
+[15:29:07.93] /i gi::setCurrentIndex {outputsTable} -index {12,1} -in [gi::getWindows 4]
+[15:29:07.93] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 4]
+[15:29:09.24] /i sa::selectOutputs -outputIndex 12 -window [gi::getWindows 4]
+[15:29:11.09] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:29:11.09] /i de::addPoint {2.5375 2.375} -context [db::getNext [de::getContexts -window 3]]
+[15:29:25.79] /i gi::setCurrentIndex {outputsTable} -index {7,2} -in [gi::getWindows 4]
+[15:29:25.79] /i gi::setItemSelection {outputsTable} -index {7,2} -in [gi::getWindows 4]
+[15:29:27.09] /i gi::setCurrentIndex {outputsTable} -index {8,2} -in [gi::getWindows 4]
+[15:29:27.09] /i gi::setItemSelection {outputsTable} -index {8,2} -in [gi::getWindows 4]
+[15:29:32.00] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[15:29:32.32] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]] -value 680x680+600+53
+[15:29:41.01] /i gi::setField {/analysesGroups/tabGeneral/anaPane/step} -value {1n} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[15:29:46.00] /i gi::setField {/analysesGroups/tabGeneral/anaPane/stop} -value {1u} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[15:29:46.33] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]] -value 680x707+600+53
+[15:29:50.03] /i gi::setField {/analysesGroups/tabGeneral/anaPane/numIntervals} -value {1} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[15:29:50.13] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 4]]
+[15:29:50.25] /i gi::setCurrentIndex {analysisPane} -index {0,0} -in [gi::getWindows 4]
+[15:29:54.60] /i gi::setCurrentIndex {outputsTable} -index {10,2} -in [gi::getWindows 4]
+[15:29:54.60] /i gi::setItemSelection {outputsTable} -index {10,2} -in [gi::getWindows 4]
+[15:29:55.50] /i gi::setCurrentIndex {outputsTable} -index {9,2} -in [gi::getWindows 4]
+[15:29:55.50] /i gi::setItemSelection {outputsTable} -index {9,2} -in [gi::getWindows 4]
+[15:29:56.49] /i gi::setCurrentIndex {outputsTable} -index {8,2} -in [gi::getWindows 4]
+[15:29:56.49] /i gi::setItemSelection {outputsTable} -index {8,2} -in [gi::getWindows 4]
+[15:30:00.49] /i gi::setField {outputsTable} -index {8,2} -value {tran} -in [gi::getWindows 4]
+[15:30:01.49] /i gi::setField {outputsTable} -index {8,2} -value {tran} -in [gi::getWindows 4]
+[15:30:01.49] /i gi::setCurrentIndex {outputsTable} -index {9,2} -in [gi::getWindows 4]
+[15:30:01.49] /i gi::setItemSelection {outputsTable} -index {9,2} -in [gi::getWindows 4]
+[15:30:02.25] /i gi::setField {outputsTable} -index {9,2} -value {tran} -in [gi::getWindows 4]
+[15:30:03.21] /i gi::setField {outputsTable} -index {9,2} -value {tran} -in [gi::getWindows 4]
+[15:30:03.21] /i gi::setCurrentIndex {outputsTable} -index {10,2} -in [gi::getWindows 4]
+[15:30:03.21] /i gi::setItemSelection {outputsTable} -index {10,2} -in [gi::getWindows 4]
+[15:30:03.98] /i gi::setField {outputsTable} -index {10,2} -value {tran} -in [gi::getWindows 4]
+[15:30:04.46] /i gi::setField {outputsTable} -index {10,2} -value {} -in [gi::getWindows 4]
+[15:30:05.17] /i gi::setField {outputsTable} -index {10,2} -value {tran} -in [gi::getWindows 4]
+[15:30:05.99] /i gi::setField {outputsTable} -index {10,2} -value {tran} -in [gi::getWindows 4]
+[15:30:05.99] /i gi::setCurrentIndex {outputsTable} -index {11,2} -in [gi::getWindows 4]
+[15:30:05.99] /i gi::setItemSelection {outputsTable} -index {11,2} -in [gi::getWindows 4]
+[15:30:06.74] /i gi::setField {outputsTable} -index {11,2} -value {tran} -in [gi::getWindows 4]
+[15:30:07.59] /i gi::setField {outputsTable} -index {11,2} -value {tran} -in [gi::getWindows 4]
+[15:30:07.60] /i gi::setCurrentIndex {outputsTable} -index {12,2} -in [gi::getWindows 4]
+[15:30:07.60] /i gi::setItemSelection {outputsTable} -index {12,2} -in [gi::getWindows 4]
+[15:30:08.43] /i gi::setField {outputsTable} -index {12,2} -value {tran} -in [gi::getWindows 4]
+[15:30:20.91] /i gi::setField {outputsTable} -index {12,2} -value {tran} -in [gi::getWindows 4]
+[15:30:20.91] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:30:20.91] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 4]]
+[15:30:21.35] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:30:21.35] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[15:30:22.29] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 4]
+[15:30:22.29] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode [sa::_utils::findRunMode 4]
+[15:30:22.91] /r giWindowId 5
+[15:30:22.92] /r giWindowGeometry 800x600
+[15:30:23.09] /m Information: "Starting incremental netlisting for design "fourbitadder/ripplecarrytestbench/schematic"..." (NETLISTING-010)
+[15:30:23.13] /o No Design Integrity rule violations found in "fourbitadder/ripplecarrytestbench/schematic"
+[15:30:23.23] /e Error: "Cell sample/xor2/symbol does not contain any of the required views: hspice hspiceD schematic spice veriloga. The following instances of this cell in design fourbitadder/halfadder/schematic will not be netlistable: 
+              /c I0." (NETLISTING-038)
+[15:30:23.23] /e Error: Fatal error occured, netlisting will be terminated. (NETLISTING-001)
+[15:30:23.23] /m Information: "Netlisting design "fourbitadder/ripplecarrytestbench/schematic" didn't finish." (NETLISTING-013)
+[15:30:48.12] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[15:30:50.68] /i gi::setActiveWindow 3
+[15:30:50.68] /i gi::setActiveWindow 3 -raise true
+[15:30:55.42] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:30:55.42] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.21875 0.95625}
+[15:30:55.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:30:55.55] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.275 1.01875}
+[15:30:55.60] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:30:55.60] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.28125 1.0125}
+[15:30:56.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:30:56.43] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.03125 3.81875}
+[15:30:56.46] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:30:56.46] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.03125 3.80625}
+[15:30:56.83] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:30:56.83] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.04375 3.775}
+[15:31:00.00] /# gi::executeAction {seCreateInst} -in [gi::getWindows 3]
+[15:31:00.00] /i ise::createInst
+[15:31:00.16] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:00.17] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:00.21] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:00.53] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x581+2+53
+[15:31:04.96] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:04.97] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:04.97] /i gi::setField {instMasterCell} -value {vdd} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:05.25] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x337+2+53
+[15:31:08.18] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:08.18] /i de::addPoint {0.30625 3.6625} -context [db::getNext [de::getContexts -window 3]]
+[15:31:16.00] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:16.00] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:16.00] /i gi::setField {instMasterCell} -value {vdc} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:16.32] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x581+2+53
+[15:31:18.02] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:18.02] /i de::addPoint {0.69375 3.21875} -context [db::getNext [de::getContexts -window 3]]
+[15:31:23.20] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:23.20] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:23.20] /i gi::setField {instMasterCell} -value {gnd} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:23.51] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]] -value 359x337+2+53
+[15:31:25.51] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:25.51] /i de::addPoint {0.325 2.4375} -context [db::getNext [de::getContexts -window 3]]
+[15:31:26.73] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[15:31:27.80] /# gi::executeAction {seStretch} -in [gi::getWindows 3]
+[15:31:27.80] /i ise::stretch
+[15:31:28.73] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:28.73] /i de::addPoint {0.6875 3.0875} -context [db::getNext [de::getContexts -window 3]]
+[15:31:30.07] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:30.07] /i de::addPoint {0.96875 2.9375} -context [db::getNext [de::getContexts -window 3]]
+[15:31:31.41] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[15:31:31.41] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[15:31:34.27] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:31:34.27] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:31:34.27] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.6125 3.1} -index 0 -intent none]
+[15:31:34.27] /o oa:0x2ab12310
+[15:31:35.41] /# gi::executeAction {seStretch} -in [gi::getWindows 3]
+[15:31:35.41] /i ise::stretch
+[15:31:35.93] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:35.93] /i de::addPoint {0.68125 3.0625} -context [db::getNext [de::getContexts -window 3]]
+[15:31:37.58] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:37.58] /i de::addPoint {0.33125 3.05625} -context [db::getNext [de::getContexts -window 3]]
+[15:31:39.01] /# gi::executeAction {seSchCreateWire} -in [gi::getWindows 3]
+[15:31:39.01] /i ise::createWire
+[15:31:41.23] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:41.23] /i de::addPoint {0.30625 3.6625} -context [db::getNext [de::getContexts -window 3]]
+[15:31:41.51] /i de::setCursor -point {0.3125 3.625 }
+[15:31:42.70] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:42.70] /i de::addPoint {0.3 3.23125} -context [db::getNext [de::getContexts -window 3]]
+[15:31:43.79] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:43.79] /i de::addPoint {0.3125 2.875} -context [db::getNext [de::getContexts -window 3]]
+[15:31:44.85] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:31:44.85] /i de::addPoint {0.3 2.43125} -context [db::getNext [de::getContexts -window 3]]
+[15:31:54.16] /i gi::setItemSelection {parameters} -index {vdc,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:54.16] /i gi::setCurrentIndex {parameters} -index {vdc,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:57.01] /i gi::setField {parameters} -value {12} -index {vdc,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:31:57.03] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[15:32:08.31] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 3]
+[15:32:08.31] /i ise::check
+[15:32:08.36] /m Information: 
+[15:32:08.36] /o Checking "fourbitadder/ripplecarrytestbench/schematic"
+[15:32:08.36] /o No rule violations found in "fourbitadder/ripplecarrytestbench/schematic"
+[15:32:08.36] /m Information: Checking process is completed: marking the design violations
+[15:32:08.48] /m Information: Marking of designs is completed
+[15:32:11.08] /i gi::setActiveWindow 4
+[15:32:11.08] /i gi::setActiveWindow 4 -raise true
+[15:32:12.36] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:32:12.36] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[15:32:13.18] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 4]
+[15:32:13.18] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4] -mode [sa::_utils::findRunMode 4]
+[15:32:13.22] /w Warning: Structural netlist "/DCNFS/users/student/cazzarel/simulation/fourbitadder,ripplecarrytestbench,schematic/history_1/netlist/fourbitadder/ripplecarrytestbench/schematic/HSPICE/netlist" is missing
+[15:32:13.32] /r giWindowId 6
+[15:32:13.34] /r giWindowGeometry 800x600
+[15:32:13.49] /m Information: "Starting incremental netlisting for design "fourbitadder/ripplecarrytestbench/schematic"..." (NETLISTING-010)
+[15:32:13.54] /o No Design Integrity rule violations found in "fourbitadder/ripplecarrytestbench/schematic"
+[15:32:13.64] /e Error: "Cell sample/xor2/symbol does not contain any of the required views: hspice hspiceD schematic spice veriloga. The following instances of this cell in design fourbitadder/halfadder/schematic will not be netlistable: 
+              /c I0." (NETLISTING-038)
+[15:32:13.64] /e Error: Fatal error occured, netlisting will be terminated. (NETLISTING-001)
+[15:32:13.64] /m Information: "Netlisting design "fourbitadder/ripplecarrytestbench/schematic" didn't finish." (NETLISTING-013)
+[15:32:25.07] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[15:32:26.03] /i gi::setCurrentIndex {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[15:32:26.03] /i gi::setItemSelection {jobMonitorTable} -index {0.0,all} -in [gi::getWindows 6]
+[15:32:26.97] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[15:32:28.93] /i gi::setCurrentIndex {jobMonitorTable} -index {0.0.0,0} -in [gi::getWindows 6]
+[15:32:28.93] /i gi::setItemSelection {jobMonitorTable} -index {0.0.0,all} -in [gi::getWindows 6]
+[15:32:30.56] /i gi::executeAction {menuPreShow} -in [gi::getWindows 6]
+[15:32:30.56] /r giMenuAccess db::getNext [gi::getMenus xtJobContextMenu]
+[15:32:32.60] /# gi::executeAction {xtJobMonitorResume} -in [gi::getWindows 6]
+[15:32:32.60] /i xt::signalJob [xt::getSelectedJobs 6] -signal resume
+[15:32:32.60] /e Error: "xt::signalJob error: Cannot suspend/resume interactive jobs." (JOB_COMMANDS-004)
+[15:32:37.03] /i gi::setActiveWindow 4
+[15:32:37.03] /i gi::setActiveWindow 4 -raise true
+[15:32:38.19] /i gi::setActiveWindow 6
+[15:32:38.19] /i gi::setActiveWindow 6 -raise true
+[15:32:43.50] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 6]]
+[15:32:58.46] /i gi::setActiveWindow 4
+[15:32:58.46] /i gi::setActiveWindow 4 -raise true
+[15:32:59.34] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:32:59.34] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 4]]
+[15:32:59.94] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:32:59.94] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 4]]
+[15:33:05.58] /# gi::executeAction {saEditModels} -in [gi::getWindows 4]
+[15:33:05.58] /i sa::showModelFiles -parent 4
+[15:33:05.64] /i gi::setActiveDialog [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:33:05.92] /i db::setAttr geometry -of [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]] -value 760x500+1048+492
+[15:35:38.19] /i gi::pressButton {cancel} -in [gi::getDialogs {saModelFilesSetup} -parent [gi::getWindows 4]]
+[15:40:48.05] /i gi::setActiveWindow 3
+[15:40:48.05] /i gi::setActiveWindow 3 -raise true
+[15:41:02.93] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[15:41:02.93] /i de::startDrag {0.94375 4.275} -context [db::getNext [de::getContexts -window 3]]
+[15:41:03.61] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[15:41:03.61] /i de::endDrag {0.1375 2.0125} -context [db::getNext [de::getContexts -window 3]]
+[15:41:05.36] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[15:41:05.36] /i de::addPoint {0.4375 2.425} -context [db::getNext [de::getContexts -window 3]]
+[15:41:05.53] /i de::setCursor -point {0.5 2.4375 }
+[15:41:05.57] /i de::setCursor -point {0.5 2.375 }
+[15:41:06.05] /i de::setCursor -point {0.5625 2.375 }
+[15:41:07.04] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[15:41:07.04] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[15:41:08.13] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[15:41:08.13] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[15:41:08.67] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[15:41:08.67] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[15:41:34.93] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x1166
+[15:41:34.93] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[15:41:38.11] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x1176
+[15:41:38.11] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[15:43:07.00] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[15:43:07.00] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[15:43:07.00] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[15:43:07.81] /i gi::setActiveWindow 2
+[15:43:07.81] /i gi::setActiveWindow 2 -raise true
+[15:43:09.89] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[15:43:10.33] /i gi::setCurrentIndex {libs} -index {sheets} -in [gi::getWindows 2]
+[15:43:10.36] /i gi::setItemSelection {libs} -index {sheets} -in [gi::getWindows 2]
+[15:43:10.77] /i gi::setCurrentIndex {libs} -index {sample} -in [gi::getWindows 2]
+[15:43:10.79] /i gi::setItemSelection {libs} -index {sample} -in [gi::getWindows 2]
+[15:43:11.30] /i gi::setCurrentIndex {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[15:43:11.31] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[15:43:14.08] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:43:14.34] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+1121+612
+[15:43:15.54] /r giDialog gi::pressButton {giCancelButton} -in [gi::getDialogs {giCloseFrame}]
+[15:43:17.01] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:43:17.30] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+1121+612
+[15:43:19.09] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[15:43:19.11] /i exit
+[15:43:19.16] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[15:43:19.43] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+1061+563
+[15:43:20.74] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[15:43:20.78] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign}]
+[15:43:21.05] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign}] -value 565x82+988+625
+[15:43:24.90] /r giDialog gi::pressButton {save} -in [gi::getDialogs {deCloseDesign}]
+[15:43:24.90] /e Error: Unable to perform operation, because design file 'fourbitadder/ripplecarrytestbench/schematic' no longer exists.
+[15:43:28.75] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:43:29.03] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+1121+612
+[15:43:29.88] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[15:43:29.91] /i exit
+[15:43:29.95] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[15:43:30.23] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+1061+563
+[15:43:31.04] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[15:43:31.08] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign}]
+[15:43:31.34] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign}] -value 565x82+988+625
+[15:43:32.34] /r giDialog gi::pressButton {save} -in [gi::getDialogs {deCloseDesign}]
+[15:43:32.34] /e Error: Unable to perform operation, because design file 'fourbitadder/ripplecarrytestbench/schematic' no longer exists.
+[15:43:33.70] /i gi::setActiveWindow 3
+[15:43:33.70] /i gi::setActiveWindow 3 -raise true
+[15:43:36.30] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 3]
+[15:43:36.30] /i ise::check
+[15:43:36.30] /e Error: The cell_view 'fourbitadder/ripplecarrytestbench/schematic' not found (DATA_MANAGEMENT-019)
+[15:43:37.74] /i gi::setActiveWindow 4
+[15:43:37.74] /i gi::setActiveWindow 4 -raise true
+[15:43:39.35] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:43:39.35] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 4]]
+[15:43:39.91] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:43:39.91] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 4]]
+[15:43:40.18] /i gi::executeAction {menuPreShow} -in [gi::getWindows 4]
+[15:43:40.18] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 4]]
+[15:43:41.17] /# gi::executeAction {saSaveState} -in [gi::getWindows 4]
+[15:43:41.17] /i sa::showSaveState -parent 4
+[15:43:41.45] /i gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:43:41.73] /i db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]] -value 502x609+1098+560
+[15:43:43.20] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:43:43.32] /e Error: 'ripplecarrytestbench' does not exist in library 'fourbitadder' (OPAL-006)
+[15:43:43.32] /o 'ripplecarrytestbench' does not exist in library 'fourbitadder'
+[15:43:47.20] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:43:47.22] /e Error: 'ripplecarrytestbench' does not exist in library 'fourbitadder' (OPAL-006)
+[15:43:47.22] /o 'ripplecarrytestbench' does not exist in library 'fourbitadder'
+[15:43:47.67] /i gi::pressButton {/apply} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:43:47.68] /e Error: 'ripplecarrytestbench' does not exist in library 'fourbitadder' (OPAL-006)
+[15:43:47.68] /o 'ripplecarrytestbench' does not exist in library 'fourbitadder'
+[15:43:48.28] /i gi::pressButton {/cancel} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:43:49.79] /i gi::setActiveWindow 6
+[15:43:49.79] /i gi::setActiveWindow 6 -raise true
+[15:43:51.56] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:43:51.83] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+1121+612
+[15:43:52.76] /r giDialog gi::setField {giShowAgain} -value {false} -in [gi::getDialogs {giCloseFrame}]
+[15:43:53.09] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[15:43:53.12] /i exit
+[15:43:53.15] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]]
+[15:43:53.43] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]] -value 419x207+1061+563
+[15:43:54.25] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]]
+[15:43:54.28] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign}]
+[15:43:54.54] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign}] -value 565x82+988+625
+[15:43:57.13] /r giDialog gi::pressButton {save} -in [gi::getDialogs {deCloseDesign}]
+[15:43:57.13] /e Error: Unable to perform operation, because design file 'fourbitadder/ripplecarrytestbench/schematic' no longer exists.
+[15:44:01.48] /i exit
+[15:44:01.52] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]]
+[15:44:01.81] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]] -value 419x207+1061+563
+[15:44:03.40] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]]
+[15:44:03.44] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign}]
+[15:44:03.73] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign}] -value 565x82+988+625
+[15:44:05.64] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {deCloseDesign}]
+[15:44:05.73] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]]
+[15:44:06.02] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]] -value 292x82+1124+625
+[15:44:08.66] /r giDialog gi::pressButton {save} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]]
+[15:44:08.85] /r giDialog gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:44:09.13] /r giDialog db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]] -value 502x609+1048+478
+[15:44:10.20] /r giDialog gi::pressButton {/ok} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:44:10.21] /e Error: 'ripplecarrytestbench' does not exist in library 'fourbitadder' (OPAL-006)
+[15:44:12.38] /r giDialog gi::pressButton {/cancel} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[15:44:14.01] /i exit
+[15:44:14.05] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[15:44:14.33] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]] -value 419x207+1061+563
+[15:44:15.25] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 4]]
+[15:44:15.28] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign}]
+[15:44:15.55] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign}] -value 565x82+988+625
+[15:44:17.13] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {deCloseDesign}]
+[15:44:17.18] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]]
+[15:44:17.46] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]] -value 292x82+1124+625
+[15:44:18.05] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 4]]
+[15:44:19.28] /o Shutdown time: Fri Mar  5 15:44:19 2021
+[15:44:19.28] /o Elapsed session real time: 24.43 minutes
+[15:44:19.28] /o Session terminated. Log is at /DCNFS/users/student/cazzarel/Tutorial/Adder/synopsys_custom/logs/ccompiler.cazzarel.2021_3_5_151950_6025.log

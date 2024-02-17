@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="false" name="giPromptCloseMultipleTabs"/>
+                <pref value="background_netlisting sae_shell_netlist" name="xtNetlistingPrefixes"/>
+                <pref value="2" name="xtSAEShellJobLimit"/>
+                <pref value="sae_shell_results_viewer" name="xtSAEShellPrefixes"/>
+                <pref value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS HSIMHSPICE XAEldo XAHSPICE XASpectre XAVCSHSPICE" name="xtSimulationPrefixes"/>
+        </preferences>
+</file-format>

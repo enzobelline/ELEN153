@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Mar 15 00:50:27 2021
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file view="schematic" library="Lab6Pt2" mode="read" file="schematic" cell="ripplecarryadder"/>
+                <file view="layout" library="Lab6Pt2" mode="write" file="maskLayout" cell="halfadder"/>
+                <file view="schematic" library="Lab6Pt2" mode="write" file="schematic" cell="halfadder"/>
+                <file view="layout" library="Lab6Pt2" mode="write" file="maskLayout" cell="ripplecarryadder"/>
+                <file view="schematic" library="Lab6Pt2" mode="read" file="schematic" cell="fulladder"/>
+        </recentFiles>
+</synopsysFile>

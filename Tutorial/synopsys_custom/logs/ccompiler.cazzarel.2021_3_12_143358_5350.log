@@ -1,0 +1,538 @@
+[14:34:00.32] /r giWindowId 0
+[14:34:00.32] /r giWindowGeometry 600x300
+[14:34:00.34] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Fri Mar 12 14:33:58 2021
+              /c Host: linux11113
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial
+              /c 
+[14:34:04.75] /r giShowFrameTabs true
+[14:34:04.75] /r giWindowId 1
+[14:34:04.75] /r giWindowGeometry 1040x800
+[14:34:06.14] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:34:06.14] /# 
+[14:34:06.44] /i dm::showLibraryManager
+[14:34:06.44] /r giWindowId 2
+[14:34:06.45] /r giWindowGeometry 660x600+50+75
+[14:34:06.49] /o oa:0x21e96260
+[14:34:09.07] /i gi::setCurrentIndex {libs} -index {Adder} -in [gi::getWindows 2]
+[14:34:09.08] /i gi::setItemSelection {libs} -index {Adder} -in [gi::getWindows 2]
+[14:34:12.69] /i gi::setCurrentIndex {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[14:34:12.69] /i gi::setItemSelection {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[14:34:14.65] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[14:34:14.72] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[14:34:17.41] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:34:17.41] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[14:34:17.41] /i dm::showNewCellView -parent 2
+[14:34:17.47] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:34:17.73] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+975+500
+[14:34:29.67] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:34:29.68] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell halfadder -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] fourbitadder]]]]
+[14:34:29.68] /# dm::createCellView layout -cell [dm::findCell halfadder -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] fourbitadder]]] -viewType maskLayout
+[14:34:30.61] /# de::open [dm::findCellView layout -cell [dm::findCell halfadder -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] fourbitadder]]]] -application leLayout
+[14:34:31.02] /m Information: License 'Basic' checked out. (LICENSE-003)
+[14:34:32.41] /r giWindowId 3
+[14:34:32.41] /r giWindowGeometry 2176x1226
+[14:34:50.41] /# gi::executeAction {leInstance} -in [gi::getWindows 3]
+[14:34:50.41] /i ile::createInst
+[14:34:50.49] /i gi::setActiveDialog [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:34:50.80] /i db::setAttr geometry -of [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]] -value 612x628+2+53
+[14:34:55.27] /i gi::setCurrentIndex {instLCVLibs} -index {Adder} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:34:55.28] /i gi::setItemSelection {instLCVLibs} -index {Adder} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:34:59.42] /i gi::setCurrentIndex {instLCVCells} -index {XOR} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:34:59.54] /o 	############################################
+[14:34:59.54] /o 	        Synopsys Generic 90nm iPDK          
+[14:34:59.54] /o 	--------------------------------------------
+[14:34:59.54] /o 	Release Date .............. : 11-May-2016    
+[14:34:59.54] /o 	============================================
+[14:34:59.54] /o 	        Recommended Tool Versions           
+[14:34:59.54] /o 	--------------------------------------------
+[14:34:59.54] /o 	Custom Designer ........... : J-2014.12-2    
+[14:34:59.54] /o 	IC Validator .............. : K-2015.12   
+[14:34:59.54] /o 	StarRC..................... : K-2015.12  
+[14:34:59.54] /o 	--------------------------------------------
+[14:34:59.54] /o 	############################################
+[14:34:59.54] /o 
+[14:34:59.56] /o SAED PDK 90: Loaded callbacks
+[14:34:59.60] /o SAED PDK 90: Loaded display resources
+[14:34:59.63] /i gi::setItemSelection {instLCVCells} -index {XOR} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:35:07.28] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:35:07.28] /i de::addPoint {0.036 0.163} -context [db::getNext [de::getContexts -window 3]]
+[14:35:08.59] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:35:08.59] /i de::startDrag {0.024 0.185} -context [db::getNext [de::getContexts -window 3]]
+[14:35:09.04] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:35:09.04] /i de::endDrag {0.095 0.125} -context [db::getNext [de::getContexts -window 3]]
+[14:35:10.38] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:35:10.38] /i de::addPoint {0.07 0.156} -context [db::getNext [de::getContexts -window 3]]
+[14:35:10.54] /# gi::executeAction {deCompleteShape} -in [gi::getWindows 3]
+[14:35:10.54] /i de::completeShape -context [db::getNext [de::getContexts -window 3]]
+[14:35:12.89] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[14:35:13.22] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 290x1142
+[14:35:13.33] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[14:35:20.45] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:35:20.45] /i de::fit -window 3 -fitView true
+[14:35:24.05] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:35:24.05] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:35:24.61] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:35:24.61] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:35:25.24] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:35:25.24] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:35:25.83] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[14:35:30.90] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:35:30.90] /i de::fit -window 3 -fitView true
+[14:35:43.54] /i gi::pressButton {rotatorrotateCCW} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:35:44.00] /i gi::pressButton {rotatorrotateCCW} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:35:44.55] /i gi::pressButton {rotatorrotateCCW} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:01.34] /i gi::setCurrentIndex {instLCVCells} -index {AND} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:01.40] /i gi::setItemSelection {instLCVCells} -index {AND} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:03.59] /i gi::setCurrentIndex {instLCVCells} -index {XOR} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:03.63] /i gi::setItemSelection {instLCVCells} -index {XOR} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:16.47] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:36:16.47] /i de::addPoint {3.735 0.299} -context [db::getNext [de::getContexts -window 3]]
+[14:36:20.93] /i gi::setCurrentIndex {instLCVCells} -index {AND} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:20.96] /i gi::setItemSelection {instLCVCells} -index {AND} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:25.15] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:36:25.15] /i de::addPoint {4.799 -0.323} -context [db::getNext [de::getContexts -window 3]]
+[14:36:27.07] /i gi::pressButton {cancel} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 3]]
+[14:36:28.88] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[14:36:28.88] /i de::fit -window 3 -fitView true
+[14:36:36.95] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:36:36.95] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:36:36.95] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.914 -2.611} -index 0 -intent none]
+[14:36:36.95] /o oa:0x21f98bb0
+[14:37:26.75] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:37:26.76] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:37:26.76] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {2.637 -3.728} -index 0 -intent none]
+[14:37:26.76] /o oa:0x21dfe920
+[14:37:28.36] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:37:28.36] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[14:37:28.36] /o oa:0x2304cc90
+[14:37:29.13] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:37:29.13] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:37:29.13] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {4.07 -3.416} -index 0 -intent none]
+[14:37:29.13] /o oa:0x21c58a50
+[14:39:26.70] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:39:26.70] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[14:39:26.70] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {1.203 -0.603} -index 0 -intent none]
+[14:39:26.70] /o oa:0x21ffaae0
+[14:40:00.26] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[14:40:00.26] /i ile::createInterconnect
+[14:40:00.26] /w Warning: Command is in invalid state because there is no valid routing layers for the given nets. (ILE_CREATE-102)
+[14:40:03.55] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[14:40:03.55] /i ile::createInterconnect
+[14:40:06.56] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 3]]
+[14:40:24.04] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[14:40:24.04] /i ile::createInterconnect
+[14:40:26.71] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:40:26.71] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:40:35.82] /w Warning: Setting leSmartDRDMode will not take effect until the 'Advanced' license is available. (DRD-005)
+[14:40:35.82] /i gi::setField {drdMode} -value {Assist} -in [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]]
+[14:40:40.19] /i le::checkDRCViolations -design [ed] -box [de::getViewport]
+[14:40:40.20] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[14:40:40.34] /w Warning: No supported constraints found in constraint group foundry (DRD_ENGINE-019)
+[14:40:40.34] /m Information: Checking DRC in view region (-0.596,-3.439) (7.923,0.125) finished and found 0 violations in 0.121 seconds
+[14:40:40.34] /o oa:0x233e6de0
+[14:41:13.20] /i gi::setActiveTab {tabs} -tabName {OLPLayerTab} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:41:17.24] /i gi::expand {layers} -index {PinBorder} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:41:18.24] /i gi::collapse {layers} -index {PinBorder} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[14:41:43.70] /i gi::setActiveWindow 2
+[14:41:43.70] /i gi::setActiveWindow 2 -raise true
+[14:41:58.55] /i gi::setActiveWindow 3
+[14:41:58.55] /i gi::setActiveWindow 3 -raise true
+[14:42:00.33] /i gi::setActiveWindow 2
+[14:42:00.33] /i gi::setActiveWindow 2 -raise true
+[14:42:14.83] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[14:42:17.72] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[14:43:19.69] /# gi::executeAction {dbShowTechnologyManager} -in [gi::getWindows 2]
+[14:43:19.69] /i db::showManageTechnology
+[14:43:19.69] /r giWindowId 4
+[14:43:19.71] /r giWindowGeometry 350x400
+[14:43:19.88] /w Warning: Conflicting definitions for ConstraintDef minEnclosure were read. These constraints will not be available.
+[14:43:19.88] /w Warning: Conflicting definitions for ConstraintDef endOfLineEnclosure were read. These constraints will not be available.
+[14:43:19.88] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[14:43:19.90] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {{Adder}} -in [gi::getWindows 4]
+[14:43:19.90] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {} -in [gi::getWindows 4]
+[14:43:19.90] /i gi::setItemSelection {techTechnologyManagerLibWidget} -index {{fourbitadder}} -in [gi::getWindows 4]
+[14:43:30.47] /i gi::setCurrentIndex {techTechnologyManagerLibWidget} -index {fourbitadder , Attachment} -in [gi::getWindows 4]
+[14:43:33.88] /i gi::setField {techTechnologyManagerLibWidget} -value {SAED_PDK_90} -index {fourbitadder,Attachment} -in [gi::getWindows 4]
+[14:43:33.92] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesigns}]
+[14:43:33.93] /r giDialog gi::setCurrentIndex {target} -index {0,1} -in [gi::getDialogs {deCloseDesigns}]
+[14:43:34.20] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesigns}] -value 347x280+1097+526
+[14:43:38.25] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deCloseDesigns}]
+[14:43:38.26] /m Information: No changes in technology for library: fourbitadder. (TECH-027)
+[14:43:44.66] /i gi::setField {techTechnologyManagerLibWidget} -value {SAED_PDK_90} -index {fourbitadder,Attachment} -in [gi::getWindows 4]
+[14:43:44.71] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesigns}]
+[14:43:44.71] /r giDialog gi::setCurrentIndex {target} -index {0,1} -in [gi::getDialogs {deCloseDesigns}]
+[14:43:44.95] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesigns}] -value 347x280+1097+526
+[14:43:47.79] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deCloseDesigns}]
+[14:43:47.80] /m Information: Saving design 'fourbitadder halfadder layout'. (DESIGN_WINDOW-004)
+[14:43:47.97] /m Information: The context with top design fourbitadder/halfadder/layout was closed because all the designs in its hierarchy were unexpectedly purged. (DESIGN-113)
+[14:43:49.90] /i gi::setActiveWindow 2
+[14:43:49.90] /i gi::setActiveWindow 2 -raise true
+[14:43:52.34] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:43:52.37] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:43:52.52] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:43:52.61] /r giWindowId 5
+[14:43:52.62] /r giWindowGeometry 2176x1226
+[14:43:58.47] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 5]
+[14:43:58.47] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 5]]]; ide::selectByRegion -region rectangle -point {-0.135 0.09} 
+[14:44:00.35] /# gi::executeAction {deEndDrag} -in [gi::getWindows 5]
+[14:44:00.35] /i de::endDrag {7.514 -4.279} -context [db::getNext [de::getContexts -window 5]]
+[14:44:01.23] /# gi::executeAction {leDelete} -in [gi::getWindows 5]
+[14:44:01.23] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[14:44:10.99] /# gi::executeAction {leInstance} -in [gi::getWindows 5]
+[14:44:10.99] /i ile::createInst
+[14:44:11.06] /i gi::setActiveDialog [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:11.43] /i db::setAttr geometry -of [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]] -value 612x628+2+53
+[14:44:15.89] /i gi::sortItems {instLCVLibs} -column {Libraries} -order {descending} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:17.02] /i gi::sortItems {instLCVLibs} -column {Libraries} -order {ascending} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:17.59] /i gi::setCurrentIndex {instLCVLibs} -index {Adder} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:17.59] /i gi::setItemSelection {instLCVLibs} -index {Adder} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:22.22] /i gi::setCurrentIndex {instLCVCells} -index {XOR} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:22.25] /i gi::setItemSelection {instLCVCells} -index {XOR} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:45.83] /i db::setAttr geometry -of [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]] -value 612x628+1706+335
+[14:44:52.49] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:44:52.49] /i de::addPoint {-0.222 -0.484} -context [db::getNext [de::getContexts -window 5]]
+[14:44:56.46] /i gi::setCurrentIndex {instLCVCells} -index {AND} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:44:56.50] /i gi::setItemSelection {instLCVCells} -index {AND} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:45:03.43] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:45:03.43] /i de::addPoint {4.945 -0.48} -context [db::getNext [de::getContexts -window 5]]
+[14:45:06.57] /i gi::closeWindows [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:45:07.46] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[14:45:07.47] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[14:45:07.47] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {6.667 -0.904} -index 0 -intent none]
+[14:45:07.47] /o oa:0x23238a00
+[14:45:08.99] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[14:45:08.99] /i ile::move
+[14:45:12.12] /# gi::executeAction {deCanvasPanWest} -in [gi::getWindows 5]
+[14:45:12.12] /i de::pan -window [gi::getWindows 5] -direction W -multiplier 0.5
+[14:45:13.04] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 5]
+[14:45:13.04] /i de::pan -window [gi::getWindows 5] -direction E -multiplier 0.5
+[14:45:22.80] /# gi::executeAction {deStartDrag} -in [gi::getWindows 5]
+[14:45:22.80] /i de::startDrag {4.956 -1.566} -context [db::getNext [de::getContexts -window 5]]
+[14:45:24.89] /# gi::executeAction {deEndDrag} -in [gi::getWindows 5]
+[14:45:24.89] /i de::endDrag {4.594 -1.574} -context [db::getNext [de::getContexts -window 5]]
+[14:45:25.43] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:45:25.43] /i de::addPoint {5.01 -1.694} -context [db::getNext [de::getContexts -window 5]]
+[14:45:35.86] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:45:35.86] /i de::addPoint {5.01 -1.701} -context [db::getNext [de::getContexts -window 5]]
+[14:45:38.31] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:45:38.31] /i de::addPoint {5.684 -1.767} -context [db::getNext [de::getContexts -window 5]]
+[14:45:43.80] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:45:43.80] /i de::addPoint {5.669 -1.767} -context [db::getNext [de::getContexts -window 5]]
+[14:46:21.44] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 5]
+[14:46:21.46] /m Information: Saving design 'fourbitadder halfadder layout'. (DESIGN_WINDOW-004)
+[14:57:40.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:57:40.52] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.196 -3.508}
+[14:57:40.58] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:57:40.58] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.195 -3.509}
+[14:57:41.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:57:41.06] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.103 -3.524}
+[14:57:43.25] /# gi::executeAction {leInterconnect} -in [gi::getWindows 5]
+[14:57:43.25] /i ile::createInterconnect
+[14:57:43.26] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[14:57:43.26] /# gi::setItemSelection {lpps} -index {DIFF drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[14:57:46.03] /# gi::setCurrentIndex {lpps} -index {M1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[14:57:46.03] /# gi::setItemSelection {lpps} -index {M1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[14:57:46.12] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[14:57:46.12] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind fourbitadder halfadder layout] -filter {%lpp =="M1 drawing"}]
+[14:57:53.17] /# gi::executeAction {deStartDrag} -in [gi::getWindows 5]
+[14:57:53.17] /i de::startDrag {1.003 -0.01} -context [db::getNext [de::getContexts -window 5]]
+[14:57:54.45] /# gi::executeAction {deEndDrag} -in [gi::getWindows 5]
+[14:57:54.45] /i de::endDrag {3.238 -0.133} -context [db::getNext [de::getContexts -window 5]]
+[14:57:55.43] /# gi::executeAction {leInterconnect} -in [gi::getWindows 5]
+[14:57:55.43] /i ile::createInterconnect
+[14:57:58.25] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:57:58.25] /i de::addPoint {0.98 0.005} -context [db::getNext [de::getContexts -window 5]]
+[14:58:01.54] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[14:58:02.56] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 5]
+[14:58:02.56] /i de::completeShape {7.044 -0.025} -context [db::getNext [de::getContexts -window 5]]
+[14:58:05.13] /# gi::executeAction {leInterconnect} -in [gi::getWindows 5]
+[14:58:05.13] /i ile::createInterconnect
+[14:58:09.38] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:09.38] /i de::addPoint {1.011 0.499} -context [db::getNext [de::getContexts -window 5]]
+[14:58:12.78] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:12.78] /i de::addPoint {7.044 0.267} -context [db::getNext [de::getContexts -window 5]]
+[14:58:16.93] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[14:58:17.67] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 5]
+[14:58:17.67] /i de::completeShape {6.99 0.483} -context [db::getNext [de::getContexts -window 5]]
+[14:58:19.68] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:19.68] /i de::addPoint {6.297 0.445} -context [db::getNext [de::getContexts -window 5]]
+[14:58:20.66] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:20.66] /i de::addPoint {5.673 0.429} -context [db::getNext [de::getContexts -window 5]]
+[14:58:21.48] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[14:58:22.35] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 5]
+[14:58:22.36] /i de::completeShape {6.636 -0.025} -context [db::getNext [de::getContexts -window 5]]
+[14:58:22.96] /# gi::executeAction {leDelete} -in [gi::getWindows 5]
+[14:58:23.44] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:23.44] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {5.21 0.475} -index 0 -intent none] -replace true
+[14:58:23.44] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[14:58:24.24] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:24.24] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {6.375 0.375} -index 0 -intent none] -replace true
+[14:58:24.24] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[14:58:27.86] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 5]
+[14:58:28.19] /# gi::executeAction {leCopy} -in [gi::getWindows 5]
+[14:58:28.19] /i ile::copy
+[14:58:29.09] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:29.09] /i de::addPoint {5.48 -0.041} -context [db::getNext [de::getContexts -window 5]]
+[14:58:33.50] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:58:33.50] /i de::addPoint {5.534 0.506} -context [db::getNext [de::getContexts -window 5]]
+[15:00:31.14] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:00:31.14] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.635 0.044}
+[15:00:31.32] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:00:31.32] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.635 0.04}
+[15:00:31.39] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:00:31.39] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.643 0.038}
+[15:00:31.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:00:31.97] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.701 0.018}
+[15:00:32.43] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:00:32.43] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.704 0.02}
+[15:04:15.99] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:15.99] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-0.003 -1.322}
+[15:04:16.04] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:16.04] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-0.002 -1.321}
+[15:04:16.09] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:16.09] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-0.002 -1.321}
+[15:04:16.68] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:16.68] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-0.28 -1.229}
+[15:04:16.71] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:16.71] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-0.28 -1.229}
+[15:04:16.92] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:16.92] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-0.272 -1.229}
+[15:04:17.44] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:17.44] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-0.272 -1.233}
+[15:04:22.84] /# gi::setCurrentIndex {lpps} -index {M2 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:22.84] /# gi::setItemSelection {lpps} -index {M2 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:22.92] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:22.92] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind fourbitadder halfadder layout] -filter {%lpp =="M2 drawing"}]
+[15:04:24.39] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:24.39] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.592 -0.131}
+[15:04:24.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:24.43] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.631 -0.115}
+[15:04:24.48] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:24.48] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.656 -0.109}
+[15:04:25.05] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:25.05] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.752 -0.024}
+[15:04:25.21] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:25.21] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.755 -0.021}
+[15:04:27.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:27.23] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.631 0.545}
+[15:04:29.73] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:04:29.73] /i de::addPoint {1.621 0.616} -context [db::getNext [de::getContexts -window 5]]
+[15:04:31.19] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:04:31.19] /i de::addPoint {1.594 0.401} -context [db::getNext [de::getContexts -window 5]]
+[15:04:34.38] /# gi::executeAction {deUndo} -in [gi::getWindows 5]
+[15:04:34.38] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 5]]]
+[15:04:36.89] /# gi::executeAction {leInterconnect} -in [gi::getWindows 5]
+[15:04:36.89] /i ile::createInterconnect
+[15:04:41.88] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:04:41.88] /i de::addPoint {1.789 0.622} -context [db::getNext [de::getContexts -window 5]]
+[15:04:41.88] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:41.88] /# gi::setItemSelection {lpps} -index {M1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:43.65] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[15:04:49.68] /# gi::setItemSelection {lpps} -index {M2 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:49.75] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:04:49.75] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind fourbitadder halfadder layout] -filter {%lpp =="M2 drawing"}]
+[15:04:53.07] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:53.07] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.827 -0.63}
+[15:04:53.34] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:04:53.34] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.832 -0.626}
+[15:04:53.97] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:53.97] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.8 -0.85}
+[15:04:54.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:54.02] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.808 -0.846}
+[15:04:54.58] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:04:54.58] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.81 -0.831}
+[15:04:57.35] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:04:57.35] /i de::addPoint {1.805 -0.813} -context [db::getNext [de::getContexts -window 5]]
+[15:05:00.26] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[15:05:01.67] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 5]
+[15:05:01.67] /i de::completeShape {1.791 -0.807} -context [db::getNext [de::getContexts -window 5]]
+[15:05:02.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:02.26] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.881 -0.559}
+[15:05:02.41] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:02.41] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.881 -0.559}
+[15:05:02.47] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:02.47] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.882 -0.56}
+[15:05:02.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:02.91] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.859 -0.559}
+[15:05:05.08] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:05.08] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.963 0.265}
+[15:05:05.11] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:05.11] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.961 0.265}
+[15:05:05.14] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:05.14] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.961 0.265}
+[15:05:05.46] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:05.46] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.947 0.28}
+[15:05:05.86] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:05.86] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.93 0.31}
+[15:05:05.89] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:05.89] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.93 0.31}
+[15:05:09.69] /# gi::executeAction {leCopy} -in [gi::getWindows 5]
+[15:05:09.69] /i ile::copy
+[15:05:10.23] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:05:10.23] /i de::addPoint {1.803 0.319} -context [db::getNext [de::getContexts -window 5]]
+[15:05:17.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:17.66] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.18 0.214}
+[15:05:17.73] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:17.73] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.184 0.218}
+[15:05:18.45] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:18.45] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.357 0.172}
+[15:05:19.33] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:19.33] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {5.399 -0.191}
+[15:05:19.76] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:19.76] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {5.398 -0.16}
+[15:05:19.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:19.93] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {5.398 -0.16}
+[15:05:19.98] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:19.98] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {5.398 -0.16}
+[15:05:22.52] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:05:22.52] /i de::addPoint {5.398 -0.085} -context [db::getNext [de::getContexts -window 5]]
+[15:05:25.55] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:05:25.55] /i ile::move
+[15:05:26.27] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:05:26.27] /i de::addPoint {1.751 0.208} -context [db::getNext [de::getContexts -window 5]]
+[15:05:28.26] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:05:28.26] /i de::addPoint {2.412 0.164} -context [db::getNext [de::getContexts -window 5]]
+[15:05:33.84] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:33.84] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.624 -0.21}
+[15:05:34.63] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:34.63] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.104 -0.283}
+[15:05:34.68] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:34.68] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.102 -0.289}
+[15:05:35.30] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:05:35.30] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.117 -0.263}
+[15:05:36.86] /# gi::executeAction {leInterconnect} -in [gi::getWindows 5]
+[15:05:36.86] /i ile::createInterconnect
+[15:05:40.47] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:05:40.47] /i de::addPoint {1.856 0.076} -context [db::getNext [de::getContexts -window 5]]
+[15:05:40.47] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:05:40.47] /# gi::setItemSelection {lpps} -index {M1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:05:43.11] /# gi::setItemSelection {lpps} -index {M2 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:05:43.16] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 5]]
+[15:05:43.16] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind fourbitadder halfadder layout] -filter {%lpp =="M2 drawing"}]
+[15:05:46.76] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:46.76] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.875 -0.781}
+[15:05:46.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:05:46.82] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.874 -0.78}
+[15:05:49.70] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:05:49.70] /i de::addPoint {1.869 -0.797} -context [db::getNext [de::getContexts -window 5]]
+[15:05:50.87] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[15:06:00.76] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 5]
+[15:06:01.78] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 5]
+[15:06:01.78] /i de::completeShape {1.855 -0.801} -context [db::getNext [de::getContexts -window 5]]
+[15:06:02.11] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:02.11] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.935 -0.643}
+[15:06:02.14] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:02.14] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.934 -0.644}
+[15:06:02.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:02.26] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.935 -0.645}
+[15:06:02.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:02.36] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {1.935 -0.645}
+[15:06:02.87] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:02.87] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.973 -0.854}
+[15:06:03.36] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:03.37] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {1.969 -0.869}
+[15:06:05.41] /# gi::executeAction {leCopy} -in [gi::getWindows 5]
+[15:06:05.41] /i ile::copy
+[15:06:06.08] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:06.08] /i de::addPoint {1.913 -0.181} -context [db::getNext [de::getContexts -window 5]]
+[15:06:07.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:07.68] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {4.78 -0.326}
+[15:06:08.19] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:08.19] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {4.864 -0.383}
+[15:06:08.28] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:08.28] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {4.864 -0.384}
+[15:06:08.79] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:08.79] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.942 -0.384}
+[15:06:09.01] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:09.01] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.95 -0.384}
+[15:06:10.77] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:10.77] /i de::addPoint {5.189 -0.326} -context [db::getNext [de::getContexts -window 5]]
+[15:06:11.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:11.69] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {2.384 -0.908}
+[15:06:11.77] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:11.77] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {2.384 -0.908}
+[15:06:12.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:12.40] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {8.455 -0.969}
+[15:06:12.64] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:12.64] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {8.417 -0.954}
+[15:06:14.42] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:14.42] /i ile::move
+[15:06:15.52] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:15.52] /i de::addPoint {5.126 -0.149} -context [db::getNext [de::getContexts -window 5]]
+[15:06:22.82] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:22.82] /i de::addPoint {5.731 -0.21} -context [db::getNext [de::getContexts -window 5]]
+[15:06:23.71] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:23.71] /i ile::move
+[15:06:24.18] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:24.18] /i de::addPoint {5.396 0.248} -context [db::getNext [de::getContexts -window 5]]
+[15:06:26.62] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:26.62] /i de::addPoint {4.718 0.256} -context [db::getNext [de::getContexts -window 5]]
+[15:06:27.21] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:27.21] /i ile::move
+[15:06:27.68] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:27.68] /i de::addPoint {5.754 -0.16} -context [db::getNext [de::getContexts -window 5]]
+[15:06:29.31] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:29.31] /i de::addPoint {5.242 -0.206} -context [db::getNext [de::getContexts -window 5]]
+[15:06:30.39] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:30.39] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.782 -0.596}
+[15:06:30.43] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[15:06:30.43] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.774 -0.595}
+[15:06:31.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:31.20] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {2.572 -0.595}
+[15:06:31.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[15:06:31.23] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {2.58 -0.595}
+[15:06:38.86] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:38.86] /i ile::move
+[15:06:39.62] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:39.62] /i de::addPoint {2.491 0.276} -context [db::getNext [de::getContexts -window 5]]
+[15:06:43.36] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:43.36] /i de::addPoint {1.69 0.222} -context [db::getNext [de::getContexts -window 5]]
+[15:06:43.98] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:43.98] /i ile::move
+[15:06:44.39] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:44.39] /i de::addPoint {1.855 -0.16} -context [db::getNext [de::getContexts -window 5]]
+[15:06:45.32] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:45.32] /i de::addPoint {2.445 -0.164} -context [db::getNext [de::getContexts -window 5]]
+[15:06:45.84] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:45.84] /i ile::move
+[15:06:46.35] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:46.35] /i de::addPoint {1.713 -0.164} -context [db::getNext [de::getContexts -window 5]]
+[15:06:47.30] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:47.30] /i de::addPoint {2.09 -0.171} -context [db::getNext [de::getContexts -window 5]]
+[15:06:48.65] /# gi::executeAction {leMove} -in [gi::getWindows 5]
+[15:06:48.65] /i ile::move
+[15:06:49.11] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:49.11] /i de::addPoint {2.499 -0.175} -context [db::getNext [de::getContexts -window 5]]
+[15:06:49.72] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[15:06:49.72] /i de::addPoint {2.599 -0.167} -context [db::getNext [de::getContexts -window 5]]
+[16:02:01.96] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 5]
+[16:02:01.97] /m Information: Saving design 'fourbitadder halfadder layout'. (DESIGN_WINDOW-004)
+[16:02:03.29] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[16:02:03.44] /i gi::setActiveWindow 1
+[16:02:03.44] /i gi::setActiveWindow 1 -raise true
+[16:02:04.18] /i gi::setActiveWindow 4
+[16:02:04.18] /i gi::setActiveWindow 4 -raise true
+[16:02:07.57] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[16:02:07.71] /i gi::setActiveWindow 2
+[16:02:07.71] /i gi::setActiveWindow 2 -raise true
+[16:02:08.07] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[16:02:10.37] /i exit
+[16:02:10.42] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[16:02:10.71] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 419x207+1061+563
+[16:02:13.04] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[16:02:13.74] /o Shutdown time: Fri Mar 12 16:02:13 2021
+[16:02:13.74] /o Elapsed session real time: 1 hour 28.23 minutes
+[16:02:13.74] /o Session terminated. Log is at /DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/logs/ccompiler.cazzarel.2021_3_12_143358_5350.log

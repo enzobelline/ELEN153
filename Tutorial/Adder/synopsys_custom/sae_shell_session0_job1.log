@@ -1,0 +1,29 @@
+[15:24:08.44] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Fri Mar  5 15:24:01 2021
+              /c Host: linux11108
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:24:08.49] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:24:08.49] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:24:08.50] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:24:08.50] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:24:08.61] /i ::sa::_backgroundSaeShell::signalProcessReady 1614986639
+[15:24:08.61] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 9
+[15:29:09.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:29:09.66] /i ::sa::_backgroundSaeShell::parentRunning
+[15:29:09.66] /o 1614986949
+[15:34:10.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:34:10.73] /i ::sa::_backgroundSaeShell::parentRunning
+[15:34:10.73] /o 1614987250
+[15:39:11.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:39:11.83] /i ::sa::_backgroundSaeShell::parentRunning
+[15:39:11.83] /o 1614987551
+[15:44:12.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:44:12.83] /i ::sa::_backgroundSaeShell::parentRunning
+[15:44:12.83] /o 1614987852
+[15:44:18.12] /i ::sa::_backgroundSaeShell::exit
+[15:44:18.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

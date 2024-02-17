@@ -1,0 +1,14 @@
+* XREF SPICE	Thu Mar  4 15:32:47 2021	NOR
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=NOR
+.subckt NOR A D B C vdd! Z gnd!
+M_MM13 Z C gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_MM12 Z B gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_MM14 Z D gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_MM5 Z A gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_MM16 net13 C net9 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_MM15 net9 B net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_MM17 Z D net13 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_MM0 net5 A vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+.ends NOR

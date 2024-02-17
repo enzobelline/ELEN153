@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Fri Mar  5 16:05:55 2021-->
+<file-format version="1.0" name="stateData">
+ <attribute value="" type="giString" name="description"/>
+ <attribute value="fourbitadder/ripplecarrytestbench/schematic" type="dmCellView" name="design"/>
+ <attribute value="1" type="giBoolean" name="enabled"/>
+ <attribute value="HSPICE_default" type="giString" name="name"/>
+ <attribute value="fourbitadder/ripplecarrytestbench/HSPICE_default" type="dmCellView" name="openaccessState"/>
+ <attribute value="HSPICE" type="giString" name="simulator"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <integration version="1"/>
+</file-format>

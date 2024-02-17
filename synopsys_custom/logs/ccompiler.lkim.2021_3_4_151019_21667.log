@@ -1,0 +1,366 @@
+[15:10:21.81] /r giWindowId 0
+[15:10:21.81] /r giWindowGeometry 600x300
+[15:10:21.83] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Mar  4 15:10:19 2021
+              /c Host: linux11107
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[15:10:25.97] /r giShowFrameTabs true
+[15:10:25.97] /r giWindowId 1
+[15:10:25.97] /r giWindowGeometry 1040x800
+[15:10:29.93] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:10:29.94] /# 
+[15:10:30.04] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:10:30.04] /# 
+[15:10:30.24] /i dm::showLibraryManager
+[15:10:30.24] /r giWindowId 2
+[15:10:30.24] /r giWindowGeometry 1910x909+5+78
+[15:10:30.28] /o oa:0x1de630c0
+[15:10:31.32] /i gi::setCurrentIndex {libs} -index {LAB6} -in [gi::getWindows 2]
+[15:10:31.33] /i gi::setItemSelection {libs} -index {LAB6} -in [gi::getWindows 2]
+[15:10:32.15] /i gi::setCurrentIndex {libs} -index {LAB5} -in [gi::getWindows 2]
+[15:10:32.16] /i gi::setItemSelection {libs} -index {LAB5} -in [gi::getWindows 2]
+[15:10:34.48] /i gi::setCurrentIndex {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:10:34.49] /i gi::setItemSelection {libs} -index {LAB4} -in [gi::getWindows 2]
+[15:10:35.49] /i gi::setCurrentIndex {cells} -index {NOR} -in [gi::getWindows 2]
+[15:10:35.59] /i gi::setItemSelection {cells} -index {NOR} -in [gi::getWindows 2]
+[15:10:36.49] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[15:10:36.52] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[15:10:37.72] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:10:37.74] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:10:42.97] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:10:42.98] /m Information: License 'Basic' checked out. (LICENSE-003)
+[15:10:43.05] /o 	############################################
+[15:10:43.05] /o 	        Synopsys Generic 90nm iPDK          
+[15:10:43.05] /o 	--------------------------------------------
+[15:10:43.05] /o 	Release Date .............. : 11-May-2016    
+[15:10:43.05] /o 	============================================
+[15:10:43.05] /o 	        Recommended Tool Versions           
+[15:10:43.05] /o 	--------------------------------------------
+[15:10:43.05] /o 	Custom Designer ........... : J-2014.12-2    
+[15:10:43.05] /o 	IC Validator .............. : K-2015.12   
+[15:10:43.05] /o 	StarRC..................... : K-2015.12  
+[15:10:43.05] /o 	--------------------------------------------
+[15:10:43.05] /o 	############################################
+[15:10:43.05] /o 
+[15:10:43.07] /o SAED PDK 90: Loaded callbacks
+[15:10:43.11] /o SAED PDK 90: Loaded display resources
+[15:10:43.18] /r giWindowId 3
+[15:10:43.18] /r giWindowGeometry 1632x869
+[15:10:45.22] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:10:45.55] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[15:10:45.57] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[15:10:59.15] /i gi::setActiveWindow 2
+[15:10:59.15] /i gi::setActiveWindow 2 -raise true
+[15:10:59.93] /i gi::setActiveWindow 3
+[15:10:59.93] /i gi::setActiveWindow 3 -raise true
+[15:11:00.81] /i gi::setActiveWindow 2
+[15:11:00.81] /i gi::setActiveWindow 2 -raise true
+[15:11:02.16] /i gi::setActiveWindow 3
+[15:11:02.16] /i gi::setActiveWindow 3 -raise true
+[15:11:04.18] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:11:04.18] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {6.77 11.176}
+[15:11:04.88] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:11:04.88] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {6.939 10.977}
+[15:11:07.03] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[15:11:07.03] /i de::fit -window 3 -fitView true
+[15:11:14.99] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[15:11:14.99] /i xt::physicalVerification::executeRun drc 3
+[15:11:15.35] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[15:11:15.75] /r giWindowId 4
+[15:11:15.76] /r giWindowGeometry 800x600
+[15:11:33.86] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_5
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[15:11:47.78] /i gi::setActiveWindow 3
+[15:11:47.78] /i gi::setActiveWindow 3 -raise true
+[15:11:48.37] /i gi::setActiveWindow 4
+[15:11:48.37] /i gi::setActiveWindow 4 -raise true
+[15:11:51.94] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:11:52.61] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 4]
+[15:11:53.04] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:11:55.45] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 4]
+[15:11:56.05] /i gi::setActiveWindow 3
+[15:11:56.05] /i gi::setActiveWindow 3 -raise true
+[15:12:42.07] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[15:12:42.07] /i xt::physicalVerification::executeRun drc 3
+[15:12:42.27] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[15:12:53.96] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_6
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[15:12:57.91] /i gi::setActiveTab {tabs} -tabName {rules.drc.9m_saed90_icv.drc.rs} -in [gi::getWindows 4]
+[15:12:59.32] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:13:00.86] /i gi::setActiveWindow 3
+[15:13:00.86] /i gi::setActiveWindow 3 -raise true
+[15:13:04.79] /i gi::setActiveWindow 4
+[15:13:04.79] /i gi::setActiveWindow 4 -raise true
+[15:13:06.29] /i gi::setActiveWindow 3
+[15:13:06.29] /i gi::setActiveWindow 3 -raise true
+[15:13:06.92] /i gi::setActiveWindow 4
+[15:13:06.92] /i gi::setActiveWindow 4 -raise true
+[15:13:07.68] /i gi::setActiveWindow 2
+[15:13:07.68] /i gi::setActiveWindow 2 -raise true
+[15:13:09.60] /i gi::setActiveWindow 3
+[15:13:09.60] /i gi::setActiveWindow 3 -raise true
+[15:13:11.04] /i gi::setActiveWindow 4
+[15:13:11.04] /i gi::setActiveWindow 4 -raise true
+[15:13:11.97] /i gi::setActiveWindow 3
+[15:13:11.97] /i gi::setActiveWindow 3 -raise true
+[15:13:16.56] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[15:13:16.56] /i xt::showLVSSetup -job lvs -window 3
+[15:13:17.76] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+877+344
+[15:13:20.44] /i gi::closeWindows [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:13:39.93] /i gi::setActiveWindow 4
+[15:13:39.93] /i gi::setActiveWindow 4 -raise true
+[15:13:41.13] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 4]
+[15:13:42.31] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 4]
+[15:13:42.93] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:13:43.74] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 4]
+[15:13:54.41] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:13:54.89] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 4]
+[15:13:55.56] /i gi::setActiveTab {tabs} -tabName {rules.drc.9m_saed90_icv.drc.rs} -in [gi::getWindows 4]
+[15:13:56.22] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 4]
+[15:13:56.83] /i gi::setActiveWindow 3
+[15:13:56.83] /i gi::setActiveWindow 3 -raise true
+[15:14:00.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:14:00.99] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.762 15.243}
+[15:14:02.13] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:14:02.13] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.762 15.243}
+[15:14:06.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:14:06.23] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.694 16.213}
+[15:14:06.80] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:14:06.80] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.694 16.213}
+[15:14:11.07] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:14:11.07] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.677 15.702}
+[15:14:11.86] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:14:11.86] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.677 15.702}
+[15:15:42.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:42.12] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.875 8.2}
+[15:15:44.21] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[15:15:44.21] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {3.985 8.26}
+[15:15:44.98] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:44.98] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.002 8.247}
+[15:15:45.70] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[15:15:45.70] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.019 8.23}
+[15:15:46.30] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[15:15:46.30] /i de::fit -window 3 -fitView true
+[15:16:01.63] /i gi::setActiveWindow 4
+[15:16:01.63] /i gi::setActiveWindow 4 -raise true
+[15:16:04.51] /i gi::setActiveWindow 3
+[15:16:04.51] /i gi::setActiveWindow 3 -raise true
+[15:16:05.66] /i gi::setActiveWindow 4
+[15:16:05.66] /i gi::setActiveWindow 4 -raise true
+[15:16:08.09] /i gi::setActiveWindow 3
+[15:16:08.10] /i gi::setActiveWindow 3 -raise true
+[15:16:08.89] /i gi::setActiveWindow 4
+[15:16:08.89] /i gi::setActiveWindow 4 -raise true
+[15:16:09.56] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[15:16:10.21] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 4]
+[15:16:11.20] /i gi::setActiveWindow 3
+[15:16:11.20] /i gi::setActiveWindow 3 -raise true
+[15:16:13.94] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:16:13.94] /i xt::physicalVerification::executeRun lvs 3
+[15:16:14.33] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:16:14.44] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:16:14.61] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:16:14.86] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:16:15.74] /r giWindowId 5
+[15:16:15.75] /r giWindowGeometry 800x600
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.36] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.36] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:16.42] /e Error: The job 'icv_lvs_5' started on host 'localhost' with process id 24073 failed to start or complete successfully; the job's return code is 33.
+[15:16:18.52] /i gi::setActiveTab {tabs} -tabName {NOR.LVS_ERRORS} -in [gi::getWindows 5]
+[15:16:19.48] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[15:16:22.44] /i gi::setActiveTab {tabs} -tabName {NOR.LVS_ERRORS} -in [gi::getWindows 5]
+[15:16:22.67] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 5]
+[15:16:29.03] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 5]
+[15:16:30.64] /i gi::setActiveTab {tabs} -tabName {NOR.lvs.custom_compiler.rc} -in [gi::getWindows 5]
+[15:16:32.99] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[15:16:33.84] /i gi::setActiveWindow 4
+[15:16:33.84] /i gi::setActiveWindow 4 -raise true
+[15:16:35.04] /i gi::setActiveWindow 3
+[15:16:35.04] /i gi::setActiveWindow 3 -raise true
+[15:16:35.99] /i gi::setActiveWindow 2
+[15:16:35.99] /i gi::setActiveWindow 2 -raise true
+[15:16:36.91] /i gi::setActiveWindow 3
+[15:16:36.91] /i gi::setActiveWindow 3 -raise true
+[15:16:39.84] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[15:16:39.84] /i xt::showLVSSetup -job lvs -window 3
+[15:16:40.75] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+877+344
+[15:16:45.44] /i gi::setActiveWindow 2
+[15:16:45.44] /i gi::setActiveWindow 2 -raise true
+[15:16:46.50] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[15:16:46.54] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[15:16:47.75] /i gi::sortItems {cells} -column {Cells} -order {descending} -in [gi::getWindows 2]
+[15:16:49.12] /i gi::sortItems {cells} -column {Cells} -order {ascending} -in [gi::getWindows 2]
+[15:16:49.79] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[15:16:49.91] /i gi::setItemSelection {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[15:16:50.84] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[15:16:50.86] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[15:16:50.96] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[15:16:51.01] /r giWindowId 6
+[15:16:51.02] /r giWindowGeometry 1632x869
+[15:16:55.58] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 6]
+[15:16:55.58] /i xt::showLVSSetup -job lvs -window 6
+[15:16:56.85] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]] -value 838x454+886+354
+[15:16:58.62] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]] -value 838x454+394+415
+[15:16:59.98] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]] -value 838x454+18+374
+[15:17:00.65] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]] -value 838x454+30+368
+[15:17:01.12] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]] -value 838x454+30+366
+[15:17:15.63] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/toolOptions} -value {-sf\ SPICE\ -quiet=0} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:17.23] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/netlistingOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:18.04] /i gi::setField {/tabGroup/netlistingOptionsTab/schematicOutputNetlist/entryField} -value {/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/CMOSInverter.custom_compiler.sp} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:18.44] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:18.49] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/netlistingOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:20.05] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:20.11] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:20.89] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:20.95] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:21.37] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:22.28] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:22.30] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:22.58] /i gi::setField {/tabGroup/customOptionsTab/layerMapFile/entryField} -value {/opt/synopsys-2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:24.01] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:24.01] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:24.87] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:24.88] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:28.74] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 6]]
+[15:17:30.17] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:30.17] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:31.95] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[15:17:33.60] /# xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:17:33.72] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:17:33.80] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:17:33.99] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:17:34.42] /i gi::setActiveWindow 6
+[15:17:34.42] /i gi::setActiveWindow 6 -raise true
+[15:17:34.63] /r giWindowId 7
+[15:17:34.65] /r giWindowGeometry 800x600
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.15] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[15:17:35.22] /e Error: The job 'icv_lvs_6' started on host 'localhost' with process id 24460 failed to start or complete successfully; the job's return code is 33.
+[15:17:38.05] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 7]]
+[15:18:05.05] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[15:18:07.43] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[15:18:08.05] /i gi::setActiveWindow 4
+[15:18:08.05] /i gi::setActiveWindow 4 -raise true
+[15:18:08.69] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[15:18:09.36] /i gi::setActiveWindow 3
+[15:18:09.36] /i gi::setActiveWindow 3 -raise true
+[15:18:12.16] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:18:12.16] /i xt::physicalVerification::executeRun lvs 3
+[15:18:12.37] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:18:12.46] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:18:12.52] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:18:12.72] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:18:13.45] /r giWindowId 8
+[15:18:13.46] /r giWindowGeometry 800x600
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.06] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:18:14.12] /e Error: The job 'icv_lvs_7' started on host 'localhost' with process id 24769 failed to start or complete successfully; the job's return code is 33.
+[15:18:15.68] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 8]]
+[15:18:41.77] /i gi::setActiveWindow 3
+[15:18:41.77] /i gi::setActiveWindow 3 -raise true
+[15:18:45.11] /i gi::setActiveWindow 8
+[15:18:45.11] /i gi::setActiveWindow 8 -raise true
+[15:18:46.36] /i gi::setActiveTab {tabs} -tabName {NOR.lvs.custom_compiler.rc} -in [gi::getWindows 8]
+[15:18:47.45] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 8]
+[15:18:48.16] /i gi::setActiveTab {tabs} -tabName {NOR.lvs.custom_compiler.rc} -in [gi::getWindows 8]
+[15:18:48.64] /i gi::setActiveTab {tabs} -tabName {rules.lvs.9m_saed90_lvs.lvs.rs} -in [gi::getWindows 8]
+[15:18:52.43] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 8]
+[15:18:53.69] /i gi::setActiveTab {tabs} -tabName {NOR.lvs.custom_compiler.rc} -in [gi::getWindows 8]
+[15:18:53.95] /i gi::setActiveTab {tabs} -tabName {NOR.RESULTS} -in [gi::getWindows 8]
+[15:18:54.44] /i gi::setActiveTab {tabs} -tabName {NOR.LAYOUT_ERRORS} -in [gi::getWindows 8]
+[15:18:55.07] /i gi::setActiveTab {tabs} -tabName {NOR.LVS_ERRORS} -in [gi::getWindows 8]
+[15:18:55.59] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[15:19:10.39] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[15:19:27.05] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:19:27.05] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[15:19:28.80] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[15:19:31.85] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[15:19:31.85] /i xt::physicalVerification::executeRun lvs 3
+[15:19:32.10] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[15:19:32.19] /m Information: "Starting netlisting for design "LAB4/NOR/schematic"..." (NETLISTING-010)
+[15:19:32.26] /o No Design Integrity rule violations found in "LAB4/NOR/schematic"
+[15:19:32.44] /m Information: "Netlisting design "LAB4/NOR/schematic" finished successfully." (NETLISTING-012)
+[15:19:33.17] /r giWindowId 9
+[15:19:33.18] /r giWindowGeometry 800x600
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.85] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.86] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[15:19:33.91] /e Error: The job 'icv_lvs_8' started on host 'localhost' with process id 25164 failed to start or complete successfully; the job's return code is 33.
+[15:19:35.96] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 9]]
+[15:19:45.49] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[15:19:45.50] /e Error: The application was unexpectedly terminated.
+[15:19:45.51] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[15:19:45.52] /o See the session log file for recovery details.
+              /c  (SHUT_DOWN-001)
+[15:19:45.53] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)
+[15:19:45.57] /o signal number = 6
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Thu Mar  4 15:10:19 2021
+              /c Frame 0. libc.so.6: gsignal + 0x37
+              /c Frame 1. libc.so.6: abort + 0x148
+              /c Frame 2. custom_compiler: Tcl_PanicVA + 0x106
+              /c Frame 3. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler ::0xe605eeb + 0x8b
+              /c Frame 4. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler ::0xe5dd3f7 + 0xe7
+              /c Frame 5. custom_compiler: Tcl_DeleteCommandFromToken + 0x124
+              /c Frame 6. 0xb4b6778 SNPSee_648b6c406260d36cc793209230a973fd54971d918d30a904912392c1de2be491d12b4949cc195886b18797b7940bdc8a + 0x48
+              /c Frame 7. 0xb4b6d70 SNPSee_648b6c406260d36cc793209230a973fd82d0b947f0998c3c9182a617dbf173408c5eee9e149591854e84c121b1edafc3 + 0x30
+              /c Frame 8. 0xb4c5616

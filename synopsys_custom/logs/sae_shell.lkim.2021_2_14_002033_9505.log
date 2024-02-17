@@ -1,0 +1,64 @@
+[00:20:47.03] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Sun Feb 14 00:20:33 2021
+              /c Host: linux11104
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[00:20:47.16] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[00:20:47.16] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[00:20:47.16] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[00:20:47.17] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[00:20:47.35] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[00:20:47.36] /o 	############################################
+[00:20:47.36] /o 	        Synopsys Generic 90nm iPDK          
+[00:20:47.36] /o 	--------------------------------------------
+[00:20:47.36] /o 	Release Date .............. : 11-May-2016    
+[00:20:47.36] /o 	============================================
+[00:20:47.36] /o 	        Recommended Tool Versions           
+[00:20:47.36] /o 	--------------------------------------------
+[00:20:47.36] /o 	Custom Designer ........... : J-2014.12-2    
+[00:20:47.36] /o 	IC Validator .............. : K-2015.12   
+[00:20:47.36] /o 	StarRC..................... : K-2015.12  
+[00:20:47.36] /o 	--------------------------------------------
+[00:20:47.36] /o 	############################################
+[00:20:47.36] /o 
+[00:20:47.39] /o SAED PDK 90: Loaded callbacks
+[00:20:47.40] /o SAED PDK 90: Loaded display resources
+[00:20:47.42] /i ::sa::_backgroundSaeShell::signalProcessReady 1613290827
+[00:20:47.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 20
+[00:20:50.38] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[00:20:52.09] /m Information: Start incremental database creation...
+[00:20:52.19] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[00:20:52.49] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.1 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB4,NOR_tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[00:20:52.49] /o false
+[00:25:07.88] /i ::wf::viewerExited
+[00:25:53.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[00:25:53.56] /i ::sa::_backgroundSaeShell::parentRunning
+[00:25:53.56] /o 1613291153
+[00:25:57.76] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[00:26:21.36] /o signal number = 11
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Feb 14 00:20:33 2021
+              /c Frame 0. QObject::killTimer(int) + 0x149
+              /c Frame 1. QTimer::stop() + 0x11
+              /c Frame 2. QTimer::~QTimer() + 0x1d
+              /c Frame 3. QTimer::~QTimer() + 0x9
+              /c Frame 4. 0x131a519 SNPSee_3cb5a937433b5647cde116f183ec9f0a058e885737c790346bb4e49097addbabd1982a7a94e31c8b + 0x29
+              /c Frame 5. /lib64/libc.so.6 ::55fbe1ace9 + 0xd9
+              /c Frame 6. /lib64/libc.so.6 ::55fbe1ad37 + 0x17
+              /c Frame 7. QCoreApplication::notifyInternal2(QObject*, QEvent*) + 0x15f
+              /c Frame 8. QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) + 0x2ca
+              /c Frame 9. QEventDispatcherGlibPrivate::runTimersOnceWithNormalPriority() + 0x23
+              /c Frame 10. libglib-2.0.so.0: g_main_context_dispatch + 0x159
+              /c Frame 11. /lib64/libglib-2.0.so.0 ::60bdaf3f8 + 0x4b8
+              /c Frame 12. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+              /c Frame 13. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x6a
+              /c Frame 14. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0xea
+              /c Frame 15. QCoreApplication::exec() + 0x8d
+              /c Frame 16. 0x13139d2 SNPSee_3cb5a937433b5647dfd0ba220bc88c363f9edc9e424f5618e629fa54920aaa2d42181fc4e419a971bdba91f3b1089c26 + 0xa2
+              /c Frame 17. sae_shell: main + 0x6a
+              /c Frame 18. libc.so.6: __libc_start_main + 0xf5
+              /c Frame 19. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/sae_shell ::0x1308a75 + 0x29
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Feb 14 00:20:33 2021

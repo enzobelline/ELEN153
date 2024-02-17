@@ -1,0 +1,28 @@
+Parsing option_file: xtract.tech (EX-304)
+Running Amd_64b    
+Initializing extraction ... (EX-724)
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via) (EX-204)
+Reading binary grd file
+/DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd ... (EX-135)
+Process 1R 1C
+[XinLoad] Xin reading and cleaning duration is 0.02 seconds.
+Ary stats nx=4 ny=4 dx=10601 dy=12951 nentry=143  max/cell=35 av/cell=8.9375
+ Stats DB 0 72 0 0 0 0 0 8 0 0
+----- Extracting 5 nets ----- 
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=365.164
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=365.164
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=365.164
+ CapExtractionCounters CapEnvD=138 CapEnvND=29 NumCap=1797 Area=276
+----- Reducing 5 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 176 capacitors, 126 resistors, 108 nodes
+Reduced to 54 nodes,  (50%)
+Reduced to 55 resistors,  (56.3492%)
+Reduced to 123 capacitors: 69 Cc and 54 Cg (30.1136%)
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=365.2 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=365.2 
+[CircWrt] Final circuit write duration is 0.13 seconds.
+Partition 0 total time is 0.18 seconds.
+

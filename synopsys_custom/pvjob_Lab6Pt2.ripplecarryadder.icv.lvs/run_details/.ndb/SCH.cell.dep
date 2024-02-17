@@ -1,0 +1,6 @@
+AND { }
+fulladder { OR halfadder }
+ripplecarryadder { fulladder }
+XOR { }
+halfadder { AND XOR }
+OR { }

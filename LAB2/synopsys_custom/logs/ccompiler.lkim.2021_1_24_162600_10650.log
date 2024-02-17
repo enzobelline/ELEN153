@@ -1,0 +1,80 @@
+[16:26:05.80] /r giWindowId 0
+[16:26:05.80] /r giWindowGeometry 600x300
+[16:26:05.82] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 16:26:00 2021
+              /c Host: linux11102
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2
+              /c 
+[16:26:15.66] /r giShowFrameTabs true
+[16:26:15.66] /r giWindowId 1
+[16:26:15.66] /r giWindowGeometry 1040x800
+[16:26:16.65] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:26:16.66] /# 
+[16:26:16.77] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:26:16.77] /# 
+[16:26:16.97] /i dm::showLibraryManager
+[16:26:16.97] /r giWindowId 2
+[16:26:16.97] /r giWindowGeometry 660x600+50+76
+[16:26:17.00] /o oa:0x1b2c9350
+[16:26:19.92] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:26:20.00] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:26:20.72] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:26:20.85] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:26:21.43] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[16:26:24.96] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:26:24.96] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:26:26.00] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:26:26.01] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:26:26.46] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[16:26:26.51] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[16:26:27.17] /i gi::setCurrentIndex {libs} -index {parasitics} -in [gi::getWindows 2]
+[16:26:27.18] /i gi::setItemSelection {libs} -index {parasitics} -in [gi::getWindows 2]
+[16:26:27.50] /i gi::setCurrentIndex {libs} -index {sample} -in [gi::getWindows 2]
+[16:26:27.59] /i gi::setItemSelection {libs} -index {sample} -in [gi::getWindows 2]
+[16:26:28.11] /i gi::setCurrentIndex {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[16:26:28.12] /i gi::setItemSelection {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[16:26:28.51] /i gi::setCurrentIndex {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[16:26:28.52] /i gi::setItemSelection {libs} -index {snpsDefTechLib} -in [gi::getWindows 2]
+[16:26:28.84] /i gi::setCurrentIndex {libs} -index {sample} -in [gi::getWindows 2]
+[16:26:28.85] /i gi::setItemSelection {libs} -index {sample} -in [gi::getWindows 2]
+[16:26:29.11] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[16:26:29.12] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[16:26:29.15] /i gi::setItemSelection {libs} -index {{analogLib} - {basic}} -in [gi::getWindows 2]
+[16:26:29.15] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:26:29.32] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:26:29.33] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:26:29.65] /i gi::sortItems {libs} -column {Libraries} -order {descending} -in [gi::getWindows 2]
+[16:26:33.07] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:26:33.07] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:26:36.67] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:26:36.67] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:26:38.17] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:26:38.17] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:26:51.63] /# gi::executeAction {dmShowAddLibrary2} -in [gi::getWindows 2]
+[16:26:51.63] /i dm::showAddLibraryNDM::_execute
+[16:26:51.66] /m Information: License 'Basic' checked out. (LICENSE-003)
+[16:26:51.67] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[16:26:51.70] /i gi::setActiveDialog [gi::getDialogs {dmAddICC2Lib}]
+[16:26:51.97] /i db::setAttr geometry -of [gi::getDialogs {dmAddICC2Lib}] -value 359x143+862+423
+[16:26:53.48] /i gi::pressButton {/ndmGroup/ndmLibPath/browseButton} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:27:07.41] /r giFileDialog reject CMOSInverter
+[16:27:08.43] /i gi::closeWindows [gi::getDialogs {dmAddICC2Lib}]
+[16:27:10.38] /i exit
+[16:27:10.40] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:27:10.67] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[16:27:11.90] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:27:12.56] /o Shutdown time: Sun Jan 24 16:27:12 2021
+[16:27:12.56] /o Elapsed session real time: 1.13 minutes
+[16:27:12.56] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/synopsys_custom/logs/ccompiler.lkim.2021_1_24_162600_10650.log

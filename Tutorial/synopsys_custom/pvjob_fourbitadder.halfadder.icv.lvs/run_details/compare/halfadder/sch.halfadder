@@ -1,0 +1,31 @@
+{NETLIST halfadder
+{VERSION 2 0 0}
+
+{CELL halfadder
+    {PORT vdd! gnd! X C Y S }
+    {INST XI5/MM5=n12 {TYPE MOS} {PROP n="XOR/n12" Length=0.1 Width=0.4 }
+	{PIN S=DRN XI5/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM3=p12 {TYPE MOS} {PROP n="XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/net2=DRN Y=GATE XI5/net1=SRC vdd!=BULK }}
+    {INST XI4/MM5=n12 {TYPE MOS} {PROP n="AND/n12" Length=0.1 Width=0.4 }
+	{PIN C=DRN XI4/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM4=p12 {TYPE MOS} {PROP n="XOR/p12" Length=0.1 Width=1.2 }
+	{PIN S=DRN XI5/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/MM2=p12 {TYPE MOS} {PROP n="XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/net1=DRN X=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM4=p12 {TYPE MOS} {PROP n="AND/p12" Length=0.1 Width=1.2 }
+	{PIN C=DRN XI4/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM0=n12 {TYPE MOS} {PROP n="AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/net7=DRN X=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM1=n12 {TYPE MOS} {PROP n="AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/net24=DRN Y=GATE XI4/net7=SRC gnd!=BULK }}
+    {INST XI5/MM1=n12 {TYPE MOS} {PROP n="XOR/n12" Length=0.1 Width=0.4 }
+	{PIN Y=DRN X=GATE XI5/net2=SRC gnd!=BULK }}
+    {INST XI5/MM0=n12 {TYPE MOS} {PROP n="XOR/n12" Length=0.1 Width=0.4 }
+	{PIN X=DRN Y=GATE XI5/net2=SRC gnd!=BULK }}
+    {INST XI4/MM2=p12 {TYPE MOS} {PROP n="AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/net24=DRN Y=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM3=p12 {TYPE MOS} {PROP n="AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/net24=DRN X=GATE vdd!=SRC vdd!=BULK }}
+}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="-sf SPICE" name="xtLVSICVOptions"/>
+                <pref value="NOR" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.NOR.icv.lvs/NOR.net" name="xtLVSLayInputNetlist"/>
+                <pref value="Tutorial/NOR/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.NOR.icv.lvs/NOR.custom_compiler.oas" name="xtLVSLayOasisFile"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.NOR.icv.lvs/NOR.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="NOR" name="xtLVSSchCell"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="Tutorial/NOR/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/pvjob_Tutorial.NOR.icv.lvs/NOR.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

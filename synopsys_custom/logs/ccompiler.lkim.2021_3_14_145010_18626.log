@@ -1,0 +1,180 @@
+[14:50:12.59] /r giWindowId 0
+[14:50:12.59] /r giWindowGeometry 600x300
+[14:50:12.60] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Mar 14 14:50:10 2021
+              /c Host: linux11110
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[14:50:16.55] /r giShowFrameTabs true
+[14:50:16.55] /r giWindowId 1
+[14:50:16.55] /r giWindowGeometry 1040x800
+[14:50:18.33] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:50:18.34] /# 
+[14:50:18.46] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:50:18.46] /# 
+[14:50:18.64] /i dm::showLibraryManager
+[14:50:18.64] /r giWindowId 2
+[14:50:18.64] /r giWindowGeometry 660x600+50+76
+[14:50:18.69] /o oa:0x1ce4eb40
+[14:50:19.68] /i gi::setCurrentIndex {libs} -index {67CarryAdder} -in [gi::getWindows 2]
+[14:50:19.70] /i gi::setItemSelection {libs} -index {67CarryAdder} -in [gi::getWindows 2]
+[14:50:20.39] /i gi::setCurrentIndex {cells} -index {67ca} -in [gi::getWindows 2]
+[14:50:20.40] /i gi::setItemSelection {cells} -index {67ca} -in [gi::getWindows 2]
+[14:50:21.03] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[14:50:21.13] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[14:50:21.55] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[14:50:21.64] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[14:50:22.31] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:50:22.34] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:50:22.53] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:50:22.55] /m Information: License 'Basic' checked out. (LICENSE-003)
+[14:50:22.61] /o 	############################################
+[14:50:22.61] /o 	        Synopsys Generic 90nm iPDK          
+[14:50:22.61] /o 	--------------------------------------------
+[14:50:22.61] /o 	Release Date .............. : 11-May-2016    
+[14:50:22.61] /o 	============================================
+[14:50:22.61] /o 	        Recommended Tool Versions           
+[14:50:22.61] /o 	--------------------------------------------
+[14:50:22.61] /o 	Custom Designer ........... : J-2014.12-2    
+[14:50:22.61] /o 	IC Validator .............. : K-2015.12   
+[14:50:22.61] /o 	StarRC..................... : K-2015.12  
+[14:50:22.61] /o 	--------------------------------------------
+[14:50:22.61] /o 	############################################
+[14:50:22.61] /o 
+[14:50:22.63] /o SAED PDK 90: Loaded callbacks
+[14:50:22.66] /o SAED PDK 90: Loaded display resources
+[14:50:22.74] /r giWindowId 3
+[14:50:22.74] /r giWindowGeometry 1632x869
+[14:50:23.04] /i gi::setActiveDialog [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 3]]
+[14:50:23.26] /i db::setAttr geometry -of [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 3]] -value 500x300+699+294
+[14:50:25.62] /i gi::pressButton {ok} -in [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 3]]
+[14:50:26.71] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:50:26.71] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {13.429 4.511}
+[14:50:26.73] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:50:26.73] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {13.429 4.511}
+[14:50:27.02] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:50:27.02] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {13.437 4.519}
+[14:50:27.06] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:50:27.06] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {13.451 4.518}
+[14:50:27.12] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:50:27.12] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {13.511 4.309}
+[14:50:27.59] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:50:27.59] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {13.331 3.05}
+[14:50:27.66] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:50:27.66] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {13.331 3.05}
+[14:50:28.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:50:28.24] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {13.391 3.125}
+[14:50:30.77] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 3]
+[14:50:30.77] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 3]]
+[14:50:31.79] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 3]
+[14:50:31.79] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 3]]
+[14:51:00.65] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:00.65] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {8.69 2.616}
+[14:51:00.74] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:00.74] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {8.69 2.616}
+[14:51:01.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:01.10] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {8.69 2.594}
+[14:51:01.78] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:01.78] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {8.959 2.698}
+[14:51:02.25] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:02.25] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {8.96 2.698}
+[14:51:08.16] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:08.16] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {8.96 2.698}
+[14:51:12.49] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 3]
+[14:51:12.49] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 3]]
+[14:51:13.48] /# gi::executeAction {leDisplayTopLevel} -in [gi::getWindows 3]
+[14:51:13.48] /i db::setPrefValue leStopLevel -value 0 -scope [db::getNext [de::getContexts -window 3]]; db::setPrefValue leStartLevel -value 0 -scope [db::getNext [de::getContexts -window 3]]; de::redraw -window 3
+[14:51:14.65] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 3]
+[14:51:14.65] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 3]]
+[14:51:15.62] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:15.62] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {17.224 2.308}
+[14:51:15.64] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:15.64] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {17.224 2.278}
+[14:51:15.67] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:15.67] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {17.232 2.271}
+[14:51:16.00] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:16.00] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {17.25 2.245}
+[14:51:16.05] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:16.05] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {17.251 2.244}
+[14:51:16.89] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:16.89] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {17.401 2.274}
+[14:51:17.29] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:17.29] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {17.4 2.275}
+[14:51:17.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:17.69] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {17.4 2.275}
+[14:51:18.49] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:51:18.49] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {19.017 4.311}
+[14:51:21.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:51:21.26] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {14.361 4.221}
+[14:51:22.87] /i gi::setActiveWindow 2
+[14:51:22.87] /i gi::setActiveWindow 2 -raise true
+[14:51:35.14] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[14:51:35.30] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[14:51:36.34] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:51:36.36] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:51:36.49] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:51:36.58] /r giWindowId 4
+[14:51:36.59] /r giWindowGeometry 1632x869
+[14:51:42.35] /i gi::setActiveWindow 2
+[14:51:42.35] /i gi::setActiveWindow 2 -raise true
+[14:51:44.46] /i gi::setCurrentIndex {cells} -index {67ca} -in [gi::getWindows 2]
+[14:51:44.46] /i gi::setItemSelection {cells} -index {67ca} -in [gi::getWindows 2]
+[14:51:46.13] /i gi::setCurrentIndex {libs} -index {Adder} -in [gi::getWindows 2]
+[14:51:46.15] /i gi::setItemSelection {libs} -index {Adder} -in [gi::getWindows 2]
+[14:51:48.44] /i gi::setCurrentIndex {libs} -index {67CarryAdder} -in [gi::getWindows 2]
+[14:51:48.44] /i gi::setItemSelection {cells} -index {67ca} -in [gi::getWindows 2]
+[14:51:48.45] /i gi::setItemSelection {libs} -index {67CarryAdder} -in [gi::getWindows 2]
+[14:52:23.50] /i gi::setActiveWindow 4
+[14:52:23.50] /i gi::setActiveWindow 4 -raise true
+[14:52:23.76] /i gi::setActiveWindow 3
+[14:52:23.76] /i gi::setActiveWindow 3 -raise true
+[14:52:25.14] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[14:52:25.62] /i gi::setActiveWindow 2
+[14:52:25.62] /i gi::setActiveWindow 2 -raise true
+[14:52:27.04] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[14:52:27.12] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[14:52:27.70] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:52:27.73] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:52:27.85] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:52:27.93] /r giWindowId 5
+[14:52:27.94] /r giWindowGeometry 1632x869
+[14:52:28.24] /i gi::setActiveDialog [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 5]]
+[14:52:28.44] /i db::setAttr geometry -of [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 5]] -value 500x300+699+294
+[14:52:29.31] /i gi::pressButton {ok} -in [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 5]]
+[14:52:31.04] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[14:52:31.04] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[14:52:31.04] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {12.052 3.313} -index 0 -intent none]
+[14:52:31.04] /o oa:0x2292cc50
+[14:52:32.17] /i gi::setActiveWindow 2
+[14:52:32.17] /i gi::setActiveWindow 2 -raise true
+[14:52:33.89] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:52:33.89] /r giMenuAccess db::getNext [gi::getMenus dmLayoutViewCSM]
+[14:52:36.02] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:52:36.32] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+800+390
+[14:52:36.97] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:52:37.00] /i exit
+[14:52:37.04] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:52:37.32] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[14:52:38.07] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:52:40.00] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:52:40.26] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+800+390
+[14:52:40.85] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:52:40.88] /i exit
+[14:52:40.92] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:52:41.21] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[14:52:41.91] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:52:42.79] /o Shutdown time: Sun Mar 14 14:52:42 2021
+[14:52:42.79] /o Elapsed session real time: 2.5 minutes
+[14:52:42.79] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_3_14_145010_18626.log

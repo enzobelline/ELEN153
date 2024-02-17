@@ -1,0 +1,138 @@
+[12:19:25.29] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Fri Jan 22 12:19:13 2021
+              /c Host: linux11105
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[12:19:25.40] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[12:19:25.40] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[12:19:25.40] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[12:19:25.40] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[12:19:25.55] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[12:19:25.56] /o 	############################################
+[12:19:25.56] /o 	        Synopsys Generic 90nm iPDK          
+[12:19:25.56] /o 	--------------------------------------------
+[12:19:25.56] /o 	Release Date .............. : 11-May-2016    
+[12:19:25.56] /o 	============================================
+[12:19:25.56] /o 	        Recommended Tool Versions           
+[12:19:25.56] /o 	--------------------------------------------
+[12:19:25.56] /o 	Custom Designer ........... : J-2014.12-2    
+[12:19:25.56] /o 	IC Validator .............. : K-2015.12   
+[12:19:25.56] /o 	StarRC..................... : K-2015.12  
+[12:19:25.56] /o 	--------------------------------------------
+[12:19:25.56] /o 	############################################
+[12:19:25.56] /o 
+[12:19:25.63] /o SAED PDK 90: Loaded callbacks
+[12:19:25.64] /o SAED PDK 90: Loaded display resources
+[12:19:25.66] /i ::sa::_backgroundSaeShell::signalProcessReady 1611346750
+[12:19:25.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 15
+[12:24:26.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:24:26.85] /i ::sa::_backgroundSaeShell::parentRunning
+[12:24:26.85] /o 1611347066
+[12:29:27.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:29:27.85] /i ::sa::_backgroundSaeShell::parentRunning
+[12:29:27.85] /o 1611347367
+[12:34:28.71] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:34:28.85] /i ::sa::_backgroundSaeShell::parentRunning
+[12:34:28.85] /o 1611347668
+[12:39:29.73] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:39:29.75] /i ::sa::_backgroundSaeShell::parentRunning
+[12:39:29.75] /o 1611347969
+[12:44:30.75] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:44:30.85] /i ::sa::_backgroundSaeShell::parentRunning
+[12:44:30.85] /o 1611348270
+[12:49:31.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:49:31.95] /i ::sa::_backgroundSaeShell::parentRunning
+[12:49:31.95] /o 1611348571
+[12:54:32.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:54:32.95] /i ::sa::_backgroundSaeShell::parentRunning
+[12:54:32.95] /o 1611348872
+[12:59:33.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:59:33.85] /i ::sa::_backgroundSaeShell::parentRunning
+[12:59:33.85] /o 1611349173
+[13:04:34.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:04:34.85] /i ::sa::_backgroundSaeShell::parentRunning
+[13:04:34.85] /o 1611349474
+[13:09:35.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:09:35.85] /i ::sa::_backgroundSaeShell::parentRunning
+[13:09:35.85] /o 1611349775
+[13:14:36.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:14:36.95] /i ::sa::_backgroundSaeShell::parentRunning
+[13:14:36.95] /o 1611350076
+[13:19:37.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:19:37.85] /i ::sa::_backgroundSaeShell::parentRunning
+[13:19:37.85] /o 1611350377
+[13:24:38.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:24:39.05] /i ::sa::_backgroundSaeShell::parentRunning
+[13:24:39.05] /o 1611350679
+[13:29:39.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:29:39.95] /i ::sa::_backgroundSaeShell::parentRunning
+[13:29:39.95] /o 1611350979
+[13:34:40.90] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:34:40.95] /i ::sa::_backgroundSaeShell::parentRunning
+[13:34:40.95] /o 1611351280
+[13:39:41.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:39:42.05] /i ::sa::_backgroundSaeShell::parentRunning
+[13:39:42.05] /o 1611351582
+[13:44:42.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:44:43.05] /i ::sa::_backgroundSaeShell::parentRunning
+[13:44:43.05] /o 1611351883
+[13:49:43.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:49:44.15] /i ::sa::_backgroundSaeShell::parentRunning
+[13:49:44.15] /o 1611352184
+[13:54:44.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:54:45.05] /i ::sa::_backgroundSaeShell::parentRunning
+[13:54:45.05] /o 1611352485
+[13:59:46.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[13:59:46.05] /i ::sa::_backgroundSaeShell::parentRunning
+[13:59:46.05] /o 1611352786
+[14:04:47.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:04:47.15] /i ::sa::_backgroundSaeShell::parentRunning
+[14:04:47.15] /o 1611353087
+[14:09:48.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:09:48.15] /i ::sa::_backgroundSaeShell::parentRunning
+[14:09:48.15] /o 1611353388
+[14:14:49.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:14:49.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:14:49.25] /o 1611353689
+[14:19:50.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:19:50.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:19:50.25] /o 1611353990
+[14:24:51.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:24:51.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:24:51.25] /o 1611354291
+[14:29:52.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:29:52.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:29:52.25] /o 1611354592
+[14:34:53.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:34:53.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:34:53.25] /o 1611354893
+[14:39:54.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:39:54.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:39:54.25] /o 1611355194
+[14:44:55.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:44:55.35] /i ::sa::_backgroundSaeShell::parentRunning
+[14:44:55.35] /o 1611355495
+[14:49:56.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:49:56.25] /i ::sa::_backgroundSaeShell::parentRunning
+[14:49:56.25] /o 1611355796
+[14:54:57.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:54:57.35] /i ::sa::_backgroundSaeShell::parentRunning
+[14:54:57.35] /o 1611356097
+[14:59:58.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:59:58.35] /i ::sa::_backgroundSaeShell::parentRunning
+[14:59:58.35] /o 1611356398
+[15:04:59.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:04:59.35] /i ::sa::_backgroundSaeShell::parentRunning
+[15:04:59.35] /o 1611356699
+[15:10:00.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:10:00.25] /i ::sa::_backgroundSaeShell::parentRunning
+[15:10:00.25] /o 1611357000
+[15:15:01.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:15:01.35] /i ::sa::_backgroundSaeShell::parentRunning
+[15:15:01.35] /o 1611357301
+[15:15:39.95] /i ::sa::_backgroundSaeShell::exit
+[15:15:39.95] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

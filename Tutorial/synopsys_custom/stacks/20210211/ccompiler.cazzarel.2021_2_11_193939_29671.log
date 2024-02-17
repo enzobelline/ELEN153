@@ -1,0 +1,247 @@
+[19:39:43.40] /r giWindowId 0
+[19:39:43.40] /r giWindowGeometry 600x300
+[19:39:43.42] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Feb 11 19:39:39 2021
+              /c Host: linux11102
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial
+              /c 
+[19:39:51.77] /r giShowFrameTabs true
+[19:39:51.77] /r giWindowId 1
+[19:39:51.77] /r giWindowGeometry 1040x800
+[19:40:16.32] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:40:16.33] /# 
+[19:40:16.63] /i dm::showLibraryManager
+[19:40:16.63] /r giWindowId 2
+[19:40:16.64] /r giWindowGeometry 660x600+50+75
+[19:40:16.68] /o oa:0x217f33e0
+[19:40:18.34] /i gi::setCurrentIndex {libs} -index {Tutorial} -in [gi::getWindows 2]
+[19:40:18.36] /i gi::setItemSelection {libs} -index {Tutorial} -in [gi::getWindows 2]
+[19:40:19.32] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:40:19.45] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:40:21.35] /i gi::setCurrentIndex {libs} -index {Lab1} -in [gi::getWindows 2]
+[19:40:21.36] /i gi::setItemSelection {libs} -index {Lab1} -in [gi::getWindows 2]
+[19:40:24.53] /i gi::setCurrentIndex {libs} -index {Tutorial} -in [gi::getWindows 2]
+[19:40:24.54] /i gi::setItemSelection {libs} -index {Tutorial} -in [gi::getWindows 2]
+[19:40:33.78] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[19:40:33.84] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[19:40:47.29] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[19:40:47.29] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[19:40:47.29] /i dm::showNewCellView -parent 2
+[19:40:47.35] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[19:40:47.64] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+975+500
+[19:41:04.24] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[19:41:04.26] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] Tutorial]]]]
+[19:41:04.26] /# dm::createCellView layout -cell [dm::findCell inverter -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] Tutorial]]] -viewType maskLayout
+[19:41:04.29] /# de::open [dm::findCellView layout -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] Tutorial]]]] -application leLayout
+[19:41:04.33] /m Information: License 'Basic' checked out. (LICENSE-003)
+[19:41:04.39] /o 	############################################
+[19:41:04.39] /o 	        Synopsys Generic 90nm iPDK          
+[19:41:04.39] /o 	--------------------------------------------
+[19:41:04.39] /o 	Release Date .............. : 11-May-2016    
+[19:41:04.39] /o 	============================================
+[19:41:04.39] /o 	        Recommended Tool Versions           
+[19:41:04.39] /o 	--------------------------------------------
+[19:41:04.39] /o 	Custom Designer ........... : J-2014.12-2    
+[19:41:04.39] /o 	IC Validator .............. : K-2015.12   
+[19:41:04.39] /o 	StarRC..................... : K-2015.12  
+[19:41:04.39] /o 	--------------------------------------------
+[19:41:04.39] /o 	############################################
+[19:41:04.39] /o 
+[19:41:04.47] /o SAED PDK 90: Loaded callbacks
+[19:41:04.51] /o SAED PDK 90: Loaded display resources
+[19:41:04.61] /r giWindowId 3
+[19:41:04.62] /r giWindowGeometry 2176x1226
+[19:41:24.20] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:41:24.54] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1142
+[19:41:24.65] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[19:44:17.30] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[19:44:18.08] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[19:47:06.63] /# gi::executeAction {leDRCToolbarToolbarToggle} -in [gi::getWindows 3]
+[19:47:06.63] /i db::setAttr shown -of [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]] -value false
+[19:47:13.46] /# gi::executeAction {leDRCToolbarToolbarToggle} -in [gi::getWindows 3]
+[19:47:13.46] /i db::setAttr shown -of [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]] -value true
+[19:48:11.02] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1132
+[19:48:11.02] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[19:48:11.56] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1142
+[19:48:11.56] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[19:49:59.27] /i xt::physicalVerification::executeRun icvLive 3
+[19:49:59.65] /# xt::physicalVerification::executePve icvLive 3 xtICVLiveExecutePve
+[19:49:59.67] /e Error: xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[19:50:00.15] /o xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[19:50:00.45] /i db::setAttr geometry -of [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]] -value 475x369+1197+545
+[19:50:03.42] /i gi::closeWindows [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[19:52:02.48] /# gi::executeAction {deShowGeneralOptions} -in [gi::getWindows 3]
+[19:52:02.48] /i de::showGeneralOptions
+[19:52:02.85] /i db::setAttr geometry -of [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]] -value 888x567+826+383
+[19:52:07.51] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout.Cursor} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[19:52:07.51] /# gi::setItemSelection {generalOptionsSelector} -index {Layout.Cursor} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[19:52:16.81] /# gi::setField {dynamicDisplay} -value {true} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[19:52:18.48] /# gi::setField {canvasDXDY} -value {true} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[19:53:02.88] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[19:53:07.65] /# gi::pressButton {apply} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[19:53:07.65] /# 
+[19:53:07.65] /i db::setPrefValue leMeasurement -value true
+[19:53:07.65] /i db::setPrefValue leDDCanvasDXDY -value true
+[19:53:08.31] /# gi::pressButton {ok} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[19:53:08.32] /# 
+[19:53:10.49] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[19:53:11.14] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[19:53:12.11] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[19:53:12.77] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[19:53:19.15] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[19:54:26.45] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1132
+[19:54:26.45] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[19:54:31.73] /i db::setAttr geometry -of [gi::getFrames 1] -value 836x1320+5+53
+[19:55:07.68] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1142
+[19:55:07.68] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[21:04:05.06] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[21:04:06.03] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:04:06.03] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:04:07.46] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:04:07.46] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:04:08.01] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:04:08.01] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:04:08.50] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:04:08.50] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:04:22.34] /# gi::executeAction {lxViaTrackPlanner} -in [gi::getWindows 3]
+[21:04:22.34] /i ilx::viaTrackPlanner
+[21:04:22.34] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[21:04:22.36] /e Error: Via Track Planner needs Connectivity Engine to be enabled. (VTP-103)
+[21:04:44.09] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[21:04:44.09] /r giMenuAccess db::getNext [gi::getMenus giPopupMenu]
+[21:04:46.83] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[21:04:46.83] /r giMenuAccess db::getNext [gi::getMenus giPopupMenu]
+[21:05:28.79] /i gi::executeAction {deCrossShadow} -in [gi::getWindows 3]
+[21:05:30.10] /i gi::executeAction {deCrossShadow} -in [gi::getWindows 3]
+[21:05:55.81] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[21:05:56.49] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[21:06:49.24] /# gi::executeAction {leHighlightToolbarToggle} -in [gi::getWindows 3]
+[21:06:49.24] /i db::setAttr shown -of [gi::getToolbars {leHighlight} -from [gi::getWindows 3]] -value true
+[21:06:53.64] /# gi::executeAction {deMouseBindingsToolbarToggle} -in [gi::getWindows 3]
+[21:06:53.64] /i db::setAttr shown -of [gi::getToolbars {deMouseBindings} -from [gi::getWindows 3]] -value true
+[21:06:53.95] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1108
+[21:06:58.98] /# gi::executeAction {leColorToolbarToolbarToggle} -in [gi::getWindows 3]
+[21:06:58.98] /i db::setAttr shown -of [gi::getToolbars {leColorToolbar} -from [gi::getWindows 3]] -value true
+[21:07:06.09] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[21:07:07.17] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[21:08:49.44] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[21:08:50.37] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:08:50.37] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:08:52.03] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:08:52.03] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:08:53.12] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[21:08:54.67] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[21:08:54.67] /r giMenuAccess db::getNext [gi::getMenus giPopupMenu]
+[21:09:23.22] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[21:09:34.45] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:09:34.45] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:09:44.05] /i gi::executeAction {deSelectionTableShowColumns} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:09:45.56] /i gi::executeAction {deSelectionTableShowColumns} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:23.20] /i gi::addAssistant [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -to [gi::getWindows 3]  -floating true
+[21:10:37.25] /i db::setAttr geometry -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value 190x1108+1+246
+[21:10:37.37] /i gi::addAssistant [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -to [gi::getWindows 3] -before [gi::getAssistants leTrackPatternAssistant -from [gi::getWindows 3]] -tabbed false
+[21:10:37.65] /i db::setAttr dockSize -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value 190x1108
+[21:10:39.10] /i gi::executeAction {deSelectionTableShowColumns} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:41.31] /i gi::setField {deSelectionTableCheckboxMember} -value {true} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:42.50] /i gi::setField {deSelectionTableCheckboxMember} -value {false} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:43.01] /i gi::setField {deSelectionTableCheckboxMember} -value {true} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:43.54] /i gi::setField {deSelectionTableCheckboxMember} -value {false} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:44.34] /i gi::setField {deSelectionTableCheckboxLibrary} -value {true} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:44.81] /i gi::setField {deSelectionTableCheckboxLibrary} -value {false} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:45.51] /i gi::setField {deSelectionTableCheckboxMember} -value {true} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:45.87] /i gi::setField {deSelectionTableCheckboxMember} -value {false} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:10:55.73] /i gi::executeAction {deSelectionTableShowColumns} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:11:11.81] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 3]]
+[21:11:15.19] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 3]]
+[21:11:24.09] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[21:11:24.10] /r giMenuAccess db::getNext [gi::getMenus giPopupMenu]
+[21:11:35.53] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:11:35.53] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:11:36.06] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:11:36.06] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:11:36.90] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:11:36.90] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:11:37.32] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:11:37.32] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:11:37.77] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:11:37.77] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:11:38.31] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[21:11:38.93] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[21:11:39.38] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[21:11:40.61] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[21:11:41.19] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[21:11:41.19] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[21:11:42.83] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[21:11:42.83] /r giMenuAccess db::getNext [gi::getMenus giPopupMenu]
+[21:11:50.13] /i gi::executeAction {deSelectionTableParameters} -in [gi::getAssistants deSelectionTable -from [gi::getWindows 3]]
+[21:11:50.16] /i gi::setActiveDialog [gi::getDialogs {deSelectionTableParameterDialog}]
+[21:11:50.45] /i db::setAttr geometry -of [gi::getDialogs {deSelectionTableParameterDialog}] -value 445x243+1048+545
+[21:11:52.59] /i gi::pressButton {cancel} -in [gi::getDialogs {deSelectionTableParameterDialog}]
+[21:18:44.38] /i db::setPrefValue leDRDTool -value ICVLive
+[21:18:44.38] /o oa:0x21a6b5b0
+[21:18:46.32] /i xt::physicalVerification::executeRun icvLive 3
+[21:18:46.50] /# xt::physicalVerification::executePve icvLive 3 xtICVLiveExecutePve
+[21:18:46.51] /e Error: xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:18:47.03] /o xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:18:47.33] /i db::setAttr geometry -of [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]] -value 475x369+1197+545
+[21:18:51.03] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:18:52.28] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/mainTab} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:18:58.24] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:19:01.89] /i db::setPrefValue leDRDTool -value ICVLive
+[21:19:01.89] /o oa:0x22ae8150
+[21:19:02.98] /i xt::physicalVerification::executeRun icvLive 3
+[21:19:03.15] /# xt::physicalVerification::executePve icvLive 3 xtICVLiveExecutePve
+[21:19:03.16] /e Error: xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:19:03.63] /o xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:19:03.93] /i db::setAttr geometry -of [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]] -value 475x369+1197+545
+[21:19:05.40] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:19:55.12] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[21:20:01.12] /i db::setPrefValue leDRDTool -value ICVLive
+[21:20:01.12] /o oa:0x22d3e890
+[21:20:02.33] /i xt::physicalVerification::executeRun icvLive 3
+[21:20:02.53] /# xt::physicalVerification::executePve icvLive 3 xtICVLiveExecutePve
+[21:20:02.54] /e Error: xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:20:03.00] /o xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:20:03.27] /i db::setAttr geometry -of [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]] -value 475x369+1197+545
+[21:20:05.82] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/controlVariablesTab} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:20:06.57] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/customOptionsTab} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:20:07.35] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/includePathsTab} -in [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:20:08.37] /i gi::closeWindows [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:21:25.46] /i xt::physicalVerification::executeRun icvLive 3
+[21:21:25.65] /# xt::physicalVerification::executePve icvLive 3 xtICVLiveExecutePve
+[21:21:25.66] /e Error: xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:21:26.15] /o xtICVLiveICVRunsetFile: preference value is empty in '/DCNFS/users/student/cazzarel/Tutorial/synopsys_custom/inverter.icv.icvLive_pve' scope.
+[21:21:26.45] /i db::setAttr geometry -of [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]] -value 475x369+1197+545
+[21:21:28.92] /i gi::closeWindows [gi::getDialogs {xtICVLiveSetup} -parent [gi::getWindows 3]]
+[21:22:00.56] /i db::setPrefValue leDRDTool -value DRD
+[21:22:00.56] /o oa:0x218c1ce0
+[21:22:50.80] /i gi::setField {drdMode} -value {Visual} -in [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]]
+[21:22:53.00] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 3]
+[21:29:04.92] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1098
+[21:29:04.92] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[21:29:18.25] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x1108
+[21:29:18.25] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[23:40:13.20] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[[2323::4040::1313..2020]] /o  /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[23:40:13.21] /e Error: The application was unexpectedly terminated.
+              /c 
+[23:40:13.22] /e Error: The application was unexpectedly terminated.
+              /c               /c See the session log file for recovery details.See the session log file for recovery details. (SHUT_DOWN-001)
+ (SHUT_DOWN-001)
+[23:40:13.23] /o signal number = 6
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Thu Feb 11 19:39:39 2021
+              /c Frame 0. libc.so.6: gsignal + 0x37
+              /c Frame 1. libc.so.6: abort + 0x148
+              /c Frame 2. /lib64/libc.so.6 ::f46c7e6ed7 + 0x3d7
+              /c Frame 3. /lib64/libc.so.6 ::f46c7ef299 + 0x519

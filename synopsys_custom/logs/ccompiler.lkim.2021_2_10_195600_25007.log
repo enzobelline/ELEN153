@@ -1,0 +1,101 @@
+[19:56:05.60] /r giWindowId 0
+[19:56:05.60] /r giWindowGeometry 600x300
+[19:56:05.62] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed Feb 10 19:56:00 2021
+              /c Host: linux11101
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[19:56:17.28] /r giShowFrameTabs true
+[19:56:17.28] /r giWindowId 1
+[19:56:17.29] /r giWindowGeometry 1040x800
+[19:56:21.98] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:56:21.99] /# 
+[19:56:22.13] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:56:22.13] /# 
+[19:56:22.30] /i dm::showLibraryManager
+[19:56:22.30] /r giWindowId 2
+[19:56:22.30] /r giWindowGeometry 1040x800+499+78
+[19:56:22.34] /o oa:0x20eb9fe0
+[19:56:23.30] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[19:56:23.32] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[19:56:24.37] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[19:56:24.50] /i gi::setItemSelection {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[19:56:26.24] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[19:56:26.27] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[19:56:26.38] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[19:56:26.40] /m Information: License 'Basic' checked out. (LICENSE-003)
+[19:56:26.47] /o 	############################################
+[19:56:26.47] /o 	        Synopsys Generic 90nm iPDK          
+[19:56:26.47] /o 	--------------------------------------------
+[19:56:26.47] /o 	Release Date .............. : 11-May-2016    
+[19:56:26.47] /o 	============================================
+[19:56:26.47] /o 	        Recommended Tool Versions           
+[19:56:26.47] /o 	--------------------------------------------
+[19:56:26.47] /o 	Custom Designer ........... : J-2014.12-2    
+[19:56:26.47] /o 	IC Validator .............. : K-2015.12   
+[19:56:26.47] /o 	StarRC..................... : K-2015.12  
+[19:56:26.47] /o 	--------------------------------------------
+[19:56:26.47] /o 	############################################
+[19:56:26.47] /o 
+[19:56:26.58] /o SAED PDK 90: Loaded callbacks
+[19:56:26.62] /o SAED PDK 90: Loaded display resources
+[19:56:26.69] /r giWindowId 3
+[19:56:26.69] /r giWindowGeometry 1632x869
+[19:56:30.35] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 3]
+[19:56:30.35] /i xt::showLVSSetup -job lvs -window 3
+[19:56:31.49] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]] -value 838x454+876+319
+[19:56:33.03] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 3]]
+[19:56:36.84] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[19:56:36.84] /i xt::physicalVerification::executeRun lvs 3
+[19:56:37.24] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[19:56:37.40] /m Information: "Starting netlisting for design "LAB3/CMOSInverter/schematic"..." (NETLISTING-010)
+[19:56:37.60] /o No Design Integrity rule violations found in "LAB3/CMOSInverter/schematic"
+[19:56:37.84] /m Information: "Netlisting design "LAB3/CMOSInverter/schematic" finished successfully." (NETLISTING-012)
+[19:56:38.60] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:56:38.90] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[19:56:38.97] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[19:56:39.27] /r giWindowId 4
+[19:56:39.28] /r giWindowGeometry 800x600
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.37] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:56:40.43] /e Error: The job 'icv_lvs_4' started on host 'localhost' with process id 25402 failed to start or complete successfully; the job's return code is 33.
+[19:56:43.01] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 4]]
+[19:56:54.32] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LVS_ERRORS} -in [gi::getWindows 4]
+[19:57:42.19] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 4]] -value 950x211
+[19:57:42.19] /i db::setAttr geometry -of [gi::getFrames 1] -value 950x933+5+54
+[19:57:43.29] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 4]] -value 1910x211
+[19:57:43.29] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[19:57:44.96] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[19:57:45.91] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LVS_ERRORS} -in [gi::getWindows 4]
+[19:57:46.90] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[19:57:47.41] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.RESULTS} -in [gi::getWindows 4]
+[19:57:49.48] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 4]
+[03:18:05.95] /o Error: Application terminated: XLib fatal IO error (XIOHandler)
+              /c  (APPLICATION_GUI-001)[03:18:05.96] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)Stack Dump:
+              /c  VERSION P-2019.06-SP1-7[03:18:05.98[]03 /e Error: :The application was unexpectedly terminated.
+18:05.              /c 98See the session log file for recovery details.] /e Error:  CONFIG  (SHUT_DOWN-001)
+              /c 5329942 DATE Wed Feb 10 19:56:00 2021
+              /c Frame 0. libX11.so.6: _XEventsQueued + 0x7d
+              /c Frame 1. libX11.so.6: XPending + 0x5d

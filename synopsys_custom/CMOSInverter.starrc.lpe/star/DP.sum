@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup        Elp=00:00:04 Cpu=00:00:01 Mem=614.5  | Mar  3 16:32:33 | linux11104
+CPU_01 |*Layers        Elp=00:00:01 Cpu=00:00:00 Mem=614.6  | Mar  3 16:32:34 | linux11104
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=614.6  | Mar  3 16:32:34 | linux11104
+CPU_01 |*HN            Elp=00:00:00 Cpu=00:00:00 Mem=638.6  | Mar  3 16:32:37 | linux11104
+CPU_01 |*XrefHN        Elp=00:00:00 Cpu=00:00:00 Mem=369.0  | Mar  3 16:32:39 | linux11104
+CPU_01 |*Cells         Elp=00:00:00 Cpu=00:00:00 Mem=614.6  | Mar  3 16:32:40 | linux11104
+CPU_01 |*Translate     Elp=00:00:01 Cpu=00:00:00 Mem=614.6  | Mar  3 16:32:42 | linux11104
+CPU_01 |*BulkLayerHandling Elp=00:00:00 Cpu=00:00:00 Mem=0.0    | Mar  3 16:32:43 | linux11104
+CPU_01 |*NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Mem=357.7  | Mar  3 16:32:43 | linux11104
+CPU_01 |*GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Mem=614.6  | Mar  3 16:32:45 | linux11104
+CPU_01 |*GPD_Instance_Setup Elp=00:00:00 Cpu=00:00:00 Mem=357.7  | Mar  3 16:32:48 | linux11104
+CPU_01 |*GPD_NameMap   Elp=00:00:01 Cpu=00:00:00 Mem=358.1  | Mar  3 16:32:51 | linux11104
+CPU_01 |*xTract        Elp=00:00:00 Cpu=00:00:00 Mem=365.2  | Mar  3 16:32:55 | linux11104
+CPU_01 |*GPD_Instance  Elp=00:00:00 Cpu=00:00:00 Mem=357.7  | Mar  3 16:32:59 | linux11104
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=258.1  | Mar  3 16:33:04 | linux11104
+CPU_01 |*ReportViolations Elp=00:00:00 Cpu=00:00:00 Mem=357.7  | Mar  3 16:33:07 | linux11104
+CPU_01 |*GPD_PostProcess Elp=00:00:01 Cpu=00:00:00 Mem=357.7  | Mar  3 16:33:11 | linux11104

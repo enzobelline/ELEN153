@@ -1,0 +1,8 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.drc/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.drc/FullAdder.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.drc/run_details/duse_master.tmp && \
+mv /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.drc/run_details/duse_master.tmp /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.drc/run_details/duse_master

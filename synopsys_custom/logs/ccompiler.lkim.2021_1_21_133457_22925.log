@@ -1,0 +1,47 @@
+[13:35:01.41] /r giWindowId 0
+[13:35:01.41] /r giWindowGeometry 600x300
+[13:35:01.43] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Jan 21 13:34:57 2021
+              /c Host: linux11113
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[13:35:07.27] /r giShowFrameTabs true
+[13:35:07.27] /r giWindowId 1
+[13:35:07.27] /r giWindowGeometry 1040x800
+[13:35:14.28] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[13:35:14.29] /# 
+[13:35:14.37] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[13:35:14.37] /# 
+[13:35:14.59] /i dm::showLibraryManager
+[13:35:14.59] /r giWindowId 2
+[13:35:14.59] /r giWindowGeometry 660x600+50+76
+[13:35:14.62] /o oa:0x20e513a0
+[13:35:19.65] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[13:35:19.65] /i dm::showNewCellView -parent 2
+[13:35:19.69] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[13:35:19.96] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+655+302
+[13:35:20.54] /i gi::closeWindows [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[13:35:21.00] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 2]
+[13:35:21.00] /i dm::showNewLibrary -parent 2
+[13:35:21.04] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[13:35:21.34] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 458x467+720+211
+[13:35:21.60] /i gi::closeWindows [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[13:35:23.15] /i exit
+[13:35:23.18] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[13:35:23.45] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+341
+[13:35:24.25] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[13:35:24.90] /o Shutdown time: Thu Jan 21 13:35:24 2021
+[13:35:24.90] /o Elapsed session real time: 0.4 minutes
+[13:35:24.90] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_1_21_133457_22925.log

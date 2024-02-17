@@ -1,0 +1,1708 @@
+[17:55:35.35] /r giWindowId 0
+[17:55:35.35] /r giWindowGeometry 600x300
+[17:55:35.37] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed Feb 10 17:55:30 2021
+              /c Host: linux11110
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[17:55:46.27] /r giShowFrameTabs true
+[17:55:46.27] /r giWindowId 1
+[17:55:46.28] /r giWindowGeometry 1040x800
+[17:57:24.17] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[17:57:24.19] /# 
+[17:57:24.50] /i dm::showLibraryManager
+[17:57:24.50] /r giWindowId 2
+[17:57:24.50] /r giWindowGeometry 1040x800+499+78
+[17:57:24.54] /o oa:0x1a868b30
+[17:57:26.78] /i gi::setCurrentIndex {libs} -index {LAB3} -in [gi::getWindows 2]
+[17:57:26.80] /i gi::setItemSelection {libs} -index {LAB3} -in [gi::getWindows 2]
+[17:58:24.25] /i gi::setCurrentIndex {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[17:58:24.37] /i gi::setItemSelection {cells} -index {CMOSInverter} -in [gi::getWindows 2]
+[17:58:25.90] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[17:58:25.93] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[17:58:26.03] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[17:58:26.06] /m Information: License 'Basic' checked out. (LICENSE-003)
+[17:58:26.15] /o 	############################################
+[17:58:26.15] /o 	        Synopsys Generic 90nm iPDK          
+[17:58:26.15] /o 	--------------------------------------------
+[17:58:26.15] /o 	Release Date .............. : 11-May-2016    
+[17:58:26.15] /o 	============================================
+[17:58:26.15] /o 	        Recommended Tool Versions           
+[17:58:26.15] /o 	--------------------------------------------
+[17:58:26.15] /o 	Custom Designer ........... : J-2014.12-2    
+[17:58:26.15] /o 	IC Validator .............. : K-2015.12   
+[17:58:26.15] /o 	StarRC..................... : K-2015.12  
+[17:58:26.15] /o 	--------------------------------------------
+[17:58:26.15] /o 	############################################
+[17:58:26.15] /o 
+[17:58:26.25] /o SAED PDK 90: Loaded callbacks
+[17:58:26.30] /o SAED PDK 90: Loaded display resources
+[17:58:26.38] /r giWindowId 3
+[17:58:26.38] /r giWindowGeometry 1632x869
+[17:58:28.86] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[17:59:16.84] /i gi::setActiveWindow 2
+[17:59:16.84] /i gi::setActiveWindow 2 -raise true
+[17:59:20.73] /i gi::setActiveWindow 3
+[17:59:20.73] /i gi::setActiveWindow 3 -raise true
+[17:59:21.68] /i gi::setActiveWindow 2
+[17:59:21.68] /i gi::setActiveWindow 2 -raise true
+[17:59:30.70] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[17:59:30.73] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[17:59:31.99] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[17:59:32.02] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[17:59:32.05] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[17:59:32.05] /r giMenuAccess db::getNext [gi::getMenus dmLayoutViewCSM]
+[17:59:35.45] /i gi::setActiveWindow 3
+[17:59:35.45] /i gi::setActiveWindow 3 -raise true
+[18:00:30.05] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[18:00:30.35] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[18:00:30.43] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[18:00:32.45] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 625x745
+[18:00:37.65] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 323x745
+[18:01:20.13] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:01:20.13] /i xt::physicalVerification::executeRun drc 3
+[18:01:20.50] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:01:21.36] /r giWindowId 4
+[18:01:21.36] /r giWindowGeometry 800x600
+[18:01:26.97] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[18:01:28.33] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.RESULTS} -in [gi::getWindows 4]
+[18:01:29.06] /i gi::setActiveTab {tabs} -tabName {rules.drc.9m_saed90_icv.drc.rs} -in [gi::getWindows 4]
+[18:01:35.57] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[18:01:36.02] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 4]
+[18:01:36.86] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.RESULTS} -in [gi::getWindows 4]
+[18:01:37.35] /i gi::setActiveTab {tabs} -tabName {rules.drc.9m_saed90_icv.drc.rs} -in [gi::getWindows 4]
+[18:01:37.78] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 4]
+[18:01:39.07] /i gi::setActiveWindow 3
+[18:01:39.07] /i gi::setActiveWindow 3 -raise true
+[18:01:40.47] /i gi::setActiveWindow 4
+[18:01:40.47] /i gi::setActiveWindow 4 -raise true
+[18:01:42.97] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 4]
+[18:01:46.68] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[18:01:51.25] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:01:51.25] /i xt::physicalVerification::executeRun drc 3
+[18:01:51.38] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:01:51.44] /w Warning: Launched Job is duplicate of icv_drc_1
+[18:01:57.67] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_1
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 3 rules have violations.
+              /c There are 5 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:02:01.66] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:50573 tcp1 icvVue_1 
+[18:02:01.72] /j ::xt::icv::vue::_private::isJobReady 
+[18:02:01.72] /o false
+[18:02:02.72] /j ::xt::icv::vue::_private::isJobReady 
+[18:02:02.72] /o false
+[18:02:03.72] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:02:03.72] /j ::xt::icv::vue::_private::isJobReady 
+[18:02:03.72] /o true
+[18:02:03.74] /j xt::icv::vue::startFilter LAY 
+[18:02:03.76] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:02:21.53] /j xt::icv::vue::clearAllHighlights {} 
+[18:02:22.15] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:02:25.87] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:02:25.87] /i xt::physicalVerification::executeRun drc 3
+[18:02:26.05] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:02:26.85] /r giWindowId 5
+[18:02:26.86] /r giWindowGeometry 800x600
+[18:02:28.71] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:02:35.04] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 5]]
+[18:02:47.47] /i gi::pressButton {next} -in [gi::getWindows 5]
+[18:02:48.22] /i gi::pressButton {previous} -in [gi::getWindows 5]
+[18:02:48.57] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_2
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 3 rules have violations.
+              /c There are 5 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:02:50.75] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:54789 tcp3 icvVue_2 
+[18:02:50.81] /j ::xt::icv::vue::_private::isJobReady 
+[18:02:50.81] /o false
+[18:02:51.82] /j ::xt::icv::vue::_private::isJobReady 
+[18:02:51.82] /o false
+[18:02:52.82] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:02:52.82] /j ::xt::icv::vue::_private::isJobReady 
+[18:02:52.82] /o true
+[18:02:52.84] /j xt::icv::vue::startFilter LAY 
+[18:02:52.86] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:02:53.42] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:02:53.44] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:02:53.46] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:03:07.81] /i gi::setActiveWindow 3
+[18:03:07.81] /i gi::setActiveWindow 3 -raise true
+[18:03:09.74] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:03:09.74] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.935 -0.28}
+[18:03:10.40] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:03:10.40] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.938 -0.277}
+[18:03:14.92] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:03:14.92] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:03:14.92] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.087 -1.342} -index 0 -intent none]
+[18:03:14.92] /o oa:0x22281a20
+[18:03:17.68] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:03:17.68] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:03:17.68] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.093 -1.348} -index 0 -intent none]
+[18:03:17.68] /o oa:0x223b5790
+[18:03:20.19] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[18:03:20.19] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[18:03:20.48] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 323x719
+[18:03:20.54] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 323x719
+[18:03:34.70] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:03:34.70] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:03:34.70] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.182 0.55} -index 0 -intent none]
+[18:03:34.70] /o oa:0x223e3cb0
+[18:03:42.61] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:03:42.61] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:03:42.61] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.699 -1.485} -index 0 -intent none]
+[18:03:42.61] /o oa:0x215a3fb0
+[18:03:45.45] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:03:45.45] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:03:45.45] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.651 -1.467} -index 0 -intent none]
+[18:03:45.45] /o oa:0x22275210
+[18:04:10.52] /i gi::setActiveWindow 5
+[18:04:10.52] /i gi::setActiveWindow 5 -raise true
+[18:04:31.19] /i gi::setActiveWindow 3
+[18:04:31.19] /i gi::setActiveWindow 3 -raise true
+[18:04:35.28] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:04:35.28] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:04:35.28] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.116 0.544} -index 0 -intent none]
+[18:04:35.28] /o oa:0x216ee2a0
+[18:04:37.25] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:04:37.26] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:04:37.26] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.128 -1.342} -index 0 -intent none]
+[18:04:37.26] /o oa:0x2233f190
+[18:04:47.30] /i gi::setActiveWindow 5
+[18:04:47.30] /i gi::setActiveWindow 5 -raise true
+[18:05:28.79] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.RESULTS} -in [gi::getWindows 5]
+[18:05:33.75] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:05:55.37] /i gi::setActiveWindow 3
+[18:05:55.37] /i gi::setActiveWindow 3 -raise true
+[18:05:57.32] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:05:57.32] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:06:12.08] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:06:12.08] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:06:12.08] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.021 -0.896} -index 0 -intent none]
+[18:06:12.08] /o oa:0x215a4280
+[18:06:19.23] /i gi::setActiveWindow 5
+[18:06:19.23] /i gi::setActiveWindow 5 -raise true
+[18:06:23.56] /i gi::setActiveWindow 3
+[18:06:23.56] /i gi::setActiveWindow 3 -raise true
+[18:06:25.91] /i gi::setActiveWindow 5
+[18:06:25.91] /i gi::setActiveWindow 5 -raise true
+[18:06:31.47] /i gi::setActiveWindow 3
+[18:06:31.47] /i gi::setActiveWindow 3 -raise true
+[18:06:45.79] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:06:45.79] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.794 0.431}
+[18:06:45.87] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:06:45.87] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.794 0.434}
+[18:06:46.79] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:06:46.79] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:06:46.79] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.77 0.445} -index 0 -intent none]
+[18:06:46.79] /o oa:0x2239bb90
+[18:06:48.63] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:06:48.63] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:06:48.63] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.644 0.483} -index 0 -intent none]
+[18:06:48.63] /o oa:0x222b5d90
+[18:06:49.81] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:06:49.81] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:06:49.81] /o oa:0x20ec8ed0
+[18:06:49.81] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:06:49.81] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.549 0.486} -index 1 -intent none]
+[18:06:49.81] /o oa:0x21e911c0
+[18:06:55.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:06:55.26] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.685 0.337}
+[18:07:05.98] /i gi::setActiveWindow 5
+[18:07:05.98] /i gi::setActiveWindow 5 -raise true
+[18:07:09.68] /i gi::setActiveWindow 3
+[18:07:09.68] /i gi::setActiveWindow 3 -raise true
+[18:07:12.13] /i gi::setActiveWindow 5
+[18:07:12.13] /i gi::setActiveWindow 5 -raise true
+[18:07:13.66] /i gi::setActiveWindow 3
+[18:07:13.66] /i gi::setActiveWindow 3 -raise true
+[18:07:28.32] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:07:28.32] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:07:28.32] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.233 0.561} -index 0 -intent none]
+[18:07:28.32] /o oa:0x22355c20
+[18:07:59.80] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:07:59.80] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:07:59.80] /o oa:0x1d49c350
+[18:07:59.80] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:07:59.80] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.192 0.537} -index 1 -intent none]
+[18:07:59.80] /o oa:0x223974d0
+[18:08:01.23] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:08:01.23] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:08:01.23] /o oa:0x2196c6a0
+[18:08:01.23] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:08:01.23] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.198 0.54} -index 2 -intent none]
+[18:08:01.24] /o oa:0x1ad10ce0
+[18:08:01.76] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:08:01.76] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:08:01.77] /o oa:0x22351370
+[18:08:01.77] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:08:01.77] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.198 0.54} -index 0 -intent none]
+[18:08:01.77] /o oa:0x2227d960
+[18:10:00.53] /i gi::setActiveWindow 5
+[18:10:00.53] /i gi::setActiveWindow 5 -raise true
+[18:10:15.72] /i gi::setActiveWindow 3
+[18:10:15.72] /i gi::setActiveWindow 3 -raise true
+[18:10:17.85] /i gi::setActiveWindow 5
+[18:10:17.85] /i gi::setActiveWindow 5 -raise true
+[18:10:18.83] /i gi::setActiveWindow 3
+[18:10:18.83] /i gi::setActiveWindow 3 -raise true
+[18:10:26.76] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:10:26.76] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:10:26.76] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.451 0.219} -index 0 -intent none]
+[18:10:26.76] /o oa:0x21e504b0
+[18:10:28.29] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:10:28.29] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:10:28.29] /o oa:0x20e67250
+[18:10:28.29] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:10:28.29] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.451 0.219} -index 1 -intent none]
+[18:10:28.29] /o oa:0x1a9f3600
+[18:10:29.14] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:10:29.14] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:10:29.14] /o oa:0x22190800
+[18:10:29.14] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:10:29.14] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.451 0.219} -index 0 -intent none]
+[18:10:29.14] /o oa:0x223bf9a0
+[18:10:30.18] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[18:10:30.18] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[18:10:33.10] /i gi::setActiveWindow 5
+[18:10:33.10] /i gi::setActiveWindow 5 -raise true
+[18:10:33.44] /i gi::setActiveWindow 3
+[18:10:33.44] /i gi::setActiveWindow 3 -raise true
+[18:10:33.71] /r giWindowId 6
+[18:10:33.73] /r giWindowGeometry 1040x800
+[18:10:33.83] /i gi::createFrame -window 5
+[18:10:34.15] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 5]] -value 1910x211
+[18:10:34.19] /i db::setAttr geometry -of [gi::getFrames 2] -value 1910x933+5+54
+[18:10:36.95] /i db::setAttr geometry -of [gi::getFrames 2] -value 1910x933+36+90
+[18:10:37.03] /i db::setAttr maximized -of [gi::getFrames 2] -value true
+[18:10:37.35] /i db::setAttr geometry -of [gi::getFrames 2] -value 1910x933+5+54
+[18:10:40.70] /i db::setAttr maximized -of [gi::getFrames 2] -value false
+[18:10:42.13] /i db::setAttr maximized -of [gi::getFrames 2] -value true
+[18:10:43.73] /i db::setAttr maximized -of [gi::getFrames 2] -value false
+[18:10:44.33] /i db::setAttr maximized -of [gi::getFrames 2] -value true
+[18:10:46.19] /i db::setAttr maximized -of [gi::getFrames 2] -value false
+[18:10:48.93] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 5]] -value 1132x211
+[18:10:48.94] /i db::setAttr geometry -of [gi::getFrames 2] -value 1132x933+783+54
+[18:10:50.33] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 5]] -value 583x211
+[18:10:50.34] /i db::setAttr geometry -of [gi::getFrames 2] -value 583x933+1332+54
+[18:10:52.17] /i gi::setActiveWindow 3
+[18:10:52.17] /i gi::setActiveWindow 3 -raise true
+[18:10:53.29] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[18:10:53.64] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 323x610
+[18:10:53.65] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+439+54
+[18:10:56.25] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+5+54
+[18:10:58.89] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 323x719
+[18:10:59.45] /i db::setAttr geometry -of [gi::getFrames 1] -value 1317x933+5+54
+[18:11:01.43] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:11:01.43] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:11:01.87] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[18:11:01.87] /i de::fit -window 3 -fitView true
+[18:11:06.84] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:11:06.84] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:11:06.84] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.4 0.647} -index 0 -intent none]
+[18:11:06.84] /o oa:0x226f3380
+[18:12:04.23] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:12:04.23] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:12:04.23] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.819 -0.232} -index 0 -intent none]
+[18:12:04.23] /o oa:0x2272f6b0
+[18:12:19.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:12:19.86] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:12:19.86] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.039 -0.664} -index 0 -intent none]
+[18:12:19.86] /o oa:0x226ef030
+[18:13:56.99] /i gi::executeAction {lxSDL} -in [gi::getWindows 3]
+[18:13:57.23] /i gi::setActiveDialog [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[18:13:57.55] /i db::setAttr geometry -of [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]] -value 349x355+489+259
+[18:14:09.98] /i gi::setActiveTab {initDialogTabs} -tabName {initConfigTab} -in [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[18:14:11.63] /i gi::setActiveTab {initDialogTabs} -tabName {initMainTab} -in [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[18:14:13.77] /i gi::pressButton {openConfig} -in [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[18:14:14.01] /r giWindowId 7
+[18:14:14.02] /r giWindowGeometry 750x750
+[18:14:14.11] /i gi::executeAction heSwitchTree -in 7
+[18:14:16.57] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[18:14:18.55] /i gi::pressButton {ok} -in [gi::getDialogs {lxDefineLogicalSource} -parent [gi::getWindows 3]]
+[18:14:19.01] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[18:14:21.80] /o Traceback (most recent call last):
+[18:14:21.80] /o 
+[18:14:21.80] /o   File "dlo.misc.pxi", line 1360, in cni.dlo.DloGen.generate (cnPyDloGpi.cpp:168312)
+[18:14:21.80] /o 
+[18:14:21.80] /o   File "IPL_Python_code/Mosfet.py", line 343, in setupParams
+[18:14:21.80] /o 
+[18:14:21.80] /o ValueError: w (0.210000) is less than minimum (0.230000).
+[18:14:21.80] /o 
+[18:14:21.82] /e Error: Failure during pcell caching eval in underlying evaluator (cnDloPcell): w (0.210000) is less than minimum (0.230000)..
+[18:14:21.82] /o Unknown error
+[18:14:21.98] /o Traceback (most recent call last):
+[18:14:21.98] /o 
+[18:14:21.98] /o   File "dlo.misc.pxi", line 1360, in cni.dlo.DloGen.generate (cnPyDloGpi.cpp:168312)
+[18:14:21.98] /o 
+[18:14:21.98] /o   File "IPL_Python_code/Mosfet.py", line 343, in setupParams
+[18:14:21.98] /o 
+[18:14:21.98] /o ValueError: w (0.210000) is less than minimum (0.230000).
+[18:14:21.98] /o 
+[18:14:21.98] /e Error: Failure during pcell caching eval in underlying evaluator (cnDloPcell): w (0.210000) is less than minimum (0.230000)..
+[18:14:21.98] /o Unknown error
+[18:14:22.09] /i gi::setField {heDesignNavigatorLCSelectorButton} -value { Schematic} -in [db::getAttr banner -of [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]]]
+[18:14:22.15] /w Warning: Object type leInstanceArray is deprecated and scheduled for removal in a future release. (OBJECT_LAYER-008)
+[18:14:22.15] /w Warning: Object type leInstanceScalar is deprecated and scheduled for removal in a future release. (OBJECT_LAYER-008)
+[18:14:22.15] /w Warning: Object type leInstanceVectorBit is deprecated and scheduled for removal in a future release. (OBJECT_LAYER-008)
+[18:14:22.30] /i gi::expand {intents_view} -index {Placement} -in [gi::getAssistants cmConstraintEditor -from [gi::getWindows 3]]
+[18:14:22.30] /i gi::expand {intents_view} -index {Routing} -in [gi::getAssistants cmConstraintEditor -from [gi::getWindows 3]]
+[18:14:22.59] /i db::setAttr dockSize -of [gi::getAssistants leTrackRegionAssistant -from [gi::getWindows 3]] -value 274x174
+[18:14:22.59] /i db::setAttr dockSize -of [gi::getAssistants deDevicePaletteAssistant -from [gi::getWindows 3]] -value 274x176
+[18:14:22.59] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 323x180
+[18:14:22.75] /i db::setAttr dockSize -of [gi::getAssistants leTrackPatternAssistant -from [gi::getWindows 3]] -value 274x281
+[18:14:22.75] /i db::setAttr dockSize -of [gi::getAssistants leVDRCAssistant -from [gi::getWindows 3]] -value 323x453
+[18:14:22.78] /i db::setAttr dockSize -of [gi::getAssistants heDesignNavigator -from [gi::getWindows 3]] -value 256x421
+[18:14:22.78] /i db::setAttr dockSize -of [gi::getAssistants lxSchematicAssistant -from [gi::getWindows 3]] -value 256x318
+[18:14:22.83] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x745
+[18:14:30.66] /i gi::executeAction {leLayoutActivateWorkspace} -in [gi::getWindows 3]
+[18:14:52.75] /i gi::setActiveWindow 5
+[18:14:52.75] /i gi::setActiveWindow 5 -raise true
+[18:17:48.73] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:17:48.75] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:17:48.77] /j xt::icv::vue::setHiliteId {} 
+[18:17:48.79] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:17:48.81] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210181748_000000.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:17:48.83] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:17:48.87] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:18:05.67] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:18:05.67] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:18:05.67] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.732 0.539} -index 0 -intent none]
+[18:18:05.67] /o oa:0x224f3c70
+[18:18:07.83] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[18:18:07.83] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[18:18:08.15] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 290x719
+[18:18:08.15] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x719
+[18:18:10.64] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:10.64] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.68 0.494}
+[18:18:11.22] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:11.22] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.681 0.494}
+[18:18:11.28] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:11.28] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.681 0.495}
+[18:18:11.31] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:11.31] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.68 0.495}
+[18:18:11.84] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:18:11.84] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.68 0.494}
+[18:18:12.00] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:18:12.00] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.677 0.494}
+[18:18:13.28] /j xt::icv::vue::setHiliteId {} 
+[18:18:13.29] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:18:13.31] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210181813_000001.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:18:13.33] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:18:13.36] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:18:15.68] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:18:15.68] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:18:15.68] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.738 0.567} -index 0 -intent none]
+[18:18:15.68] /o oa:0x22266100
+[18:18:17.99] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:18:17.99] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:18:17.99] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.729 0.537} -index 0 -intent none]
+[18:18:17.99] /o oa:0x230538a0
+[18:18:19.18] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:18:19.18] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:18:19.18] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.739 0.575} -index 0 -intent none]
+[18:18:19.18] /o oa:0x22196b10
+[18:18:20.77] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:18:20.77] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:18:20.77] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.727 0.537} -index 0 -intent none]
+[18:18:20.77] /o oa:0x22f6efa0
+[18:18:35.50] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:18:35.50] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:18:35.50] /o oa:0x2369a510
+[18:18:35.50] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:18:35.50] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.722 0.537} -index 1 -intent none]
+[18:18:35.50] /o oa:0x2233ef50
+[18:18:38.15] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:38.16] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.681 0.506}
+[18:18:38.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:38.55] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.678 0.506}
+[18:18:38.67] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:18:38.67] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.632 0.5}
+[18:18:39.24] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:18:39.24] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.422 0.443}
+[18:18:59.60] /j xt::icv::vue::setHiliteId {} 
+[18:18:59.62] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:18:59.64] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210181859_000002.oas 51767a497cb23a61e16cdc2615129d0f 
+[18:18:59.66] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:18:59.70] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.815 0.49625 0.815} 
+[18:19:02.34] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:19:02.34] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:19:02.34] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.468 0.395} -index 0 -intent none]
+[18:19:02.34] /o oa:0x23601140
+[18:19:06.19] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:19:06.19] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.717 0.574}
+[18:19:07.03] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:19:07.03] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.861 0.443}
+[18:19:09.31] /j xt::icv::vue::setHiliteId {} 
+[18:19:09.33] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:19:09.35] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210181909_000003.oas 51767a497cb23a61e16cdc2615129d0f 
+[18:19:09.37] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:19:09.39] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.815 0.49625 0.815} 
+[18:19:48.07] /j xt::icv::vue::setHiliteId {} 
+[18:19:48.09] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:19:48.11] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210181948_000004.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:19:48.13] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:19:48.15] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:20:27.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:20:27.52] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.672 0.462}
+[18:20:28.71] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:20:28.71] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:20:28.71] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.689 0.472} -index 0 -intent none]
+[18:20:28.71] /o oa:0x222522c0
+[18:20:32.23] /i gi::setItemSelection {parameters} -index {cutWidth,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:20:32.23] /i gi::setCurrentIndex {parameters} -index {cutWidth,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:20:48.47] /i gi::setField {parameters} -value {0.2} -index {cutWidth,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:20:48.47] /i gi::setItemSelection {parameters} -index {cutHeight,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:20:48.47] /i gi::setCurrentIndex {parameters} -index {cutHeight,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:20:49.79] /i gi::setField {parameters} -value {0.2} -index {cutHeight,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:20:49.79] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:21:00.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:21:00.85] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:21:00.85] /o oa:0x220b2820
+[18:21:00.85] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:21:00.85] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.69 0.489} -index 1 -intent none]
+[18:21:00.85] /o oa:0x216a89f0
+[18:21:03.13] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:21:03.13] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:21:03.13] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.709 0.504} -index 0 -intent none]
+[18:21:03.13] /o oa:0x223fd2f0
+[18:21:06.68] /j xt::icv::vue::setHiliteId {} 
+[18:21:06.70] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:21:06.72] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182106_000005.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:21:06.74] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:21:06.77] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:21:08.23] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:21:08.23] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.657 0.506}
+[18:21:13.94] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[18:21:13.94] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[18:21:18.57] /i gi::setActiveWindow 2
+[18:21:18.57] /i gi::setActiveWindow 2 -raise true
+[18:21:18.93] /i gi::setActiveWindow 3
+[18:21:18.93] /i gi::setActiveWindow 3 -raise true
+[18:21:21.37] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:21:21.37] /i xt::physicalVerification::executeRun drc 3
+[18:21:21.54] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:22.27] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.56] /i gi::setActiveTab {tabs} -tabName {stdout.drc.log} -in [gi::getWindows 5]
+[18:21:31.61] /e Error: The job 'icv_drc_3' started on host 'localhost' with process id 26843 failed to start or complete successfully; the job's return code is 33.
+[18:21:55.75] /j xt::icv::vue::setHiliteId {} 
+[18:21:55.77] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:21:55.79] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182155_000006.oas 51767a497cb23a61e16cdc2615129d0f 
+[18:21:55.81] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:21:55.83] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.815 0.49625 0.815} 
+[18:21:57.05] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:21:57.05] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:21:57.05] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.323 0.327} -index 0 -intent none]
+[18:21:57.05] /o oa:0x22140190
+[18:22:02.01] /i gi::setItemSelection {parameters} -index {cutWidth,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:22:02.01] /i gi::setCurrentIndex {parameters} -index {cutWidth,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:22:05.47] /i gi::setField {parameters} -value {0.14} -index {cutWidth,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:22:05.77] /i gi::setItemSelection {parameters} -index {cutHeight,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:22:05.77] /i gi::setCurrentIndex {parameters} -index {cutHeight,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:22:11.72] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:22:11.72] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:22:11.72] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.387 0.242} -index 0 -intent none]
+[18:22:11.72] /o oa:0x1d6a0e10
+[18:22:11.75] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[18:22:12.04] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 432x82+437+428
+[18:22:13.72] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[18:22:31.36] /j xt::icv::vue::setHiliteId {} 
+[18:22:31.38] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:31.40] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182231_000007.oas ed8b80b3cf38eb211ed6300c6dd0273e 
+[18:22:31.42] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 0.5935 0.49625 0.6585} 
+[18:22:31.44] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.13"} 
+[18:22:31.46] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:32.96] /j xt::icv::vue::setHiliteId {} 
+[18:22:32.98] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:33.00] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182232_000008.oas 2be615a58aa2770be6c3dbc596a2d279 
+[18:22:33.02] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.6585 0.49625 -0.5935} 
+[18:22:33.04] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.13"} 
+[18:22:33.06] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:33.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:22:33.68] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.399 -0.629}
+[18:22:38.26] /j xt::icv::vue::setHiliteId {} 
+[18:22:38.28] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:38.30] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182238_000009.oas ed8b80b3cf38eb211ed6300c6dd0273e 
+[18:22:38.32] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 0.5935 0.49625 0.6585} 
+[18:22:38.34] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.13"} 
+[18:22:38.36] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:40.28] /j xt::icv::vue::setHiliteId {} 
+[18:22:40.30] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:40.32] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182240_000010.oas d857f090729935e1886e2773713b0d03 
+[18:22:40.34] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.75 0.49625 0.75} 
+[18:22:40.36] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.13"} 
+[18:22:40.38] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:43.74] /j xt::icv::vue::setHiliteId {} 
+[18:22:43.76] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:43.78] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182243_000011.oas d857f090729935e1886e2773713b0d03 
+[18:22:43.80] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.75 0.49625 0.75} 
+[18:22:43.82] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.13"} 
+[18:22:43.84] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:47.80] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.75 0.49625 0.75} 
+[18:22:51.04] /j xt::icv::vue::setHiliteId {} 
+[18:22:51.06] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:51.08] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182251_000012.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:22:51.10] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:51.12] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:22:53.59] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:22:53.59] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.641 0.504}
+[18:22:55.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:22:55.15] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.63 0.505}
+[18:22:56.03] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:22:56.03] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.63 0.505}
+[18:22:58.82] /j xt::icv::vue::setHiliteId {} 
+[18:22:58.84] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:22:58.86] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182258_000013.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:22:58.88] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:22:58.92] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:23:03.86] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 3]]
+[18:23:28.14] /j xt::icv::vue::setHiliteId {} 
+[18:23:28.16] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:23:28.18] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LfKS3H/highlight_20210210182328_000014.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:23:28.20] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:23:28.22] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:23:37.75] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:23:37.77] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:23:38.45] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:23:38.70] /i gi::setActiveWindow 5
+[18:23:38.70] /i gi::setActiveWindow 5 -raise true
+[18:23:38.76] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[18:23:40.19] /i gi::setActiveWindow 3
+[18:23:40.19] /i gi::setActiveWindow 3 -raise true
+[18:23:41.70] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:23:41.70] /i xt::physicalVerification::executeRun drc 3
+[18:23:41.84] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:23:42.55] /r giWindowId 8
+[18:23:42.56] /r giWindowGeometry 583x909+1332+78
+[18:23:51.16] /i gi::setActiveWindow 6
+[18:23:51.16] /i gi::setActiveWindow 6 -raise true
+[18:23:53.04] /i db::setAttr geometry -of [gi::getFrames 2] -value 442x933+1473+54
+[18:23:53.94] /i gi::setActiveWindow 8
+[18:23:53.94] /i gi::setActiveWindow 8 -raise true
+[18:23:55.05] /i db::setAttr geometry -of [gi::getFrames 1] -value 997x933+5+54
+[18:24:04.57] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_4
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 4 rules have violations.
+              /c There are 11 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:24:06.88] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:57509 tcp5 icvVue_3 
+[18:24:06.94] /j ::xt::icv::vue::_private::isJobReady 
+[18:24:06.94] /o false
+[18:24:07.94] /j ::xt::icv::vue::_private::isJobReady 
+[18:24:07.94] /o false
+[18:24:08.94] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:24:08.94] /j ::xt::icv::vue::_private::isJobReady 
+[18:24:08.94] /o true
+[18:24:08.96] /j xt::icv::vue::startFilter LAY 
+[18:24:08.98] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:24:09.52] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:24:09.54] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:24:09.56] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:24:17.48] /i gi::setActiveWindow 3
+[18:24:17.48] /i gi::setActiveWindow 3 -raise true
+[18:24:18.82] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:24:18.82] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.773 0.532}
+[18:24:20.67] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:24:20.67] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:24:24.85] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[18:24:24.85] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[18:24:30.52] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:24:30.54] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:24:30.56] /j xt::icv::vue::setHiliteId {} 
+[18:24:30.58] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:24:30.60] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_qNlUAh/highlight_20210210182430_000000.oas 9bde4a6f8fd78ffd3fa925d77589c904 
+[18:24:30.62] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:24:30.64] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.9 0.33 -0.65 0.58} 
+[18:24:35.42] /j xt::icv::vue::setHiliteId {} 
+[18:24:35.44] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:24:35.46] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_qNlUAh/highlight_20210210182435_000001.oas 51767a497cb23a61e16cdc2615129d0f 
+[18:24:35.48] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:24:35.50] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.815 0.49625 0.815} 
+[18:24:40.20] /j xt::icv::vue::setHiliteId {} 
+[18:24:40.22] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:24:40.24] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_qNlUAh/highlight_20210210182440_000002.oas 2be615a58aa2770be6c3dbc596a2d279 
+[18:24:40.26] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.6585 0.49625 -0.5935} 
+[18:24:40.28] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.13"} 
+[18:24:40.30] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:24:54.22] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:24:54.24] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:24:54.85] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:24:56.73] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:24:56.73] /i xt::physicalVerification::executeRun drc 3
+[18:24:56.93] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:25:20.97] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_5
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 3 rules have violations.
+              /c There are 5 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:25:23.44] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:52117 tcp7 icvVue_4 
+[18:25:23.49] /j ::xt::icv::vue::_private::isJobReady 
+[18:25:23.49] /o false
+[18:25:24.49] /j ::xt::icv::vue::_private::isJobReady 
+[18:25:24.49] /o false
+[18:25:25.49] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:25:25.49] /j ::xt::icv::vue::_private::isJobReady 
+[18:25:25.49] /o true
+[18:25:25.51] /j xt::icv::vue::startFilter LAY 
+[18:25:25.53] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:25:26.11] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:25:26.13] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:25:26.15] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:25:35.43] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:25:35.45] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:25:35.47] /j xt::icv::vue::setHiliteId {} 
+[18:25:35.49] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:25:35.51] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_LWhQwC/highlight_20210210182535_000000.oas eda2d965026f3e06aced5fcd873b39da 
+[18:25:35.53] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:25:35.57] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.0625 -1.87 0.0625 -1.67} 
+[18:25:36.43] /i gi::setActiveWindow 8
+[18:25:36.43] /i gi::setActiveWindow 8 -raise true
+[18:25:36.44] /i gi::setActiveWindow 3
+[18:25:36.44] /i gi::setActiveWindow 3 -raise true
+[18:25:53.71] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:25:53.71] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:25:53.71] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.039 -1.833} -index 0 -intent none]
+[18:25:53.71] /o oa:0x227bc300
+[18:25:55.61] /i gi::setItemSelection {attributes} -index {points,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:25:55.61] /i gi::setCurrentIndex {attributes} -index {points,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:26:00.23] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:00.23] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.026 -1.785}
+[18:26:00.29] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:00.29] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.031 -1.786}
+[18:26:01.01] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:26:01.01] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.043 -1.794}
+[18:26:41.72] /i gi::setField {attributes} -value {((0,0.78)(0,-2.05))} -index {points,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:26:41.72] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:26:42.99] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:42.99] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.069 -1.839}
+[18:26:52.54] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:52.54] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.249 -1.884}
+[18:26:52.59] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:52.59] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.248 -1.883}
+[18:26:52.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:52.63] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.248 -1.883}
+[18:26:52.67] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:26:52.67] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.249 -1.883}
+[18:26:53.09] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:26:53.09] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.297 -1.859}
+[18:26:53.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:26:53.15] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.297 -1.859}
+[18:26:54.48] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:26:54.48] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.297 -1.859}
+[18:27:09.71] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
+[18:27:09.71] /i ile::split
+[18:27:09.77] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[18:27:09.80] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[18:27:12.31] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:27:12.33] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:27:12.95] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:27:16.45] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:27:16.45] /i xt::physicalVerification::executeRun drc 3
+[18:27:16.61] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:27:39.47] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_6
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 3 rules have violations.
+              /c There are 5 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:27:41.87] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:40996 tcp9 icvVue_5 
+[18:27:41.93] /j ::xt::icv::vue::_private::isJobReady 
+[18:27:41.93] /o false
+[18:27:42.93] /j ::xt::icv::vue::_private::isJobReady 
+[18:27:42.93] /o false
+[18:27:43.93] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:27:43.94] /j ::xt::icv::vue::_private::isJobReady 
+[18:27:43.94] /o true
+[18:27:43.96] /j xt::icv::vue::startFilter LAY 
+[18:27:43.98] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:27:44.58] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:27:44.60] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:27:44.62] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:28:02.02] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:28:02.04] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:28:02.06] /j xt::icv::vue::setHiliteId {} 
+[18:28:02.08] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:28:02.10] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_JgbT8t/highlight_20210210182802_000000.oas eda2d965026f3e06aced5fcd873b39da 
+[18:28:02.12] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:28:02.16] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.0625 -1.87 0.0625 -1.67} 
+[18:28:07.06] /j xt::icv::vue::setHiliteId {} 
+[18:28:07.08] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:28:07.10] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_JgbT8t/highlight_20210210182807_000001.oas eda2d965026f3e06aced5fcd873b39da 
+[18:28:07.12] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.0625 -1.87 0.0625 -1.67} 
+[18:28:07.14] /j xt::icv::vue::addErrorDescription LAB3/CMOSInverter/layout {"Distance: 0.16"} 
+[18:28:07.16] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:28:08.07] /i gi::setActiveWindow 8
+[18:28:08.07] /i gi::setActiveWindow 8 -raise true
+[18:28:08.09] /i gi::setActiveWindow 3
+[18:28:08.09] /i gi::setActiveWindow 3 -raise true
+[18:28:26.63] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:28:26.65] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:28:27.35] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:28:28.79] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[18:28:28.81] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[18:28:30.64] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:28:30.64] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:28:37.70] /i de::redoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 3]] -steps 1
+[18:28:39.52] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[18:28:39.53] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
+[18:28:39.54] /i ile::split
+[18:28:39.65] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[18:28:41.99] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 3]
+[18:28:41.99] /i xt::showDRCSetup -job drc -window 3
+[18:28:42.74] /i gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[18:28:43.38] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]] -value 566x453+420+348
+[18:28:54.17] /i gi::closeWindows [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[18:28:54.17] /i gi::closeWindows [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 3]]
+[18:29:40.03] /i gi::setActiveWindow 6
+[18:29:40.04] /i gi::setActiveWindow 6 -raise true
+[18:29:41.60] /i gi::setActiveWindow 3
+[18:29:41.60] /i gi::setActiveWindow 3 -raise true
+[18:29:43.55] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:29:43.55] /i xt::physicalVerification::executeRun drc 3
+[18:29:43.74] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:30:11.97] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_7
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 2 rules have violations.
+              /c There are 4 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:30:14.44] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:47695 tcp11 icvVue_6 
+[18:30:14.50] /j ::xt::icv::vue::_private::isJobReady 
+[18:30:14.50] /o false
+[18:30:15.50] /j ::xt::icv::vue::_private::isJobReady 
+[18:30:15.50] /o false
+[18:30:16.50] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:30:16.50] /j ::xt::icv::vue::_private::isJobReady 
+[18:30:16.50] /o true
+[18:30:16.52] /j xt::icv::vue::startFilter LAY 
+[18:30:16.54] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:30:17.24] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:30:17.26] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:30:17.28] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:31:25.04] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:31:25.06] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:31:25.08] /j xt::icv::vue::setHiliteId {} 
+[18:31:25.10] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:31:25.12] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_fXwUbq/highlight_20210210183125_000000.oas 31566e5ac14ee8ff003e29e5ecf7d912 
+[18:31:25.14] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:31:25.18] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {-0.91875 0.32375 -0.63125 0.58625} 
+[18:31:38.27] /i gi::setActiveWindow 8
+[18:31:38.27] /i gi::setActiveWindow 8 -raise true
+[18:31:38.29] /i gi::setActiveWindow 3
+[18:31:38.29] /i gi::setActiveWindow 3 -raise true
+[18:31:39.53] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:39.53] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.751 0.475}
+[18:31:40.05] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:40.05] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.752 0.476}
+[18:31:40.51] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:40.51] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.757 0.473}
+[18:31:42.07] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:42.07] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.757 0.473}
+[18:31:42.11] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:42.11] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.757 0.473}
+[18:31:42.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:42.50] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.757 0.473}
+[18:31:42.57] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:42.57] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.757 0.473}
+[18:31:43.51] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:43.52] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.618 0.591}
+[18:31:45.44] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[18:31:45.75] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1571x211
+[18:31:45.75] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[18:31:47.38] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[18:31:47.67] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 658x211
+[18:31:47.67] /i db::setAttr geometry -of [gi::getFrames 1] -value 997x933+5+54
+[18:31:48.44] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[18:31:48.75] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1571x211
+[18:31:48.75] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[18:31:50.96] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1571x89
+[18:31:51.65] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[18:31:51.65] /i de::fit -window 3 -fitView true
+[18:31:53.36] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:53.36] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.776 0.575}
+[18:31:54.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:54.43] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.546 -0.403}
+[18:31:54.95] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:54.95] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.546 -0.402}
+[18:31:56.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:56.36] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.691 0.755}
+[18:31:57.50] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:57.50] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.768 0.894}
+[18:31:58.24] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:31:58.24] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.762 0.885}
+[18:31:58.79] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:31:58.79] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.761 0.882}
+[18:32:00.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:32:00.21] /i de::addPoint {-0.76 0.428} -context [db::getNext [de::getContexts -window 3]]
+[18:32:01.92] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:32:01.92] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:32:02.62] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:32:02.62] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:32:02.62] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.681 0.498} -index 0 -intent none]
+[18:32:02.62] /o oa:0x220e2f60
+[18:32:15.69] /i gi::setActiveWindow 6
+[18:32:15.69] /i gi::setActiveWindow 6 -raise true
+[18:32:17.36] /i gi::setActiveWindow 3
+[18:32:17.36] /i gi::setActiveWindow 3 -raise true
+[18:32:20.36] /i gi::setItemSelection {parameters} -index {layer1EncLR,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:20.36] /i gi::setCurrentIndex {parameters} -index {layer1EncLR,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:28.56] /i gi::setActiveWindow 6
+[18:32:28.56] /i gi::setActiveWindow 6 -raise true
+[18:32:33.74] /i gi::setActiveWindow 3
+[18:32:33.74] /i gi::setActiveWindow 3 -raise true
+[18:32:37.01] /i gi::setActiveWindow 6
+[18:32:37.01] /i gi::setActiveWindow 6 -raise true
+[18:32:37.87] /i gi::setActiveWindow 3
+[18:32:37.87] /i gi::setActiveWindow 3 -raise true
+[18:32:44.90] /i gi::setField {parameters} -value {(0.05,0.05)} -index {layer1EncLR,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:44.91] /i gi::setItemSelection {parameters} -index {layer1EncTB,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:44.91] /i gi::setCurrentIndex {parameters} -index {layer1EncTB,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:49.86] /i gi::setField {parameters} -value {(0.04,0.04)} -index {layer1EncTB,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:49.86] /i gi::setItemSelection {parameters} -index {layer1EncLR,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:32:49.86] /i gi::setCurrentIndex {parameters} -index {layer1EncLR,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:08.96] /i gi::setField {parameters} -value {(0.1,0.05)} -index {layer1EncLR,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:10.89] /i gi::setField {parameters} -value {(0.1,0.1)} -index {layer1EncLR,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:10.90] /i gi::setItemSelection {parameters} -index {layer1EncTB,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:10.90] /i gi::setCurrentIndex {parameters} -index {layer1EncTB,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:15.93] /i gi::setField {parameters} -value {(0.1,0.04)} -index {layer1EncTB,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:17.39] /i gi::setField {parameters} -value {(0.1,0.1)} -index {layer1EncTB,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:19.58] /i gi::setItemSelection {parameters} -index {cutSpacing,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:19.59] /i gi::setCurrentIndex {parameters} -index {cutSpacing,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:33:21.61] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
+[18:33:21.61] /i ile::split
+[18:33:21.64] /r giDialog gi::setActiveDialog [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[18:33:21.93] /r giDialog db::setAttr geometry -of [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]] -value 462x82+719+428
+[18:33:23.03] /r giDialog gi::pressButton {apply} -in [gi::getDialogs {dbSelectionChange} -parent [gi::getWindows 3]]
+[18:33:23.11] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[18:33:23.13] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[18:33:25.87] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:33:25.87] /i de::addPoint {-0.731 0.792} -context [db::getNext [de::getContexts -window 3]]
+[18:33:29.32] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:33:29.32] /i de::addPoint {-0.716 0.778} -context [db::getNext [de::getContexts -window 3]]
+[18:33:30.98] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:33:30.98] /i de::addPoint {-0.746 0.798} -context [db::getNext [de::getContexts -window 3]]
+[18:33:33.20] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:33:33.20] /i de::addPoint {-1.316 0.673} -context [db::getNext [de::getContexts -window 3]]
+[18:33:34.28] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:33:34.28] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:33:37.86] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:33:37.86] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:33:37.86] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.69 0.938} -index 0 -intent none]
+[18:33:37.86] /o oa:0x22509740
+[18:33:39.70] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:33:39.70] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:33:39.70] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.748 0.795} -index 0 -intent none]
+[18:33:39.70] /o oa:0x21e54310
+[18:33:44.17] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:33:44.17] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:33:47.37] /# gi::executeAction {leSplit} -in [gi::getWindows 3]
+[18:33:47.37] /i ile::split
+[18:33:49.86] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:33:49.89] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:33:50.55] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:33:53.08] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:33:53.08] /i xt::physicalVerification::executeRun drc 3
+[18:33:53.27] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:34:18.77] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_8
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 2 rules have violations.
+              /c There are 4 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:34:20.96] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:34801 tcp13 icvVue_7 
+[18:34:21.02] /j ::xt::icv::vue::_private::isJobReady 
+[18:34:21.02] /o false
+[18:34:22.02] /j ::xt::icv::vue::_private::isJobReady 
+[18:34:22.02] /o false
+[18:34:23.03] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:34:23.03] /j ::xt::icv::vue::_private::isJobReady 
+[18:34:23.03] /o true
+[18:34:23.05] /j xt::icv::vue::startFilter LAY 
+[18:34:23.07] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:34:23.67] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:34:23.69] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:34:23.71] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:35:09.15] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:35:09.17] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:35:09.85] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:35:10.82] /i gi::setActiveWindow 3
+[18:35:10.82] /i gi::setActiveWindow 3 -raise true
+[18:35:12.61] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:35:12.61] /i de::addPoint {-0.632 0.414} -context [db::getNext [de::getContexts -window 3]]
+[18:35:24.54] /i gi::setField {propertiesExpand} -value {true} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:35:28.38] /i gi::setField {propertiesExpand} -value {false} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:35:30.67] /i gi::setItemSelection {parameters} -index {layer1EncLR,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:35:30.67] /i gi::setCurrentIndex {parameters} -index {layer1EncLR,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:35:31.21] /i gi::setItemSelection {parameters} -index {cutHeight,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:35:31.21] /i gi::setCurrentIndex {parameters} -index {cutHeight,Prompt} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:36:01.85] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:36:01.85] /i de::addPoint {-0.521 0.492} -context [db::getNext [de::getContexts -window 3]]
+[18:36:02.60] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:36:02.60] /i de::addPoint {-0.521 0.492} -context [db::getNext [de::getContexts -window 3]]
+[18:36:04.11] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:36:04.11] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:36:04.83] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:04.83] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:04.83] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.524 0.492} -index 0 -intent none]
+[18:36:04.83] /o oa:0x22989180
+[18:36:06.03] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:06.03] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:06.04] /o oa:0x22128fe0
+[18:36:06.04] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:06.04] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.524 0.492} -index 1 -intent none]
+[18:36:06.04] /o oa:0x230cf920
+[18:36:06.70] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:06.70] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:06.70] /o oa:0x236bcb60
+[18:36:06.70] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:06.70] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.524 0.492} -index 0 -intent none]
+[18:36:06.70] /o oa:0x1d47b750
+[18:36:07.39] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:07.39] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:07.39] /o oa:0x23675920
+[18:36:07.39] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:07.39] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.524 0.492} -index 1 -intent none]
+[18:36:07.39] /o oa:0x22fde280
+[18:36:08.03] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:08.03] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:08.03] /o oa:0x20eae640
+[18:36:08.03] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:08.03] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.524 0.492} -index 0 -intent none]
+[18:36:08.03] /o oa:0x235edf60
+[18:36:09.93] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:09.93] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:09.93] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.629 0.495} -index 0 -intent none]
+[18:36:09.93] /o oa:0x22ad6a70
+[18:36:10.78] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:10.78] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:10.78] /o oa:0x235ff4a0
+[18:36:10.78] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:10.78] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.629 0.495} -index 1 -intent none]
+[18:36:10.78] /o oa:0x22b98e70
+[18:36:11.44] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:11.44] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:11.44] /o oa:0x22ae18f0
+[18:36:11.44] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:11.44] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.629 0.495} -index 2 -intent none]
+[18:36:11.44] /o oa:0x226dc1d0
+[18:36:12.03] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:12.03] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:36:12.03] /o oa:0x1d738be0
+[18:36:12.03] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:12.03] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.629 0.495} -index 0 -intent none]
+[18:36:12.03] /o oa:0x23468610
+[18:36:41.99] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:36:41.99] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:36:41.99] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.539 0.6} -index 0 -intent none]
+[18:36:41.99] /o oa:0x223ddea0
+[18:37:05.79] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:37:05.79] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:37:05.79] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.76 0.449} -index 0 -intent none]
+[18:37:05.79] /o oa:0x2207e700
+[18:37:11.65] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:37:11.65] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:37:11.65] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.725 0.67} -index 0 -intent none]
+[18:37:11.65] /o oa:0x2209ed00
+[18:37:15.94] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:37:15.94] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:37:18.28] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:37:18.28] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.492 0.131}
+[18:37:18.34] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:37:18.34] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.533 0.155}
+[18:37:18.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:37:18.36] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.545 0.167}
+[18:37:18.39] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:37:18.39] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.545 0.19}
+[18:37:18.86] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:37:18.86] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.546 0.189}
+[18:37:18.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:37:18.91] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.546 0.189}
+[18:37:19.35] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:37:19.35] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.546 0.189}
+[18:37:19.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:37:19.40] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.546 0.189}
+[18:37:19.89] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:37:19.89] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.543 0.189}
+[18:37:20.38] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:37:20.38] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:37:21.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:37:21.92] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.844 -0.597}
+[18:37:22.58] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:37:22.58] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.819 -1.133}
+[18:37:25.52] /i de::redoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 3]] -steps 1
+[18:37:26.79] /i de::redoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 3]] -steps 1
+[18:37:29.40] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 3]] -steps 1
+[18:37:37.65] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:37:37.65] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-2.47 0.043}
+[18:38:11.90] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:38:11.90] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:38:11.90] /o oa:0x22c17780
+[18:38:11.90] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:38:11.90] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.651 0.43} -index 1 -intent none]
+[18:38:11.90] /o oa:0x22e1a5e0
+[18:38:15.34] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:38:15.34] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:38:15.34] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.703 0.43} -index 0 -intent none]
+[18:38:15.34] /o oa:0x20e85d60
+[18:38:16.89] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:38:16.89] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:38:16.90] /o oa:0x21e81420
+[18:38:16.90] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:38:16.90] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.724 0.43} -index 1 -intent none]
+[18:38:16.90] /o oa:0x21d5b8e0
+[18:38:18.14] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:38:18.14] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:38:18.14] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.831 0.425} -index 0 -intent none]
+[18:38:18.14] /o oa:0x23663c20
+[18:38:19.29] /# gi::executeAction {leMove} -in [gi::getWindows 3]
+[18:38:19.29] /i ile::move
+[18:38:20.08] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:38:20.08] /i de::addPoint {-0.796 0.427} -context [db::getNext [de::getContexts -window 3]]
+[18:38:20.87] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:38:20.87] /i de::addPoint {-2.007 0.451} -context [db::getNext [de::getContexts -window 3]]
+[18:38:33.92] /# gi::setCurrentIndex {lpps} -index {DIFF drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[18:38:33.92] /# gi::setItemSelection {lpps} -index {DIFF drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[18:38:34.00] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[18:38:34.00] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind LAB3 CMOSInverter layout] -filter {%lpp =="DIFF drawing"}]
+[18:38:39.64] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[18:38:40.98] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:38:49.80] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:38:49.80] /i le::createRectangle {{-0.92 0.29} {-0.63 0.58}} -design [ed] -lpp {DIFF drawing} 
+[18:38:50.97] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:38:52.08] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:38:52.08] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:38:52.08] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.729 0.66} -index 0 -intent none]
+[18:38:52.08] /o oa:0x236616e0
+[18:38:53.37] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:38:53.37] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:38:53.91] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:38:53.91] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:38:53.91] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.7 0.451} -index 0 -intent none]
+[18:38:53.91] /o oa:0x2235c5a0
+[18:38:55.25] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:38:55.25] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.54 0.439}
+[18:38:55.96] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:38:55.96] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.536 0.555}
+[18:38:56.60] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:38:56.60] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.422 0.276}
+[18:38:56.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:38:56.69] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.358 -0.154}
+[18:38:57.53] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:38:57.53] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.625 1.185}
+[18:38:57.94] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:38:57.94] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.625 1.185}
+[18:38:59.10] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:38:59.10] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.272 0.376}
+[18:39:00.55] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:39:00.55] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:39:00.55] /o oa:0x2292fa60
+[18:39:00.55] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:39:00.55] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.731 0.459} -index 1 -intent none]
+[18:39:00.55] /o oa:0x235ee5b0
+[18:39:06.49] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[18:39:07.96] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:39:11.30] /# gi::executeAction {leRuler} -in [gi::getWindows 3]
+[18:39:11.30] /i ile::createRuler
+[18:39:13.86] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:13.86] /i de::addPoint {-0.778 0.74} -context [db::getNext [de::getContexts -window 3]]
+[18:39:16.09] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:16.09] /i de::addPoint {-0.769 0.491} -context [db::getNext [de::getContexts -window 3]]
+[18:39:18.51] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:18.51] /i de::addPoint {-1.059 0.422} -context [db::getNext [de::getContexts -window 3]]
+[18:39:27.57] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:27.57] /i de::addPoint {-0.823 0.427} -context [db::getNext [de::getContexts -window 3]]
+[18:39:30.59] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:30.59] /i de::addPoint {-0.706 0.351} -context [db::getNext [de::getContexts -window 3]]
+[18:39:32.75] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:39:32.75] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:39:35.76] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:39:35.76] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:39:35.76] /o oa:0x22303d30
+[18:39:35.76] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:39:35.76] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.488 0.35} -index 1 -intent none]
+[18:39:35.76] /o oa:0x2274c300
+[18:39:38.24] /# gi::executeAction {leRuler} -in [gi::getWindows 3]
+[18:39:38.24] /i ile::createRuler
+[18:39:38.55] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:38.55] /i de::addPoint {-0.488 0.345} -context [db::getNext [de::getContexts -window 3]]
+[18:39:40.51] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:40.51] /i de::addPoint {-0.733 0.35} -context [db::getNext [de::getContexts -window 3]]
+[18:39:42.03] /# gi::executeAction {leRuler} -in [gi::getWindows 3]
+[18:39:42.03] /i ile::createRuler
+[18:39:43.02] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:43.02] /i de::addPoint {-0.827 0.168} -context [db::getNext [de::getContexts -window 3]]
+[18:39:44.57] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:39:44.57] /i de::addPoint {-0.824 0.367} -context [db::getNext [de::getContexts -window 3]]
+[18:39:45.16] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:39:45.16] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:39:57.52] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:39:57.52] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:39:57.52] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.677 0.446} -index 0 -intent none]
+[18:39:57.52] /o oa:0x21f97a70
+[18:39:58.68] /# gi::executeAction {leMove} -in [gi::getWindows 3]
+[18:39:58.68] /i ile::move
+[18:40:00.65] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:40:00.65] /i de::addPoint {-0.677 0.446} -context [db::getNext [de::getContexts -window 3]]
+[18:40:24.37] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:40:24.37] /i de::addPoint {-0.677 0.466} -context [db::getNext [de::getContexts -window 3]]
+[18:40:30.81] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:40:30.81] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:40:30.81] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.775 0.635} -index 0 -intent none]
+[18:40:30.81] /o oa:0x220f3080
+[18:40:31.91] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:40:31.92] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:40:32.77] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:40:32.77] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:40:32.77] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.983 0.422} -index 0 -intent none]
+[18:40:32.78] /o oa:0x224f6660
+[18:40:32.89] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:40:32.89] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:40:33.55] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:40:33.55] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:40:33.55] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.558 0.342} -index 0 -intent none]
+[18:40:33.55] /o oa:0x228ad490
+[18:40:33.75] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:40:33.76] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:40:34.47] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:40:34.47] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:40:34.47] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.83 0.291} -index 0 -intent none]
+[18:40:34.47] /o oa:0x2327dea0
+[18:40:34.68] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:40:34.68] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:40:35.59] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:40:35.59] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:40:35.59] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-1.922 0.46} -index 0 -intent none]
+[18:40:35.59] /o oa:0x223ddea0
+[18:40:36.98] /# gi::executeAction {leMove} -in [gi::getWindows 3]
+[18:40:36.98] /i ile::move
+[18:40:37.48] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:40:37.48] /i de::addPoint {-1.939 0.472} -context [db::getNext [de::getContexts -window 3]]
+[18:40:55.97] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:40:55.97] /i de::addPoint {-0.728 0.328} -context [db::getNext [de::getContexts -window 3]]
+[18:41:01.22] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:41:01.22] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.532 0.367}
+[18:41:01.33] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:41:01.33] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.531 0.367}
+[18:41:02.00] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:41:02.00] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.206 0.286}
+[18:41:03.36] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:41:03.36] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.64 0.382}
+[18:41:04.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:41:04.19] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.64 0.4}
+[18:41:05.57] /# gi::executeAction {leRuler} -in [gi::getWindows 3]
+[18:41:05.57] /i ile::createRuler
+[18:41:06.58] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:06.58] /i de::addPoint {-0.491 0.468} -context [db::getNext [de::getContexts -window 3]]
+[18:41:07.71] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:07.71] /i de::addPoint {-0.735 0.467} -context [db::getNext [de::getContexts -window 3]]
+[18:41:07.92] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:41:07.92] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:41:11.51] /# gi::executeAction {leRuler} -in [gi::getWindows 3]
+[18:41:11.51] /i ile::createRuler
+[18:41:11.70] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:11.71] /i de::addPoint {-1.058 0.456} -context [db::getNext [de::getContexts -window 3]]
+[18:41:12.89] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:12.89] /i de::addPoint {-0.775 0.449} -context [db::getNext [de::getContexts -window 3]]
+[18:41:17.06] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:41:17.06] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.732 0.585}
+[18:41:18.26] /# gi::executeAction {leRuler} -in [gi::getWindows 3]
+[18:41:18.26] /i ile::createRuler
+[18:41:19.29] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:19.29] /i de::addPoint {-0.773 0.74} -context [db::getNext [de::getContexts -window 3]]
+[18:41:20.76] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:20.76] /i de::addPoint {-0.769 0.498} -context [db::getNext [de::getContexts -window 3]]
+[18:41:23.44] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:23.44] /i de::addPoint {-0.773 0.171} -context [db::getNext [de::getContexts -window 3]]
+[18:41:24.27] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:41:24.27] /i de::addPoint {-0.772 0.411} -context [db::getNext [de::getContexts -window 3]]
+[18:41:31.09] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:41:31.09] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:41:32.05] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:32.05] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:32.05] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.517 0.471} -index 0 -intent none]
+[18:41:32.05] /o oa:0x21e78360
+[18:41:32.75] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:41:32.76] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:41:33.40] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:33.40] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:33.40] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.776 0.619} -index 0 -intent none]
+[18:41:33.40] /o oa:0x226f0850
+[18:41:33.49] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:41:33.50] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:41:34.22] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:34.22] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:34.22] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.974 0.456} -index 0 -intent none]
+[18:41:34.22] /o oa:0x21f671a0
+[18:41:34.27] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:41:34.27] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:41:35.95] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:35.95] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:35.95] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.778 0.265} -index 0 -intent none]
+[18:41:35.95] /o oa:0x21f92ea0
+[18:41:36.09] /# gi::executeAction {leDelete} -in [gi::getWindows 3]
+[18:41:36.10] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[18:41:39.98] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:41:39.98] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.733 -0.087}
+[18:41:41.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:41.85] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:41.85] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.447 0.924} -index 0 -intent none]
+[18:41:41.86] /o oa:0x22915d80
+[18:41:43.91] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:43.91] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:41:43.91] /o oa:0x233456b0
+[18:41:43.91] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:43.91] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.348 0.912} -index 1 -intent none]
+[18:41:43.91] /o oa:0x22a96430
+[18:41:47.44] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:47.44] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:47.44] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.4 0.892} -index 0 -intent none]
+[18:41:47.44] /o oa:0x23560fc0
+[18:41:47.78] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[18:41:47.78] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[18:41:51.11] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:51.11] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:51.51] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:41:51.51] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:41:54.34] /i de::redoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 3]] -steps 1
+[18:41:57.67] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:41:57.67] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:41:57.67] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.479 0.886} -index 0 -intent none]
+[18:41:57.67] /o oa:0x223a54f0
+[18:42:00.75] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:42:00.75] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:42:00.75] /o oa:0x1cebc8c0
+[18:42:00.75] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:42:00.75] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.572 0.871} -index 1 -intent none]
+[18:42:00.75] /o oa:0x21f931b0
+[18:42:01.12] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[18:42:01.12] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[18:42:02.71] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:42:02.71] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:42:02.71] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.589 0.897} -index 0 -intent none]
+[18:42:02.71] /o oa:0x2272d530
+[18:42:05.35] /# gi::setCurrentIndex {lpps} -index {M1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[18:42:05.35] /# gi::setItemSelection {lpps} -index {M1 drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[18:42:05.45] /# gi::executeAction {leOLPSetActiveLPP} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[18:42:05.45] /i de::setActiveLPP [de::getLPPs -from [oa::DesignFind LAB3 CMOSInverter layout] -filter {%lpp =="M1 drawing"}]
+[18:42:13.14] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:42:13.14] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.759 0.679}
+[18:42:20.61] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[18:42:20.61] /i ile::createInterconnect
+[18:42:24.10] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:42:24.10] /i de::addPoint {-0.84 0.519} -context [db::getNext [de::getContexts -window 3]]
+[18:42:25.63] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:42:25.63] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:42:33.58] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:42:33.58] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:42:33.58] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.776 0.519} -index 0 -intent none]
+[18:42:33.58] /o oa:0x235107e0
+[18:42:35.16] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[18:42:35.16] /i ile::createInterconnect
+[18:42:36.57] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:42:36.57] /i de::addPoint {-0.775 0.519} -context [db::getNext [de::getContexts -window 3]]
+[18:42:41.47] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:42:41.47] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:42:43.16] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[18:42:43.16] /i ile::createInterconnect
+[18:42:46.17] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:42:46.17] /i de::addPoint {-0.775 0.56} -context [db::getNext [de::getContexts -window 3]]
+[18:42:51.06] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:42:51.06] /i de::addPoint {-0.762 0.908} -context [db::getNext [de::getContexts -window 3]]
+[18:42:57.97] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 3]
+[18:42:57.97] /i de::completeShape {-0.703 0.889} -context [db::getNext [de::getContexts -window 3]]
+[18:43:07.31] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:43:07.31] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:43:08.69] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[18:43:08.69] /i ile::createInterconnect
+[18:43:13.26] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:43:13.26] /i de::addPoint {-0.775 0.558} -context [db::getNext [de::getContexts -window 3]]
+[18:43:17.30] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 3]
+[18:43:17.30] /i de::completeShape {-0.772 0.906} -context [db::getNext [de::getContexts -window 3]]
+[18:43:19.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:19.19] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.763 0.9}
+[18:43:19.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:19.23] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.763 0.9}
+[18:43:19.33] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:19.33] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.763 0.9}
+[18:43:20.47] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:20.47] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.754 0.897}
+[18:43:20.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:20.72] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.747 0.881}
+[18:43:20.80] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:20.81] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.737 0.839}
+[18:43:22.10] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:22.10] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.771 0.479}
+[18:43:22.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:22.20] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.769 0.477}
+[18:43:23.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:23.55] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.757 0.56}
+[18:43:23.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:23.63] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.758 0.56}
+[18:43:26.55] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[18:43:26.55] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[18:43:31.92] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[18:43:31.92] /i de::addPoint {-0.773 0.562} -context [db::getNext [de::getContexts -window 3]]
+[18:43:35.73] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:35.73] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.754 0.908}
+[18:43:36.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:43:36.40] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.754 0.908}
+[18:43:38.00] /# gi::executeAction {deCompleteShapeHere} -in [gi::getWindows 3]
+[18:43:38.00] /i de::completeShape {-0.754 0.908} -context [db::getNext [de::getContexts -window 3]]
+[18:43:38.91] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[18:43:38.91] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[18:43:39.32] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:39.33] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.663 0.848}
+[18:43:39.43] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:43:39.43] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.664 0.847}
+[18:43:41.51] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[18:43:41.52] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[18:43:44.57] /i gi::setActiveWindow 6
+[18:43:44.58] /i gi::setActiveWindow 6 -raise true
+[18:43:46.39] /i gi::setActiveWindow 3
+[18:43:46.39] /i gi::setActiveWindow 3 -raise true
+[18:43:46.39] /i gi::setActiveWindow 8
+[18:43:46.39] /i gi::setActiveWindow 8 -raise true
+[18:43:46.98] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[18:43:50.79] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:43:50.79] /i xt::physicalVerification::executeRun drc 3
+[18:43:50.92] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:43:51.76] /r giWindowId 9
+[18:43:51.77] /r giWindowGeometry 583x909+1332+78
+[18:44:16.47] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_9
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 155 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 1 rule has violations.
+              /c There are 3 total violations.
+              /c Refer to CMOSInverter.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[18:44:18.72] /j ::xt::icv::vue::_private::registerConnection linux11110.dc.engr.scu.edu:40800 tcp15 icvVue_8 
+[18:44:18.78] /j ::xt::icv::vue::_private::isJobReady 
+[18:44:18.78] /o true
+[18:44:18.78] /m Information: Connection established with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:44:18.78] /j xt::icv::vue::startFilter LAY 
+[18:44:18.79] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:44:19.38] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc 
+[18:44:19.40] /j xt::icv::vue::setTopLayLCV LAB3/CMOSInverter/layout 
+[18:44:19.42] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:44:41.34] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:44:41.36] /j xt::icv::vue::openLCV LAB3/CMOSInverter/layout 
+[18:44:41.38] /j xt::icv::vue::setHiliteId {} 
+[18:44:41.40] /j xt::icv::vue::setHighlightProperty yellow brick 
+[18:44:41.42] /j xt::icv::vue::HighlightFromFile LAB3/CMOSInverter/layout /tmp/lkim_vue_PvF0RD/highlight_20210210184441_000000.oas 51767a497cb23a61e16cdc2615129d0f 
+[18:44:41.44] /j xt::icv::vue::drawHighlights LAB3/CMOSInverter/layout 
+[18:44:41.48] /j xt::icv::vue::setViewPort LAB3/CMOSInverter/layout {0.33375 -0.815 0.49625 0.815} 
+[18:44:43.19] /i gi::setActiveWindow 9
+[18:44:43.19] /i gi::setActiveWindow 9 -raise true
+[18:44:43.21] /i gi::setActiveWindow 3
+[18:44:43.21] /i gi::setActiveWindow 3 -raise true
+[18:44:48.21] /i gi::setActiveWindow 9
+[18:44:48.21] /i gi::setActiveWindow 9 -raise true
+[18:44:49.54] /i gi::setActiveWindow 3
+[18:44:49.54] /i gi::setActiveWindow 3 -raise true
+[18:44:51.43] /i gi::setActiveWindow 9
+[18:44:51.43] /i gi::setActiveWindow 9 -raise true
+[18:44:55.43] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[18:44:55.75] /i db::setAttr geometry -of [gi::getFrames 1] -value 997x933+5+54
+[18:44:56.32] /i gi::setActiveWindow 3
+[18:44:56.32] /i gi::setActiveWindow 3 -raise true
+[18:45:26.27] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:45:26.27] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:45:26.27] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.324 0.539} -index 0 -intent none]
+[18:45:26.27] /o oa:0x22fd08a0
+[18:45:30.08] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[18:45:30.38] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1571x89
+[18:45:30.38] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[18:45:32.09] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:45:32.09] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[18:45:32.09] /o oa:0x21f35560
+[18:45:32.09] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:45:32.09] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.258 0.557} -index 1 -intent none]
+[18:45:32.09] /o oa:0x22a47f20
+[18:45:32.55] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[18:45:32.55] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[18:46:07.04] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:46:07.04] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:46:07.04] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.253 0.564} -index 0 -intent none]
+[18:46:07.04] /o oa:0x23045910
+[18:46:08.89] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:46:08.89] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:46:08.89] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.376 0.67} -index 0 -intent none]
+[18:46:08.89] /o oa:0x23120bb0
+[18:46:10.21] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:46:10.21] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:46:10.21] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.206 0.534} -index 0 -intent none]
+[18:46:10.21] /o oa:0x225bc120
+[18:46:20.78] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:46:20.78] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:46:20.78] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.316 0.697} -index 0 -intent none]
+[18:46:20.78] /o oa:0x229dd700
+[18:46:54.86] /i gi::setItemSelection {attributes} -index {width,all} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:46:54.86] /i gi::setCurrentIndex {attributes} -index {width,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:46:58.34] /i gi::setField {attributes} -value {0.98} -index {width,Value} -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:46:58.34] /i gi::executeAction dePropertyEditorApplyChanges -in [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]]
+[18:47:05.67] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[18:47:05.68] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[18:47:07.89] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[18:47:10.03] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:47:10.07] /j xt::icv::vue::clearAllHighlights LAB3/CMOSInverter/layout 
+[18:47:10.66] /m Information: Connection closed with 'IC Validator VUE' running on 'linux11110.dc.engr.scu.edu'.
+[18:47:11.15] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[18:47:11.15] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[18:47:11.71] /i gi::setActiveWindow 2
+[18:47:11.71] /i gi::setActiveWindow 2 -raise true
+[18:47:13.19] /i gi::setActiveWindow 3
+[18:47:13.19] /i gi::setActiveWindow 3 -raise true
+[18:47:15.44] /# gi::executeAction {xtDRCRun} -in [gi::getWindows 3]
+[18:47:15.44] /i xt::physicalVerification::executeRun drc 3
+[18:47:15.64] /i xt::physicalVerification::executePve drc 3 xtDRCExecutePve
+[18:47:16.46] /r giWindowId 10
+[18:47:16.47] /r giWindowGeometry 583x909+1332+78
+[18:47:38.96] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_10
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[18:47:45.53] /i gi::setActiveWindow 6
+[18:47:45.53] /i gi::setActiveWindow 6 -raise true
+[18:47:46.32] /i gi::setActiveWindow 10
+[18:47:46.32] /i gi::setActiveWindow 10 -raise true
+[18:47:46.32] /i db::setAttr iconified -of [gi::getFrames 2] -value true
+[18:47:47.13] /i gi::setActiveWindow 6
+[18:47:47.13] /i gi::setActiveWindow 6 -raise true
+[18:47:47.15] /i db::setAttr iconified -of [gi::getFrames 2] -value false
+[18:47:48.34] /i gi::setActiveWindow 10
+[18:47:48.34] /i gi::setActiveWindow 10 -raise true
+[18:47:49.98] /i gi::setActiveWindow 3
+[18:47:49.98] /i gi::setActiveWindow 3 -raise true
+[18:48:00.34] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:48:00.34] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.258 -0.188}
+[18:48:00.42] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[18:48:00.42] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.259 -0.188}
+[18:48:01.01] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[18:48:01.01] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.238 -0.299}
+[18:48:09.67] /i gi::setActiveWindow 10
+[18:48:09.67] /i gi::setActiveWindow 10 -raise true
+[18:48:13.82] /i gi::executeAction giCloseWindow -in [gi::getWindows 10]
+[18:48:15.20] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[18:48:15.20] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[18:48:15.54] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[18:48:15.54] /i de::fit -window 3 -fitView true
+[18:48:48.35] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1571x386
+[19:35:55.20] /# gi::executeAction {xtLPESetup} -in [gi::getWindows 3]
+[19:35:55.20] /i xt::showLPESetup -job lpe -window 3
+[19:35:58.15] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 597x489+796+237
+[19:36:06.37] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:36:14.46] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:39:13.42] /r giFileDialog reject synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/CMOSInverter.LAYOUT_ERRORS
+[19:39:22.93] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:47:43.24] /r giFileDialog accept synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/pex_runset_report
+[19:48:04.73] /i gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeOutputOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:09.79] /i gi::setField {/tabGroup/lpeOutputOptionsTab/outputGroup/netlistFile/entryField} -value {/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/CMOSInverter.starrc.lpe/CMOSInverter.SPF} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:11.72] /i gi::setField {/tabGroup/lpeOutputOptionsTab/outputGroup/outputFormat} -value {OA} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:12.04] /i db::setAttr geometry -of [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]] -value 597x546+796+237
+[19:48:20.13] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:20.13] /# gi::setActiveTab {/tabGroup} -tabName {/tabGroup/lpeExtractionOptionsTab} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:20.14] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[19:48:31.29] /i gi::setField {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/entryField} -value {/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/pex_runset_report} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:38.10] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:38.11] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[19:48:41.35] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:50.83] /r giFileDialog accept synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/pex_runset_report
+[19:48:53.88] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:53.88] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[19:48:54.63] /i gi::setField {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/entryField} -value {/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/pex_runset_report} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:54.71] /i gi::pressButton {/apply} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:48:54.72] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[19:49:06.20] /i gi::pressButton {/tabGroup/lpeExtractionOptionsTab/layoutExtractionGroup/starrcicvRunsetReportFile/browseButton} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:49:29.99] /r giFileDialog reject synopsys_custom/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.drc/synopsys_custom/pvjob_LAB3.CMOSInverter.icv.lvs/pex_runset_report
+[19:49:36.12] /i gi::pressButton {/cancel} -in [gi::getDialogs {xtLVSLPESetup} -parent [gi::getWindows 3]]
+[19:49:40.35] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[19:49:40.35] /i xt::physicalVerification::executeRun lvs 3
+[19:49:40.81] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[19:49:40.90] /m Information: "Starting netlisting for design "LAB3/CMOSInverter/schematic"..." (NETLISTING-010)
+[19:49:41.10] /o No Design Integrity rule violations found in "LAB3/CMOSInverter/schematic"
+[19:49:41.35] /m Information: "Netlisting design "LAB3/CMOSInverter/schematic" finished successfully." (NETLISTING-012)
+[19:49:42.96] /r giWindowId 11
+[19:49:42.97] /r giWindowGeometry 583x909+1332+78
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.46] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 11]
+[19:49:44.52] /e Error: The job 'icv_lvs_1' started on host 'localhost' with process id 12654 failed to start or complete successfully; the job's return code is 33.
+[19:49:50.98] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 11]]
+[19:49:55.19] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LVS_ERRORS} -in [gi::getWindows 11]
+[19:52:06.36] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 11]
+[19:52:17.33] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.lvs.custom_compiler.rc} -in [gi::getWindows 11]
+[19:52:20.90] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 11]
+[19:52:21.68] /i gi::setActiveWindow 3
+[19:52:21.68] /i gi::setActiveWindow 3 -raise true
+[19:52:24.09] /i gi::setActiveWindow 6
+[19:52:24.10] /i gi::setActiveWindow 6 -raise true
+[19:52:24.10] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[19:52:24.38] /i db::setAttr iconified -of [gi::getFrames 2] -value true
+[19:52:25.53] /i db::setAttr iconified -of [gi::getFrames 2] -value false
+[19:52:26.38] /i gi::setActiveWindow 3
+[19:52:26.38] /i gi::setActiveWindow 3 -raise true
+[19:52:26.44] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:52:26.44] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[19:52:27.79] /i gi::executeAction giCloseWindow -in [gi::getWindows 11]
+[19:52:30.45] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[19:52:30.45] /i xt::physicalVerification::executeRun lvs 3
+[19:52:30.63] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[19:52:30.71] /m Information: "Starting netlisting for design "LAB3/CMOSInverter/schematic"..." (NETLISTING-010)
+[19:52:30.77] /o No Design Integrity rule violations found in "LAB3/CMOSInverter/schematic"
+[19:52:30.95] /m Information: "Netlisting design "LAB3/CMOSInverter/schematic" finished successfully." (NETLISTING-012)
+[19:52:31.96] /r giWindowId 12
+[19:52:31.96] /r giWindowGeometry 583x909+1332+78
+[19:52:32.76] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.76] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.77] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:52:32.83] /e Error: The job 'icv_lvs_2' started on host 'localhost' with process id 13198 failed to start or complete successfully; the job's return code is 33.
+[19:52:36.63] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LVS_ERRORS} -in [gi::getWindows 12]
+[19:52:37.08] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 12]
+[19:52:37.46] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.RESULTS} -in [gi::getWindows 12]
+[19:52:37.81] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.lvs.custom_compiler.rc} -in [gi::getWindows 12]
+[19:52:40.07] /i gi::setActiveTab {tabs} -tabName {rules.lvs.9m_saed90_lvs.lvs.rs} -in [gi::getWindows 12]
+[19:53:13.21] /i gi::setActiveTab {tabs} -tabName {run_icv.sh} -in [gi::getWindows 12]
+[19:53:14.51] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.lvs.custom_compiler.rc} -in [gi::getWindows 12]
+[19:53:15.65] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.RESULTS} -in [gi::getWindows 12]
+[19:53:16.18] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LAYOUT_ERRORS} -in [gi::getWindows 12]
+[19:53:16.92] /i gi::setActiveTab {tabs} -tabName {CMOSInverter.LVS_ERRORS} -in [gi::getWindows 12]
+[19:53:17.59] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 12]
+[19:53:52.78] /i gi::executeAction giCloseWindow -in [gi::getWindows 12]
+[19:53:58.46] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[19:53:58.46] /i xt::physicalVerification::executeRun lvs 3
+[19:53:58.68] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[19:53:58.77] /m Information: "Starting netlisting for design "LAB3/CMOSInverter/schematic"..." (NETLISTING-010)
+[19:53:58.85] /o No Design Integrity rule violations found in "LAB3/CMOSInverter/schematic"
+[19:53:59.07] /m Information: "Netlisting design "LAB3/CMOSInverter/schematic" finished successfully." (NETLISTING-012)
+[19:54:00.46] /r giWindowId 13
+[19:54:00.47] /r giWindowGeometry 583x909+1332+78
+[19:54:01.26] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.27] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 13]
+[19:54:01.34] /e Error: The job 'icv_lvs_3' started on host 'localhost' with process id 13722 failed to start or complete successfully; the job's return code is 33.
+[19:54:06.01] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 13]]
+[19:54:41.77] /i gi::setActiveWindow 3
+[19:54:41.77] /i gi::setActiveWindow 3 -raise true
+[19:54:42.95] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[19:54:42.96] /m Information: Saving design 'LAB3 CMOSInverter layout'. (DESIGN_WINDOW-004)
+[19:54:43.80] /i gi::setActiveWindow 2
+[19:54:43.80] /i gi::setActiveWindow 2 -raise true
+[19:54:46.69] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[19:54:46.96] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+801+415
+[19:54:47.96] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[19:54:47.99] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:54:48.00] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[19:54:48.10] /i gi::executeAction giCloseWindow -in [gi::getWindows 13]
+[19:54:48.18] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[19:54:48.24] /i gi::setActiveWindow 6
+[19:54:48.24] /i gi::setActiveWindow 6 -raise true
+[19:54:50.05] /i db::setAttr geometry -of [gi::getFrames 2] -value 442x933+1121+87
+[19:54:52.17] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[19:54:52.19] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : Lab6Pt2
+* Cell             : fulladder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt fulladder Ai Bi Ci Ci1 Si
+*.PININFO Ai:I Bi:I Ci:I Ci1:O Si:O
+XHA2 net14 Si net13 Ci halfadder
+XHA1 net12 net13 Ai Bi halfadder
+XOR net12 net14 Ci1 OR
+.ends fulladder
+

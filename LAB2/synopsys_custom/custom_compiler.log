@@ -1,0 +1,135 @@
+[16:37:37.88] /r giWindowId 0
+[16:37:37.89] /r giWindowGeometry 600x300
+[16:37:37.90] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 16:37:33 2021
+              /c Host: linux11102
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2
+              /c 
+[16:37:43.00] /w Warning: In file /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/lib.defs: Unable to open library LAB2 at path /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/LAB2 : No access permission. (DATA_MANAGEMENT-014)
+[16:37:43.77] /r giShowFrameTabs true
+[16:37:43.77] /r giWindowId 1
+[16:37:43.77] /r giWindowGeometry 1040x800
+[16:37:49.45] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:37:49.46] /# 
+[16:37:49.56] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:37:49.57] /# 
+[16:37:49.76] /i dm::showLibraryManager
+[16:37:49.76] /r giWindowId 2
+[16:37:49.76] /r giWindowGeometry 660x600+50+76
+[16:37:49.81] /o oa:0x1b8a40f0
+[16:37:50.73] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:37:50.79] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:37:51.73] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:37:51.84] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[16:37:52.14] /i gi::setCurrentIndex {libs} -index {reference} -in [gi::getWindows 2]
+[16:37:52.15] /i gi::setItemSelection {libs} -index {reference} -in [gi::getWindows 2]
+[16:37:54.26] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:37:54.27] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:37:58.75] /# gi::executeAction {dmShowAddLibrary} -in [gi::getWindows 2]
+[16:37:58.75] /i dm::showAddLibrary -parent 2
+[16:37:58.76] /m Information: License 'Basic' checked out. (LICENSE-003)
+[16:37:58.76] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[16:37:58.80] /i gi::setActiveDialog [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:37:59.06] /i db::setAttr geometry -of [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]] -value 445x297+727+296
+[16:38:00.12] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:15.20] /r giFileDialog accept .
+[16:38:16.55] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:16.55] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:17.57] /i gi::setField {libDir} -value {.} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:17.63] /i gi::pressButton {apply} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:17.63] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:18.23] /i gi::pressButton {apply} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:18.23] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:18.83] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:21.07] /r giFileDialog accept .
+[16:38:22.34] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:36.24] /r giFileDialog accept ../../../../../../../home/lkim/Desktop/ELEN153L/LAB2
+[16:38:39.06] /i gi::setField {libName} -value {.} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:44.18] /i gi::setField {libName} -value {LAB2} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:44.18] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:44.18] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:45.10] /i gi::setField {libDir} -value {/home/lkim/Desktop/ELEN153L/LAB2} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:45.17] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:45.18] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:45.91] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:45.91] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:47.91] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:48.64] /r giFileDialog reject ../../../../../../../home/lkim/Desktop/ELEN153L/LAB2
+[16:38:49.38] /i gi::pressButton {apply} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:49.38] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:50.49] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:50.49] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:50.63] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:38:50.63] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:38:51.48] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:39:05.84] /r giFileDialog accept ../../../../../../../home/lkim/Desktop/ELEN153L/LAB2
+[16:39:07.49] /i gi::setField {addICCRefLibs} -value {false} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:39:08.52] /i gi::setField {addICCRefLibs} -value {true} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:39:09.21] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:39:12.21] /r giFileDialog accept ../../../../../../../home/lkim/Desktop/ELEN153L/LAB2
+[16:39:13.28] /i gi::pressButton {ok} -in [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:39:13.28] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[16:39:13.59] /i gi::closeWindows [gi::getDialogs {dmAddLibrary} -parent [gi::getWindows 2]]
+[16:39:15.85] /# gi::executeAction {dmUpdateICCRefLibs} -in [gi::getWindows 2]
+[16:39:15.85] /i dm::addICCRefLibs  [dm::getLibs -filter {[oa::getDMSystemName %this] == "dmMilkyway"}]
+[16:39:17.91] /# gi::executeAction {dmShowAddLibrary2} -in [gi::getWindows 2]
+[16:39:17.91] /i dm::showAddLibraryNDM::_execute
+[16:39:17.95] /i gi::setActiveDialog [gi::getDialogs {dmAddICC2Lib}]
+[16:39:18.25] /i db::setAttr geometry -of [gi::getDialogs {dmAddICC2Lib}] -value 359x143+862+423
+[16:39:20.09] /i gi::pressButton {/ndmGroup/ndmLibPath/browseButton} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:39:30.96] /r giFileDialog accept ../../../../../../../home/lkim/Desktop/ELEN153L/LAB2/lib.defs
+[16:39:35.93] /i gi::setField {/ndmGroup/libName} -value {lib} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:39:36.02] /i gi::pressButton {/ndmGroup/ndmLibPath/browseButton} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:39:55.89] /r giFileDialog reject ../../../../../../../home/lkim/Desktop/ELEN153L/LAB2
+[16:40:01.92] /# gi::executeAction {dbShowImportText} -in [gi::getWindows 2]
+[16:40:01.92] /i db::showImportText
+[16:40:01.98] /i gi::setActiveDialog [gi::getDialogs {dbImportText}]
+[16:40:02.25] /i db::setAttr geometry -of [gi::getDialogs {dbImportText}] -value 571x479+674+240
+[16:40:03.14] /i gi::closeWindows [gi::getDialogs {dbImportText}]
+[16:40:04.77] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:40:04.77] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:40:05.16] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:40:05.16] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:40:07.39] /i gi::executeAction {dmCopyCellViewPath} -in [gi::getWindows 2]
+[16:40:08.56] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:40:08.56] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:40:10.20] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:40:10.20] /r giMenuAccess db::getAttr menu -of [db::getNext [gi::getActions dbEditMCellCascade -from [db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]]]]
+[16:40:13.13] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 2]
+[16:40:13.13] /i de::showOpenDesign
+[16:40:13.17] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[16:40:13.45] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+637+234
+[16:40:14.36] /i gi::setCurrentIndex {designLibs} -index {SAED_PDK_90} -in [gi::getDialogs {deOpenDesign}]
+[16:40:14.38] /i gi::setItemSelection {designLibs} -index {SAED_PDK_90} -in [gi::getDialogs {deOpenDesign}]
+[16:40:15.12] /i gi::setCurrentIndex {designLibs} -index {basic} -in [gi::getDialogs {deOpenDesign}]
+[16:40:15.16] /i gi::setItemSelection {designLibs} -index {basic} -in [gi::getDialogs {deOpenDesign}]
+[16:40:15.57] /i gi::setCurrentIndex {designLibs} -index {sample} -in [gi::getDialogs {deOpenDesign}]
+[16:40:15.63] /i gi::setItemSelection {designLibs} -index {sample} -in [gi::getDialogs {deOpenDesign}]
+[16:40:16.56] /i gi::pressButton {cancel} -in [gi::getDialogs {deOpenDesign}]
+[16:40:21.32] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[16:40:21.32] /# dm::refreshLibs; dm::refreshLibraryManager
+[16:40:21.35] /w Warning: In file /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/lib.defs: Unable to open library LAB2 at path /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/LAB2 : No access permission. (DATA_MANAGEMENT-014)
+[16:40:21.68] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[16:40:21.71] /# gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:40:21.71] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[16:40:21.72] /# gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[16:40:22.92] /i exit
+[16:40:22.95] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:40:23.25] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+749+351
+[16:40:23.95] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:40:24.65] /o Shutdown time: Sun Jan 24 16:40:24 2021
+[16:40:24.65] /o Elapsed session real time: 2.78 minutes
+[16:40:24.65] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/synopsys_custom/logs/ccompiler.lkim.2021_1_24_163733_14029.log
+[16:40:24.70] /i gi::closeWindows [gi::getDialogs {dmAddICC2Lib}]

@@ -1,0 +1,37 @@
+<module name="vsl: Lab67 ripplecarryadder schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I7" dst="XI7"/>
+<mapping src="I6" dst="XI6"/>
+<mapping src="I4" dst="XI4"/>
+<mapping src="I5" dst="XI5"/>
+</forward>
+<reverse>
+<mapping src="XI7" dst="I7"/>
+<mapping src="XI6" dst="I6"/>
+<mapping src="XI4" dst="I4"/>
+<mapping src="XI5" dst="I5"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3"/>
+<mapping src="&lt;termOrder>" dst="A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3"/>
+</forward>
+<reverse>
+<mapping src="A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="fulladder">
+<instance name="I4"/>
+<instance name="I5"/>
+<instance name="I6"/>
+<instance name="I7"/>
+</instance_header>
+</master_instances>
+</module>

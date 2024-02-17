@@ -1,0 +1,158 @@
+[19:32:49.77] /r giWindowId 0
+[19:32:49.77] /r giWindowGeometry 600x300
+[19:32:49.79] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sat Mar  6 19:32:46 2021
+              /c Host: linux11113
+              /c Working directory: /DCNFS/users/student/cazzarel/Tutorial
+              /c 
+[19:32:55.25] /r giShowFrameTabs true
+[19:32:55.25] /r giWindowId 1
+[19:32:55.25] /r giWindowGeometry 1040x800
+[19:38:02.53] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+227+282
+[19:38:03.23] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+759+282
+[19:38:07.76] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:38:07.76] /# 
+[19:38:08.07] /i dm::showLibraryManager
+[19:38:08.07] /r giWindowId 2
+[19:38:08.07] /r giWindowGeometry 660x600+50+75
+[19:38:08.12] /o oa:0x20350930
+[19:38:12.62] /i gi::setCurrentIndex {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[19:38:12.63] /i gi::setItemSelection {libs} -index {fourbitadder} -in [gi::getWindows 2]
+[19:41:16.45] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+227+282
+[19:41:17.23] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+759+282
+[19:42:34.63] /i gi::setCurrentIndex {cells} -index {halfadder} -in [gi::getWindows 2]
+[19:42:34.69] /i gi::setItemSelection {cells} -index {halfadder} -in [gi::getWindows 2]
+[19:44:24.39] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[19:44:24.42] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[19:44:24.56] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[19:44:24.65] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[19:44:24.71] /o 	############################################
+[19:44:24.71] /o 	        Synopsys Generic 90nm iPDK          
+[19:44:24.71] /o 	--------------------------------------------
+[19:44:24.71] /o 	Release Date .............. : 11-May-2016    
+[19:44:24.71] /o 	============================================
+[19:44:24.71] /o 	        Recommended Tool Versions           
+[19:44:24.71] /o 	--------------------------------------------
+[19:44:24.71] /o 	Custom Designer ........... : J-2014.12-2    
+[19:44:24.71] /o 	IC Validator .............. : K-2015.12   
+[19:44:24.71] /o 	StarRC..................... : K-2015.12  
+[19:44:24.71] /o 	--------------------------------------------
+[19:44:24.71] /o 	############################################
+[19:44:24.71] /o 
+[19:44:24.73] /o SAED PDK 90: Loaded callbacks
+[19:44:24.78] /o SAED PDK 90: Loaded display resources
+[19:44:24.82] /r giWindowId 3
+[19:44:24.83] /r giWindowGeometry 2176x1226
+[19:44:27.34] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[19:44:27.64] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x1150
+[19:44:27.71] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[19:44:28.77] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[19:44:28.78] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]}]
+[19:44:28.83] /# gi::executeAction {deFitEdit} -in [gi::getWindows 3]
+[19:44:28.83] /i de::fit -window 3 -fitEdit true
+[19:44:40.83] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x1140
+[19:44:40.83] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[19:44:47.34] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x1150
+[19:44:47.34] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[19:44:48.84] /i gi::setActiveWindow 2
+[19:44:48.84] /i gi::setActiveWindow 2 -raise true
+[19:44:50.62] /i gi::setCurrentIndex {cells} -index {fulladder} -in [gi::getWindows 2]
+[19:44:50.71] /i gi::setItemSelection {cells} -index {fulladder} -in [gi::getWindows 2]
+[19:44:52.33] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[19:44:52.35] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[19:44:52.49] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[19:44:52.57] /r giWindowId 4
+[19:44:52.59] /r giWindowGeometry 2176x1226
+[19:44:53.62] /# gi::executeAction {deFitEdit} -in [gi::getWindows 4]
+[19:44:53.62] /i de::fit -window 4 -fitEdit true
+[19:45:05.03] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value 290x1140
+[19:45:05.03] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[19:45:10.61] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 4]] -value 290x1150
+[19:45:10.62] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[19:45:12.58] /i gi::setActiveWindow 2
+[19:45:12.58] /i gi::setActiveWindow 2 -raise true
+[19:45:14.24] /i gi::setCurrentIndex {cells} -index {fourbitripplecarryadder} -in [gi::getWindows 2]
+[19:45:14.34] /i gi::setItemSelection {cells} -index {fourbitripplecarryadder} -in [gi::getWindows 2]
+[19:45:16.23] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[19:45:16.26] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[19:45:16.38] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[19:45:16.45] /r giWindowId 5
+[19:45:16.47] /r giWindowGeometry 2176x1226
+[19:45:39.23] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value 290x1140
+[19:45:39.23] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[19:45:49.03] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value 290x1150
+[19:45:49.03] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[19:45:50.74] /i gi::setActiveWindow 2
+[19:45:50.75] /i gi::setActiveWindow 2 -raise true
+[19:45:52.50] /i gi::setCurrentIndex {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[19:45:52.62] /i gi::setItemSelection {cells} -index {ripplecarrytestbench} -in [gi::getWindows 2]
+[19:45:54.43] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[19:45:54.46] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[19:45:54.60] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[19:45:54.69] /r giWindowId 6
+[19:45:54.73] /r giWindowGeometry 2176x1226
+[19:45:56.38] /# gi::executeAction {deFitEdit} -in [gi::getWindows 6]
+[19:45:56.39] /i de::fit -window 6 -fitEdit true
+[19:45:57.10] /# gi::executeAction {deSelectActive} -in [gi::getWindows 6]
+[19:45:57.10] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 6]]]}]
+[19:45:57.21] /# gi::executeAction {deFitEdit} -in [gi::getWindows 6]
+[19:45:57.21] /i de::fit -window 6 -fitEdit true
+[19:46:09.53] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 6]] -value 290x1140
+[19:46:09.53] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[19:46:19.03] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 6]] -value 290x1150
+[19:46:19.03] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[20:00:56.20] /# gi::executeAction {seShowConsoleForWindow} -in [gi::getWindows 6]
+[20:00:56.20] /i sa::showConsole -context [db::getNext [de::getContexts -window 6]]
+[20:01:04.54] /r giWindowId 7
+[20:01:04.56] /r giWindowGeometry 600x500
+[20:01:04.84] /m Information: Launching Background sae_shell Server Process "cd /DCNFS/users/student/cazzarel/Tutorial && sae_shell -log sae_shell_session0_job1 -libDefFile /DCNFS/users/student/cazzarel/Tutorial/lib.defs"
+[20:01:07.64] /i gi::executeAction {menuPreShow} -in [gi::getWindows 7]
+[20:01:07.64] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 7]]
+[20:01:08.71] /# gi::executeAction {saLoadState} -in [gi::getWindows 7]
+[20:01:08.71] /i sa::showLoadState -parent 7
+[20:01:09.49] /i gi::setActiveDialog [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 7]]
+[20:01:09.83] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 7]] -value 603x696+1072+535
+[20:01:11.50] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 7]]
+[20:01:14.24] /m Information: Received ready-for-commands signal from background job 'sae_shell_session0_job1' after 10 seconds.
+[20:01:19.25] /i db::setAttr geometry -of [gi::getFrames 1] -value 1262x1320+5+53
+[20:01:25.67] /i db::setAttr geometry -of [gi::getFrames 1] -value 2550x1330+5+53
+[20:57:54.02] /i db::setAttr geometry -of [gi::getFrames 1] -value 2150x3757+5+53
+[20:57:57.21] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+[20:57:57.22] /e Error: The application was unexpectedly terminated.
+[[2020::5757::5757..2323]] /o  /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)See the session log file for recovery details. (SHUT_DOWN-001)
+              /c 
+[20:57:57.24] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)
+[20:57:57.27] /o signal number = 11
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sat Mar  6 19:32:46 2021
+              /c Frame 0. OpenAccess_4::oaDesignData::prePurge() + 0x9e
+              /c Frame 1. OpenAccess_4::oaDatabase::purge() + 0xd2
+              /c Frame 2. OpenAccess_4::oaDesignData::libCloseNotification(OpenAccess_4::oaLibData*) + 0x60
+              /c Frame 3. OpenAccess_4::oaLibDataObserver::notifyPreCloseObservers(OpenAccess_4::oaLibData*) + 0x4c
+              /c Frame 4. OpenAccess_4::oaLibData::close() + 0x63
+              /c Frame 5. OpenAccess_4::oaLib::close() + 0x5a
+              /c Frame 6. 0x6e88048 SNPSee_98e6fae53a3bba60112f513ff13f450239ebfd90b60bc61820a7a1bb9396766a8591e7642ad3f1cc5d8f9c52fd5ea6c2373f230b887156d595052f3d8fda0f5a + 0x88
+              /c Frame 7. 0x6e884df SNPSee_98e6fae53a3bba60112f513ff13f450239ebfd90b60bc61820a7a1bb9396766ae1d5fdf02cbc792c2ac29f7b8a7b3d64f49a4fc1fea609bb + 0x11f
+              /c Frame 8. 0x6e7e5c0 SNPSee_539e4ee952adf7d7b62dedc103ccc70f028780fa9202079b93106cec88e0785422195bcb17685f07bdf82f28693432f3664474fd7159d8a191ba342be7032142 + 0x140
+              /c Frame 9. 0x6e7ea9f SNPSee_539e4ee952adf7d7b62dedc103ccc70f44441c8a96611d408b40e48b9788f8f1f7a85262a6c3ec096ab87bd58e07fa23569f49c78f52c515b90bee1455b066f0 + 0x1af
+              /c Frame 10. libX11.so.6: _XIOError + 0x4e
+              /c Frame 11. libX11.so.6: _XEventsQueued + 0x7d
+              /c Frame 12. libX11.so.6: XPending + 0x5d
+              /c Frame 13. 0xb9f925d SNPSee_74db517bd6bfe1636e301acf1a32db98de16384ebe6a0f871ff99f9aa424f9392bea073afce91838c7cd1664f79d5f4e46faed28892e29d2ef308b80d4359e39dc60003983bbb465bb4b8c1061a6b2c9 + 0x19d
+              /c Frame 14. 0xde14f88 SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de + 0xd8
+              /c Frame 15. /lib64/libpthread.so.0 ::f13652dea5 + 0xc5
+              /c Frame 16. libc.so.6: clone + 0x6d
+[20:57:58.33] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

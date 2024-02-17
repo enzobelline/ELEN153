@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler, build#  on 2/15/2021 0:08:17 AM -->
+<synopsys_file name="synopsysProbeFile" version="1.0">
+        <probe>
+                <context version="1">
+                        <top_cell_view>
+                                <lib>Lab6Pt2</lib>
+                                <cell>ripplecarryadder</cell>
+                                <view>schematic</view>
+                        </top_cell_view>
+                        <view_search_list>auCdl schematic symbol</view_search_list>
+                        <view_stop_list>auCdl</view_stop_list>
+                        <context_node>
+                                <switched_master>
+                                        <lib>unbound</lib>
+                                        <cell>unbound</cell>
+                                        <view>unbound</view>
+                                </switched_master>
+                                <placed_master>
+                                        <lib>Lab67</lib>
+                                        <cell>fulladder</cell>
+                                        <view>symbol</view>
+                                </placed_master>
+                                <instance_name>I5</instance_name>
+                        </context_node>
+                </context>
+                <type>Cellview</type>
+                <tool>CDL netlister</tool>
+                <object></object>
+                <packet>highlight1</packet>
+                <description>Unbound instance</description>
+                <longDescription>Instance master Lab6Pt2/ripplecarryadder/schematic cannot be found.</longDescription>
+                <purpose>error</purpose>
+        </probe>
+</synopsys_file>

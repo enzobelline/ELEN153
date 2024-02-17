@@ -1,0 +1,12 @@
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Fri Mar  5 14:28:21 2021
+Frame 0. OpenAccess_4::oaDesignData::prePurge() + 0x9e
+Frame 1. OpenAccess_4::oaDatabase::purge() + 0xd2
+Frame 2. OpenAccess_4::oaDesignData::libCloseNotification(OpenAccess_4::oaLibData*) + 0x60
+Frame 3. OpenAccess_4::oaLibDataObserver::notifyPreCloseObservers(OpenAccess_4::oaLibData*) + 0x4c
+Frame 4. OpenAccess_4::oaLibData::close() + 0x63
+Frame 5. OpenAccess_4::oaLib::close() + 0x5a
+Frame 6. 0x6e88048 SNPSee_98e6fae53a3bba60112f513ff13f450239ebfd90b60bc61820a7a1bb9396766a8591e7642ad3f1cc5d8f9c52fd5ea6c2373f230b887156d595052f3d8fda0f5a + 0x88
+Frame 7. 0x6e884df SNPSee_98e6fae53a3bba60112f513ff13f450239ebfd90b60bc61820a7a1bb9396766ae1d5fdf02cbc792c2ac29f7b8a7b3d64f49a4fc1fea609bb + 0x11f
+Frame 8. 0x6e7e5c0 SNPSee_539e4ee952adf7d7b62dedc103ccc70f028780fa9202079b93106cec88e0785422195bcb17685f07bdf82f28693432f3664474fd7159d8a191ba342be7032142 + 0x140
+Frame 9. 0x6e7ea9f SNPSee_539e4ee952adf7d7b62dedc103ccc70f44441c8a96611d408b40e48b9788f8f1f7a85262a6c3ec096ab87bd58e07fa23569f49c78f52c515b90bee1455b066f0 + 0x1af
+Frame 10. libX11.so.6: _XIOError + 0x4e

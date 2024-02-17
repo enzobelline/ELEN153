@@ -1,0 +1,614 @@
+[09:50:00.92] /r giWindowId 0
+[09:50:00.92] /r giWindowGeometry 600x300
+[09:50:00.94] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Mar 14 09:49:57 2021
+              /c Host: linux11101
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[09:50:07.27] /r giShowFrameTabs true
+[09:50:07.27] /r giWindowId 1
+[09:50:07.27] /r giWindowGeometry 1040x800
+[09:52:33.08] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[09:52:33.09] /# 
+[09:52:33.20] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[09:52:33.20] /# 
+[09:52:33.39] /i dm::showLibraryManager
+[09:52:33.39] /r giWindowId 2
+[09:52:33.39] /r giWindowGeometry 660x600+50+76
+[09:52:33.44] /o oa:0x215d0b00
+[09:52:34.62] /i gi::setCurrentIndex {libs} -index {LAB5} -in [gi::getWindows 2]
+[09:52:34.64] /i gi::setItemSelection {libs} -index {LAB5} -in [gi::getWindows 2]
+[09:52:36.00] /i gi::setCurrentIndex {cells} -index {RippleCarryAdder} -in [gi::getWindows 2]
+[09:52:36.02] /i gi::setItemSelection {cells} -index {RippleCarryAdder} -in [gi::getWindows 2]
+[09:52:36.68] /i gi::setCurrentIndex {cells} -index {HalfAdder} -in [gi::getWindows 2]
+[09:52:36.72] /i gi::setItemSelection {cells} -index {HalfAdder} -in [gi::getWindows 2]
+[09:52:37.36] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[09:52:37.37] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[09:52:38.49] /i gi::setCurrentIndex {cells} -index {FullAdder} -in [gi::getWindows 2]
+[09:52:38.55] /i gi::setItemSelection {cells} -index {FullAdder} -in [gi::getWindows 2]
+[09:53:10.77] /i gi::setItemSelection {cells} -index {} -in [gi::getWindows 2]
+[09:53:11.44] /i gi::sortItems {cells} -column {Cells} -order {descending} -in [gi::getWindows 2]
+[09:53:12.72] /i gi::sortItems {cells} -column {Cells} -order {ascending} -in [gi::getWindows 2]
+[09:53:13.23] /i gi::setItemSelection {cells} -index {FullAdder} -in [gi::getWindows 2]
+[09:53:14.18] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[09:53:14.19] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[09:53:14.31] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[09:53:14.33] /m Information: License 'Basic' checked out. (LICENSE-003)
+[09:53:14.37] /o 	############################################
+[09:53:14.37] /o 	        Synopsys Generic 90nm iPDK          
+[09:53:14.37] /o 	--------------------------------------------
+[09:53:14.37] /o 	Release Date .............. : 11-May-2016    
+[09:53:14.37] /o 	============================================
+[09:53:14.37] /o 	        Recommended Tool Versions           
+[09:53:14.37] /o 	--------------------------------------------
+[09:53:14.37] /o 	Custom Designer ........... : J-2014.12-2    
+[09:53:14.37] /o 	IC Validator .............. : K-2015.12   
+[09:53:14.37] /o 	StarRC..................... : K-2015.12  
+[09:53:14.37] /o 	--------------------------------------------
+[09:53:14.37] /o 	############################################
+[09:53:14.37] /o 
+[09:53:14.40] /o SAED PDK 90: Loaded callbacks
+[09:53:14.43] /o SAED PDK 90: Loaded display resources
+[09:53:14.50] /r giWindowId 3
+[09:53:14.50] /r giWindowGeometry 1632x869
+[09:53:18.51] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[09:53:18.51] /i xt::physicalVerification::executeRun lvs 3
+[09:53:18.88] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[09:53:19.01] /m Information: "Starting netlisting for design "LAB5/FullAdder/schematic"..." (NETLISTING-010)
+[09:53:19.09] /o No Design Integrity rule violations found in "LAB5/FullAdder/schematic"
+[09:53:19.57] /m Information: "Netlisting design "LAB5/FullAdder/schematic" finished successfully." (NETLISTING-012)
+[09:53:20.25] /r giWindowId 4
+[09:53:20.26] /r giWindowGeometry 800x600
+[09:53:46.16] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_1
+              /c --- ERROR SUMMARY -----------
+              /c Compare Error Summary
+              /c Refer to FullAdder.LVS_ERRORS.
+              /c LVS Compare Result: FAIL
+              /c TOP equivalence point:
+              /c 		[FullAdder, FullAdder]
+              /c     0 Successful equivalence points
+              /c   * 1 Failed equivalence points
+              /c         1 First priority errors
+              /c         0 Second priority errors
+              /c =============================
+              /c 
+[09:53:47.18] /j ::xt::icv::vue::_private::registerConnection linux11101.dc.engr.scu.edu:42690 tcp1 icvVue_1 
+[09:53:47.22] /j ::xt::icv::vue::_private::isJobReady 
+[09:53:47.22] /o false
+[09:53:48.23] /j ::xt::icv::vue::_private::isJobReady 
+[09:53:48.23] /o false
+[09:53:49.23] /m Information: Connection established with 'IC Validator VUE' running on 'linux11101.dc.engr.scu.edu'.
+[09:53:49.23] /j ::xt::icv::vue::_private::isJobReady 
+[09:53:49.23] /o true
+[09:53:49.26] /j xt::icv::vue::startFilter LAY 
+[09:53:49.27] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.lvs 
+[09:53:49.29] /j xt::icv::vue::startFilter SCH 
+[09:53:49.31] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.lvs 
+[09:53:49.79] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.lvs 
+[09:53:49.81] /j xt::icv::vue::setTopLayLCV LAB5/FullAdder/layout 
+[09:53:49.83] /j xt::icv::vue::openLCV LAB5/FullAdder/layout 
+[09:53:49.85] /j xt::icv::vue::setWorkingDir /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.lvs 
+[09:53:49.87] /j xt::icv::vue::openModule FullAdder 
+[09:53:49.92] /r giWindowId 5
+[09:53:49.93] /r giWindowGeometry 1632x869
+[09:53:50.32] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:53:50.34] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:53:50.47] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 5]] -value 701x132
+[09:53:50.47] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 5]] -value 290x644
+[09:53:50.48] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 5]] -value 290x179
+[09:53:53.88] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:53:53.89] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:53:53.91] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:53:53.93] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:53:53.96] /j xt::icv::vue::openLCVInstance LAB5/FullAdder/layout LAB5/FullAdder/layout 
+[09:53:53.98] /j xt::icv::vue::openModule FullAdder 
+[09:53:54.00] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:53:54.01] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:54:04.24] /j xt::icv::vue::setHiliteId {} 
+[09:54:04.26] /j xt::icv::vue::setHighlightProperty yellow brick 
+[09:54:04.27] /j xt::icv::vue::setProbeProperty yellow brick 
+[09:54:04.30] /j xt::icv::vue::addProbe FullAdder Ci1 net 
+[09:54:04.32] /j xt::icv::vue::HighlightFromFile LAB5/FullAdder/layout /tmp/lkim_vue_wLSqlL/highlight_20210314095404_000000.oas c86b04a98afb06f8e5f37cc6a76706ce 
+[09:54:04.37] /j xt::icv::vue::zoomToProbes FullAdder 
+[09:54:04.42] /j xt::icv::vue::drawHighlights LAB5/FullAdder/layout 
+[09:54:04.44] /j xt::icv::vue::setViewPort LAB5/FullAdder/layout {20.21625 -0.0831250000000003 20.60375 5.498125} 
+[09:54:05.74] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:05.74] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {6.61875 1.4375}
+[09:54:05.79] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:05.79] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {6.625 1.44375}
+[09:54:09.21] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:09.21] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {6.4125 1.71875}
+[09:54:09.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:09.24] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {6.41875 1.7125}
+[09:54:11.40] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:54:11.42] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:54:13.34] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:54:13.36] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:54:13.94] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:54:13.96] /j xt::icv::vue::openLCVInstance LAB5/FullAdder/layout LAB5/FullAdder/layout 
+[09:54:13.98] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:54:14.00] /j xt::icv::vue::openModule FullAdder 
+[09:54:22.22] /j xt::icv::vue::setHiliteId {} 
+[09:54:22.24] /j xt::icv::vue::setHighlightProperty yellow brick 
+[09:54:22.26] /j xt::icv::vue::HighlightFromFile LAB5/FullAdder/layout /tmp/lkim_vue_wLSqlL/highlight_20210314095422_000001.oas 45d84a84c4792a0a458076f27dc06aa4 
+[09:54:22.28] /j xt::icv::vue::drawHighlights LAB5/FullAdder/layout 
+[09:54:22.30] /j xt::icv::vue::setViewPort LAB5/FullAdder/layout {16.59875 7.12875 16.61125 7.14125} 
+[09:54:22.98] /j xt::icv::vue::setHiliteId {} 
+[09:54:23.00] /j xt::icv::vue::setHighlightProperty yellow brick 
+[09:54:23.02] /j xt::icv::vue::HighlightFromFile LAB5/FullAdder/layout /tmp/lkim_vue_wLSqlL/highlight_20210314095422_000002.oas 4136c0d1c3b28ab74cb3c825bc9df38c 
+[09:54:23.04] /j xt::icv::vue::drawHighlights LAB5/FullAdder/layout 
+[09:54:23.06] /j xt::icv::vue::setViewPort LAB5/FullAdder/layout {0.44375 4.84375 0.45625 4.85625} 
+[09:54:26.67] /i gi::setActiveWindow 5
+[09:54:26.67] /i gi::setActiveWindow 5 -raise true
+[09:54:30.86] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:30.86] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {5.925 1.925}
+[09:54:30.90] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:30.90] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {5.925 1.925}
+[09:54:31.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:31.50] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {6.01875 1.51875}
+[09:54:32.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:32.12] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {3.79375 1.55}
+[09:54:32.24] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:32.24] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {3.79375 1.55}
+[09:54:32.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:32.63] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.8 1.54375}
+[09:54:32.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:32.72] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.8 1.5375}
+[09:54:33.34] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:33.34] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {3.8 1.5375}
+[09:54:46.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:46.24] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {5.11875 2.1875}
+[09:54:51.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:51.60] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {6.49375 1.1625}
+[09:54:52.71] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:52.71] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {6.575 1.1125}
+[09:54:56.46] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:56.46] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {5.4125 1.225}
+[09:54:56.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:54:56.55] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {5.41875 1.23125}
+[09:54:57.08] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:57.08] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {2.3125 1.29375}
+[09:54:57.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:54:57.20] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {2.24375 1.31875}
+[09:55:01.50] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[09:55:02.73] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[09:55:03.91] /i gi::setActiveWindow 4
+[09:55:03.91] /i gi::setActiveWindow 4 -raise true
+[09:55:04.70] /i gi::setActiveWindow 3
+[09:55:04.70] /i gi::setActiveWindow 3 -raise true
+[09:55:05.09] /i gi::setActiveWindow 4
+[09:55:05.09] /i gi::setActiveWindow 4 -raise true
+[09:55:05.48] /i gi::setActiveWindow 3
+[09:55:05.48] /i gi::setActiveWindow 3 -raise true
+[09:55:05.79] /i gi::addWindow 4 -to 1 -before 3
+[09:55:05.80] /i gi::setActiveWindow 4
+[09:55:05.80] /i gi::setActiveWindow 4 -raise true
+[09:55:06.60] /i gi::setActiveWindow 3
+[09:55:06.60] /i gi::setActiveWindow 3 -raise true
+[09:55:06.93] /i gi::setActiveWindow 4
+[09:55:06.93] /i gi::setActiveWindow 4 -raise true
+[09:55:07.46] /i gi::addWindow 3 -to 1 -before 4
+[09:55:07.47] /i gi::setActiveWindow 3
+[09:55:07.47] /i gi::setActiveWindow 3 -raise true
+[09:55:08.33] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:08.33] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.453 4.856}
+[09:55:08.39] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:08.39] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.453 4.855}
+[09:55:08.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:08.87] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.463 4.856}
+[09:55:08.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:08.92] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.463 4.855}
+[09:55:09.00] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:09.00] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.464 4.856}
+[09:55:11.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:11.87] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.543 4.871}
+[09:55:15.06] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:15.06] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.367 4.774}
+[09:55:15.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:15.55] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.388 4.769}
+[09:55:16.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:16.10] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.539 4.537}
+[09:55:17.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:55:17.15] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.498 4.537}
+[09:55:17.27] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:55:17.28] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.478 4.567}
+[09:55:17.78] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:17.79] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.755 4.396}
+[09:55:17.84] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:17.84] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.714 4.275}
+[09:55:20.40] /i gi::setActiveWindow 2
+[09:55:20.40] /i gi::setActiveWindow 2 -raise true
+[09:55:21.74] /i gi::setCurrentIndex {cells} -index {HalfAdder} -in [gi::getWindows 2]
+[09:55:21.80] /i gi::setItemSelection {cells} -index {HalfAdder} -in [gi::getWindows 2]
+[09:55:24.13] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[09:55:24.14] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[09:55:24.31] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[09:55:24.37] /r giWindowId 6
+[09:55:24.39] /r giWindowGeometry 1632x869
+[09:55:30.94] /i gi::setActiveWindow 3
+[09:55:30.94] /i gi::setActiveWindow 3 -raise true
+[09:55:31.77] /i gi::setActiveWindow 4
+[09:55:31.77] /i gi::setActiveWindow 4 -raise true
+[09:55:32.34] /i gi::setActiveWindow 5
+[09:55:32.34] /i gi::setActiveWindow 5 -raise true
+[09:55:35.21] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:55:35.21] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.53125 1.44375}
+[09:55:35.27] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[09:55:35.27] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {3.53125 1.4625}
+[09:55:36.09] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:55:36.09] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {2.775 1.61875}
+[09:55:36.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[09:55:36.82] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {2.775 1.65625}
+[09:55:38.32] /i gi::setActiveWindow 3
+[09:55:38.32] /i gi::setActiveWindow 3 -raise true
+[09:55:39.81] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:39.81] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {2.183 5.141}
+[09:55:40.45] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:55:40.45] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {6.692 4.134}
+[09:55:41.07] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:55:41.07] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.184 5.181}
+[09:55:41.16] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:55:41.16] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.184 5.181}
+[09:55:41.30] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:55:41.30] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {2.466 5.161}
+[09:57:02.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:02.20] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.933 5.835}
+[09:57:02.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:02.23] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.933 5.835}
+[09:57:02.30] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:02.30] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.933 5.835}
+[09:57:06.65] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:06.65] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.798 5.68}
+[09:57:06.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:06.72] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.799 5.683}
+[09:57:07.47] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[09:57:07.48] /i de::fit -window 3 -fitView true
+[09:57:08.66] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:08.66] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.838 7.474}
+[09:57:08.69] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:08.69] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.853 7.46}
+[09:57:08.72] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:08.72] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.853 7.445}
+[09:57:48.65] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:48.65] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.875 7.423}
+[09:57:48.71] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:48.72] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.875 7.423}
+[09:57:49.52] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:49.52] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.787 7.088}
+[09:57:49.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:49.54] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.714 7.095}
+[09:57:49.64] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:49.64] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.696 7.095}
+[09:57:50.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:50.26] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.701 7.099}
+[09:57:50.29] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:50.29] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.702 7.098}
+[09:57:50.30] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:50.30] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.701 7.099}
+[09:57:50.31] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:50.31] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.701 7.099}
+[09:57:50.33] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:50.33] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.702 7.127}
+[09:57:52.07] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:52.07] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {13.196 5.258}
+[09:57:52.13] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:52.13] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {13.196 5.258}
+[09:57:53.58] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:53.58] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {12.597 5.185}
+[09:57:54.09] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:54.09] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {9.443 4.922}
+[09:57:54.59] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:57:54.59] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {9.735 4.937}
+[09:57:55.45] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:57:55.45] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {10.144 3.184}
+[09:58:01.33] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:58:01.35] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:58:02.57] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:58:02.59] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:58:02.61] /j xt::icv::vue::openModule FullAdder 
+[09:58:02.63] /j xt::icv::vue::openLCVInstance LAB5/FullAdder/layout LAB5/FullAdder/layout 
+[09:58:05.53] /j xt::icv::vue::setHiliteId {} 
+[09:58:05.55] /j xt::icv::vue::setHighlightProperty yellow brick 
+[09:58:05.57] /j xt::icv::vue::setProbeProperty yellow brick 
+[09:58:05.59] /j xt::icv::vue::HighlightFromFile LAB5/FullAdder/layout /tmp/lkim_vue_wLSqlL/highlight_20210314095805_000003.oas c86b04a98afb06f8e5f37cc6a76706ce 
+[09:58:05.61] /j xt::icv::vue::addProbe FullAdder Ci1 net 
+[09:58:05.63] /j xt::icv::vue::drawHighlights LAB5/FullAdder/layout 
+[09:58:05.65] /j xt::icv::vue::zoomToProbes FullAdder 
+[09:58:05.71] /j xt::icv::vue::setViewPort LAB5/FullAdder/layout {20.21625 -0.0831250000000003 20.60375 5.498125} 
+[09:58:12.81] /j xt::icv::vue::setHiliteId {} 
+[09:58:12.83] /j xt::icv::vue::setHighlightProperty yellow brick 
+[09:58:12.85] /j xt::icv::vue::setProbeProperty yellow brick 
+[09:58:12.87] /j xt::icv::vue::addProbe FullAdder Si net 
+[09:58:12.89] /j xt::icv::vue::HighlightFromFile LAB5/FullAdder/layout /tmp/lkim_vue_wLSqlL/highlight_20210314095812_000004.oas 161bafdc5f7b1af26c80550a10720ba6 
+[09:58:12.92] /j xt::icv::vue::zoomToProbes FullAdder 
+[09:58:13.00] /j xt::icv::vue::drawHighlights LAB5/FullAdder/layout 
+[09:58:13.02] /j xt::icv::vue::setViewPort LAB5/FullAdder/layout {16.3275 -0.614375 16.7025 8.079375} 
+[09:58:23.93] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[09:58:23.95] /j xt::icv::vue::clearAllProbes FullAdder 
+[09:59:34.34] /i gi::setActiveWindow 5
+[09:59:34.34] /i gi::setActiveWindow 5 -raise true
+[09:59:38.01] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[09:59:38.34] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 5]] -value 290x753
+[09:59:38.34] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 5]] -value 1571x132
+[09:59:38.38] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x933+5+54
+[09:59:43.64] /# gi::executeAction {deFitEdit} -in [gi::getWindows 5]
+[09:59:43.64] /i de::fit -window 5 -fitEdit true
+[09:59:44.64] /i gi::setActiveWindow 4
+[09:59:44.64] /i gi::setActiveWindow 4 -raise true
+[09:59:46.28] /i gi::setActiveWindow 3
+[09:59:46.28] /i gi::setActiveWindow 3 -raise true
+[09:59:47.61] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:47.61] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {20.623 4.771}
+[09:59:48.16] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:48.16] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {20.616 4.798}
+[09:59:48.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:48.20] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {20.616 4.798}
+[09:59:48.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:48.69] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {20.616 4.798}
+[09:59:48.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:48.72] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {20.616 4.798}
+[09:59:48.74] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:48.74] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {20.616 4.798}
+[09:59:48.77] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:48.77] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {20.616 4.799}
+[09:59:49.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:49.54] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.406 7.123}
+[09:59:49.57] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:49.57] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.406 7.123}
+[09:59:49.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:49.60] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {16.406 7.123}
+[09:59:50.04] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:50.04] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.474 7.089}
+[09:59:50.06] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:50.06] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.482 7.089}
+[09:59:50.08] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:50.08] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.522 7.088}
+[09:59:50.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:50.10] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.659 7.115}
+[09:59:50.81] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:50.81] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {9.935 5.804}
+[09:59:51.96] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:51.96] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.504 5.777}
+[09:59:53.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:53.82] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.394 4.464}
+[09:59:53.88] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:53.88] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.421 4.464}
+[09:59:54.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:54.02] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.421 4.464}
+[09:59:55.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[09:59:55.36] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.412 4.457}
+[09:59:56.01] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:56.01] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.576 5.934}
+[09:59:56.11] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[09:59:56.11] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.576 5.934}
+[10:00:28.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:00:28.92] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.539 5.117}
+[10:00:37.37] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:00:37.37] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.511 3.703}
+[10:00:37.42] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:00:37.42] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.51 3.702}
+[10:00:38.34] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[10:00:38.34] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.265 2.035}
+[10:03:15.42] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:03:15.42] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {8.905 6.655}
+[10:03:16.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:03:16.52] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-1.728 6.792}
+[10:03:17.56] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[10:03:17.56] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {18.993 5.261}
+[10:03:18.26] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[10:03:18.26] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {8.742 5.316}
+[10:03:25.38] /i gi::setActiveWindow 4
+[10:03:25.38] /i gi::setActiveWindow 4 -raise true
+[10:03:26.27] /i gi::setActiveWindow 5
+[10:03:26.27] /i gi::setActiveWindow 5 -raise true
+[10:03:30.48] /i gi::setActiveWindow 3
+[10:03:30.48] /i gi::setActiveWindow 3 -raise true
+[10:03:33.98] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[10:03:33.98] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[10:03:33.99] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.514 4.865} -index 0 -intent none]
+[10:03:33.99] /o oa:0x21c73260
+[10:03:37.72] /i gi::executeAction {dePropertyEditorToggleExtended} -in [gi::getWindows 3]
+[10:03:37.73] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[10:03:38.04] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 200x719
+[10:03:38.05] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x719
+[10:03:40.90] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[10:03:48.00] /i gi::setActiveWindow 4
+[10:03:48.00] /i gi::setActiveWindow 4 -raise true
+[10:03:51.54] /i gi::setActiveWindow 5
+[10:03:51.54] /i gi::setActiveWindow 5 -raise true
+[10:03:53.01] /i gi::setActiveWindow 4
+[10:03:53.01] /i gi::setActiveWindow 4 -raise true
+[10:03:53.46] /i gi::setActiveWindow 3
+[10:03:53.46] /i gi::setActiveWindow 3 -raise true
+[10:03:57.27] /i gi::setActiveWindow 5
+[10:03:57.27] /i gi::setActiveWindow 5 -raise true
+[10:04:13.84] /j xt::icv::vue::clearAllProbes FullAdder 
+[10:04:13.86] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[10:04:13.88] /j xt::icv::vue::openModule FullAdder 
+[10:04:13.90] /j xt::icv::vue::openLCVInstance LAB5/FullAdder/layout LAB5/FullAdder/layout 
+[10:04:16.34] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[10:04:16.36] /j xt::icv::vue::clearAllProbes FullAdder 
+[10:04:16.74] /j xt::icv::vue::clearAllHighlights LAB5/FullAdder/layout 
+[10:04:16.76] /j xt::icv::vue::clearAllProbes FullAdder 
+[10:04:16.78] /j xt::icv::vue::openLCVInstance LAB5/FullAdder/layout LAB5/FullAdder/layout 
+[10:04:16.80] /j xt::icv::vue::openModule FullAdder 
+[10:04:25.26] /j xt::icv::vue::setHiliteId {} 
+[10:04:25.28] /j xt::icv::vue::setHighlightProperty yellow brick 
+[10:04:25.30] /j xt::icv::vue::HighlightFromFile LAB5/FullAdder/layout /tmp/lkim_vue_wLSqlL/highlight_20210314100425_000005.oas 45d84a84c4792a0a458076f27dc06aa4 
+[10:04:25.35] /j xt::icv::vue::drawHighlights LAB5/FullAdder/layout 
+[10:04:25.38] /j xt::icv::vue::setViewPort LAB5/FullAdder/layout {16.59875 7.12875 16.61125 7.14125} 
+[10:04:26.17] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:04:26.17] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.611 7.137}
+[10:04:26.20] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:04:26.20] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.611 7.136}
+[10:04:26.25] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:04:26.25] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.612 7.136}
+[10:04:26.82] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:04:26.82] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.622 7.135}
+[10:04:27.42] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[10:04:27.42] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {16.625 7.133}
+[10:04:28.48] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 3]
+[10:04:29.12] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[10:04:29.12] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[10:04:29.12] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {16.604 7.14} -index 0 -intent none]
+[10:04:29.12] /o oa:0x236a6950
+[10:04:29.79] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[10:04:29.79] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[10:04:29.79] /o oa:0x23b89e20
+[10:04:31.02] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[10:04:31.02] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {16.603 7.135} -index 0 -intent none] 3
+[10:04:31.02] /i ile::stretch -point {16.605 7.135}
+[10:04:31.83] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[10:04:31.83] /i de::endDrag {16.449 7.141} -context [db::getNext [de::getContexts -window 3]]
+[10:04:33.42] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 3]
+[10:04:33.42] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {16.605 7.13} 
+[10:04:34.07] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[10:04:34.07] /i de::endDrag {16.65 7.128} -context [db::getNext [de::getContexts -window 3]]
+[10:04:45.13] /# gi::executeAction {leAttributeLabel} -in [gi::getWindows 3]
+[10:04:45.13] /i ile::createAttributeLabel
+[10:04:47.22] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[10:04:47.22] /i de::addPoint {16.613 7.132} -context [db::getNext [de::getContexts -window 3]]
+[10:04:49.52] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[10:04:49.53] /m Information: Saving design 'LAB5 FullAdder layout'. (DESIGN_WINDOW-004)
+[10:04:51.89] /i gi::setActiveWindow 5
+[10:04:51.89] /i gi::setActiveWindow 5 -raise true
+[10:04:52.27] /i gi::setActiveWindow 4
+[10:04:52.27] /i gi::setActiveWindow 4 -raise true
+[10:04:52.86] /i gi::setActiveWindow 5
+[10:04:52.86] /i gi::setActiveWindow 5 -raise true
+[10:05:20.36] /i gi::setActiveWindow 4
+[10:05:20.36] /i gi::setActiveWindow 4 -raise true
+[10:05:22.77] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[10:05:23.77] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[10:05:25.55] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 3]
+[10:05:25.55] /i de::pan -window [gi::getWindows 3] -direction E -multiplier 0.5
+[10:05:25.57] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 3]
+[10:05:25.57] /i de::pan -window [gi::getWindows 3] -direction E -multiplier 0.5
+[10:05:25.60] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 3]
+[10:05:25.60] /i de::pan -window [gi::getWindows 3] -direction E -multiplier 0.5
+[10:05:26.13] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 3]
+[10:05:26.13] /i de::pan -window [gi::getWindows 3] -direction E -multiplier 0.5
+[10:05:26.64] /# gi::executeAction {deCanvasPanEast} -in [gi::getWindows 3]
+[10:05:26.64] /i de::pan -window [gi::getWindows 3] -direction E -multiplier 0.5
+[10:05:27.67] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[10:05:27.67] /m Information: Saving design 'LAB5 FullAdder layout'. (DESIGN_WINDOW-004)
+[10:05:35.42] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[10:05:35.42] /i xt::physicalVerification::executeRun lvs 3
+[10:05:35.58] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[10:05:35.66] /m Information: "Starting netlisting for design "LAB5/FullAdder/schematic"..." (NETLISTING-010)
+[10:05:35.70] /o No Design Integrity rule violations found in "LAB5/FullAdder/schematic"
+[10:05:36.09] /m Information: "Netlisting design "LAB5/FullAdder/schematic" finished successfully." (NETLISTING-012)
+[10:05:36.65] /r giWindowId 7
+[10:05:36.66] /r giWindowGeometry 800x600
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:41.95] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 7]
+[10:05:42.00] /e Error: The job 'icv_lvs_2' started on host 'localhost' with process id 31834 failed to start or complete successfully; the job's return code is 33.
+[10:05:43.50] /i gi::setActiveWindow 3
+[10:05:43.50] /i gi::setActiveWindow 3 -raise true
+[10:05:44.61] /i gi::setActiveWindow 6
+[10:05:44.61] /i gi::setActiveWindow 6 -raise true
+[10:05:45.86] /i gi::setActiveWindow 3
+[10:05:45.86] /i gi::setActiveWindow 3 -raise true
+[10:05:47.10] /# gi::executeAction {deFitView} -in [gi::getWindows 3]
+[10:05:47.10] /i de::fit -window 3 -fitView true
+[10:06:54.76] /i gi::setActiveWindow 7
+[10:06:54.76] /i gi::setActiveWindow 7 -raise true
+[10:07:14.87] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[10:07:23.67] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[10:07:23.67] /i xt::physicalVerification::executeRun lvs 3
+[10:07:23.91] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[10:07:24.02] /m Information: "Starting netlisting for design "LAB5/FullAdder/schematic"..." (NETLISTING-010)
+[10:07:24.07] /o No Design Integrity rule violations found in "LAB5/FullAdder/schematic"
+[10:07:24.47] /m Information: "Netlisting design "LAB5/FullAdder/schematic" finished successfully." (NETLISTING-012)
+[10:07:25.02] /r giWindowId 8
+[10:07:25.04] /r giWindowGeometry 800x600
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.35] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 8]
+[10:07:30.41] /e Error: The job 'icv_lvs_3' started on host 'localhost' with process id 32288 failed to start or complete successfully; the job's return code is 33.
+[10:08:02.95] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[10:08:07.65] /i gi::setActiveWindow 6
+[10:08:07.65] /i gi::setActiveWindow 6 -raise true
+[10:08:08.31] /i gi::setActiveWindow 3
+[10:08:08.31] /i gi::setActiveWindow 3 -raise true
+[10:08:13.33] /# gi::executeAction {xtLVSRun} -in [gi::getWindows 3]
+[10:08:13.33] /i xt::physicalVerification::executeRun lvs 3
+[10:08:13.55] /i xt::physicalVerification::executePve lvs 3 xtLVSExecutePve
+[10:08:13.62] /m Information: "Starting netlisting for design "LAB5/FullAdder/schematic"..." (NETLISTING-010)
+[10:08:13.65] /o No Design Integrity rule violations found in "LAB5/FullAdder/schematic"
+[10:08:14.02] /m Information: "Netlisting design "LAB5/FullAdder/schematic" finished successfully." (NETLISTING-012)
+[10:08:14.55] /r giWindowId 9
+[10:08:14.57] /r giWindowGeometry 800x600
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.05] /i gi::setActiveTab {tabs} -tabName {stdout.lvs.log} -in [gi::getWindows 9]
+[10:08:20.10] /e Error: The job 'icv_lvs_4' started on host 'localhost' with process id 32637 failed to start or complete successfully; the job's return code is 33.
+[10:09:09.15] /i gi::setActiveWindow 3
+[10:09:09.15] /i gi::setActiveWindow 3 -raise true
+[10:09:10.12] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[10:09:15.06] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 3]
+[10:09:15.07] /m Information: Saving design 'LAB5 FullAdder layout'. (DESIGN_WINDOW-004)
+[10:09:15.41] /i gi::setActiveWindow 2
+[10:09:15.41] /i gi::setActiveWindow 2 -raise true
+[10:09:15.90] /i gi::setActiveWindow 6
+[10:09:15.90] /i gi::setActiveWindow 6 -raise true
+[10:09:17.48] /i gi::executeAction {deSaveDesign} -in [gi::getWindows 6]
+[10:09:17.49] /m Information: Saving design 'LAB5 HalfAdder layout'. (DESIGN_WINDOW-004)
+[10:09:18.94] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)[10:09:18.94] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+              /c 
+[10:09:18.96] /o signal number = [610:[0910::1809.:9718]. /e Error: 97The application was unexpectedly terminated.
+] /e Error: 
+              /c See the session log file for recovery details.Stack Dump: (SHUT_DOWN-001)
+              /c  VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Sun Mar 14 09:49:57 2021
+              /c Frame 0. libc.so.6: gsignal + 0x37
+              /c Frame 1. libc.so.6: abort + 0x148
+              /c Frame 2. /lib64/libc.so.6 ::db43988f67 + 0x3d7
+              /c Frame 3. /lib64/libc.so.6 ::db43991329 + 0x519
+              /c Frame 4. custom_compiler: free + 0x22
+              /c Frame 5. 0x23076ac SNPSee_1f05ccc245127c05452378e6e588e41a26bda53423a790b548a5fdd2e7a96d4fea07f1db76e4af49 + 0xcc
+              /c Frame 6. 0x22c05e5 SNPSee_1f05ccc245127c05dfc6426534fdbd48004ee6fdd1ddcb81 + 0x25
+              /c Frame 7. 0x22c0a6b SNPSee_1f05ccc245127c05dfc6426534fdbd4865ecf09c65a62caad39844e9e066a3de + 0x19b
+              /c Frame 8. 0x6e883ff SNPSee_98e6fae53a3bba60112f513ff13f450239ebfd90b60bc61820a7a1bb9396766ae1d5fdf02cbc792c2ac29f7b8a7b3d64f49a4fc1fea609bb + 0x3f
+              /c Frame 9. 0x6e7e5c0 SNPSee_539e4ee952adf7d7b62dedc103ccc70f028780fa9202079b93106cec88e0785422195bcb17685f07bdf82f28693432f3664474fd7159d8a191ba342be7032142 + 

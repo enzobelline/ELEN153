@@ -1,0 +1,15 @@
+{NETLIST inverter
+{VERSION 2 0 0}
+
+{CELL inverter
+{PORT vdd! gnd! Vout Vin}
+{PROP top=1.285000 bottom=-1.800000 left=-0.895000 right=1.140000}
+/*.CELL_INFO ORIGINAL_NAME inverter */
+{INST M1=n12 {TYPE MOS} {COORD x=0.3500 y=-1.1900}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN Vin=GATE gnd!=SRC Vout=DRN gnd!=BULK }}
+{INST M2=p12 {TYPE MOS} {COORD x=0.3500 y=0.3000}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN Vin=GATE vdd!=SRC Vout=DRN vdd!=BULK }}
+}
+}

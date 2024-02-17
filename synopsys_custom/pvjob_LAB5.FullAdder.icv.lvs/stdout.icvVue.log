@@ -1,0 +1,202 @@
+Unset QT_XCB_NATIVE_PAINTING for VUE
+DEBUG: ConnectToServer: linux11110.dc.engr.scu.edu 38970
+DEBUG: connect back to custom compiler: 'linux11110.dc.engr.scu.edu:38970'
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L CDESIGNER::StartFilter LAY
+DEBUG: PushBackXprobeMessage{vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+}
+L set topLayLCV  ""
+L set curLayLCV  ""
+
+< LAYOUT: start_filter >
+L CDESIGNER::SendCommand setWorkingDir "[pwd]"
+  + INFO: Tcl-DP service had been loaded.
+DEBUG: ConnectToServer: linux11110.dc.engr.scu.edu 38970
+DEBUG: return previous client linux11110.dc.engr.scu.edu:38970
+
+< SCHEMATIC: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+S CDESIGNER::StartFilter SCH
+DEBUG: PushBackXprobeMessage{vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+}
+S set curModule ""
+
+< SCHEMATIC: start_filter >
+S CDESIGNER::SendCommand setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L set topLayLCV "LAB5/FullAdder/layout"
+L set curLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.lvs"
+
+< SCHEMATIC: load_hercules >
+S set curModule "FullAdder"
+L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
+S CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.FullAdder.icv.lvs"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+S CDESIGNER::SendCommand openModule "$curModule"
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.00625
+}
+DEBUG: PopFrontXprobeMessage{} : /vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+/ /{vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+} {vueSetDbu 0.00625
+}/
+DEBUG: PopFrontXprobeMessage{} : /vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+/ /{vueSetDbu 0.00625
+}/
+DEBUG: PopFrontXprobeMessage{} : /vueSetDbu 0.00625
+/ //
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand clearAllHighlights "$curLayLCV"
+
+< SCHEMATIC: new_block >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+L set curLayLCV "LAB5/FullAdder/layout"
+S set curModule "FullAdder"
+L CDESIGNER::SendCommand openLCVInstance "$topLayLCV" "$curLayLCV"
+S CDESIGNER::SendCommand openModule "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< SCHEMATIC: before_hilite >
+
+< SCHEMATIC: net_hilite >
+S CDESIGNER::SendCommand setProbeProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/lkim_vue_05G8zX/highlight_20210314145622_000000.oas" "bd430ccf0e398d38f474298d6711c2e9"
+S CDESIGNER::SendCommand addProbe $curModule "Ci1" "net"
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< SCHEMATIC: after_hilite >
+S CDESIGNER::SendCommand zoomToProbes $curModule
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 20.215625 -0.0837500000000002 20.609375 5.50375]
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.00625
+}
+
+< SCHEMATIC: zoom_extents >
+DEBUG: PopFrontXprobeMessage{} : /vueSetDbu 0.00625
+/ //
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< SCHEMATIC: new_block >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand clearAllHighlights "$curLayLCV"
+S set curModule "FullAdder"
+L set curLayLCV "LAB5/FullAdder/layout"
+S CDESIGNER::SendCommand openModule "$curModule"
+L CDESIGNER::SendCommand openLCVInstance "$topLayLCV" "$curLayLCV"
+
+< SCHEMATIC: remove_hilites >
+
+< LAYOUT: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: new_block >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand clearAllHighlights "$curLayLCV"
+S set curModule "FullAdder"
+L set curLayLCV "LAB5/FullAdder/layout"
+L CDESIGNER::SendCommand openLCVInstance "$topLayLCV" "$curLayLCV"
+S CDESIGNER::SendCommand openModule "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"

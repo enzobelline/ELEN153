@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : Lab67
+* Cell             : fulladder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt fulladder A B Ci Cout Sum
+*.PININFO A:I B:I Ci:I Cout:O Sum:O
+XOR net12 net14 Cout OR
+XHA2 net14 Sum net13 Ci halfadder
+XHA1 net12 net13 A B halfadder
+.ends fulladder
+

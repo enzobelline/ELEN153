@@ -1,0 +1,4 @@
+::sa::_backgroundSaeShell::signalProcessReady 1613092044
+::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB4,NOR_DC3tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession30 testbenchName HSPICE_default resultsDir /DCNFS/users/student/lkim/simulation/LAB4,NOR_DC3tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB4,NOR_DC3tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB4,NOR_DC3tb,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::exit

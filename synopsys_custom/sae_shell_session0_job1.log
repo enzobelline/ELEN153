@@ -1,0 +1,180 @@
+[17:26:52.72] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Thu Mar  4 17:26:45 2021
+              /c Host: linux11107
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:26:52.91] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[17:26:52.91] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[17:26:52.91] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[17:26:52.92] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[17:26:53.10] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[17:26:53.10] /o 	############################################
+[17:26:53.10] /o 	        Synopsys Generic 90nm iPDK          
+[17:26:53.10] /o 	--------------------------------------------
+[17:26:53.10] /o 	Release Date .............. : 11-May-2016    
+[17:26:53.10] /o 	============================================
+[17:26:53.10] /o 	        Recommended Tool Versions           
+[17:26:53.10] /o 	--------------------------------------------
+[17:26:53.10] /o 	Custom Designer ........... : J-2014.12-2    
+[17:26:53.10] /o 	IC Validator .............. : K-2015.12   
+[17:26:53.10] /o 	StarRC..................... : K-2015.12  
+[17:26:53.10] /o 	--------------------------------------------
+[17:26:53.10] /o 	############################################
+[17:26:53.10] /o 
+[17:26:53.14] /o SAED PDK 90: Loaded callbacks
+[17:26:53.14] /o SAED PDK 90: Loaded display resources
+[17:26:53.18] /i ::sa::_backgroundSaeShell::signalProcessReady 1614907604
+[17:26:53.19] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 9
+[17:31:54.19] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:31:54.35] /i ::sa::_backgroundSaeShell::parentRunning
+[17:31:54.35] /o 1614907914
+[17:32:48.13] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:32:49.04] /m Information: Start incremental database creation...
+[17:32:49.09] /m Information: Re-evaluating the failed expression 'v(/A0)'
+[17:32:49.10] /m Information: Re-evaluating the failed expression 'v(/A1)'
+[17:32:49.10] /m Information: Re-evaluating the failed expression 'v(/A2)'
+[17:32:49.10] /m Information: Re-evaluating the failed expression 'v(/A3)'
+[17:32:49.10] /m Information: Re-evaluating the failed expression 'v(/B0)'
+[17:32:49.11] /m Information: Re-evaluating the failed expression 'v(/B1)'
+[17:32:49.11] /m Information: Re-evaluating the failed expression 'v(/B2)'
+[17:32:49.11] /m Information: Re-evaluating the failed expression 'v(/B3)'
+[17:32:49.11] /m Information: Re-evaluating the failed expression 'v(/C4i)'
+[17:32:49.12] /m Information: Re-evaluating the failed expression 'v(/S0)'
+[17:32:49.12] /m Information: Re-evaluating the failed expression 'v(/S1)'
+[17:32:49.12] /m Information: Re-evaluating the failed expression 'v(/S2)'
+[17:32:49.12] /m Information: Re-evaluating the failed expression 'v(/S3)'
+[17:32:49.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.0 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:32:49.16] /o false
+[17:36:48.98] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:36:51.19] /m Information: Start incremental database creation...
+[17:36:51.30] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[17:36:51.65] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:36:51.65] /o false
+[17:41:52.21] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:41:52.35] /i ::sa::_backgroundSaeShell::parentRunning
+[17:41:52.35] /o 1614908512
+[17:41:56.75] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[17:42:52.02] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:42:53.29] /m Information: Start incremental database creation...
+[17:42:53.37] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[17:42:53.60] /e Error: Evaluating 'v(/C4i)': "Could not find net named: C4i" (HIERARCHY_COMMANDS-007)
+[17:42:53.61] /e Error: Evaluating 'v(/S0)': "Could not find net named: S0" (HIERARCHY_COMMANDS-007)
+[17:42:53.62] /e Error: Evaluating 'v(/S1)': "Could not find net named: S1" (HIERARCHY_COMMANDS-007)
+[17:42:53.63] /e Error: Evaluating 'v(/S2)': "Could not find net named: S2" (HIERARCHY_COMMANDS-007)
+[17:42:53.64] /e Error: Evaluating 'v(/S3)': "Could not find net named: S3" (HIERARCHY_COMMANDS-007)
+[17:42:53.64] /m Information: Re-evaluating the failed expression 'v(/C4i)'
+[17:42:53.80] /e Error: Evaluating 'v(/C4i)': "Could not find net named: C4i" (HIERARCHY_COMMANDS-007)
+[17:42:53.81] /m Information: Re-evaluating the failed expression 'v(/S0)'
+[17:42:53.81] /e Error: Evaluating 'v(/S0)': "Could not find net named: S0" (HIERARCHY_COMMANDS-007)
+[17:42:53.81] /m Information: Re-evaluating the failed expression 'v(/S1)'
+[17:42:53.82] /e Error: Evaluating 'v(/S1)': "Could not find net named: S1" (HIERARCHY_COMMANDS-007)
+[17:42:53.82] /m Information: Re-evaluating the failed expression 'v(/S2)'
+[17:42:53.82] /e Error: Evaluating 'v(/S2)': "Could not find net named: S2" (HIERARCHY_COMMANDS-007)
+[17:42:53.82] /m Information: Re-evaluating the failed expression 'v(/S3)'
+[17:42:53.83] /e Error: Evaluating 'v(/S3)': "Could not find net named: S3" (HIERARCHY_COMMANDS-007)
+[17:42:53.87] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:42:53.87] /o false
+[17:44:46.86] /i ::wf::viewerExited
+[17:45:00.28] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:45:02.43] /m Information: Start incremental database creation...
+[17:45:02.77] /e Error: Evaluating 'v(/C4i)': "Could not find net named: C4i" (HIERARCHY_COMMANDS-007)
+[17:45:02.78] /e Error: Evaluating 'v(/S0)': "Could not find net named: S0" (HIERARCHY_COMMANDS-007)
+[17:45:02.80] /e Error: Evaluating 'v(/S1)': "Could not find net named: S1" (HIERARCHY_COMMANDS-007)
+[17:45:02.81] /e Error: Evaluating 'v(/S2)': "Could not find net named: S2" (HIERARCHY_COMMANDS-007)
+[17:45:02.82] /e Error: Evaluating 'v(/S3)': "Could not find net named: S3" (HIERARCHY_COMMANDS-007)
+[17:45:02.82] /m Information: Re-evaluating the failed expression 'v(/C4i)'
+[17:45:03.01] /e Error: Evaluating 'v(/C4i)': "Could not find net named: C4i" (HIERARCHY_COMMANDS-007)
+[17:45:03.01] /m Information: Re-evaluating the failed expression 'v(/S0)'
+[17:45:03.01] /e Error: Evaluating 'v(/S0)': "Could not find net named: S0" (HIERARCHY_COMMANDS-007)
+[17:45:03.02] /m Information: Re-evaluating the failed expression 'v(/S1)'
+[17:45:03.02] /e Error: Evaluating 'v(/S1)': "Could not find net named: S1" (HIERARCHY_COMMANDS-007)
+[17:45:03.02] /m Information: Re-evaluating the failed expression 'v(/S2)'
+[17:45:03.03] /e Error: Evaluating 'v(/S2)': "Could not find net named: S2" (HIERARCHY_COMMANDS-007)
+[17:45:03.03] /m Information: Re-evaluating the failed expression 'v(/S3)'
+[17:45:03.03] /e Error: Evaluating 'v(/S3)': "Could not find net named: S3" (HIERARCHY_COMMANDS-007)
+[17:45:03.07] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:45:03.07] /o false
+[17:45:33.77] /i ::wf::viewerExited
+[17:45:57.86] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:45:59.92] /m Information: Start incremental database creation...
+[17:46:00.24] /e Error: Evaluating 'v(/C4i)': "Could not find net named: C4i" (HIERARCHY_COMMANDS-007)
+[17:46:00.25] /e Error: Evaluating 'v(/S0)': "Could not find net named: S0" (HIERARCHY_COMMANDS-007)
+[17:46:00.26] /e Error: Evaluating 'v(/S1)': "Could not find net named: S1" (HIERARCHY_COMMANDS-007)
+[17:46:00.27] /e Error: Evaluating 'v(/S2)': "Could not find net named: S2" (HIERARCHY_COMMANDS-007)
+[17:46:00.28] /e Error: Evaluating 'v(/S3)': "Could not find net named: S3" (HIERARCHY_COMMANDS-007)
+[17:46:00.28] /m Information: Re-evaluating the failed expression 'v(/C4i)'
+[17:46:00.44] /e Error: Evaluating 'v(/C4i)': "Could not find net named: C4i" (HIERARCHY_COMMANDS-007)
+[17:46:00.44] /m Information: Re-evaluating the failed expression 'v(/S0)'
+[17:46:00.44] /e Error: Evaluating 'v(/S0)': "Could not find net named: S0" (HIERARCHY_COMMANDS-007)
+[17:46:00.44] /m Information: Re-evaluating the failed expression 'v(/S1)'
+[17:46:00.45] /e Error: Evaluating 'v(/S1)': "Could not find net named: S1" (HIERARCHY_COMMANDS-007)
+[17:46:00.45] /m Information: Re-evaluating the failed expression 'v(/S2)'
+[17:46:00.45] /e Error: Evaluating 'v(/S2)': "Could not find net named: S2" (HIERARCHY_COMMANDS-007)
+[17:46:00.45] /m Information: Re-evaluating the failed expression 'v(/S3)'
+[17:46:00.49] /e Error: Evaluating 'v(/S3)': "Could not find net named: S3" (HIERARCHY_COMMANDS-007)
+[17:46:00.53] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:46:00.53] /o false
+[17:49:16.87] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:49:18.09] /m Information: Start incremental database creation...
+[17:49:18.43] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:49:18.43] /o false
+[17:54:19.25] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:54:19.25] /i ::sa::_backgroundSaeShell::parentRunning
+[17:54:19.25] /o 1614909259
+[17:54:23.75] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[17:59:20.27] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:59:20.35] /i ::sa::_backgroundSaeShell::parentRunning
+[17:59:20.35] /o 1614909560
+[18:04:21.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:04:21.45] /i ::sa::_backgroundSaeShell::parentRunning
+[18:04:21.45] /o 1614909861
+[18:09:22.31] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:09:22.35] /i ::sa::_backgroundSaeShell::parentRunning
+[18:09:22.35] /o 1614910162
+[18:12:59.79] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:13:00.94] /m Information: Start incremental database creation...
+[18:13:01.01] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[18:13:01.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:13:01.29] /o false
+[18:13:01.29] /i ::wf::viewerExited
+[18:13:10.97] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:13:13.12] /m Information: Start incremental database creation...
+[18:13:13.55] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:13:13.55] /o false
+[18:16:19.98] /i ::wf::viewerExited
+[18:16:41.74] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:16:43.87] /m Information: Start incremental database creation...
+[18:16:44.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:16:44.29] /o false
+[18:21:22.25] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:21:23.48] /m Information: Start incremental database creation...
+[18:21:23.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:21:23.84] /o false
+[18:25:57.30] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:25:58.77] /m Information: Start incremental database creation...
+[18:25:59.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:25:59.24] /o false
+[18:26:08.87] /i ::wf::viewerExited
+[18:26:19.26] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:26:21.36] /m Information: Start incremental database creation...
+[18:26:21.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 2.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal databaseName /DCNFS/users/student/lkim/simulation/LAB5,RippleCarryAdder_tb,schematic/history_1/simulation/default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[18:26:21.81] /o false
+[18:31:22.37] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:31:22.55] /i ::sa::_backgroundSaeShell::parentRunning
+[18:31:22.55] /o 1614911482
+[18:31:26.75] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[18:36:23.39] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:36:23.55] /i ::sa::_backgroundSaeShell::parentRunning
+[18:36:23.55] /o 1614911783
+[18:41:24.41] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:41:24.55] /i ::sa::_backgroundSaeShell::parentRunning
+[18:41:24.55] /o 1614912084
+[18:46:25.43] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:46:25.45] /i ::sa::_backgroundSaeShell::parentRunning
+[18:46:25.45] /o 1614912385
+[18:51:24.49] /i ::sa::_backgroundSaeShell::exit
+[18:51:24.49] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

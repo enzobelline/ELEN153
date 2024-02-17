@@ -1,0 +1,71 @@
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab67.fulladder.icv.lvs/TOPCELLNAME_err/PYDB_fulladder
+Listening for connections on port 8375
+PYDB_Server Started on host linux11114.dc.engr.scu.edu, Sun 03/14/2021 17:59:03
+Client linux11114(3233):14 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client linux11114(3314):20 connected (2 total clients)
+Client linux11114(3316):21 connected (3 total clients)
+Client linux11114(3316):21 connection closed
+Client linux11114(3316):21 disconnected (2 clients remain)
+Client linux11114(3316):21 connected (3 total clients)
+Client linux11114(3314):20 connection closed
+Client linux11114(3314):20 disconnected (2 clients remain)
+Client linux11114(3314):20 connected (3 total clients)
+Client linux11114(3314):20 connection closed
+Client linux11114(3314):20 disconnected (2 clients remain)
+Client linux11114(3314):20 connected (3 total clients)
+Client linux11114(3316):21 connection closed
+Client linux11114(3316):21 disconnected (2 clients remain)
+Client linux11114(3316):21 connected (3 total clients)
+Client linux11114(3316):21 connection closed
+Client linux11114(3316):21 disconnected (2 clients remain)
+Client linux11114(3314):20 connection closed
+Client linux11114(3314):20 disconnected (1 client remains)
+Generating /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_Lab67.fulladder.icv.lvs/fulladder.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client linux11114(3233):14
+0 clients remain connected
+Client linux11114(3233):14 connection closed
+Overall server Time=0:00:16  User=0.03 Sys=0.02 Mem=0.001 GB SQLite=0.005 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8719
+PYDB_Server Started on host linux11114, Sun 03/14/2021 17:59:21
+Client linux11114(3930):8 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Shutdown requested by client linux11114(3930):8
+0 clients remain connected
+Client linux11114(3930):8 connection closed
+Overall server Time=0:00:46  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.001 GB Unpooled=0.000 GB

@@ -1,0 +1,5 @@
+AND { }
+fulladder { OR halfadder }
+XOR { }
+halfadder { XOR AND }
+OR { }

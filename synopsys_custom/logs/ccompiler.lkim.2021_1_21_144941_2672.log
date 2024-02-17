@@ -1,0 +1,59 @@
+[14:49:44.91] /r giWindowId 0
+[14:49:44.91] /r giWindowGeometry 600x300
+[14:49:44.92] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Jan 21 14:49:41 2021
+              /c Host: linux11113
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L
+              /c 
+[14:49:51.19] /r giShowFrameTabs true
+[14:49:51.19] /r giWindowId 1
+[14:49:51.20] /r giWindowGeometry 1040x800
+[14:49:52.33] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:49:52.34] /# 
+[14:49:52.48] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:49:52.48] /# 
+[14:49:52.64] /i dm::showLibraryManager
+[14:49:52.64] /r giWindowId 2
+[14:49:52.64] /r giWindowGeometry 660x600+50+76
+[14:49:52.68] /o oa:0x203813b0
+[14:49:54.39] /i gi::setCurrentIndex {libs} -index {LAB1} -in [gi::getWindows 2]
+[14:49:54.40] /i gi::setItemSelection {libs} -index {LAB1} -in [gi::getWindows 2]
+[14:49:59.15] /i gi::setCurrentIndex {cells} -index {LAB1\.1} -in [gi::getWindows 2]
+[14:49:59.16] /i gi::setItemSelection {cells} -index {LAB1\.1} -in [gi::getWindows 2]
+[14:50:00.21] /i gi::executeAction {dmDeleteCell} -in [gi::getWindows 2]
+[14:50:00.22] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[14:50:00.53] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 354x92+773+423
+[14:50:01.28] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[14:50:01.39] /i gi::setCurrentIndex {cells} -index {LAB1} -in [gi::getWindows 2]
+[14:50:03.15] /i gi::setItemSelection {cells} -index {LAB1} -in [gi::getWindows 2]
+[14:50:10.35] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+406+163
+[14:50:10.75] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[14:50:55.65] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[14:51:03.40] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:51:03.89] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:51:03.90] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:51:04.35] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:51:04.35] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:51:04.80] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:51:04.87] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:51:05.23] /i gi::setCurrentIndex {libs} -index {LAB1} -in [gi::getWindows 2]
+[14:51:05.24] /i gi::setItemSelection {libs} -index {LAB1} -in [gi::getWindows 2]
+[14:51:09.27] /i exit
+[14:51:09.30] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:51:09.57] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+707+420
+[14:51:10.62] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:51:11.27] /o Shutdown time: Thu Jan 21 14:51:11 2021
+[14:51:11.27] /o Elapsed session real time: 1.43 minutes
+[14:51:11.27] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/logs/ccompiler.lkim.2021_1_21_144941_2672.log

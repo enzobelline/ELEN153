@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Mar 13 19:13:56 2021-->
+<file-format name="netlisting-timestamps" version="1.0">
+<module viewStopList="auCdl" viewSearchList="auCdl schematic symbol" timestamp="1410" isSubcircuit="1" contextID="switched: Lab67 halfadder schematic vl: auCdl schematic symbol sl: auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<lib_parameters timestamp="2"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="1362"/>
+<PortOrder><![CDATA[CSXY]]></PortOrder>
+</module>
+</file-format>

@@ -1,0 +1,96 @@
+[16:27:56.86] /r giWindowId 0
+[16:27:56.87] /r giWindowGeometry 600x300
+[16:27:56.88] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Sun Jan 24 16:27:53 2021
+              /c Host: linux11102
+              /c Working directory: /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2
+              /c 
+[16:28:02.77] /r giShowFrameTabs true
+[16:28:02.77] /r giWindowId 1
+[16:28:02.78] /r giWindowGeometry 1040x800
+[16:28:03.73] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:28:03.73] /# 
+[16:28:03.87] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:28:03.87] /# 
+[16:28:04.04] /i dm::showLibraryManager
+[16:28:04.04] /r giWindowId 2
+[16:28:04.04] /r giWindowGeometry 660x600+50+76
+[16:28:04.06] /o oa:0x1e648170
+[16:28:05.03] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[16:28:05.08] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[16:28:06.05] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:28:06.10] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:28:10.40] /# gi::executeAction {dmUpdateICCRefLibs} -in [gi::getWindows 2]
+[16:28:10.40] /i dm::addICCRefLibs  [dm::getLibs -filter {[oa::getDMSystemName %this] == "dmMilkyway"}]
+[16:28:10.41] /m Information: License 'Basic' checked out. (LICENSE-003)
+[16:28:10.41] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[16:28:15.31] /# gi::executeAction {dmShowAddLibrary2} -in [gi::getWindows 2]
+[16:28:15.31] /i dm::showAddLibraryNDM::_execute
+[16:28:15.34] /i gi::setActiveDialog [gi::getDialogs {dmAddICC2Lib}]
+[16:28:15.64] /i db::setAttr geometry -of [gi::getDialogs {dmAddICC2Lib}] -value 359x143+862+423
+[16:28:16.55] /i gi::pressButton {/ndmGroup/ndmLibPath/browseButton} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:28:24.13] /r giFileDialog accept CMOSInverter
+[16:28:28.75] /i gi::pressButton {/ok} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:28:28.77] /o 	############################################
+[16:28:28.77] /o 	        Synopsys Generic 90nm iPDK          
+[16:28:28.77] /o 	--------------------------------------------
+[16:28:28.77] /o 	Release Date .............. : 11-May-2016    
+[16:28:28.77] /o 	============================================
+[16:28:28.77] /o 	        Recommended Tool Versions           
+[16:28:28.77] /o 	--------------------------------------------
+[16:28:28.77] /o 	Custom Designer ........... : J-2014.12-2    
+[16:28:28.77] /o 	IC Validator .............. : K-2015.12   
+[16:28:28.77] /o 	StarRC..................... : K-2015.12  
+[16:28:28.77] /o 	--------------------------------------------
+[16:28:28.77] /o 	############################################
+[16:28:28.77] /o 
+[16:28:28.87] /o SAED PDK 90: Loaded callbacks
+[16:28:28.91] /o SAED PDK 90: Loaded display resources
+[16:28:33.84] /e Error: Unable to open file '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter/lib.ndm' for reading; No such file or directory (FILE-001)
+              /c 
+[16:28:33.88] /e Error: Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002) (OPAL-006)
+[16:28:33.88] /o Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002)
+[16:28:33.88] /i gi::pressButton {/ok} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:28:34.28] /e Error: Unable to open file '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter/lib.ndm' for reading; No such file or directory (FILE-001)
+              /c 
+[16:28:34.31] /e Error: Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002) (OPAL-006)
+[16:28:34.32] /o Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002)
+[16:28:35.07] /i gi::pressButton {/ok} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:28:35.48] /e Error: Unable to open file '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter/lib.ndm' for reading; No such file or directory (FILE-001)
+              /c 
+[16:28:35.52] /e Error: Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002) (OPAL-006)
+[16:28:35.52] /o Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002)
+[16:28:35.52] /i gi::pressButton {/ok} -in [gi::getDialogs {dmAddICC2Lib}]
+[16:28:35.91] /e Error: Unable to open file '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter/lib.ndm' for reading; No such file or directory (FILE-001)
+              /c 
+[16:28:35.94] /e Error: Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002) (OPAL-006)
+[16:28:35.94] /o Error: OA exception while executing dm::createLib: Received exception from snpsNDM plug-in when accessing library CMOSInverter: #10004: Unable to open library directory '/DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/CMOSInverter'.. (COMMAND-002)
+[16:28:35.97] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[16:28:37.32] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[16:28:39.95] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[16:28:43.12] /i gi::executeAction {dmUpdateReferences} -in [gi::getWindows 2]
+[16:28:43.16] /i gi::setActiveDialog [gi::getDialogs {dmUpdateReferences} -parent [gi::getWindows 2]]
+[16:28:43.45] /i db::setAttr geometry -of [gi::getDialogs {dmUpdateReferences} -parent [gi::getWindows 2]] -value 698x341+609+284
+[16:28:47.40] /i gi::pressButton {cancel} -in [gi::getDialogs {dmUpdateReferences} -parent [gi::getWindows 2]]
+[16:28:48.62] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[16:28:48.62] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[16:29:18.64] /i exit
+[16:29:18.67] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:29:18.95] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+749+351
+[16:29:19.70] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:29:20.43] /o Shutdown time: Sun Jan 24 16:29:20 2021
+[16:29:20.43] /o Elapsed session real time: 1.4 minutes
+[16:29:20.43] /o Session terminated. Log is at /DCNFS/users/student/lkim/Desktop/ELEN153L/LAB2/synopsys_custom/logs/ccompiler.lkim.2021_1_24_162753_11278.log
+[16:29:20.47] /i gi::closeWindows [gi::getDialogs {dmAddICC2Lib}]

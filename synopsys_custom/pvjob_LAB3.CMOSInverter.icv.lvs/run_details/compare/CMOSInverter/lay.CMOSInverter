@@ -1,0 +1,11 @@
+{NETLIST CMOSInverter
+{VERSION 2 0 0}
+
+{CELL CMOSInverter
+    {PORT Vout gnd! vdd! Vin }
+    {INST M2=p12 {TYPE MOS} {COORD x=0.000 y=0.000 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN Vout=DRN Vin=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1=n12 {TYPE MOS} {COORD x=0.000 y=-1.490 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN gnd!=DRN Vin=GATE Vout=SRC gnd!=BULK }}
+}
+}

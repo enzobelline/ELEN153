@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sat Mar 13 19:44:45 2021
+-->
+<synopsysFile name="synopsysFavoriteDevices" version="1.0">
+        <favoriteDevices viewType="maskLayout">
+                <cellView view="layout" cell="XOR" library="Adder">
+                        <alias name="XOR"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" cell="AND" library="Adder">
+                        <alias name="AND"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" cell="halfadder" library="Lab67">
+                        <alias name="halfadder"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" cell="fulladder" library="Lab67">
+                        <alias name="fulladder"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView view="symbol" cell="OR" library="Adder">
+                        <alias name="OR"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" cell="AND" library="Adder">
+                        <alias name="AND"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" cell="XOR" library="Adder">
+                        <alias name="XOR"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" cell="halfadder" library="Lab67">
+                        <alias name="halfadder"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" cell="fulladder" library="Lab67">
+                        <alias name="fulladder"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

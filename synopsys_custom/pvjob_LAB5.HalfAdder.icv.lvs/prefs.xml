@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="-sf SPICE" name="xtLVSICVOptions"/>
+                <pref value="HalfAdder" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.HalfAdder.icv.lvs/HalfAdder.net" name="xtLVSLayInputNetlist"/>
+                <pref value="LAB5/HalfAdder/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.HalfAdder.icv.lvs/HalfAdder.custom_compiler.oas" name="xtLVSLayOasisFile"/>
+                <pref value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.HalfAdder.icv.lvs/HalfAdder.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="HalfAdder" name="xtLVSSchCell"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="LAB5/HalfAdder/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/lkim/Desktop/ELEN153L/synopsys_custom/pvjob_LAB5.HalfAdder.icv.lvs/HalfAdder.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>
